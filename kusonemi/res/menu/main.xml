@@ -1,0 +1,40 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.client.kusonemi.MainActivity" >
+
+    <item
+        android:id="@+id/StreamEnabled"
+        android:checkable="true"
+        android:showAsAction="never"
+        android:title="@string/StreamEnabled" />
+
+    <item
+        android:id="@+id/Screenlock"
+        android:checkable="true"
+        android:showAsAction="never"
+        android:title="@string/Screenlock" />
+
+    <item
+        android:id="@+id/acount_manage"
+        android:showAsAction="never"
+        android:title="@string/acount_manage" >
+
+        <menu>
+            <item
+                android:id="@+id/acount_add"
+                android:title="@string/acount_add" />
+
+            <item
+                android:id="@+id/acount_delete"
+                android:title="@string/acount_delete" />
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+
+</menu>

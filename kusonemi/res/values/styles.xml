@@ -1,0 +1,30 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <!-- ActionBarは消して"それっぽいモノ"で置き換える  -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#CCCCCC</color>
+    <color name="lightblue">#2D9DD1</color>
+    <color name="dark_lightblue">#16506B</color>
+    <color name="darkgray">#3F3F3F</color>
+    <color name="dark">#333333</color>
+    <color name="lightyellow">#C4C936</color>
+
+</resources>

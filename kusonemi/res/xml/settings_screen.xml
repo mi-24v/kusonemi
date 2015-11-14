@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:title="@string/action_settings">
+
+        <ListPreference
+            android:key="defaultAccountpos"
+            android:title="デフォルトアカウント"
+            android:summary="起動時にセットするｱｶｳﾝﾖ" />
+
+        <ListPreference
+            android:key="MaxListTimeline"
+            android:title="TL最大表示件数"
+            android:summary="この値を超えたﾂｲｰﾖは表示されなくなります"
+            android:entries="@array/MaxListTimeline_entry"
+            android:entryValues="@array/MaxListTimeline_entry" />
+
+        <CheckBoxPreference
+            android:key="AutoCreateUserStream"
+            android:title="起動時にUserStreamを有効にする"
+            android:summary="電池消費に注意" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

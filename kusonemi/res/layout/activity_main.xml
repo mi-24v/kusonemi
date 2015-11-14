@@ -1,0 +1,106 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+  <!-- ToolBarを定義 -->
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/lightyellow"
+        android:minHeight="?android:attr/actionBarSize" />
+
+  <!-- Drawerを定義  -->
+
+ <android.support.v4.widget.DrawerLayout
+     android:id="@+id/drawer_layout"
+     android:layout_below="@+id/tool_bar"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent" >
+
+     <!-- コンテンツ部分 -->
+
+     <RelativeLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+
+      <android.support.v4.view.ViewPager
+         android:id="@+id/viewpager"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent" >
+
+         <android.support.v4.view.PagerTitleStrip
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_gravity="top"
+             android:background="@color/gray"
+             android:textColor="@color/lightblue"
+             android:paddingBottom="10dp"
+             android:paddingTop="10dp" />
+
+      </android.support.v4.view.ViewPager>
+
+     </RelativeLayout>
+
+     <!-- ドロワー部分 -->
+
+     <LinearLayout
+         android:id="@+id/drawer"
+         android:layout_width="240dp"
+         android:layout_height="match_parent"
+         android:background="@color/darkgray"
+         android:layout_gravity="start"
+         android:orientation="vertical" >
+
+         <!-- ListViewが入る -->
+
+         <LinearLayout
+             android:id="@+id/Tweetlayout"
+             android:layout_width="match_parent"
+             android:layout_height="240dp"
+             android:layout_gravity="top"
+             android:orientation="vertical" >
+
+             <TextView
+                 android:id="@+id/newTweet"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="10dp"
+                 android:layout_marginTop="5dp"
+                 android:layout_marginBottom="5dp"
+                 android:textSize="20sp"
+                 android:textColor="@color/white"
+                 android:text="@string/newTweet" />
+
+             <EditText
+                 android:id="@+id/TweetArea"
+                 android:layout_width="match_parent"
+                 android:layout_height="130dp"
+                 android:layout_marginLeft="8dp"
+                 android:layout_marginRight="8dp"
+                 android:layout_marginBottom="5dp"
+                 android:background="@drawable/border"
+                 android:hint="@string/newTweet_hint" />
+
+             <Button
+                 android:id="@+id/DoTweet"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="10dp"
+                 android:text="@string/tweet"
+                 android:background="@drawable/button_design" />
+
+         </LinearLayout>
+
+         <ListView
+             android:id="@+id/drawerlist"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content" />
+
+     </LinearLayout>
+
+ </android.support.v4.widget.DrawerLayout>
+</RelativeLayout>

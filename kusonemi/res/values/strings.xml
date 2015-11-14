@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">[˘ω˘]</string>
+    <string name="consumer_key">vhTcZLj3l0zLc0HdUakFhOaUn</string>
+    <string name="consumer_secret">YiPNEhnag951m5nS3Vn5MCrQn0SDdFBCMAMsP66DeEv4LS6KaV</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+    <string name="login_dialog">登録アカウントがありません、ログインしてください。</string>
+    <string name="ok">おｋ</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="newTweet">New Tweet</string>
+    <string name="newTweet_hint">What\'s happening?</string>
+    <string name="tweet">Tweet</string>
+    <string name="Screenlock">画面消灯無効化</string>
+    <string name="acount_manage">ｱｶｳﾝﾖ</string>
+    <string name="acount_add">ｱｶｳﾝﾖ追加</string>
+    <string name="acount_delete">ｱｶｳﾝﾖ削除</string>
+
+    <string-array name="MaxListTimeline_entry">
+        <item>101</item>
+        <item>151</item>
+        <item>201</item>
+        <item>251</item>
+        <item>301</item>
+        <item>351</item>
+        <item>401</item>
+    </string-array>
+        <string name="StreamEnabled">UserStream有効化</string>
+
+</resources>
