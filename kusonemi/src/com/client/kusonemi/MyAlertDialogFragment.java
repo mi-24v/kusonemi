@@ -9,12 +9,16 @@ import android.util.Log;
 
 public class MyAlertDialogFragment extends DialogFragment {
 
-	/*titleにはダイアログのタイトル
-	 * textにはダイアログの本文(これだけは空にできない)
-	 * okbutton, nobutton, nuturalbuttonには、
-	 * ダイアログにボタンを1つ足すとき、ボタン部のテキストが入る。
-	 * typeはボタンやタイトルの有無を指定
-	 * idはボタンリスナの挙動を指定
+	private MyAlertDialogFragment(){}
+
+	/**
+	 * @param title ダイアログのタイトル
+	 * @param text ダイアログの本文(これだけは空にできない)
+	 * @param okbutton okボタンに表示するテキスト
+	 * @param nobutton noボタンに表示するテキスト
+	 * @param nuturalbutton naturalボタンに表示するテキスト
+	 * @param type ボタンやタイトルの有無を指定
+	 * @param id ボタンリスナの挙動を指定
 	 * */
 	public static MyAlertDialogFragment newInstance(int title, int text
 			,int okbutton, int nobutton, int nuturalbutton, int type, int id){
@@ -31,6 +35,21 @@ public class MyAlertDialogFragment extends DialogFragment {
 		return frg;
 	}
 
+	/**
+	 * @param title ダイアログタイトル
+	 * @param text メッセージ
+	 * @param type ダイアログレイアウトタイプ
+	 * @param id ボタンのコールバックリスナの挙動
+	 * */
+	public static MyAlertDialogFragment newInstance(String title,String text,int type,int id){
+		MyAlertDialogFragment frg = new MyAlertDialogFragment();
+		Bundle prop = new Bundle();
+		prop.putString("title", title);
+		prop.putString("msg", text);
+		prop.putInt("type", type);
+		return frg;
+	}
+
 	@Override
 	public Dialog onCreateDialog(Bundle savedInstanceState){
 		Dialog dlog = null;
@@ -38,8 +57,26 @@ public class MyAlertDialogFragment extends DialogFragment {
 		int type = getArguments().getInt("type");
 
 		if(text == 0){
-			Log.e(getTag(), "Invalid Arguments");
-			return null;
+			String msg = getArguments().getString("msg");
+			if (msg == null) {
+				Log.e(getTag(), "Invalid Arguments");
+				return null;
+			}else{
+				switch(type){
+				case 1:
+					dlog = new AlertDialog.Builder(getActivity())
+					.setMessage(msg)
+					.setPositiveButton(R.string.ok, new DialogInterface.OnClickListener() {
+						@Override
+						public void onClick(DialogInterface dialog, int which){
+							((MainActivity)getActivity()).
+							ondialogPositiveClick(getArguments().getInt("id"));
+						}
+					})
+					.create();
+					break;
+				}
+			}
 		}else{
 			switch(type){
 			case 1://okのみボタンあり、タイトルナシ

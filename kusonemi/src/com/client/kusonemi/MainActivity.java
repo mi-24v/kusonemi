@@ -258,7 +258,7 @@ public class MainActivity extends AppCompatActivity{
 	private void loadToken(){
 		String[] rawToken;
 		SharedPreferences pc = getSharedPreferences(
-				getPackageName(), MODE_PRIVATE | MODE_MULTI_PROCESS);
+				getPackageName(), MODE_PRIVATE);
 		MySQLer ms = new MySQLer(getApplicationContext(), OAUTH_DATA, null);
 		//Default UserのTokenを取得
 		rawToken = ms.loadToken(pc.getString("defaultAccountpos", "1"));
@@ -293,6 +293,7 @@ public class MainActivity extends AppCompatActivity{
 			pageradapter.instantiateItem((ViewGroup) getWindow().getDecorView()
 					.findViewById(R.id.viewpager), pageradapter
 					.getCount() - 1);
+			Log.d(getLocalClassName(), pageradapter.getSection(0).getTitle());
 		}
 	}
 
@@ -306,6 +307,14 @@ public class MainActivity extends AppCompatActivity{
 		DialogFragment df = MyAlertDialogFragment.
 				newInstance(title, text, okbutton,
 						nobutton, naturalbutton, type, id);
+		if(!cancelable){
+			df.setCancelable(false);
+		}
+		df.show(getFragmentManager(), getPackageName());
+	}
+
+	private void showdialog(String title, String text, int type, int id, boolean cancelable){
+		DialogFragment df = MyAlertDialogFragment.newInstance(title, text, type, id);
 		if(!cancelable){
 			df.setCancelable(false);
 		}

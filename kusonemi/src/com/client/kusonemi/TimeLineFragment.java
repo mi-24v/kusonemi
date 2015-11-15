@@ -72,8 +72,8 @@ public class TimeLineFragment extends ListFragment {
 	}
 
 	@Override
-	public void onStop(){
-		super.onStop();
+	public void onDestroy(){
+		super.onDestroy();
 		stream.cleanUp();
 	}
 
@@ -211,6 +211,8 @@ public class TimeLineFragment extends ListFragment {
 							(TweetAdapter)getListView().getAdapter();
 					if (adapter.getPosition(arg) < 0) {
 						adapter.insert(arg, 0);
+						getListView().setSelectionAfterHeaderView();
+						adapter.notifyDataSetChanged();
 						//getListView().getAdapter().getView(
 							//	0, getListView().getChildAt(0), getListView());
 						removeOverStatus();
