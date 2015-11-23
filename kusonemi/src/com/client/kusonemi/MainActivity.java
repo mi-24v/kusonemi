@@ -6,6 +6,7 @@ import java.util.List;
 import twitter4j.Twitter;
 import twitter4j.TwitterException;
 import twitter4j.TwitterFactory;
+import twitter4j.User;
 import twitter4j.auth.AccessToken;
 import twitter4j.auth.OAuthAuthorization;
 import twitter4j.auth.RequestToken;
@@ -60,6 +61,7 @@ public class MainActivity extends AppCompatActivity{
 	//Twitter4j系
 	private String token,tokenSecret,ScreenName;
 	private Twitter twitter;
+	private User MyUser;
 
 	//UserStreamを有効化するかどうかのbool
 	public static boolean StreamEnabled;
@@ -279,6 +281,30 @@ public class MainActivity extends AppCompatActivity{
 		bd.setOAuthAccessTokenSecret(tokenSecret);
 		TwitterFactory tf = new TwitterFactory(bd.build());
 		twitter = tf.getInstance();
+		AsyncTask<Twitter, Void, User> t = new AsyncTask<Twitter, Void, User>(){
+			private String errormsg;
+			protected User doInBackground(Twitter... params){
+				User user;
+				try {
+					user = params[0].verifyCredentials();
+				} catch (TwitterException e) {
+					e.printStackTrace();
+					errormsg = e.getErrorMessage();
+					return null;
+				}
+				return user;
+			}
+			protected void onPostExecute(User result){
+				if(result == null){
+					showtoast(errormsg);
+				}else{
+					MyUser = result;
+					DrawerLayout mdl = (DrawerLayout)findViewById(R.id.drawer_layout);
+					mdl.setBackgroundColor(Integer.parseInt(MyUser.getProfileBackgroundColor(),16));
+				}
+			}
+		};
+		t.execute(twitter);
 	}
 
 	private void addTL(){

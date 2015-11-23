@@ -23,10 +23,10 @@ public class TweetAdapter extends ArrayAdapter<Status> {
 		mli = (LayoutInflater)ct.getSystemService(Activity.LAYOUT_INFLATER_SERVICE);
 	}
 
-	@SuppressLint("InflateParams")
+	@SuppressLint({ "InflateParams", "ViewHolder" })
 	@Override
 	public View getView(int position, View contentview, ViewGroup parent){
-		//Viewインスタンスにモノが入ってたら再利用する
+		//Viewインスタンスにモノが入ってたら再利用する->けしてみる(毎回インスタンスをつくる)->だめでした(メモリリーク)
 		if(contentview == null){
 			contentview = mli.inflate(R.layout.listitem_tl, null);
 		}
@@ -49,6 +49,11 @@ public class TweetAdapter extends ArrayAdapter<Status> {
 			//rt元ネーム
 			TextView rtname = (TextView)contentview.findViewById(R.id.retweet_2);
 			rtname.setText(rtbyname);
+		}else{
+			LinearLayout rtview = (LinearLayout)contentview.findViewById(R.id.retweetrow);
+			rtview.setVisibility(View.GONE);
+			RelativeLayout r = (RelativeLayout)contentview.findViewById(R.id.tlitem_container);
+			r.setBackgroundColor(Color.rgb(255, 255, 255));
 		}
 
 		//スクリーンネーム
