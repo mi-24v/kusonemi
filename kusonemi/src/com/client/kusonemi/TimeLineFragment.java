@@ -65,6 +65,7 @@ public class TimeLineFragment extends ListFragment {
 		tladapter = new TweetAdapter
 				(getActivity().getApplicationContext());
 		setListAdapter(tladapter);
+		setTweetClickAction();
 	}
 
 	@Override
