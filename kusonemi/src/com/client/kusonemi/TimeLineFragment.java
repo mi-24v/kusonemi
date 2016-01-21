@@ -17,6 +17,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AbsListView;
 import android.widget.AbsListView.OnScrollListener;
+import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
@@ -162,6 +164,25 @@ public class TimeLineFragment extends ListFragment {
 		}else{
 			ac.StreamStateChange(sw);
 		}
+	}
+	
+	private void setTweetClickAction(){
+		getListView().setOnItemClickListener(new OnItemClickListener(){
+			@Override
+			public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+				// TODO 自動生成されたメソッド・スタブ
+				Status item = tladapter.getItem(position);
+				try {
+					twitter.createFavorite(item.getId());
+					showtoast("ふぁぼりました");
+					view.setBackgroundColor(Color.GREEN);
+				} catch (TwitterException e) {
+					// TODO 自動生成された catch ブロック
+					e.printStackTrace();
+					showtoast("ふぁぼれませんでした("+e.getErrorMessage()+")");
+				}
+			}
+		});
 	}
 
 	private void setListScrollListener(){
