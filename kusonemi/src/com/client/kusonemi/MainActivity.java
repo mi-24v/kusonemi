@@ -75,9 +75,6 @@ public class MainActivity extends AppCompatActivity{
 		setPager();
 		setDrawerListview();
 		loadToken();
-		settwitter();
-		addTL();
-		setTweet();
 	}
 
 	@Override
@@ -268,6 +265,10 @@ public class MainActivity extends AppCompatActivity{
 			token = rawToken[1];
 			tokenSecret = rawToken[2];
 			ScreenName = rawToken[3];
+
+			settwitter();
+			addTL();
+			setTweet();
 		}else{
 			showdialog(0, R.string.login_dialog, R.string.ok,0,0, 1,1,false);
 		}
@@ -290,6 +291,10 @@ public class MainActivity extends AppCompatActivity{
 				} catch (TwitterException e) {
 					e.printStackTrace();
 					errormsg = e.getErrorMessage();
+					return null;
+				} catch(Exception e){
+					e.printStackTrace();
+					errormsg = e.getMessage();
 					return null;
 				}
 				return user;

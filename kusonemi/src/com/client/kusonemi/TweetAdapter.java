@@ -50,6 +50,10 @@ public class TweetAdapter extends ArrayAdapter<Status> {
 			//rt元ネーム
 			TextView rtname = (TextView)contentview.findViewById(R.id.retweet_2);
 			rtname.setText(rtbyname);
+		}else if(item.isFavorited()){
+			LinearLayout rtview = (LinearLayout)contentview.findViewById(R.id.retweetrow);
+			rtview.setVisibility(View.GONE);
+			contentview.setBackgroundColor(Color.GREEN);
 		}else{
 			LinearLayout rtview = (LinearLayout)contentview.findViewById(R.id.retweetrow);
 			rtview.setVisibility(View.GONE);

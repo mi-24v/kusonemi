@@ -48,7 +48,7 @@ public class MyConceal {
 
 		Editor et = pf.edit();
 		et.putString(ACCESS_KEY, key);
-		et.apply();
+		et.commit();
 
 		byte[] cipherText = null;
 		try{

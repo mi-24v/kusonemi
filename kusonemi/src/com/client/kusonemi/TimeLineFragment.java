@@ -58,8 +58,8 @@ public class TimeLineFragment extends ListFragment {
 	}
 
 	@Override
-	public void onCreate(Bundle savedInstanceState){
-		super.onCreate(savedInstanceState);
+	public void onViewCreated(View view,Bundle savedInstanceState){
+		super.onViewCreated(view, savedInstanceState);
 
 		//set adapter
 		tladapter = new TweetAdapter
@@ -172,16 +172,40 @@ public class TimeLineFragment extends ListFragment {
 			@Override
 			public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 				// TODO 自動生成されたメソッド・スタブ
-				Status item = tladapter.getItem(position);
-				try {
-					twitter.createFavorite(item.getId());
-					showtoast("ふぁぼりました");
-					view.setBackgroundColor(Color.GREEN);
-				} catch (TwitterException e) {
-					// TODO 自動生成された catch ブロック
-					e.printStackTrace();
-					showtoast("ふぁぼれませんでした("+e.getErrorMessage()+")");
-				}
+				final Status item = tladapter.getItem(position);
+				final View v = view;
+				new AsyncTask<Twitter,Void,String>(){
+					@Override
+					protected String doInBackground(Twitter... params){
+						try {
+							if(!item.isFavorited()){
+								twitter.createFavorite(item.getId());
+								return "favorited";
+							}else{
+								twitter.destroyFavorite(item.getId());
+								return "disfavorited";
+							}
+						} catch (TwitterException e) {
+							// TODO 自動生成された catch ブロック
+							e.printStackTrace();
+							return e.getErrorMessage();
+						}
+					}
+					@Override
+					protected void onPostExecute(String result){
+						if(result != null){
+							if(result.equals("favorited")){
+								showtoast("ふぁぼりました");
+								v.setBackgroundColor(Color.GREEN);
+							}else if(result.equals("disfavorited")){
+								showtoast("あんふぁぼしました");
+								v.setBackgroundColor(Color.WHITE);
+							}
+						}else{
+							showtoast("ふぁぼれませんでした("+result+")");
+						}
+					}
+				}.execute(twitter);
 			}
 		});
 	}
