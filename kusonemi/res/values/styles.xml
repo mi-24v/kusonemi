@@ -21,6 +21,7 @@
     <color name="black">#000000</color>
     <color name="white">#FFFFFF</color>
     <color name="gray">#CCCCCC</color>
+    <color name="lightgray">#828282</color>
     <color name="lightblue">#2D9DD1</color>
     <color name="dark_lightblue">#16506B</color>
     <color name="darkgray">#3F3F3F</color>

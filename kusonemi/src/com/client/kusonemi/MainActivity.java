@@ -237,8 +237,6 @@ public class MainActivity extends AppCompatActivity{
 			public void onClick(View v){
 				EditText et = (EditText)
 						findViewById(R.id.TweetArea);
-				Log.d(getLocalClassName(), "edittext is "+
-						et.getText().toString());
 				if (!et.getText().toString().isEmpty()) {
 					new TweetTask().execute(et.getText().toString());
 					et.setText(null);

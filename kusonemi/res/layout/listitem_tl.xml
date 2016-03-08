@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/tlitem_container"
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
@@ -106,6 +108,45 @@
                 android:text="時刻"
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:textColor="@color/black" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/actionLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:orientation="horizontal" >
+
+            <com.beardedhen.androidbootstrap.AwesomeTextView
+                android:id="@+id/reply_action"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:textSize="24sp"
+                android:textColor="@color/lightgray"
+                app:fontAwesomeIcon="fa_reply"
+                 />
+
+            <com.beardedhen.androidbootstrap.AwesomeTextView
+                android:id="@+id/retweet_action"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:textSize="24sp"
+                android:textColor="@color/lightgray"
+                app:fontAwesomeIcon="fa_retweet"
+                 />
+
+            <com.beardedhen.androidbootstrap.AwesomeTextView
+                android:id="@+id/like_action"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:textSize="24sp"
+                android:textColor="@color/lightgray"
+                app:fontAwesomeIcon="fa_heart"
+                 />
 
         </LinearLayout>
 

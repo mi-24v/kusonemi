@@ -2,6 +2,8 @@ package com.client.kusonemi;
 
 import java.util.List;
 
+import com.beardedhen.androidbootstrap.TypefaceProvider;
+
 import android.support.v4.app.ListFragment;
 import android.content.Context;
 import android.graphics.Color;
@@ -30,6 +32,7 @@ import twitter4j.TwitterStream;
 import twitter4j.TwitterStreamFactory;
 import twitter4j.conf.ConfigurationBuilder;
 
+@SuppressWarnings("unused")
 public class TimeLineFragment extends ListFragment {
 	//setされるList
 	private TweetAdapter tladapter;
@@ -42,13 +45,15 @@ public class TimeLineFragment extends ListFragment {
 	private static TwitterStream stream;
 
 	@Override
-	public void onResume(){
-		super.onResume();
+	public void onCreate(Bundle savedInstanceState){
+		super.onCreate(savedInstanceState);
 		setTwitterInstance();
-	}
+		TypefaceProvider.registerDefaultIconSets();
+	};
 
 	//認証済みのTwitterインスタンスを引数にとるgetInstance()
 	//PagerAdapterからインスタンスを取得するため現時点で使用していない
+	//SectionがBundleを持ってるのでそっちでする
 	public static TimeLineFragment newInstance(Twitter twitter){
 		TimeLineFragment frg = new TimeLineFragment();
 		Bundle naiyou = new Bundle();
@@ -63,9 +68,9 @@ public class TimeLineFragment extends ListFragment {
 
 		//set adapter
 		tladapter = new TweetAdapter
-				(getActivity().getApplicationContext());
+				(getActivity().getApplicationContext(),twitter);
 		setListAdapter(tladapter);
-		setTweetClickAction();
+		//setTweetClickAction();
 	}
 
 	@Override
@@ -166,7 +171,7 @@ public class TimeLineFragment extends ListFragment {
 			ac.StreamStateChange(sw);
 		}
 	}
-	
+
 	private void setTweetClickAction(){
 		getListView().setOnItemClickListener(new OnItemClickListener(){
 			@Override

@@ -120,7 +120,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionLayout=0x7f01008f;
+        public static final int actionLayout=0x7f010091;
         /**  TextAppearance style that will be applied to text that
              appears within action menu items. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
@@ -217,7 +217,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int actionProviderClass=0x7f010091;
+        public static final int actionProviderClass=0x7f010093;
         /**  The name of an optional View class to instantiate and use as an
              action view. See {@link android.view.MenuItem#setActionView(android.view.View)}
              for more info. 
@@ -228,7 +228,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int actionViewClass=0x7f010090;
+        public static final int actionViewClass=0x7f010092;
         /**  Default ActivityChooserView style. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
@@ -264,7 +264,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int allowStacking=0x7f0100cd;
+        public static final int allowStacking=0x7f0100cf;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int animated=0x7f0100df;
         /**  The length of the arrow head when formed to make an arrow 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
@@ -275,7 +283,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int arrowHeadLength=0x7f0100ba;
+        public static final int arrowHeadLength=0x7f0100bc;
         /**  The length of the shaft when formed to make an arrow 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
@@ -286,7 +294,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int arrowShaftLength=0x7f0100bb;
+        public static final int arrowShaftLength=0x7f0100bd;
         /**  Default AutoCompleteTextView style. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
@@ -296,21 +304,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int background=0x7f010077;
+        public static final int background=0x7f010079;
         /**  Specifies a background drawable for the bottom component of a split action bar. 
          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int backgroundSplit=0x7f010079;
+        public static final int backgroundSplit=0x7f01007b;
         /**  Specifies a background drawable for a second stacked row of the action bar. 
          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int backgroundStacked=0x7f010078;
+        public static final int backgroundStacked=0x7f01007a;
         /**  Tint to apply to the background. 
          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
@@ -320,7 +328,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int backgroundTint=0x7f01008b;
+        public static final int backgroundTint=0x7f01008d;
         /**  Blending mode used to apply the background tint. 
          <p>Must be one of the following constant values.</p>
 <table>
@@ -339,7 +347,7 @@ containing a value of this type.
 <tr><td><code>screen</code></td><td>15</td><td> [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] </td></tr>
 </table>
          */
-        public static final int backgroundTintMode=0x7f01008c;
+        public static final int backgroundTintMode=0x7f01008e;
         /**  The length of the bars when they are parallel to each other 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
@@ -350,7 +358,72 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int barLength=0x7f0100bc;
+        public static final int barLength=0x7f0100be;
+        /**  Common attributes 
+         <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>primary</code></td><td>0</td><td></td></tr>
+<tr><td><code>success</code></td><td>1</td><td></td></tr>
+<tr><td><code>info</code></td><td>2</td><td></td></tr>
+<tr><td><code>warning</code></td><td>3</td><td></td></tr>
+<tr><td><code>danger</code></td><td>4</td><td></td></tr>
+<tr><td><code>regular</code></td><td>5</td><td></td></tr>
+<tr><td><code>secondary</code></td><td>6</td><td></td></tr>
+</table>
+         */
+        public static final int bootstrapBrand=0x7f0100d1;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>up</code></td><td>0</td><td></td></tr>
+<tr><td><code>down</code></td><td>1</td><td></td></tr>
+</table>
+         */
+        public static final int bootstrapExpandDirection=0x7f0100d5;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>h1</code></td><td>0</td><td></td></tr>
+<tr><td><code>h2</code></td><td>1</td><td></td></tr>
+<tr><td><code>h3</code></td><td>2</td><td></td></tr>
+<tr><td><code>h4</code></td><td>3</td><td></td></tr>
+<tr><td><code>h5</code></td><td>4</td><td></td></tr>
+<tr><td><code>h6</code></td><td>5</td><td></td></tr>
+</table>
+         */
+        public static final int bootstrapHeading=0x7f0100d4;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>xs</code></td><td>0</td><td></td></tr>
+<tr><td><code>sm</code></td><td>1</td><td></td></tr>
+<tr><td><code>md</code></td><td>2</td><td></td></tr>
+<tr><td><code>lg</code></td><td>3</td><td></td></tr>
+<tr><td><code>xl</code></td><td>4</td><td></td></tr>
+</table>
+         */
+        public static final int bootstrapSize=0x7f0100d3;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int bootstrapText=0x7f0100dd;
         /**  Style for buttons without an explicit border, often used in groups. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
@@ -381,10 +454,23 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static final int buttonBarStyle=0x7f010033;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>regular</code></td><td>0</td><td></td></tr>
+<tr><td><code>toggle</code></td><td>1</td><td></td></tr>
+<tr><td><code>checkbox</code></td><td>2</td><td></td></tr>
+<tr><td><code>radio</code></td><td>3</td><td></td></tr>
+</table>
+         */
+        public static final int buttonMode=0x7f0100d2;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int buttonPanelSideLayout=0x7f0100c8;
+        public static final int buttonPanelSideLayout=0x7f0100ca;
         /**  Normal Button style. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
@@ -404,7 +490,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int buttonTint=0x7f0100bf;
+        public static final int buttonTint=0x7f0100c1;
         /**  Blending mode used to apply the button tint. 
          <p>Must be one of the following constant values.</p>
 <table>
@@ -423,12 +509,24 @@ containing a value of this type.
 <tr><td><code>screen</code></td><td>15</td><td> [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] </td></tr>
 </table>
          */
-        public static final int buttonTintMode=0x7f0100c0;
+        public static final int buttonTintMode=0x7f0100c2;
         /**  Default Checkbox style. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static final int checkboxStyle=0x7f010067;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int checked=0x7f0100da;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int checkedButton=0x7f0100d9;
         /**  Default CheckedTextView style. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
@@ -438,12 +536,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int closeIcon=0x7f010096;
+        public static final int closeIcon=0x7f010098;
         /**  Specifies a layout to use for the "close" item at the starting edge. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int closeItemLayout=0x7f010087;
+        public static final int closeItemLayout=0x7f010089;
         /**  Text to set as the content description for the collapse button. 
          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
@@ -452,11 +550,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int collapseContentDescription=0x7f0100ae;
+        public static final int collapseContentDescription=0x7f0100b0;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int collapseIcon=0x7f0100ad;
+        public static final int collapseIcon=0x7f0100af;
         /**  The drawing color for the bars 
          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
@@ -466,7 +564,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int color=0x7f0100b6;
+        public static final int color=0x7f0100b8;
         /**  Bright complement to the primary branding color. By default, this is the color applied
              to framework controls (via colorControlActivated). 
          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
@@ -554,7 +652,7 @@ containing a value of this type.
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int commitIcon=0x7f01009b;
+        public static final int commitIcon=0x7f01009d;
         /**  Minimum inset for content views within a bar. Navigation buttons and
              menu views are excepted. Only valid for some themes and configurations. 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
@@ -566,7 +664,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int contentInsetEnd=0x7f010082;
+        public static final int contentInsetEnd=0x7f010084;
         /**  Minimum inset for content views within a bar. Navigation buttons and
              menu views are excepted. Only valid for some themes and configurations. 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
@@ -578,7 +676,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int contentInsetLeft=0x7f010083;
+        public static final int contentInsetLeft=0x7f010085;
         /**  Minimum inset for content views within a bar. Navigation buttons and
              menu views are excepted. Only valid for some themes and configurations. 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
@@ -590,7 +688,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int contentInsetRight=0x7f010084;
+        public static final int contentInsetRight=0x7f010086;
         /**  Minimum inset for content views within a bar. Navigation buttons and
              menu views are excepted. Only valid for some themes and configurations. 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
@@ -602,7 +700,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int contentInsetStart=0x7f010081;
+        public static final int contentInsetStart=0x7f010083;
         /**  The background used by framework controls. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
@@ -612,7 +710,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int customNavigationLayout=0x7f01007a;
+        public static final int customNavigationLayout=0x7f01007c;
         /**  Default query hint used when {@code queryHint} is undefined and
              the search view's {@code SearchableInfo} does not provide a hint. 
          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
@@ -622,7 +720,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int defaultQueryHint=0x7f010095;
+        public static final int defaultQueryHint=0x7f010097;
         /**  Preferred padding for dialog content. 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
@@ -655,12 +753,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>disableHome</code></td><td>0x20</td><td></td></tr>
 </table>
          */
-        public static final int displayOptions=0x7f010070;
+        public static final int displayOptions=0x7f010072;
         /**  Specifies the drawable used for item dividers. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int divider=0x7f010076;
+        public static final int divider=0x7f010078;
         /**  A drawable that may be used as a horizontal divider between visual elements. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
@@ -676,7 +774,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int dividerPadding=0x7f0100a4;
+        public static final int dividerPadding=0x7f0100a6;
         /**  A drawable that may be used as a vertical divider between visual elements. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
@@ -692,11 +790,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int drawableSize=0x7f0100b8;
+        public static final int drawableSize=0x7f0100ba;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int drawerArrowStyle=0x7f0100be;
+        public static final int drawerArrowStyle=0x7f0100c0;
         /**  ListPopupWindow compatibility 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
@@ -713,6 +811,10 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static final int dropdownListPreferredItemHeight=0x7f01002f;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int dropdownResource=0x7f0100db;
         /**  EditText background drawable. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
@@ -740,7 +842,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int elevation=0x7f010085;
+        public static final int elevation=0x7f010087;
         /**  The drawable to show in the button for expanding the activities overflow popup.
              <strong>Note:</strong> Clients would like to set this drawable
              as a clue about the action the chosen activity will perform. For
@@ -750,7 +852,709 @@ containing a value of this type.
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int expandActivityOverflowButtonDrawable=0x7f0100a0;
+        public static final int expandActivityOverflowButtonDrawable=0x7f0100a2;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>fa_adjust</code></td><td>0</td><td></td></tr>
+<tr><td><code>fa_adn</code></td><td>1</td><td></td></tr>
+<tr><td><code>fa_align_center</code></td><td>2</td><td></td></tr>
+<tr><td><code>fa_align_justify</code></td><td>3</td><td></td></tr>
+<tr><td><code>fa_align_left</code></td><td>4</td><td></td></tr>
+<tr><td><code>fa_align_right</code></td><td>5</td><td></td></tr>
+<tr><td><code>fa_amazon</code></td><td>6</td><td></td></tr>
+<tr><td><code>fa_ambulance</code></td><td>7</td><td></td></tr>
+<tr><td><code>fa_anchor</code></td><td>8</td><td></td></tr>
+<tr><td><code>fa_android</code></td><td>9</td><td></td></tr>
+<tr><td><code>fa_angellist</code></td><td>10</td><td></td></tr>
+<tr><td><code>fa_angle_double_down</code></td><td>11</td><td></td></tr>
+<tr><td><code>fa_angle_double_left</code></td><td>12</td><td></td></tr>
+<tr><td><code>fa_angle_double_right</code></td><td>13</td><td></td></tr>
+<tr><td><code>fa_angle_double_up</code></td><td>14</td><td></td></tr>
+<tr><td><code>fa_angle_down</code></td><td>15</td><td></td></tr>
+<tr><td><code>fa_angle_left</code></td><td>16</td><td></td></tr>
+<tr><td><code>fa_angle_right</code></td><td>17</td><td></td></tr>
+<tr><td><code>fa_angle_up</code></td><td>18</td><td></td></tr>
+<tr><td><code>fa_apple</code></td><td>19</td><td></td></tr>
+<tr><td><code>fa_archive</code></td><td>20</td><td></td></tr>
+<tr><td><code>fa_area_chart</code></td><td>21</td><td></td></tr>
+<tr><td><code>fa_arrow_circle_down</code></td><td>22</td><td></td></tr>
+<tr><td><code>fa_arrow_circle_left</code></td><td>23</td><td></td></tr>
+<tr><td><code>fa_arrow_circle_o_down</code></td><td>24</td><td></td></tr>
+<tr><td><code>fa_arrow_circle_o_left</code></td><td>25</td><td></td></tr>
+<tr><td><code>fa_arrow_circle_o_right</code></td><td>26</td><td></td></tr>
+<tr><td><code>fa_arrow_circle_o_up</code></td><td>27</td><td></td></tr>
+<tr><td><code>fa_arrow_circle_right</code></td><td>28</td><td></td></tr>
+<tr><td><code>fa_arrow_circle_up</code></td><td>29</td><td></td></tr>
+<tr><td><code>fa_arrow_down</code></td><td>30</td><td></td></tr>
+<tr><td><code>fa_arrow_left</code></td><td>31</td><td></td></tr>
+<tr><td><code>fa_arrow_right</code></td><td>32</td><td></td></tr>
+<tr><td><code>fa_arrow_up</code></td><td>33</td><td></td></tr>
+<tr><td><code>fa_arrows</code></td><td>34</td><td></td></tr>
+<tr><td><code>fa_arrows_alt</code></td><td>35</td><td></td></tr>
+<tr><td><code>fa_arrows_h</code></td><td>36</td><td></td></tr>
+<tr><td><code>fa_arrows_v</code></td><td>37</td><td></td></tr>
+<tr><td><code>fa_asterisk</code></td><td>38</td><td></td></tr>
+<tr><td><code>fa_at</code></td><td>39</td><td></td></tr>
+<tr><td><code>fa_automobile</code></td><td>40</td><td></td></tr>
+<tr><td><code>fa_backward</code></td><td>41</td><td></td></tr>
+<tr><td><code>fa_balance_scale</code></td><td>42</td><td></td></tr>
+<tr><td><code>fa_ban</code></td><td>43</td><td></td></tr>
+<tr><td><code>fa_bank</code></td><td>44</td><td></td></tr>
+<tr><td><code>fa_bar_chart</code></td><td>45</td><td></td></tr>
+<tr><td><code>fa_bar_chart_o</code></td><td>46</td><td></td></tr>
+<tr><td><code>fa_barcode</code></td><td>47</td><td></td></tr>
+<tr><td><code>fa_bars</code></td><td>48</td><td></td></tr>
+<tr><td><code>fa_battery_0</code></td><td>49</td><td></td></tr>
+<tr><td><code>fa_battery_1</code></td><td>50</td><td></td></tr>
+<tr><td><code>fa_battery_2</code></td><td>51</td><td></td></tr>
+<tr><td><code>fa_battery_3</code></td><td>52</td><td></td></tr>
+<tr><td><code>fa_battery_4</code></td><td>53</td><td></td></tr>
+<tr><td><code>fa_battery_empty</code></td><td>54</td><td></td></tr>
+<tr><td><code>fa_battery_full</code></td><td>55</td><td></td></tr>
+<tr><td><code>fa_battery_half</code></td><td>56</td><td></td></tr>
+<tr><td><code>fa_battery_quarter</code></td><td>57</td><td></td></tr>
+<tr><td><code>fa_battery_three_quarters</code></td><td>58</td><td></td></tr>
+<tr><td><code>fa_bed</code></td><td>59</td><td></td></tr>
+<tr><td><code>fa_beer</code></td><td>60</td><td></td></tr>
+<tr><td><code>fa_behance</code></td><td>61</td><td></td></tr>
+<tr><td><code>fa_behance_square</code></td><td>62</td><td></td></tr>
+<tr><td><code>fa_bell</code></td><td>63</td><td></td></tr>
+<tr><td><code>fa_bell_o</code></td><td>64</td><td></td></tr>
+<tr><td><code>fa_bell_slash</code></td><td>65</td><td></td></tr>
+<tr><td><code>fa_bell_slash_o</code></td><td>66</td><td></td></tr>
+<tr><td><code>fa_bicycle</code></td><td>67</td><td></td></tr>
+<tr><td><code>fa_binoculars</code></td><td>68</td><td></td></tr>
+<tr><td><code>fa_birthday_cake</code></td><td>69</td><td></td></tr>
+<tr><td><code>fa_bitbucket</code></td><td>70</td><td></td></tr>
+<tr><td><code>fa_bitbucket_square</code></td><td>71</td><td></td></tr>
+<tr><td><code>fa_bitcoin</code></td><td>72</td><td></td></tr>
+<tr><td><code>fa_black_tie</code></td><td>73</td><td></td></tr>
+<tr><td><code>fa_bluetooth</code></td><td>74</td><td></td></tr>
+<tr><td><code>fa_bluetooth_b</code></td><td>75</td><td></td></tr>
+<tr><td><code>fa_bold</code></td><td>76</td><td></td></tr>
+<tr><td><code>fa_bolt</code></td><td>77</td><td></td></tr>
+<tr><td><code>fa_bomb</code></td><td>78</td><td></td></tr>
+<tr><td><code>fa_book</code></td><td>79</td><td></td></tr>
+<tr><td><code>fa_bookmark</code></td><td>80</td><td></td></tr>
+<tr><td><code>fa_bookmark_o</code></td><td>81</td><td></td></tr>
+<tr><td><code>fa_briefcase</code></td><td>82</td><td></td></tr>
+<tr><td><code>fa_btc</code></td><td>83</td><td></td></tr>
+<tr><td><code>fa_bug</code></td><td>84</td><td></td></tr>
+<tr><td><code>fa_building</code></td><td>85</td><td></td></tr>
+<tr><td><code>fa_building_o</code></td><td>86</td><td></td></tr>
+<tr><td><code>fa_bullhorn</code></td><td>87</td><td></td></tr>
+<tr><td><code>fa_bullseye</code></td><td>88</td><td></td></tr>
+<tr><td><code>fa_bus</code></td><td>89</td><td></td></tr>
+<tr><td><code>fa_buysellads</code></td><td>90</td><td></td></tr>
+<tr><td><code>fa_cab</code></td><td>91</td><td></td></tr>
+<tr><td><code>fa_calculator</code></td><td>92</td><td></td></tr>
+<tr><td><code>fa_calendar</code></td><td>93</td><td></td></tr>
+<tr><td><code>fa_calendar_check_o</code></td><td>94</td><td></td></tr>
+<tr><td><code>fa_calendar_minus_o</code></td><td>95</td><td></td></tr>
+<tr><td><code>fa_calendar_o</code></td><td>96</td><td></td></tr>
+<tr><td><code>fa_calendar_plus_o</code></td><td>97</td><td></td></tr>
+<tr><td><code>fa_calendar_times_o</code></td><td>98</td><td></td></tr>
+<tr><td><code>fa_camera</code></td><td>99</td><td></td></tr>
+<tr><td><code>fa_camera_retro</code></td><td>100</td><td></td></tr>
+<tr><td><code>fa_car</code></td><td>101</td><td></td></tr>
+<tr><td><code>fa_caret_down</code></td><td>102</td><td></td></tr>
+<tr><td><code>fa_caret_left</code></td><td>103</td><td></td></tr>
+<tr><td><code>fa_caret_right</code></td><td>104</td><td></td></tr>
+<tr><td><code>fa_caret_square_o_down</code></td><td>105</td><td></td></tr>
+<tr><td><code>fa_caret_square_o_left</code></td><td>106</td><td></td></tr>
+<tr><td><code>fa_caret_square_o_right</code></td><td>107</td><td></td></tr>
+<tr><td><code>fa_caret_square_o_up</code></td><td>108</td><td></td></tr>
+<tr><td><code>fa_caret_up</code></td><td>109</td><td></td></tr>
+<tr><td><code>fa_cart_arrow_down</code></td><td>110</td><td></td></tr>
+<tr><td><code>fa_cart_plus</code></td><td>111</td><td></td></tr>
+<tr><td><code>fa_cc</code></td><td>112</td><td></td></tr>
+<tr><td><code>fa_cc_amex</code></td><td>113</td><td></td></tr>
+<tr><td><code>fa_cc_diners_club</code></td><td>114</td><td></td></tr>
+<tr><td><code>fa_cc_discover</code></td><td>115</td><td></td></tr>
+<tr><td><code>fa_cc_jcb</code></td><td>116</td><td></td></tr>
+<tr><td><code>fa_cc_mastercard</code></td><td>117</td><td></td></tr>
+<tr><td><code>fa_cc_paypal</code></td><td>118</td><td></td></tr>
+<tr><td><code>fa_cc_stripe</code></td><td>119</td><td></td></tr>
+<tr><td><code>fa_cc_visa</code></td><td>120</td><td></td></tr>
+<tr><td><code>fa_certificate</code></td><td>121</td><td></td></tr>
+<tr><td><code>fa_chain</code></td><td>122</td><td></td></tr>
+<tr><td><code>fa_chain_broken</code></td><td>123</td><td></td></tr>
+<tr><td><code>fa_check</code></td><td>124</td><td></td></tr>
+<tr><td><code>fa_check_circle</code></td><td>125</td><td></td></tr>
+<tr><td><code>fa_check_circle_o</code></td><td>126</td><td></td></tr>
+<tr><td><code>fa_check_square</code></td><td>127</td><td></td></tr>
+<tr><td><code>fa_check_square_o</code></td><td>128</td><td></td></tr>
+<tr><td><code>fa_chevron_circle_down</code></td><td>129</td><td></td></tr>
+<tr><td><code>fa_chevron_circle_left</code></td><td>130</td><td></td></tr>
+<tr><td><code>fa_chevron_circle_right</code></td><td>131</td><td></td></tr>
+<tr><td><code>fa_chevron_circle_up</code></td><td>132</td><td></td></tr>
+<tr><td><code>fa_chevron_down</code></td><td>133</td><td></td></tr>
+<tr><td><code>fa_chevron_left</code></td><td>134</td><td></td></tr>
+<tr><td><code>fa_chevron_right</code></td><td>135</td><td></td></tr>
+<tr><td><code>fa_chevron_up</code></td><td>136</td><td></td></tr>
+<tr><td><code>fa_child</code></td><td>137</td><td></td></tr>
+<tr><td><code>fa_chrome</code></td><td>138</td><td></td></tr>
+<tr><td><code>fa_circle</code></td><td>139</td><td></td></tr>
+<tr><td><code>fa_circle_o</code></td><td>140</td><td></td></tr>
+<tr><td><code>fa_circle_o_notch</code></td><td>141</td><td></td></tr>
+<tr><td><code>fa_circle_thin</code></td><td>142</td><td></td></tr>
+<tr><td><code>fa_clipboard</code></td><td>143</td><td></td></tr>
+<tr><td><code>fa_clock_o</code></td><td>144</td><td></td></tr>
+<tr><td><code>fa_clone</code></td><td>145</td><td></td></tr>
+<tr><td><code>fa_close</code></td><td>146</td><td></td></tr>
+<tr><td><code>fa_cloud</code></td><td>147</td><td></td></tr>
+<tr><td><code>fa_cloud_download</code></td><td>148</td><td></td></tr>
+<tr><td><code>fa_cloud_upload</code></td><td>149</td><td></td></tr>
+<tr><td><code>fa_cny</code></td><td>150</td><td></td></tr>
+<tr><td><code>fa_code</code></td><td>151</td><td></td></tr>
+<tr><td><code>fa_code_fork</code></td><td>152</td><td></td></tr>
+<tr><td><code>fa_codepen</code></td><td>153</td><td></td></tr>
+<tr><td><code>fa_codiepie</code></td><td>154</td><td></td></tr>
+<tr><td><code>fa_coffee</code></td><td>155</td><td></td></tr>
+<tr><td><code>fa_cog</code></td><td>156</td><td></td></tr>
+<tr><td><code>fa_cogs</code></td><td>157</td><td></td></tr>
+<tr><td><code>fa_columns</code></td><td>158</td><td></td></tr>
+<tr><td><code>fa_comment</code></td><td>159</td><td></td></tr>
+<tr><td><code>fa_comment_o</code></td><td>160</td><td></td></tr>
+<tr><td><code>fa_commenting</code></td><td>161</td><td></td></tr>
+<tr><td><code>fa_commenting_o</code></td><td>162</td><td></td></tr>
+<tr><td><code>fa_comments</code></td><td>163</td><td></td></tr>
+<tr><td><code>fa_comments_o</code></td><td>164</td><td></td></tr>
+<tr><td><code>fa_compass</code></td><td>165</td><td></td></tr>
+<tr><td><code>fa_compress</code></td><td>166</td><td></td></tr>
+<tr><td><code>fa_connectdevelop</code></td><td>167</td><td></td></tr>
+<tr><td><code>fa_contao</code></td><td>168</td><td></td></tr>
+<tr><td><code>fa_copy</code></td><td>169</td><td></td></tr>
+<tr><td><code>fa_copyright</code></td><td>170</td><td></td></tr>
+<tr><td><code>fa_creative_commons</code></td><td>171</td><td></td></tr>
+<tr><td><code>fa_credit_card</code></td><td>172</td><td></td></tr>
+<tr><td><code>fa_credit_card_alt</code></td><td>173</td><td></td></tr>
+<tr><td><code>fa_crop</code></td><td>174</td><td></td></tr>
+<tr><td><code>fa_crosshairs</code></td><td>175</td><td></td></tr>
+<tr><td><code>fa_css3</code></td><td>176</td><td></td></tr>
+<tr><td><code>fa_cube</code></td><td>177</td><td></td></tr>
+<tr><td><code>fa_cubes</code></td><td>178</td><td></td></tr>
+<tr><td><code>fa_cut</code></td><td>179</td><td></td></tr>
+<tr><td><code>fa_cutlery</code></td><td>180</td><td></td></tr>
+<tr><td><code>fa_dashboard</code></td><td>181</td><td></td></tr>
+<tr><td><code>fa_dashcube</code></td><td>182</td><td></td></tr>
+<tr><td><code>fa_database</code></td><td>183</td><td></td></tr>
+<tr><td><code>fa_dedent</code></td><td>184</td><td></td></tr>
+<tr><td><code>fa_delicious</code></td><td>185</td><td></td></tr>
+<tr><td><code>fa_desktop</code></td><td>186</td><td></td></tr>
+<tr><td><code>fa_deviantart</code></td><td>187</td><td></td></tr>
+<tr><td><code>fa_diamond</code></td><td>188</td><td></td></tr>
+<tr><td><code>fa_digg</code></td><td>189</td><td></td></tr>
+<tr><td><code>fa_dollar</code></td><td>190</td><td></td></tr>
+<tr><td><code>fa_dot_circle_o</code></td><td>191</td><td></td></tr>
+<tr><td><code>fa_download</code></td><td>192</td><td></td></tr>
+<tr><td><code>fa_dribbble</code></td><td>193</td><td></td></tr>
+<tr><td><code>fa_dropbox</code></td><td>194</td><td></td></tr>
+<tr><td><code>fa_drupal</code></td><td>195</td><td></td></tr>
+<tr><td><code>fa_edge</code></td><td>196</td><td></td></tr>
+<tr><td><code>fa_edit</code></td><td>197</td><td></td></tr>
+<tr><td><code>fa_eject</code></td><td>198</td><td></td></tr>
+<tr><td><code>fa_ellipsis_h</code></td><td>199</td><td></td></tr>
+<tr><td><code>fa_ellipsis_v</code></td><td>200</td><td></td></tr>
+<tr><td><code>fa_empire</code></td><td>201</td><td></td></tr>
+<tr><td><code>fa_envelope</code></td><td>202</td><td></td></tr>
+<tr><td><code>fa_envelope_o</code></td><td>203</td><td></td></tr>
+<tr><td><code>fa_envelope_square</code></td><td>204</td><td></td></tr>
+<tr><td><code>fa_eraser</code></td><td>205</td><td></td></tr>
+<tr><td><code>fa_eur</code></td><td>206</td><td></td></tr>
+<tr><td><code>fa_euro</code></td><td>207</td><td></td></tr>
+<tr><td><code>fa_exchange</code></td><td>208</td><td></td></tr>
+<tr><td><code>fa_exclamation</code></td><td>209</td><td></td></tr>
+<tr><td><code>fa_exclamation_circle</code></td><td>210</td><td></td></tr>
+<tr><td><code>fa_exclamation_triangle</code></td><td>211</td><td></td></tr>
+<tr><td><code>fa_expand</code></td><td>212</td><td></td></tr>
+<tr><td><code>fa_expeditedssl</code></td><td>213</td><td></td></tr>
+<tr><td><code>fa_external_link</code></td><td>214</td><td></td></tr>
+<tr><td><code>fa_external_link_square</code></td><td>215</td><td></td></tr>
+<tr><td><code>fa_eye</code></td><td>216</td><td></td></tr>
+<tr><td><code>fa_eye_slash</code></td><td>217</td><td></td></tr>
+<tr><td><code>fa_eyedropper</code></td><td>218</td><td></td></tr>
+<tr><td><code>fa_facebook</code></td><td>219</td><td></td></tr>
+<tr><td><code>fa_facebook_f</code></td><td>220</td><td></td></tr>
+<tr><td><code>fa_facebook_official</code></td><td>221</td><td></td></tr>
+<tr><td><code>fa_facebook_square</code></td><td>222</td><td></td></tr>
+<tr><td><code>fa_fast_backward</code></td><td>223</td><td></td></tr>
+<tr><td><code>fa_fast_forward</code></td><td>224</td><td></td></tr>
+<tr><td><code>fa_fax</code></td><td>225</td><td></td></tr>
+<tr><td><code>fa_feed</code></td><td>226</td><td></td></tr>
+<tr><td><code>fa_female</code></td><td>227</td><td></td></tr>
+<tr><td><code>fa_fighter_jet</code></td><td>228</td><td></td></tr>
+<tr><td><code>fa_file</code></td><td>229</td><td></td></tr>
+<tr><td><code>fa_file_archive_o</code></td><td>230</td><td></td></tr>
+<tr><td><code>fa_file_audio_o</code></td><td>231</td><td></td></tr>
+<tr><td><code>fa_file_code_o</code></td><td>232</td><td></td></tr>
+<tr><td><code>fa_file_excel_o</code></td><td>233</td><td></td></tr>
+<tr><td><code>fa_file_image_o</code></td><td>234</td><td></td></tr>
+<tr><td><code>fa_file_movie_o</code></td><td>235</td><td></td></tr>
+<tr><td><code>fa_file_o</code></td><td>236</td><td></td></tr>
+<tr><td><code>fa_file_pdf_o</code></td><td>237</td><td></td></tr>
+<tr><td><code>fa_file_photo_o</code></td><td>238</td><td></td></tr>
+<tr><td><code>fa_file_picture_o</code></td><td>239</td><td></td></tr>
+<tr><td><code>fa_file_powerpoint_o</code></td><td>240</td><td></td></tr>
+<tr><td><code>fa_file_sound_o</code></td><td>241</td><td></td></tr>
+<tr><td><code>fa_file_text</code></td><td>242</td><td></td></tr>
+<tr><td><code>fa_file_text_o</code></td><td>243</td><td></td></tr>
+<tr><td><code>fa_file_video_o</code></td><td>244</td><td></td></tr>
+<tr><td><code>fa_file_word_o</code></td><td>245</td><td></td></tr>
+<tr><td><code>fa_file_zip_o</code></td><td>246</td><td></td></tr>
+<tr><td><code>fa_files_o</code></td><td>247</td><td></td></tr>
+<tr><td><code>fa_film</code></td><td>248</td><td></td></tr>
+<tr><td><code>fa_filter</code></td><td>249</td><td></td></tr>
+<tr><td><code>fa_fire</code></td><td>250</td><td></td></tr>
+<tr><td><code>fa_fire_extinguisher</code></td><td>251</td><td></td></tr>
+<tr><td><code>fa_firefox</code></td><td>252</td><td></td></tr>
+<tr><td><code>fa_flag</code></td><td>253</td><td></td></tr>
+<tr><td><code>fa_flag_checkered</code></td><td>254</td><td></td></tr>
+<tr><td><code>fa_flag_o</code></td><td>255</td><td></td></tr>
+<tr><td><code>fa_flash</code></td><td>256</td><td></td></tr>
+<tr><td><code>fa_flask</code></td><td>257</td><td></td></tr>
+<tr><td><code>fa_flickr</code></td><td>258</td><td></td></tr>
+<tr><td><code>fa_floppy_o</code></td><td>259</td><td></td></tr>
+<tr><td><code>fa_folder</code></td><td>260</td><td></td></tr>
+<tr><td><code>fa_folder_o</code></td><td>261</td><td></td></tr>
+<tr><td><code>fa_folder_open</code></td><td>262</td><td></td></tr>
+<tr><td><code>fa_folder_open_o</code></td><td>263</td><td></td></tr>
+<tr><td><code>fa_font</code></td><td>264</td><td></td></tr>
+<tr><td><code>fa_fonticons</code></td><td>265</td><td></td></tr>
+<tr><td><code>fa_fort_awesome</code></td><td>266</td><td></td></tr>
+<tr><td><code>fa_forumbee</code></td><td>267</td><td></td></tr>
+<tr><td><code>fa_forward</code></td><td>268</td><td></td></tr>
+<tr><td><code>fa_foursquare</code></td><td>269</td><td></td></tr>
+<tr><td><code>fa_frown_o</code></td><td>270</td><td></td></tr>
+<tr><td><code>fa_futbol_o</code></td><td>271</td><td></td></tr>
+<tr><td><code>fa_gamepad</code></td><td>272</td><td></td></tr>
+<tr><td><code>fa_gavel</code></td><td>273</td><td></td></tr>
+<tr><td><code>fa_gbp</code></td><td>274</td><td></td></tr>
+<tr><td><code>fa_ge</code></td><td>275</td><td></td></tr>
+<tr><td><code>fa_gear</code></td><td>276</td><td></td></tr>
+<tr><td><code>fa_gears</code></td><td>277</td><td></td></tr>
+<tr><td><code>fa_genderless</code></td><td>278</td><td></td></tr>
+<tr><td><code>fa_get_pocket</code></td><td>279</td><td></td></tr>
+<tr><td><code>fa_gg</code></td><td>280</td><td></td></tr>
+<tr><td><code>fa_gg_circle</code></td><td>281</td><td></td></tr>
+<tr><td><code>fa_gift</code></td><td>282</td><td></td></tr>
+<tr><td><code>fa_git</code></td><td>283</td><td></td></tr>
+<tr><td><code>fa_git_square</code></td><td>284</td><td></td></tr>
+<tr><td><code>fa_github</code></td><td>285</td><td></td></tr>
+<tr><td><code>fa_github_alt</code></td><td>286</td><td></td></tr>
+<tr><td><code>fa_github_square</code></td><td>287</td><td></td></tr>
+<tr><td><code>fa_gittip</code></td><td>288</td><td></td></tr>
+<tr><td><code>fa_glass</code></td><td>289</td><td></td></tr>
+<tr><td><code>fa_globe</code></td><td>290</td><td></td></tr>
+<tr><td><code>fa_google</code></td><td>291</td><td></td></tr>
+<tr><td><code>fa_google_plus</code></td><td>292</td><td></td></tr>
+<tr><td><code>fa_google_plus_square</code></td><td>293</td><td></td></tr>
+<tr><td><code>fa_google_wallet</code></td><td>294</td><td></td></tr>
+<tr><td><code>fa_graduation_cap</code></td><td>295</td><td></td></tr>
+<tr><td><code>fa_gratipay</code></td><td>296</td><td></td></tr>
+<tr><td><code>fa_group</code></td><td>297</td><td></td></tr>
+<tr><td><code>fa_h_square</code></td><td>298</td><td></td></tr>
+<tr><td><code>fa_hacker_news</code></td><td>299</td><td></td></tr>
+<tr><td><code>fa_hand_grab_o</code></td><td>300</td><td></td></tr>
+<tr><td><code>fa_hand_lizard_o</code></td><td>301</td><td></td></tr>
+<tr><td><code>fa_hand_o_down</code></td><td>302</td><td></td></tr>
+<tr><td><code>fa_hand_o_left</code></td><td>303</td><td></td></tr>
+<tr><td><code>fa_hand_o_right</code></td><td>304</td><td></td></tr>
+<tr><td><code>fa_hand_o_up</code></td><td>305</td><td></td></tr>
+<tr><td><code>fa_hand_paper_o</code></td><td>306</td><td></td></tr>
+<tr><td><code>fa_hand_peace_o</code></td><td>307</td><td></td></tr>
+<tr><td><code>fa_hand_pointer_o</code></td><td>308</td><td></td></tr>
+<tr><td><code>fa_hand_rock_o</code></td><td>309</td><td></td></tr>
+<tr><td><code>fa_hand_scissors_o</code></td><td>310</td><td></td></tr>
+<tr><td><code>fa_hand_spock_o</code></td><td>311</td><td></td></tr>
+<tr><td><code>fa_hand_stop_o</code></td><td>312</td><td></td></tr>
+<tr><td><code>fa_hashtag</code></td><td>313</td><td></td></tr>
+<tr><td><code>fa_hdd_o</code></td><td>314</td><td></td></tr>
+<tr><td><code>fa_header</code></td><td>315</td><td></td></tr>
+<tr><td><code>fa_headphones</code></td><td>316</td><td></td></tr>
+<tr><td><code>fa_heart</code></td><td>317</td><td></td></tr>
+<tr><td><code>fa_heart_o</code></td><td>318</td><td></td></tr>
+<tr><td><code>fa_heartbeat</code></td><td>319</td><td></td></tr>
+<tr><td><code>fa_history</code></td><td>320</td><td></td></tr>
+<tr><td><code>fa_home</code></td><td>321</td><td></td></tr>
+<tr><td><code>fa_hospital_o</code></td><td>322</td><td></td></tr>
+<tr><td><code>fa_hotel</code></td><td>323</td><td></td></tr>
+<tr><td><code>fa_hourglass</code></td><td>324</td><td></td></tr>
+<tr><td><code>fa_hourglass_1</code></td><td>325</td><td></td></tr>
+<tr><td><code>fa_hourglass_2</code></td><td>326</td><td></td></tr>
+<tr><td><code>fa_hourglass_3</code></td><td>327</td><td></td></tr>
+<tr><td><code>fa_hourglass_end</code></td><td>328</td><td></td></tr>
+<tr><td><code>fa_hourglass_half</code></td><td>329</td><td></td></tr>
+<tr><td><code>fa_hourglass_o</code></td><td>330</td><td></td></tr>
+<tr><td><code>fa_hourglass_start</code></td><td>331</td><td></td></tr>
+<tr><td><code>fa_houzz</code></td><td>332</td><td></td></tr>
+<tr><td><code>fa_html5</code></td><td>333</td><td></td></tr>
+<tr><td><code>fa_i_cursor</code></td><td>334</td><td></td></tr>
+<tr><td><code>fa_ils</code></td><td>335</td><td></td></tr>
+<tr><td><code>fa_image</code></td><td>336</td><td></td></tr>
+<tr><td><code>fa_inbox</code></td><td>337</td><td></td></tr>
+<tr><td><code>fa_indent</code></td><td>338</td><td></td></tr>
+<tr><td><code>fa_industry</code></td><td>339</td><td></td></tr>
+<tr><td><code>fa_info</code></td><td>340</td><td></td></tr>
+<tr><td><code>fa_info_circle</code></td><td>341</td><td></td></tr>
+<tr><td><code>fa_inr</code></td><td>342</td><td></td></tr>
+<tr><td><code>fa_instagram</code></td><td>343</td><td></td></tr>
+<tr><td><code>fa_institution</code></td><td>344</td><td></td></tr>
+<tr><td><code>fa_internet_explorer</code></td><td>345</td><td></td></tr>
+<tr><td><code>fa_intersex</code></td><td>346</td><td></td></tr>
+<tr><td><code>fa_ioxhost</code></td><td>347</td><td></td></tr>
+<tr><td><code>fa_italic</code></td><td>348</td><td></td></tr>
+<tr><td><code>fa_joomla</code></td><td>349</td><td></td></tr>
+<tr><td><code>fa_jpy</code></td><td>350</td><td></td></tr>
+<tr><td><code>fa_jsfiddle</code></td><td>351</td><td></td></tr>
+<tr><td><code>fa_key</code></td><td>352</td><td></td></tr>
+<tr><td><code>fa_keyboard_o</code></td><td>353</td><td></td></tr>
+<tr><td><code>fa_krw</code></td><td>354</td><td></td></tr>
+<tr><td><code>fa_language</code></td><td>355</td><td></td></tr>
+<tr><td><code>fa_laptop</code></td><td>356</td><td></td></tr>
+<tr><td><code>fa_lastfm</code></td><td>357</td><td></td></tr>
+<tr><td><code>fa_lastfm_square</code></td><td>358</td><td></td></tr>
+<tr><td><code>fa_leaf</code></td><td>359</td><td></td></tr>
+<tr><td><code>fa_leanpub</code></td><td>360</td><td></td></tr>
+<tr><td><code>fa_legal</code></td><td>361</td><td></td></tr>
+<tr><td><code>fa_lemon_o</code></td><td>362</td><td></td></tr>
+<tr><td><code>fa_level_down</code></td><td>363</td><td></td></tr>
+<tr><td><code>fa_level_up</code></td><td>364</td><td></td></tr>
+<tr><td><code>fa_life_bouy</code></td><td>365</td><td></td></tr>
+<tr><td><code>fa_life_buoy</code></td><td>366</td><td></td></tr>
+<tr><td><code>fa_life_ring</code></td><td>367</td><td></td></tr>
+<tr><td><code>fa_life_saver</code></td><td>368</td><td></td></tr>
+<tr><td><code>fa_lightbulb_o</code></td><td>369</td><td></td></tr>
+<tr><td><code>fa_line_chart</code></td><td>370</td><td></td></tr>
+<tr><td><code>fa_link</code></td><td>371</td><td></td></tr>
+<tr><td><code>fa_linkedin</code></td><td>372</td><td></td></tr>
+<tr><td><code>fa_linkedin_square</code></td><td>373</td><td></td></tr>
+<tr><td><code>fa_linux</code></td><td>374</td><td></td></tr>
+<tr><td><code>fa_list</code></td><td>375</td><td></td></tr>
+<tr><td><code>fa_list_alt</code></td><td>376</td><td></td></tr>
+<tr><td><code>fa_list_ol</code></td><td>377</td><td></td></tr>
+<tr><td><code>fa_list_ul</code></td><td>378</td><td></td></tr>
+<tr><td><code>fa_location_arrow</code></td><td>379</td><td></td></tr>
+<tr><td><code>fa_lock</code></td><td>380</td><td></td></tr>
+<tr><td><code>fa_long_arrow_down</code></td><td>381</td><td></td></tr>
+<tr><td><code>fa_long_arrow_left</code></td><td>382</td><td></td></tr>
+<tr><td><code>fa_long_arrow_right</code></td><td>383</td><td></td></tr>
+<tr><td><code>fa_long_arrow_up</code></td><td>384</td><td></td></tr>
+<tr><td><code>fa_magic</code></td><td>385</td><td></td></tr>
+<tr><td><code>fa_magnet</code></td><td>386</td><td></td></tr>
+<tr><td><code>fa_mail_forward</code></td><td>387</td><td></td></tr>
+<tr><td><code>fa_mail_reply</code></td><td>388</td><td></td></tr>
+<tr><td><code>fa_mail_reply_all</code></td><td>389</td><td></td></tr>
+<tr><td><code>fa_male</code></td><td>390</td><td></td></tr>
+<tr><td><code>fa_map</code></td><td>391</td><td></td></tr>
+<tr><td><code>fa_map_marker</code></td><td>392</td><td></td></tr>
+<tr><td><code>fa_map_o</code></td><td>393</td><td></td></tr>
+<tr><td><code>fa_map_pin</code></td><td>394</td><td></td></tr>
+<tr><td><code>fa_map_signs</code></td><td>395</td><td></td></tr>
+<tr><td><code>fa_mars</code></td><td>396</td><td></td></tr>
+<tr><td><code>fa_mars_double</code></td><td>397</td><td></td></tr>
+<tr><td><code>fa_mars_stroke</code></td><td>398</td><td></td></tr>
+<tr><td><code>fa_mars_stroke_h</code></td><td>399</td><td></td></tr>
+<tr><td><code>fa_mars_stroke_v</code></td><td>400</td><td></td></tr>
+<tr><td><code>fa_maxcdn</code></td><td>401</td><td></td></tr>
+<tr><td><code>fa_meanpath</code></td><td>402</td><td></td></tr>
+<tr><td><code>fa_medium</code></td><td>403</td><td></td></tr>
+<tr><td><code>fa_medkit</code></td><td>404</td><td></td></tr>
+<tr><td><code>fa_meh_o</code></td><td>405</td><td></td></tr>
+<tr><td><code>fa_mercury</code></td><td>406</td><td></td></tr>
+<tr><td><code>fa_microphone</code></td><td>407</td><td></td></tr>
+<tr><td><code>fa_microphone_slash</code></td><td>408</td><td></td></tr>
+<tr><td><code>fa_minus</code></td><td>409</td><td></td></tr>
+<tr><td><code>fa_minus_circle</code></td><td>410</td><td></td></tr>
+<tr><td><code>fa_minus_square</code></td><td>411</td><td></td></tr>
+<tr><td><code>fa_minus_square_o</code></td><td>412</td><td></td></tr>
+<tr><td><code>fa_mixcloud</code></td><td>413</td><td></td></tr>
+<tr><td><code>fa_mobile</code></td><td>414</td><td></td></tr>
+<tr><td><code>fa_mobile_phone</code></td><td>415</td><td></td></tr>
+<tr><td><code>fa_modx</code></td><td>416</td><td></td></tr>
+<tr><td><code>fa_money</code></td><td>417</td><td></td></tr>
+<tr><td><code>fa_moon_o</code></td><td>418</td><td></td></tr>
+<tr><td><code>fa_mortar_board</code></td><td>419</td><td></td></tr>
+<tr><td><code>fa_motorcycle</code></td><td>420</td><td></td></tr>
+<tr><td><code>fa_mouse_pointer</code></td><td>421</td><td></td></tr>
+<tr><td><code>fa_music</code></td><td>422</td><td></td></tr>
+<tr><td><code>fa_navicon</code></td><td>423</td><td></td></tr>
+<tr><td><code>fa_neuter</code></td><td>424</td><td></td></tr>
+<tr><td><code>fa_newspaper_o</code></td><td>425</td><td></td></tr>
+<tr><td><code>fa_object_group</code></td><td>426</td><td></td></tr>
+<tr><td><code>fa_object_ungroup</code></td><td>427</td><td></td></tr>
+<tr><td><code>fa_odnoklassniki</code></td><td>428</td><td></td></tr>
+<tr><td><code>fa_odnoklassniki_square</code></td><td>429</td><td></td></tr>
+<tr><td><code>fa_opencart</code></td><td>430</td><td></td></tr>
+<tr><td><code>fa_openid</code></td><td>431</td><td></td></tr>
+<tr><td><code>fa_opera</code></td><td>432</td><td></td></tr>
+<tr><td><code>fa_optin_monster</code></td><td>433</td><td></td></tr>
+<tr><td><code>fa_outdent</code></td><td>434</td><td></td></tr>
+<tr><td><code>fa_pagelines</code></td><td>435</td><td></td></tr>
+<tr><td><code>fa_paint_brush</code></td><td>436</td><td></td></tr>
+<tr><td><code>fa_paper_plane</code></td><td>437</td><td></td></tr>
+<tr><td><code>fa_paper_plane_o</code></td><td>438</td><td></td></tr>
+<tr><td><code>fa_paperclip</code></td><td>439</td><td></td></tr>
+<tr><td><code>fa_paragraph</code></td><td>440</td><td></td></tr>
+<tr><td><code>fa_paste</code></td><td>441</td><td></td></tr>
+<tr><td><code>fa_pause</code></td><td>442</td><td></td></tr>
+<tr><td><code>fa_pause_circle</code></td><td>443</td><td></td></tr>
+<tr><td><code>fa_pause_circle_o</code></td><td>444</td><td></td></tr>
+<tr><td><code>fa_paw</code></td><td>445</td><td></td></tr>
+<tr><td><code>fa_paypal</code></td><td>446</td><td></td></tr>
+<tr><td><code>fa_pencil</code></td><td>447</td><td></td></tr>
+<tr><td><code>fa_pencil_square</code></td><td>448</td><td></td></tr>
+<tr><td><code>fa_pencil_square_o</code></td><td>449</td><td></td></tr>
+<tr><td><code>fa_percent</code></td><td>450</td><td></td></tr>
+<tr><td><code>fa_phone</code></td><td>451</td><td></td></tr>
+<tr><td><code>fa_phone_square</code></td><td>452</td><td></td></tr>
+<tr><td><code>fa_photo</code></td><td>453</td><td></td></tr>
+<tr><td><code>fa_picture_o</code></td><td>454</td><td></td></tr>
+<tr><td><code>fa_pie_chart</code></td><td>455</td><td></td></tr>
+<tr><td><code>fa_pied_piper</code></td><td>456</td><td></td></tr>
+<tr><td><code>fa_pied_piper_alt</code></td><td>457</td><td></td></tr>
+<tr><td><code>fa_pinterest</code></td><td>458</td><td></td></tr>
+<tr><td><code>fa_pinterest_p</code></td><td>459</td><td></td></tr>
+<tr><td><code>fa_pinterest_square</code></td><td>460</td><td></td></tr>
+<tr><td><code>fa_plane</code></td><td>461</td><td></td></tr>
+<tr><td><code>fa_play</code></td><td>462</td><td></td></tr>
+<tr><td><code>fa_play_circle</code></td><td>463</td><td></td></tr>
+<tr><td><code>fa_play_circle_o</code></td><td>464</td><td></td></tr>
+<tr><td><code>fa_plug</code></td><td>465</td><td></td></tr>
+<tr><td><code>fa_plus</code></td><td>466</td><td></td></tr>
+<tr><td><code>fa_plus_circle</code></td><td>467</td><td></td></tr>
+<tr><td><code>fa_plus_square</code></td><td>468</td><td></td></tr>
+<tr><td><code>fa_plus_square_o</code></td><td>469</td><td></td></tr>
+<tr><td><code>fa_power_off</code></td><td>470</td><td></td></tr>
+<tr><td><code>fa_print</code></td><td>471</td><td></td></tr>
+<tr><td><code>fa_product_hunt</code></td><td>472</td><td></td></tr>
+<tr><td><code>fa_puzzle_piece</code></td><td>473</td><td></td></tr>
+<tr><td><code>fa_qq</code></td><td>474</td><td></td></tr>
+<tr><td><code>fa_qrcode</code></td><td>475</td><td></td></tr>
+<tr><td><code>fa_question</code></td><td>476</td><td></td></tr>
+<tr><td><code>fa_question_circle</code></td><td>477</td><td></td></tr>
+<tr><td><code>fa_quote_left</code></td><td>478</td><td></td></tr>
+<tr><td><code>fa_quote_right</code></td><td>479</td><td></td></tr>
+<tr><td><code>fa_ra</code></td><td>480</td><td></td></tr>
+<tr><td><code>fa_random</code></td><td>481</td><td></td></tr>
+<tr><td><code>fa_rebel</code></td><td>482</td><td></td></tr>
+<tr><td><code>fa_recycle</code></td><td>483</td><td></td></tr>
+<tr><td><code>fa_reddit</code></td><td>484</td><td></td></tr>
+<tr><td><code>fa_reddit_alien</code></td><td>485</td><td></td></tr>
+<tr><td><code>fa_reddit_square</code></td><td>486</td><td></td></tr>
+<tr><td><code>fa_refresh</code></td><td>487</td><td></td></tr>
+<tr><td><code>fa_registered</code></td><td>488</td><td></td></tr>
+<tr><td><code>fa_remove</code></td><td>489</td><td></td></tr>
+<tr><td><code>fa_renren</code></td><td>490</td><td></td></tr>
+<tr><td><code>fa_reorder</code></td><td>491</td><td></td></tr>
+<tr><td><code>fa_repeat</code></td><td>492</td><td></td></tr>
+<tr><td><code>fa_reply</code></td><td>493</td><td></td></tr>
+<tr><td><code>fa_reply_all</code></td><td>494</td><td></td></tr>
+<tr><td><code>fa_retweet</code></td><td>495</td><td></td></tr>
+<tr><td><code>fa_rmb</code></td><td>496</td><td></td></tr>
+<tr><td><code>fa_road</code></td><td>497</td><td></td></tr>
+<tr><td><code>fa_rocket</code></td><td>498</td><td></td></tr>
+<tr><td><code>fa_rotate_left</code></td><td>499</td><td></td></tr>
+<tr><td><code>fa_rotate_right</code></td><td>500</td><td></td></tr>
+<tr><td><code>fa_rouble</code></td><td>501</td><td></td></tr>
+<tr><td><code>fa_rss</code></td><td>502</td><td></td></tr>
+<tr><td><code>fa_rss_square</code></td><td>503</td><td></td></tr>
+<tr><td><code>fa_rub</code></td><td>504</td><td></td></tr>
+<tr><td><code>fa_ruble</code></td><td>505</td><td></td></tr>
+<tr><td><code>fa_rupee</code></td><td>506</td><td></td></tr>
+<tr><td><code>fa_safari</code></td><td>507</td><td></td></tr>
+<tr><td><code>fa_save</code></td><td>508</td><td></td></tr>
+<tr><td><code>fa_scissors</code></td><td>509</td><td></td></tr>
+<tr><td><code>fa_scribd</code></td><td>510</td><td></td></tr>
+<tr><td><code>fa_search</code></td><td>511</td><td></td></tr>
+<tr><td><code>fa_search_minus</code></td><td>512</td><td></td></tr>
+<tr><td><code>fa_search_plus</code></td><td>513</td><td></td></tr>
+<tr><td><code>fa_sellsy</code></td><td>514</td><td></td></tr>
+<tr><td><code>fa_send</code></td><td>515</td><td></td></tr>
+<tr><td><code>fa_send_o</code></td><td>516</td><td></td></tr>
+<tr><td><code>fa_server</code></td><td>517</td><td></td></tr>
+<tr><td><code>fa_share</code></td><td>518</td><td></td></tr>
+<tr><td><code>fa_share_alt</code></td><td>519</td><td></td></tr>
+<tr><td><code>fa_share_alt_square</code></td><td>520</td><td></td></tr>
+<tr><td><code>fa_share_square</code></td><td>521</td><td></td></tr>
+<tr><td><code>fa_share_square_o</code></td><td>522</td><td></td></tr>
+<tr><td><code>fa_shekel</code></td><td>523</td><td></td></tr>
+<tr><td><code>fa_sheqel</code></td><td>524</td><td></td></tr>
+<tr><td><code>fa_shield</code></td><td>525</td><td></td></tr>
+<tr><td><code>fa_ship</code></td><td>526</td><td></td></tr>
+<tr><td><code>fa_shirtsinbulk</code></td><td>527</td><td></td></tr>
+<tr><td><code>fa_shopping_bag</code></td><td>528</td><td></td></tr>
+<tr><td><code>fa_shopping_basket</code></td><td>529</td><td></td></tr>
+<tr><td><code>fa_shopping_cart</code></td><td>530</td><td></td></tr>
+<tr><td><code>fa_sign_in</code></td><td>531</td><td></td></tr>
+<tr><td><code>fa_sign_out</code></td><td>532</td><td></td></tr>
+<tr><td><code>fa_signal</code></td><td>533</td><td></td></tr>
+<tr><td><code>fa_simplybuilt</code></td><td>534</td><td></td></tr>
+<tr><td><code>fa_sitemap</code></td><td>535</td><td></td></tr>
+<tr><td><code>fa_skyatlas</code></td><td>536</td><td></td></tr>
+<tr><td><code>fa_skype</code></td><td>537</td><td></td></tr>
+<tr><td><code>fa_slack</code></td><td>538</td><td></td></tr>
+<tr><td><code>fa_sliders</code></td><td>539</td><td></td></tr>
+<tr><td><code>fa_slideshare</code></td><td>540</td><td></td></tr>
+<tr><td><code>fa_smile_o</code></td><td>541</td><td></td></tr>
+<tr><td><code>fa_soccer_ball_o</code></td><td>542</td><td></td></tr>
+<tr><td><code>fa_sort</code></td><td>543</td><td></td></tr>
+<tr><td><code>fa_sort_alpha_asc</code></td><td>544</td><td></td></tr>
+<tr><td><code>fa_sort_alpha_desc</code></td><td>545</td><td></td></tr>
+<tr><td><code>fa_sort_amount_asc</code></td><td>546</td><td></td></tr>
+<tr><td><code>fa_sort_amount_desc</code></td><td>547</td><td></td></tr>
+<tr><td><code>fa_sort_asc</code></td><td>548</td><td></td></tr>
+<tr><td><code>fa_sort_desc</code></td><td>549</td><td></td></tr>
+<tr><td><code>fa_sort_down</code></td><td>550</td><td></td></tr>
+<tr><td><code>fa_sort_numeric_asc</code></td><td>551</td><td></td></tr>
+<tr><td><code>fa_sort_numeric_desc</code></td><td>552</td><td></td></tr>
+<tr><td><code>fa_sort_up</code></td><td>553</td><td></td></tr>
+<tr><td><code>fa_soundcloud</code></td><td>554</td><td></td></tr>
+<tr><td><code>fa_space_shuttle</code></td><td>555</td><td></td></tr>
+<tr><td><code>fa_spinner</code></td><td>556</td><td></td></tr>
+<tr><td><code>fa_spoon</code></td><td>557</td><td></td></tr>
+<tr><td><code>fa_spotify</code></td><td>558</td><td></td></tr>
+<tr><td><code>fa_square</code></td><td>559</td><td></td></tr>
+<tr><td><code>fa_square_o</code></td><td>560</td><td></td></tr>
+<tr><td><code>fa_stack_exchange</code></td><td>561</td><td></td></tr>
+<tr><td><code>fa_stack_overflow</code></td><td>562</td><td></td></tr>
+<tr><td><code>fa_star</code></td><td>563</td><td></td></tr>
+<tr><td><code>fa_star_half</code></td><td>564</td><td></td></tr>
+<tr><td><code>fa_star_half_empty</code></td><td>565</td><td></td></tr>
+<tr><td><code>fa_star_half_full</code></td><td>566</td><td></td></tr>
+<tr><td><code>fa_star_half_o</code></td><td>567</td><td></td></tr>
+<tr><td><code>fa_star_o</code></td><td>568</td><td></td></tr>
+<tr><td><code>fa_steam</code></td><td>569</td><td></td></tr>
+<tr><td><code>fa_steam_square</code></td><td>570</td><td></td></tr>
+<tr><td><code>fa_step_backward</code></td><td>571</td><td></td></tr>
+<tr><td><code>fa_step_forward</code></td><td>572</td><td></td></tr>
+<tr><td><code>fa_stethoscope</code></td><td>573</td><td></td></tr>
+<tr><td><code>fa_sticky_note</code></td><td>574</td><td></td></tr>
+<tr><td><code>fa_sticky_note_o</code></td><td>575</td><td></td></tr>
+<tr><td><code>fa_stop</code></td><td>576</td><td></td></tr>
+<tr><td><code>fa_stop_circle</code></td><td>577</td><td></td></tr>
+<tr><td><code>fa_stop_circle_o</code></td><td>578</td><td></td></tr>
+<tr><td><code>fa_street_view</code></td><td>579</td><td></td></tr>
+<tr><td><code>fa_strikethrough</code></td><td>580</td><td></td></tr>
+<tr><td><code>fa_stumbleupon</code></td><td>581</td><td></td></tr>
+<tr><td><code>fa_stumbleupon_circle</code></td><td>582</td><td></td></tr>
+<tr><td><code>fa_subscript</code></td><td>583</td><td></td></tr>
+<tr><td><code>fa_subway</code></td><td>584</td><td></td></tr>
+<tr><td><code>fa_suitcase</code></td><td>585</td><td></td></tr>
+<tr><td><code>fa_sun_o</code></td><td>586</td><td></td></tr>
+<tr><td><code>fa_superscript</code></td><td>587</td><td></td></tr>
+<tr><td><code>fa_support</code></td><td>588</td><td></td></tr>
+<tr><td><code>fa_table</code></td><td>589</td><td></td></tr>
+<tr><td><code>fa_tablet</code></td><td>590</td><td></td></tr>
+<tr><td><code>fa_tachometer</code></td><td>591</td><td></td></tr>
+<tr><td><code>fa_tag</code></td><td>592</td><td></td></tr>
+<tr><td><code>fa_tags</code></td><td>593</td><td></td></tr>
+<tr><td><code>fa_tasks</code></td><td>594</td><td></td></tr>
+<tr><td><code>fa_taxi</code></td><td>595</td><td></td></tr>
+<tr><td><code>fa_television</code></td><td>596</td><td></td></tr>
+<tr><td><code>fa_tencent_weibo</code></td><td>597</td><td></td></tr>
+<tr><td><code>fa_terminal</code></td><td>598</td><td></td></tr>
+<tr><td><code>fa_text_height</code></td><td>599</td><td></td></tr>
+<tr><td><code>fa_text_width</code></td><td>600</td><td></td></tr>
+<tr><td><code>fa_th</code></td><td>601</td><td></td></tr>
+<tr><td><code>fa_th_large</code></td><td>602</td><td></td></tr>
+<tr><td><code>fa_th_list</code></td><td>603</td><td></td></tr>
+<tr><td><code>fa_thumb_tack</code></td><td>604</td><td></td></tr>
+<tr><td><code>fa_thumbs_down</code></td><td>605</td><td></td></tr>
+<tr><td><code>fa_thumbs_o_down</code></td><td>606</td><td></td></tr>
+<tr><td><code>fa_thumbs_o_up</code></td><td>607</td><td></td></tr>
+<tr><td><code>fa_thumbs_up</code></td><td>608</td><td></td></tr>
+<tr><td><code>fa_ticket</code></td><td>609</td><td></td></tr>
+<tr><td><code>fa_times</code></td><td>610</td><td></td></tr>
+<tr><td><code>fa_times_circle</code></td><td>611</td><td></td></tr>
+<tr><td><code>fa_times_circle_o</code></td><td>612</td><td></td></tr>
+<tr><td><code>fa_tint</code></td><td>613</td><td></td></tr>
+<tr><td><code>fa_toggle_down</code></td><td>614</td><td></td></tr>
+<tr><td><code>fa_toggle_left</code></td><td>615</td><td></td></tr>
+<tr><td><code>fa_toggle_off</code></td><td>616</td><td></td></tr>
+<tr><td><code>fa_toggle_on</code></td><td>617</td><td></td></tr>
+<tr><td><code>fa_toggle_right</code></td><td>618</td><td></td></tr>
+<tr><td><code>fa_toggle_up</code></td><td>619</td><td></td></tr>
+<tr><td><code>fa_trademark</code></td><td>620</td><td></td></tr>
+<tr><td><code>fa_train</code></td><td>621</td><td></td></tr>
+<tr><td><code>fa_transgender</code></td><td>622</td><td></td></tr>
+<tr><td><code>fa_transgender_alt</code></td><td>623</td><td></td></tr>
+<tr><td><code>fa_trash</code></td><td>624</td><td></td></tr>
+<tr><td><code>fa_trash_o</code></td><td>625</td><td></td></tr>
+<tr><td><code>fa_tree</code></td><td>626</td><td></td></tr>
+<tr><td><code>fa_trello</code></td><td>627</td><td></td></tr>
+<tr><td><code>fa_tripadvisor</code></td><td>628</td><td></td></tr>
+<tr><td><code>fa_trophy</code></td><td>629</td><td></td></tr>
+<tr><td><code>fa_truck</code></td><td>630</td><td></td></tr>
+<tr><td><code>fa_try</code></td><td>631</td><td></td></tr>
+<tr><td><code>fa_tty</code></td><td>632</td><td></td></tr>
+<tr><td><code>fa_tumblr</code></td><td>633</td><td></td></tr>
+<tr><td><code>fa_tumblr_square</code></td><td>634</td><td></td></tr>
+<tr><td><code>fa_turkish_lira</code></td><td>635</td><td></td></tr>
+<tr><td><code>fa_tv</code></td><td>636</td><td></td></tr>
+<tr><td><code>fa_twitch</code></td><td>637</td><td></td></tr>
+<tr><td><code>fa_twitter</code></td><td>638</td><td></td></tr>
+<tr><td><code>fa_twitter_square</code></td><td>639</td><td></td></tr>
+<tr><td><code>fa_umbrella</code></td><td>640</td><td></td></tr>
+<tr><td><code>fa_underline</code></td><td>641</td><td></td></tr>
+<tr><td><code>fa_undo</code></td><td>642</td><td></td></tr>
+<tr><td><code>fa_university</code></td><td>643</td><td></td></tr>
+<tr><td><code>fa_unlink</code></td><td>644</td><td></td></tr>
+<tr><td><code>fa_unlock</code></td><td>645</td><td></td></tr>
+<tr><td><code>fa_unlock_alt</code></td><td>646</td><td></td></tr>
+<tr><td><code>fa_unsorted</code></td><td>647</td><td></td></tr>
+<tr><td><code>fa_upload</code></td><td>648</td><td></td></tr>
+<tr><td><code>fa_usb</code></td><td>649</td><td></td></tr>
+<tr><td><code>fa_usd</code></td><td>650</td><td></td></tr>
+<tr><td><code>fa_user</code></td><td>651</td><td></td></tr>
+<tr><td><code>fa_user_md</code></td><td>652</td><td></td></tr>
+<tr><td><code>fa_user_plus</code></td><td>653</td><td></td></tr>
+<tr><td><code>fa_user_secret</code></td><td>654</td><td></td></tr>
+<tr><td><code>fa_user_times</code></td><td>655</td><td></td></tr>
+<tr><td><code>fa_users</code></td><td>656</td><td></td></tr>
+<tr><td><code>fa_venus</code></td><td>657</td><td></td></tr>
+<tr><td><code>fa_venus_double</code></td><td>658</td><td></td></tr>
+<tr><td><code>fa_venus_mars</code></td><td>659</td><td></td></tr>
+<tr><td><code>fa_viacoin</code></td><td>660</td><td></td></tr>
+<tr><td><code>fa_video_camera</code></td><td>661</td><td></td></tr>
+<tr><td><code>fa_vimeo</code></td><td>662</td><td></td></tr>
+<tr><td><code>fa_vimeo_square</code></td><td>663</td><td></td></tr>
+<tr><td><code>fa_vine</code></td><td>664</td><td></td></tr>
+<tr><td><code>fa_vk</code></td><td>665</td><td></td></tr>
+<tr><td><code>fa_volume_down</code></td><td>666</td><td></td></tr>
+<tr><td><code>fa_volume_off</code></td><td>667</td><td></td></tr>
+<tr><td><code>fa_volume_up</code></td><td>668</td><td></td></tr>
+<tr><td><code>fa_warning</code></td><td>669</td><td></td></tr>
+<tr><td><code>fa_wechat</code></td><td>670</td><td></td></tr>
+<tr><td><code>fa_weibo</code></td><td>671</td><td></td></tr>
+<tr><td><code>fa_weixin</code></td><td>672</td><td></td></tr>
+<tr><td><code>fa_whatsapp</code></td><td>673</td><td></td></tr>
+<tr><td><code>fa_wheelchair</code></td><td>674</td><td></td></tr>
+<tr><td><code>fa_wifi</code></td><td>675</td><td></td></tr>
+<tr><td><code>fa_wikipedia_w</code></td><td>676</td><td></td></tr>
+<tr><td><code>fa_windows</code></td><td>677</td><td></td></tr>
+<tr><td><code>fa_won</code></td><td>678</td><td></td></tr>
+<tr><td><code>fa_wordpress</code></td><td>679</td><td></td></tr>
+<tr><td><code>fa_wrench</code></td><td>680</td><td></td></tr>
+<tr><td><code>fa_xing</code></td><td>681</td><td></td></tr>
+<tr><td><code>fa_xing_square</code></td><td>682</td><td></td></tr>
+<tr><td><code>fa_y_combinator</code></td><td>683</td><td></td></tr>
+<tr><td><code>fa_y_combinator_square</code></td><td>684</td><td></td></tr>
+<tr><td><code>fa_yahoo</code></td><td>685</td><td></td></tr>
+<tr><td><code>fa_yc</code></td><td>686</td><td></td></tr>
+<tr><td><code>fa_yc_square</code></td><td>687</td><td></td></tr>
+<tr><td><code>fa_yelp</code></td><td>688</td><td></td></tr>
+<tr><td><code>fa_yen</code></td><td>689</td><td></td></tr>
+<tr><td><code>fa_youtube</code></td><td>690</td><td></td></tr>
+<tr><td><code>fa_youtube_play</code></td><td>691</td><td></td></tr>
+<tr><td><code>fa_youtube_square</code></td><td>692</td><td></td></tr>
+</table>
+         */
+        public static final int fontAwesomeIcon=0x7f0100e1;
         /**  The max gap between the bars when they are parallel to each other 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
@@ -761,12 +1565,20 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int gapBetweenBars=0x7f0100b9;
+        public static final int gapBetweenBars=0x7f0100bb;
         /**  Go button icon 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int goIcon=0x7f010097;
+        public static final int goIcon=0x7f010099;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int hasBorder=0x7f0100d8;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -785,7 +1597,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int hideOnContentScroll=0x7f010080;
+        public static final int hideOnContentScroll=0x7f010082;
         /**  Specifies a drawable to use for the 'home as up' indicator. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
@@ -795,12 +1607,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int homeLayout=0x7f01007b;
+        public static final int homeLayout=0x7f01007d;
         /**  Specifies the drawable used for the application icon. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int icon=0x7f010074;
+        public static final int icon=0x7f010076;
         /**  The default state of the SearchView. If true, it will be iconified when not in
              use and expanded when clicked. 
          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
@@ -810,7 +1622,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int iconifiedByDefault=0x7f010093;
+        public static final int iconifiedByDefault=0x7f010095;
         /**  ImageButton background drawable. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
@@ -820,7 +1632,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int indeterminateProgressStyle=0x7f01007d;
+        public static final int indeterminateProgressStyle=0x7f01007f;
         /**  The maximal number of items initially shown in the activity list. 
          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
@@ -829,7 +1641,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int initialActivityCount=0x7f01009f;
+        public static final int initialActivityCount=0x7f0100a1;
         /**  Specifies whether the theme is light, otherwise it is dark. 
          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
@@ -839,6 +1651,16 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static final int isLightTheme=0x7f010002;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int itemHeight=0x7f0100dc;
         /**  Specifies padding that should be applied to the left and right sides of
              system-provided items in the bar. 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
@@ -850,12 +1672,12 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int itemPadding=0x7f01007f;
+        public static final int itemPadding=0x7f010081;
         /**  The layout to use for the search view. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int layout=0x7f010092;
+        public static final int layout=0x7f010094;
         /**  Drawable used as a background for selected list items. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
@@ -869,11 +1691,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int listItemLayout=0x7f0100cc;
+        public static final int listItemLayout=0x7f0100ce;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int listLayout=0x7f0100c9;
+        public static final int listLayout=0x7f0100cb;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -937,7 +1759,7 @@ containing a value of this type.
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int logo=0x7f010075;
+        public static final int logo=0x7f010077;
         /**  A content description string to describe the appearance of the
              associated logo image. 
          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
@@ -947,7 +1769,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int logoDescription=0x7f0100b1;
+        public static final int logoDescription=0x7f0100b3;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -957,7 +1779,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int maxButtonHeight=0x7f0100ac;
+        public static final int maxButtonHeight=0x7f0100ae;
         /**  When set to true, all children with a weight will be considered having
              the minimum size of the largest child. If false, all children are
              measured normally. 
@@ -968,11 +1790,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int measureWithLargestChild=0x7f0100a2;
+        public static final int measureWithLargestChild=0x7f0100a4;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int multiChoiceItemLayout=0x7f0100ca;
+        public static final int multiChoiceItemLayout=0x7f0100cc;
         /**  Text to set as the content description for the navigation button
              located at the start of the toolbar. 
          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
@@ -982,13 +1804,13 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int navigationContentDescription=0x7f0100b0;
+        public static final int navigationContentDescription=0x7f0100b2;
         /**  Icon drawable to use for the navigation button located at
              the start of the toolbar. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int navigationIcon=0x7f0100af;
+        public static final int navigationIcon=0x7f0100b1;
         /**  The type of navigation to use. 
          <p>Must be one of the following constant values.</p>
 <table>
@@ -1001,7 +1823,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>tabMode</code></td><td>2</td><td> The action bar will use a series of horizontal tabs for navigation. </td></tr>
 </table>
          */
-        public static final int navigationMode=0x7f01006f;
+        public static final int navigationMode=0x7f010071;
         /**  Whether the popup window should overlap its anchor view. 
          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
@@ -1010,7 +1832,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int overlapAnchor=0x7f0100b5;
+        public static final int overlapAnchor=0x7f0100b7;
         /**  Sets the padding, in pixels, of the end edge; see {@link android.R.attr#padding}. 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
@@ -1021,7 +1843,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int paddingEnd=0x7f010089;
+        public static final int paddingEnd=0x7f01008b;
         /**  Sets the padding, in pixels, of the start edge; see {@link android.R.attr#padding}. 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
@@ -1032,7 +1854,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int paddingStart=0x7f010088;
+        public static final int paddingStart=0x7f01008a;
         /**  The background of a panel when it is inset from the left and right edges of the screen. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
@@ -1064,7 +1886,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int popupTheme=0x7f010086;
+        public static final int popupTheme=0x7f010088;
         /**  Default PopupWindow style. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
@@ -1078,7 +1900,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int preserveIconSpacing=0x7f01008d;
+        public static final int preserveIconSpacing=0x7f01008f;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int progress=0x7f0100e0;
         /**  Specifies the horizontal padding on either end for an embedded progress bar. 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
@@ -1089,17 +1919,17 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int progressBarPadding=0x7f01007e;
+        public static final int progressBarPadding=0x7f010080;
         /**  Specifies a style resource to use for an embedded progress bar. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int progressBarStyle=0x7f01007c;
+        public static final int progressBarStyle=0x7f01007e;
         /**  Background for the section containing the search query 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int queryBackground=0x7f01009d;
+        public static final int queryBackground=0x7f01009f;
         /**  An optional user-defined query hint string to be displayed in the empty query field. 
          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
@@ -1108,7 +1938,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int queryHint=0x7f010094;
+        public static final int queryHint=0x7f010096;
         /**  Default RadioButton style. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
@@ -1119,16 +1949,34 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static final int ratingBarStyle=0x7f01006b;
+        /**  Indicator RatingBar style. 
+         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int ratingBarStyleIndicator=0x7f01006c;
+        /**  Small indicator RatingBar style. 
+         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int ratingBarStyleSmall=0x7f01006d;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int roundedCorners=0x7f0100d7;
         /**  Search icon displayed as a text field hint 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int searchHintIcon=0x7f010099;
+        public static final int searchHintIcon=0x7f01009b;
         /**  Search icon 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int searchIcon=0x7f010098;
+        public static final int searchIcon=0x7f01009a;
         /**  Style for the search query widget. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
@@ -1138,7 +1986,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int seekBarStyle=0x7f01006c;
+        public static final int seekBarStyle=0x7f01006e;
         /**  A style that may be applied to buttons or other selectable items
              that should react to pressed and focus states, but that do not
              have a clear visual border along the edges. 
@@ -1174,7 +2022,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
                  larger segment of its container. </td></tr>
 </table>
          */
-        public static final int showAsAction=0x7f01008e;
+        public static final int showAsAction=0x7f010090;
         /**  Setting for which dividers to show. 
          <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
@@ -1188,7 +2036,15 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>end</code></td><td>4</td><td></td></tr>
 </table>
          */
-        public static final int showDividers=0x7f0100a3;
+        public static final int showDividers=0x7f0100a5;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int showOutline=0x7f0100d6;
         /**  Whether to draw on/off text. 
          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
@@ -1197,11 +2053,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int showText=0x7f0100c7;
+        public static final int showText=0x7f0100c9;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int singleChoiceItemLayout=0x7f0100cb;
+        public static final int singleChoiceItemLayout=0x7f0100cd;
         /**  Whether bars should rotate or not during transition 
          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
@@ -1210,7 +2066,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int spinBars=0x7f0100b7;
+        public static final int spinBars=0x7f0100b9;
         /**  Default Spinner style. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
@@ -1220,7 +2076,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int spinnerStyle=0x7f01006d;
+        public static final int spinnerStyle=0x7f01006f;
         /**  Whether to split the track and leave a gap for the thumb drawable. 
          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
@@ -1229,7 +2085,12 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int splitTrack=0x7f0100c6;
+        public static final int splitTrack=0x7f0100c8;
+        /**  TODO 
+         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int srcCompat=0x7f0100d0;
         /**  State identifier indicating the popup will be above the anchor. 
          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
@@ -1238,12 +2099,20 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int state_above_anchor=0x7f0100b4;
+        public static final int state_above_anchor=0x7f0100b6;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int striped=0x7f0100de;
         /**  Background for the section containing the action (e.g. voice search) 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int submitBackground=0x7f01009e;
+        public static final int submitBackground=0x7f0100a0;
         /**  Specifies subtitle text used for navigationMode="normal" 
          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
@@ -1252,11 +2121,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int subtitle=0x7f010071;
+        public static final int subtitle=0x7f010073;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int subtitleTextAppearance=0x7f0100a6;
+        public static final int subtitleTextAppearance=0x7f0100a8;
         /**  A color to apply to the subtitle string. 
          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
@@ -1266,17 +2135,17 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int subtitleTextColor=0x7f0100b3;
+        public static final int subtitleTextColor=0x7f0100b5;
         /**  Specifies a style to use for subtitle text. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int subtitleTextStyle=0x7f010073;
+        public static final int subtitleTextStyle=0x7f010075;
         /**  Layout for query suggestion rows 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int suggestionRowLayout=0x7f01009c;
+        public static final int suggestionRowLayout=0x7f01009e;
         /**  Minimum width for the switch component 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
@@ -1287,7 +2156,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int switchMinWidth=0x7f0100c4;
+        public static final int switchMinWidth=0x7f0100c6;
         /**  Minimum space between the switch and caption text 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
@@ -1298,23 +2167,23 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int switchPadding=0x7f0100c5;
+        public static final int switchPadding=0x7f0100c7;
         /**  Default style for the Switch widget. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int switchStyle=0x7f01006e;
+        public static final int switchStyle=0x7f010070;
         /**  TextAppearance style for text displayed on the switch thumb. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int switchTextAppearance=0x7f0100c3;
+        public static final int switchTextAppearance=0x7f0100c5;
         /**  Present the text in ALL CAPS. This may use a small-caps form when available. 
          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
          */
-        public static final int textAllCaps=0x7f0100a1;
+        public static final int textAllCaps=0x7f0100a3;
         /**  Text color, typeface, size, and style for the text inside of a popup menu. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
@@ -1363,7 +2232,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int theme=0x7f01008a;
+        public static final int theme=0x7f01008c;
         /**  The thickness (stroke size) for the bar paint 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
@@ -1374,7 +2243,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int thickness=0x7f0100bd;
+        public static final int thickness=0x7f0100bf;
         /**  Amount of padding on either side of text within the switch thumb. 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
@@ -1385,7 +2254,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int thumbTextPadding=0x7f0100c2;
+        public static final int thumbTextPadding=0x7f0100c4;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1403,7 +2272,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleMarginBottom=0x7f0100ab;
+        public static final int titleMarginBottom=0x7f0100ad;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1413,7 +2282,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleMarginEnd=0x7f0100a9;
+        public static final int titleMarginEnd=0x7f0100ab;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1423,7 +2292,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleMarginStart=0x7f0100a8;
+        public static final int titleMarginStart=0x7f0100aa;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1433,7 +2302,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleMarginTop=0x7f0100aa;
+        public static final int titleMarginTop=0x7f0100ac;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1443,11 +2312,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleMargins=0x7f0100a7;
+        public static final int titleMargins=0x7f0100a9;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int titleTextAppearance=0x7f0100a5;
+        public static final int titleTextAppearance=0x7f0100a7;
         /**  A color to apply to the title string. 
          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
@@ -1457,12 +2326,12 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleTextColor=0x7f0100b2;
+        public static final int titleTextColor=0x7f0100b4;
         /**  Specifies a style to use for title text. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int titleTextStyle=0x7f010072;
+        public static final int titleTextStyle=0x7f010074;
         /**  Default Toolar NavigationButtonStyle 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
@@ -1477,12 +2346,357 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int track=0x7f0100c1;
+        public static final int track=0x7f0100c3;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>ty_adjust_brightness</code></td><td>0</td><td></td></tr>
+<tr><td><code>ty_adjust_contrast</code></td><td>1</td><td></td></tr>
+<tr><td><code>ty_anchor</code></td><td>2</td><td></td></tr>
+<tr><td><code>ty_anchor_outline</code></td><td>3</td><td></td></tr>
+<tr><td><code>ty_archive</code></td><td>4</td><td></td></tr>
+<tr><td><code>ty_arrow_back</code></td><td>5</td><td></td></tr>
+<tr><td><code>ty_arrow_back_outline</code></td><td>6</td><td></td></tr>
+<tr><td><code>ty_arrow_down</code></td><td>7</td><td></td></tr>
+<tr><td><code>ty_arrow_down_outline</code></td><td>8</td><td></td></tr>
+<tr><td><code>ty_arrow_down_thick</code></td><td>9</td><td></td></tr>
+<tr><td><code>ty_arrow_forward</code></td><td>10</td><td></td></tr>
+<tr><td><code>ty_arrow_forward_outline</code></td><td>11</td><td></td></tr>
+<tr><td><code>ty_arrow_left</code></td><td>12</td><td></td></tr>
+<tr><td><code>ty_arrow_left_outline</code></td><td>13</td><td></td></tr>
+<tr><td><code>ty_arrow_left_thick</code></td><td>14</td><td></td></tr>
+<tr><td><code>ty_arrow_loop</code></td><td>15</td><td></td></tr>
+<tr><td><code>ty_arrow_loop_outline</code></td><td>16</td><td></td></tr>
+<tr><td><code>ty_arrow_maximise</code></td><td>17</td><td></td></tr>
+<tr><td><code>ty_arrow_maximise_outline</code></td><td>18</td><td></td></tr>
+<tr><td><code>ty_arrow_minimise</code></td><td>19</td><td></td></tr>
+<tr><td><code>ty_arrow_minimise_outline</code></td><td>20</td><td></td></tr>
+<tr><td><code>ty_arrow_move</code></td><td>21</td><td></td></tr>
+<tr><td><code>ty_arrow_move_outline</code></td><td>22</td><td></td></tr>
+<tr><td><code>ty_arrow_repeat</code></td><td>23</td><td></td></tr>
+<tr><td><code>ty_arrow_repeat_outline</code></td><td>24</td><td></td></tr>
+<tr><td><code>ty_arrow_right</code></td><td>25</td><td></td></tr>
+<tr><td><code>ty_arrow_right_outline</code></td><td>26</td><td></td></tr>
+<tr><td><code>ty_arrow_right_thick</code></td><td>27</td><td></td></tr>
+<tr><td><code>ty_arrow_shuffle</code></td><td>28</td><td></td></tr>
+<tr><td><code>ty_arrow_sorted_down</code></td><td>29</td><td></td></tr>
+<tr><td><code>ty_arrow_sorted_up</code></td><td>30</td><td></td></tr>
+<tr><td><code>ty_arrow_sync</code></td><td>31</td><td></td></tr>
+<tr><td><code>ty_arrow_sync_outline</code></td><td>32</td><td></td></tr>
+<tr><td><code>ty_arrow_unsorted</code></td><td>33</td><td></td></tr>
+<tr><td><code>ty_arrow_up</code></td><td>34</td><td></td></tr>
+<tr><td><code>ty_arrow_up_outline</code></td><td>35</td><td></td></tr>
+<tr><td><code>ty_arrow_up_thick</code></td><td>36</td><td></td></tr>
+<tr><td><code>ty_at</code></td><td>37</td><td></td></tr>
+<tr><td><code>ty_attachment</code></td><td>38</td><td></td></tr>
+<tr><td><code>ty_attachment_outline</code></td><td>39</td><td></td></tr>
+<tr><td><code>ty_backspace</code></td><td>40</td><td></td></tr>
+<tr><td><code>ty_backspace_outline</code></td><td>41</td><td></td></tr>
+<tr><td><code>ty_battery_charge</code></td><td>42</td><td></td></tr>
+<tr><td><code>ty_battery_full</code></td><td>43</td><td></td></tr>
+<tr><td><code>ty_battery_high</code></td><td>44</td><td></td></tr>
+<tr><td><code>ty_battery_low</code></td><td>45</td><td></td></tr>
+<tr><td><code>ty_battery_mid</code></td><td>46</td><td></td></tr>
+<tr><td><code>ty_beaker</code></td><td>47</td><td></td></tr>
+<tr><td><code>ty_beer</code></td><td>48</td><td></td></tr>
+<tr><td><code>ty_bell</code></td><td>49</td><td></td></tr>
+<tr><td><code>ty_book</code></td><td>50</td><td></td></tr>
+<tr><td><code>ty_bookmark</code></td><td>51</td><td></td></tr>
+<tr><td><code>ty_briefcase</code></td><td>52</td><td></td></tr>
+<tr><td><code>ty_brush</code></td><td>53</td><td></td></tr>
+<tr><td><code>ty_business_card</code></td><td>54</td><td></td></tr>
+<tr><td><code>ty_calculator</code></td><td>55</td><td></td></tr>
+<tr><td><code>ty_calendar</code></td><td>56</td><td></td></tr>
+<tr><td><code>ty_calendar_outline</code></td><td>57</td><td></td></tr>
+<tr><td><code>ty_camera</code></td><td>58</td><td></td></tr>
+<tr><td><code>ty_camera_outline</code></td><td>59</td><td></td></tr>
+<tr><td><code>ty_cancel</code></td><td>60</td><td></td></tr>
+<tr><td><code>ty_cancel_outline</code></td><td>61</td><td></td></tr>
+<tr><td><code>ty_chart_area</code></td><td>62</td><td></td></tr>
+<tr><td><code>ty_chart_area_outline</code></td><td>63</td><td></td></tr>
+<tr><td><code>ty_chart_bar</code></td><td>64</td><td></td></tr>
+<tr><td><code>ty_chart_bar_outline</code></td><td>65</td><td></td></tr>
+<tr><td><code>ty_chart_line</code></td><td>66</td><td></td></tr>
+<tr><td><code>ty_chart_line_outline</code></td><td>67</td><td></td></tr>
+<tr><td><code>ty_chart_pie</code></td><td>68</td><td></td></tr>
+<tr><td><code>ty_chart_pie_outline</code></td><td>69</td><td></td></tr>
+<tr><td><code>ty_chevron_left</code></td><td>70</td><td></td></tr>
+<tr><td><code>ty_chevron_left_outline</code></td><td>71</td><td></td></tr>
+<tr><td><code>ty_chevron_right</code></td><td>72</td><td></td></tr>
+<tr><td><code>ty_chevron_right_outline</code></td><td>73</td><td></td></tr>
+<tr><td><code>ty_clipboard</code></td><td>74</td><td></td></tr>
+<tr><td><code>ty_cloud_storage</code></td><td>75</td><td></td></tr>
+<tr><td><code>ty_cloud_storage_outline</code></td><td>76</td><td></td></tr>
+<tr><td><code>ty_code</code></td><td>77</td><td></td></tr>
+<tr><td><code>ty_code_outline</code></td><td>78</td><td></td></tr>
+<tr><td><code>ty_coffee</code></td><td>79</td><td></td></tr>
+<tr><td><code>ty_cog</code></td><td>80</td><td></td></tr>
+<tr><td><code>ty_cog_outline</code></td><td>81</td><td></td></tr>
+<tr><td><code>ty_compass</code></td><td>82</td><td></td></tr>
+<tr><td><code>ty_contacts</code></td><td>83</td><td></td></tr>
+<tr><td><code>ty_credit_card</code></td><td>84</td><td></td></tr>
+<tr><td><code>ty_css3</code></td><td>85</td><td></td></tr>
+<tr><td><code>ty_database</code></td><td>86</td><td></td></tr>
+<tr><td><code>ty_delete</code></td><td>87</td><td></td></tr>
+<tr><td><code>ty_delete_outline</code></td><td>88</td><td></td></tr>
+<tr><td><code>ty_device_desktop</code></td><td>89</td><td></td></tr>
+<tr><td><code>ty_device_laptop</code></td><td>90</td><td></td></tr>
+<tr><td><code>ty_device_phone</code></td><td>91</td><td></td></tr>
+<tr><td><code>ty_device_tablet</code></td><td>92</td><td></td></tr>
+<tr><td><code>ty_directions</code></td><td>93</td><td></td></tr>
+<tr><td><code>ty_divide</code></td><td>94</td><td></td></tr>
+<tr><td><code>ty_divide_outline</code></td><td>95</td><td></td></tr>
+<tr><td><code>ty_document</code></td><td>96</td><td></td></tr>
+<tr><td><code>ty_document_add</code></td><td>97</td><td></td></tr>
+<tr><td><code>ty_document_delete</code></td><td>98</td><td></td></tr>
+<tr><td><code>ty_document_text</code></td><td>99</td><td></td></tr>
+<tr><td><code>ty_download</code></td><td>100</td><td></td></tr>
+<tr><td><code>ty_download_outline</code></td><td>101</td><td></td></tr>
+<tr><td><code>ty_dropbox</code></td><td>102</td><td></td></tr>
+<tr><td><code>ty_edit</code></td><td>103</td><td></td></tr>
+<tr><td><code>ty_eject</code></td><td>104</td><td></td></tr>
+<tr><td><code>ty_eject_outline</code></td><td>105</td><td></td></tr>
+<tr><td><code>ty_equals</code></td><td>106</td><td></td></tr>
+<tr><td><code>ty_equals_outline</code></td><td>107</td><td></td></tr>
+<tr><td><code>ty_export</code></td><td>108</td><td></td></tr>
+<tr><td><code>ty_export_outline</code></td><td>109</td><td></td></tr>
+<tr><td><code>ty_eye</code></td><td>110</td><td></td></tr>
+<tr><td><code>ty_eye_outline</code></td><td>111</td><td></td></tr>
+<tr><td><code>ty_feather</code></td><td>112</td><td></td></tr>
+<tr><td><code>ty_film</code></td><td>113</td><td></td></tr>
+<tr><td><code>ty_filter</code></td><td>114</td><td></td></tr>
+<tr><td><code>ty_flag</code></td><td>115</td><td></td></tr>
+<tr><td><code>ty_flag_outline</code></td><td>116</td><td></td></tr>
+<tr><td><code>ty_flash</code></td><td>117</td><td></td></tr>
+<tr><td><code>ty_flash_outline</code></td><td>118</td><td></td></tr>
+<tr><td><code>ty_flow_children</code></td><td>119</td><td></td></tr>
+<tr><td><code>ty_flow_merge</code></td><td>120</td><td></td></tr>
+<tr><td><code>ty_flow_parallel</code></td><td>121</td><td></td></tr>
+<tr><td><code>ty_flow_switch</code></td><td>122</td><td></td></tr>
+<tr><td><code>ty_folder</code></td><td>123</td><td></td></tr>
+<tr><td><code>ty_folder_add</code></td><td>124</td><td></td></tr>
+<tr><td><code>ty_folder_delete</code></td><td>125</td><td></td></tr>
+<tr><td><code>ty_folder_open</code></td><td>126</td><td></td></tr>
+<tr><td><code>ty_gift</code></td><td>127</td><td></td></tr>
+<tr><td><code>ty_globe</code></td><td>128</td><td></td></tr>
+<tr><td><code>ty_globe_outline</code></td><td>129</td><td></td></tr>
+<tr><td><code>ty_group</code></td><td>130</td><td></td></tr>
+<tr><td><code>ty_group_outline</code></td><td>131</td><td></td></tr>
+<tr><td><code>ty_headphones</code></td><td>132</td><td></td></tr>
+<tr><td><code>ty_heart</code></td><td>133</td><td></td></tr>
+<tr><td><code>ty_heart_full_outline</code></td><td>134</td><td></td></tr>
+<tr><td><code>ty_heart_half_outline</code></td><td>135</td><td></td></tr>
+<tr><td><code>ty_heart_outline</code></td><td>136</td><td></td></tr>
+<tr><td><code>ty_home</code></td><td>137</td><td></td></tr>
+<tr><td><code>ty_home_outline</code></td><td>138</td><td></td></tr>
+<tr><td><code>ty_html5</code></td><td>139</td><td></td></tr>
+<tr><td><code>ty_image</code></td><td>140</td><td></td></tr>
+<tr><td><code>ty_image_outline</code></td><td>141</td><td></td></tr>
+<tr><td><code>ty_infinity</code></td><td>142</td><td></td></tr>
+<tr><td><code>ty_infinity_outline</code></td><td>143</td><td></td></tr>
+<tr><td><code>ty_info</code></td><td>144</td><td></td></tr>
+<tr><td><code>ty_info_large</code></td><td>145</td><td></td></tr>
+<tr><td><code>ty_info_large_outline</code></td><td>146</td><td></td></tr>
+<tr><td><code>ty_info_outline</code></td><td>147</td><td></td></tr>
+<tr><td><code>ty_input_checked</code></td><td>148</td><td></td></tr>
+<tr><td><code>ty_input_checked_outline</code></td><td>149</td><td></td></tr>
+<tr><td><code>ty_key</code></td><td>150</td><td></td></tr>
+<tr><td><code>ty_key_outline</code></td><td>151</td><td></td></tr>
+<tr><td><code>ty_keyboard</code></td><td>152</td><td></td></tr>
+<tr><td><code>ty_leaf</code></td><td>153</td><td></td></tr>
+<tr><td><code>ty_lightbulb</code></td><td>154</td><td></td></tr>
+<tr><td><code>ty_link</code></td><td>155</td><td></td></tr>
+<tr><td><code>ty_link_outline</code></td><td>156</td><td></td></tr>
+<tr><td><code>ty_location</code></td><td>157</td><td></td></tr>
+<tr><td><code>ty_location_arrow</code></td><td>158</td><td></td></tr>
+<tr><td><code>ty_location_arrow_outline</code></td><td>159</td><td></td></tr>
+<tr><td><code>ty_location_outline</code></td><td>160</td><td></td></tr>
+<tr><td><code>ty_lock_closed</code></td><td>161</td><td></td></tr>
+<tr><td><code>ty_lock_closed_outline</code></td><td>162</td><td></td></tr>
+<tr><td><code>ty_lock_open</code></td><td>163</td><td></td></tr>
+<tr><td><code>ty_lock_open_outline</code></td><td>164</td><td></td></tr>
+<tr><td><code>ty_mail</code></td><td>165</td><td></td></tr>
+<tr><td><code>ty_map</code></td><td>166</td><td></td></tr>
+<tr><td><code>ty_media_eject</code></td><td>167</td><td></td></tr>
+<tr><td><code>ty_media_eject_outline</code></td><td>168</td><td></td></tr>
+<tr><td><code>ty_media_fast_forward</code></td><td>169</td><td></td></tr>
+<tr><td><code>ty_media_fast_forward_outline</code></td><td>170</td><td></td></tr>
+<tr><td><code>ty_media_pause</code></td><td>171</td><td></td></tr>
+<tr><td><code>ty_media_pause_outline</code></td><td>172</td><td></td></tr>
+<tr><td><code>ty_media_play</code></td><td>173</td><td></td></tr>
+<tr><td><code>ty_media_play_outline</code></td><td>174</td><td></td></tr>
+<tr><td><code>ty_media_play_reverse</code></td><td>175</td><td></td></tr>
+<tr><td><code>ty_media_play_reverse_outline</code></td><td>176</td><td></td></tr>
+<tr><td><code>ty_media_record</code></td><td>177</td><td></td></tr>
+<tr><td><code>ty_media_record_outline</code></td><td>178</td><td></td></tr>
+<tr><td><code>ty_media_rewind</code></td><td>179</td><td></td></tr>
+<tr><td><code>ty_media_rewind_outline</code></td><td>180</td><td></td></tr>
+<tr><td><code>ty_media_stop</code></td><td>181</td><td></td></tr>
+<tr><td><code>ty_media_stop_outline</code></td><td>182</td><td></td></tr>
+<tr><td><code>ty_message</code></td><td>183</td><td></td></tr>
+<tr><td><code>ty_message_typing</code></td><td>184</td><td></td></tr>
+<tr><td><code>ty_messages</code></td><td>185</td><td></td></tr>
+<tr><td><code>ty_microphone</code></td><td>186</td><td></td></tr>
+<tr><td><code>ty_microphone_outline</code></td><td>187</td><td></td></tr>
+<tr><td><code>ty_minus</code></td><td>188</td><td></td></tr>
+<tr><td><code>ty_minus_outline</code></td><td>189</td><td></td></tr>
+<tr><td><code>ty_mortar_board</code></td><td>190</td><td></td></tr>
+<tr><td><code>ty_news</code></td><td>191</td><td></td></tr>
+<tr><td><code>ty_notes</code></td><td>192</td><td></td></tr>
+<tr><td><code>ty_notes_outline</code></td><td>193</td><td></td></tr>
+<tr><td><code>ty_pen</code></td><td>194</td><td></td></tr>
+<tr><td><code>ty_pencil</code></td><td>195</td><td></td></tr>
+<tr><td><code>ty_phone</code></td><td>196</td><td></td></tr>
+<tr><td><code>ty_phone_outline</code></td><td>197</td><td></td></tr>
+<tr><td><code>ty_pi</code></td><td>198</td><td></td></tr>
+<tr><td><code>ty_pi_outline</code></td><td>199</td><td></td></tr>
+<tr><td><code>ty_pin</code></td><td>200</td><td></td></tr>
+<tr><td><code>ty_pin_outline</code></td><td>201</td><td></td></tr>
+<tr><td><code>ty_pipette</code></td><td>202</td><td></td></tr>
+<tr><td><code>ty_plane</code></td><td>203</td><td></td></tr>
+<tr><td><code>ty_plane_outline</code></td><td>204</td><td></td></tr>
+<tr><td><code>ty_plug</code></td><td>205</td><td></td></tr>
+<tr><td><code>ty_plus</code></td><td>206</td><td></td></tr>
+<tr><td><code>ty_plus_outline</code></td><td>207</td><td></td></tr>
+<tr><td><code>ty_point_of_interest</code></td><td>208</td><td></td></tr>
+<tr><td><code>ty_point_of_interest_outline</code></td><td>209</td><td></td></tr>
+<tr><td><code>ty_power</code></td><td>210</td><td></td></tr>
+<tr><td><code>ty_power_outline</code></td><td>211</td><td></td></tr>
+<tr><td><code>ty_printer</code></td><td>212</td><td></td></tr>
+<tr><td><code>ty_puzzle</code></td><td>213</td><td></td></tr>
+<tr><td><code>ty_puzzle_outline</code></td><td>214</td><td></td></tr>
+<tr><td><code>ty_radar</code></td><td>215</td><td></td></tr>
+<tr><td><code>ty_radar_outline</code></td><td>216</td><td></td></tr>
+<tr><td><code>ty_refresh</code></td><td>217</td><td></td></tr>
+<tr><td><code>ty_refresh_outline</code></td><td>218</td><td></td></tr>
+<tr><td><code>ty_rss</code></td><td>219</td><td></td></tr>
+<tr><td><code>ty_rss_outline</code></td><td>220</td><td></td></tr>
+<tr><td><code>ty_scissors</code></td><td>221</td><td></td></tr>
+<tr><td><code>ty_scissors_outline</code></td><td>222</td><td></td></tr>
+<tr><td><code>ty_shopping_bag</code></td><td>223</td><td></td></tr>
+<tr><td><code>ty_shopping_cart</code></td><td>224</td><td></td></tr>
+<tr><td><code>ty_social_at_circular</code></td><td>225</td><td></td></tr>
+<tr><td><code>ty_social_dribbble</code></td><td>226</td><td></td></tr>
+<tr><td><code>ty_social_dribbble_circular</code></td><td>227</td><td></td></tr>
+<tr><td><code>ty_social_facebook</code></td><td>228</td><td></td></tr>
+<tr><td><code>ty_social_facebook_circular</code></td><td>229</td><td></td></tr>
+<tr><td><code>ty_social_flickr</code></td><td>230</td><td></td></tr>
+<tr><td><code>ty_social_flickr_circular</code></td><td>231</td><td></td></tr>
+<tr><td><code>ty_social_github</code></td><td>232</td><td></td></tr>
+<tr><td><code>ty_social_github_circular</code></td><td>233</td><td></td></tr>
+<tr><td><code>ty_social_google_plus</code></td><td>234</td><td></td></tr>
+<tr><td><code>ty_social_google_plus_circular</code></td><td>235</td><td></td></tr>
+<tr><td><code>ty_social_instagram</code></td><td>236</td><td></td></tr>
+<tr><td><code>ty_social_instagram_circular</code></td><td>237</td><td></td></tr>
+<tr><td><code>ty_social_last_fm</code></td><td>238</td><td></td></tr>
+<tr><td><code>ty_social_last_fm_circular</code></td><td>239</td><td></td></tr>
+<tr><td><code>ty_social_linkedin</code></td><td>240</td><td></td></tr>
+<tr><td><code>ty_social_linkedin_circular</code></td><td>241</td><td></td></tr>
+<tr><td><code>ty_social_pinterest</code></td><td>242</td><td></td></tr>
+<tr><td><code>ty_social_pinterest_circular</code></td><td>243</td><td></td></tr>
+<tr><td><code>ty_social_skype</code></td><td>244</td><td></td></tr>
+<tr><td><code>ty_social_skype_outline</code></td><td>245</td><td></td></tr>
+<tr><td><code>ty_social_tumbler</code></td><td>246</td><td></td></tr>
+<tr><td><code>ty_social_tumbler_circular</code></td><td>247</td><td></td></tr>
+<tr><td><code>ty_social_twitter</code></td><td>248</td><td></td></tr>
+<tr><td><code>ty_social_twitter_circular</code></td><td>249</td><td></td></tr>
+<tr><td><code>ty_social_vimeo</code></td><td>250</td><td></td></tr>
+<tr><td><code>ty_social_vimeo_circular</code></td><td>251</td><td></td></tr>
+<tr><td><code>ty_social_youtube</code></td><td>252</td><td></td></tr>
+<tr><td><code>ty_social_youtube_circular</code></td><td>253</td><td></td></tr>
+<tr><td><code>ty_sort_alphabetically</code></td><td>254</td><td></td></tr>
+<tr><td><code>ty_sort_alphabetically_outline</code></td><td>255</td><td></td></tr>
+<tr><td><code>ty_sort_numerically</code></td><td>256</td><td></td></tr>
+<tr><td><code>ty_sort_numerically_outline</code></td><td>257</td><td></td></tr>
+<tr><td><code>ty_spanner</code></td><td>258</td><td></td></tr>
+<tr><td><code>ty_spanner_outline</code></td><td>259</td><td></td></tr>
+<tr><td><code>ty_spiral</code></td><td>260</td><td></td></tr>
+<tr><td><code>ty_star</code></td><td>261</td><td></td></tr>
+<tr><td><code>ty_star_full_outline</code></td><td>262</td><td></td></tr>
+<tr><td><code>ty_star_half</code></td><td>263</td><td></td></tr>
+<tr><td><code>ty_star_half_outline</code></td><td>264</td><td></td></tr>
+<tr><td><code>ty_star_outline</code></td><td>265</td><td></td></tr>
+<tr><td><code>ty_starburst</code></td><td>266</td><td></td></tr>
+<tr><td><code>ty_starburst_outline</code></td><td>267</td><td></td></tr>
+<tr><td><code>ty_stopwatch</code></td><td>268</td><td></td></tr>
+<tr><td><code>ty_support</code></td><td>269</td><td></td></tr>
+<tr><td><code>ty_tabs_outline</code></td><td>270</td><td></td></tr>
+<tr><td><code>ty_tag</code></td><td>271</td><td></td></tr>
+<tr><td><code>ty_tags</code></td><td>272</td><td></td></tr>
+<tr><td><code>ty_th_large</code></td><td>273</td><td></td></tr>
+<tr><td><code>ty_th_large_outline</code></td><td>274</td><td></td></tr>
+<tr><td><code>ty_th_list</code></td><td>275</td><td></td></tr>
+<tr><td><code>ty_th_list_outline</code></td><td>276</td><td></td></tr>
+<tr><td><code>ty_th_menu</code></td><td>277</td><td></td></tr>
+<tr><td><code>ty_th_menu_outline</code></td><td>278</td><td></td></tr>
+<tr><td><code>ty_th_small</code></td><td>279</td><td></td></tr>
+<tr><td><code>ty_th_small_outline</code></td><td>280</td><td></td></tr>
+<tr><td><code>ty_thermometer</code></td><td>281</td><td></td></tr>
+<tr><td><code>ty_thumbs_down</code></td><td>282</td><td></td></tr>
+<tr><td><code>ty_thumbs_ok</code></td><td>283</td><td></td></tr>
+<tr><td><code>ty_thumbs_up</code></td><td>284</td><td></td></tr>
+<tr><td><code>ty_tick</code></td><td>285</td><td></td></tr>
+<tr><td><code>ty_tick_outline</code></td><td>286</td><td></td></tr>
+<tr><td><code>ty_ticket</code></td><td>287</td><td></td></tr>
+<tr><td><code>ty_time</code></td><td>288</td><td></td></tr>
+<tr><td><code>ty_times</code></td><td>289</td><td></td></tr>
+<tr><td><code>ty_times_outline</code></td><td>290</td><td></td></tr>
+<tr><td><code>ty_trash</code></td><td>291</td><td></td></tr>
+<tr><td><code>ty_tree</code></td><td>292</td><td></td></tr>
+<tr><td><code>ty_upload</code></td><td>293</td><td></td></tr>
+<tr><td><code>ty_upload_outline</code></td><td>294</td><td></td></tr>
+<tr><td><code>ty_user</code></td><td>295</td><td></td></tr>
+<tr><td><code>ty_user_add</code></td><td>296</td><td></td></tr>
+<tr><td><code>ty_user_add_outline</code></td><td>297</td><td></td></tr>
+<tr><td><code>ty_user_delete</code></td><td>298</td><td></td></tr>
+<tr><td><code>ty_user_delete_outline</code></td><td>299</td><td></td></tr>
+<tr><td><code>ty_user_outline</code></td><td>300</td><td></td></tr>
+<tr><td><code>ty_vendor_android</code></td><td>301</td><td></td></tr>
+<tr><td><code>ty_vendor_apple</code></td><td>302</td><td></td></tr>
+<tr><td><code>ty_vendor_microsoft</code></td><td>303</td><td></td></tr>
+<tr><td><code>ty_video</code></td><td>304</td><td></td></tr>
+<tr><td><code>ty_video_outline</code></td><td>305</td><td></td></tr>
+<tr><td><code>ty_volume</code></td><td>306</td><td></td></tr>
+<tr><td><code>ty_volume_down</code></td><td>307</td><td></td></tr>
+<tr><td><code>ty_volume_mute</code></td><td>308</td><td></td></tr>
+<tr><td><code>ty_volume_up</code></td><td>309</td><td></td></tr>
+<tr><td><code>ty_warning</code></td><td>310</td><td></td></tr>
+<tr><td><code>ty_warning_outline</code></td><td>311</td><td></td></tr>
+<tr><td><code>ty_watch</code></td><td>312</td><td></td></tr>
+<tr><td><code>ty_waves</code></td><td>313</td><td></td></tr>
+<tr><td><code>ty_waves_outline</code></td><td>314</td><td></td></tr>
+<tr><td><code>ty_weather_cloudy</code></td><td>315</td><td></td></tr>
+<tr><td><code>ty_weather_downpour</code></td><td>316</td><td></td></tr>
+<tr><td><code>ty_weather_night</code></td><td>317</td><td></td></tr>
+<tr><td><code>ty_weather_partly_sunny</code></td><td>318</td><td></td></tr>
+<tr><td><code>ty_weather_shower</code></td><td>319</td><td></td></tr>
+<tr><td><code>ty_weather_snow</code></td><td>320</td><td></td></tr>
+<tr><td><code>ty_weather_stormy</code></td><td>321</td><td></td></tr>
+<tr><td><code>ty_weather_sunny</code></td><td>322</td><td></td></tr>
+<tr><td><code>ty_weather_windy</code></td><td>323</td><td></td></tr>
+<tr><td><code>ty_weather_windy_cloudy</code></td><td>324</td><td></td></tr>
+<tr><td><code>ty_wi_fi</code></td><td>325</td><td></td></tr>
+<tr><td><code>ty_wi_fi_outline</code></td><td>326</td><td></td></tr>
+<tr><td><code>ty_wine</code></td><td>327</td><td></td></tr>
+<tr><td><code>ty_world</code></td><td>328</td><td></td></tr>
+<tr><td><code>ty_world_outline</code></td><td>329</td><td></td></tr>
+<tr><td><code>ty_zoom</code></td><td>330</td><td></td></tr>
+<tr><td><code>ty_zoom_in</code></td><td>331</td><td></td></tr>
+<tr><td><code>ty_zoom_in_outline</code></td><td>332</td><td></td></tr>
+<tr><td><code>ty_zoom_out</code></td><td>333</td><td></td></tr>
+<tr><td><code>ty_zoom_out_outline</code></td><td>334</td><td></td></tr>
+<tr><td><code>ty_zoom_outline</code></td><td>335</td><td></td></tr>
+</table>
+         */
+        public static final int typicon=0x7f0100e2;
         /**  Voice button icon 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int voiceIcon=0x7f01009a;
+        public static final int voiceIcon=0x7f01009c;
         /**  Flag indicating whether this window should have an Action Bar
              in place of the usual title bar. 
          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
@@ -1626,7 +2840,9 @@ containing a value of this type.
         public static final int abc_action_bar_embed_tabs=0x7f060000;
         public static final int abc_action_bar_embed_tabs_pre_jb=0x7f060001;
         public static final int abc_action_bar_expanded_action_views_exclusive=0x7f060002;
-        /**  Whether to allow vertically stacked button bars. This is disabled for
+        /**  Whether to allow vertically stacked button bars. This is enabled for
+         all < v13 devices. 
+ Whether to allow vertically stacked button bars. This is disabled for
          configurations with a small (e.g. less than 320dp) screen height. 
          */
         public static final int abc_allow_stacked_button_bar=0x7f060004;
@@ -1647,27 +2863,55 @@ containing a value of this type.
         public static final int abc_config_showMenuShortcutsWhenKeyboardPresent=0x7f060003;
     }
     public static final class color {
-        public static final int abc_background_cache_hint_selector_material_dark=0x7f070042;
-        public static final int abc_background_cache_hint_selector_material_light=0x7f070043;
-        public static final int abc_color_highlight_material=0x7f070044;
+        public static final int abc_background_cache_hint_selector_material_dark=0x7f070055;
+        public static final int abc_background_cache_hint_selector_material_light=0x7f070056;
+        public static final int abc_color_highlight_material=0x7f070057;
         public static final int abc_input_method_navigation_guard=0x7f070003;
-        public static final int abc_primary_text_disable_only_material_dark=0x7f070045;
-        public static final int abc_primary_text_disable_only_material_light=0x7f070046;
-        public static final int abc_primary_text_material_dark=0x7f070047;
-        public static final int abc_primary_text_material_light=0x7f070048;
-        public static final int abc_search_url_text=0x7f070049;
+        public static final int abc_primary_text_disable_only_material_dark=0x7f070058;
+        public static final int abc_primary_text_disable_only_material_light=0x7f070059;
+        public static final int abc_primary_text_material_dark=0x7f07005a;
+        public static final int abc_primary_text_material_light=0x7f07005b;
+        public static final int abc_search_url_text=0x7f07005c;
         public static final int abc_search_url_text_normal=0x7f070000;
         public static final int abc_search_url_text_pressed=0x7f070002;
         public static final int abc_search_url_text_selected=0x7f070001;
-        public static final int abc_secondary_text_material_dark=0x7f07004a;
-        public static final int abc_secondary_text_material_light=0x7f07004b;
+        public static final int abc_secondary_text_material_dark=0x7f07005d;
+        public static final int abc_secondary_text_material_light=0x7f07005e;
         public static final int accent_material_dark=0x7f070011;
         public static final int accent_material_light=0x7f070010;
         public static final int background_floating_material_dark=0x7f070008;
         public static final int background_floating_material_light=0x7f070009;
         public static final int background_material_dark=0x7f070006;
         public static final int background_material_light=0x7f070007;
-        public static final int black=0x7f07003a;
+        public static final int black=0x7f07004c;
+        public static final int bootstrap_brand_danger=0x7f070043;
+        public static final int bootstrap_brand_info=0x7f070041;
+        /**  Brand 
+         */
+        public static final int bootstrap_brand_primary=0x7f07003f;
+        public static final int bootstrap_brand_secondary_border=0x7f070045;
+        /**  View Specific 
+ Buttons 
+         */
+        public static final int bootstrap_brand_secondary_fill=0x7f070044;
+        public static final int bootstrap_brand_secondary_text=0x7f070046;
+        public static final int bootstrap_brand_success=0x7f070040;
+        public static final int bootstrap_brand_warning=0x7f070042;
+        public static final int bootstrap_dropdown_divider=0x7f07004a;
+        /**  Misc 
+         */
+        public static final int bootstrap_edittext_disabled=0x7f070047;
+        public static final int bootstrap_gray=0x7f07003b;
+        /**  Bootstrap Brand Colors (Universal) 
+ Grayscale 
+         */
+        public static final int bootstrap_gray_dark=0x7f07003a;
+        public static final int bootstrap_gray_light=0x7f07003c;
+        public static final int bootstrap_gray_lighter=0x7f07003d;
+        public static final int bootstrap_gray_lightest=0x7f07003e;
+        public static final int bootstrap_thumbnail_background=0x7f070048;
+        public static final int bootstrap_well_background=0x7f070049;
+        public static final int bootstrap_well_border_color=0x7f07004b;
         /**  White 50% 
          */
         public static final int bright_foreground_disabled_material_dark=0x7f07001a;
@@ -1680,16 +2924,16 @@ containing a value of this type.
         public static final int bright_foreground_material_light=0x7f070019;
         public static final int button_material_dark=0x7f070012;
         public static final int button_material_light=0x7f070013;
-        public static final int dark=0x7f070040;
-        public static final int dark_lightblue=0x7f07003e;
-        public static final int darkgray=0x7f07003f;
+        public static final int dark=0x7f070053;
+        public static final int dark_lightblue=0x7f070051;
+        public static final int darkgray=0x7f070052;
         public static final int dim_foreground_disabled_material_dark=0x7f070020;
         public static final int dim_foreground_disabled_material_light=0x7f070021;
         public static final int dim_foreground_material_dark=0x7f07001e;
         public static final int dim_foreground_material_light=0x7f07001f;
         public static final int foreground_material_dark=0x7f070004;
         public static final int foreground_material_light=0x7f070005;
-        public static final int gray=0x7f07003c;
+        public static final int gray=0x7f07004e;
         /**  TODO: This is 40% alpha on the default accent color. 
          */
         public static final int highlighted_text_material_dark=0x7f070024;
@@ -1698,8 +2942,9 @@ containing a value of this type.
         public static final int highlighted_text_material_light=0x7f070025;
         public static final int hint_foreground_material_dark=0x7f070022;
         public static final int hint_foreground_material_light=0x7f070023;
-        public static final int lightblue=0x7f07003d;
-        public static final int lightyellow=0x7f070041;
+        public static final int lightblue=0x7f070050;
+        public static final int lightgray=0x7f07004f;
+        public static final int lightyellow=0x7f070054;
         public static final int material_blue_grey_800=0x7f070037;
         public static final int material_blue_grey_900=0x7f070038;
         public static final int material_blue_grey_950=0x7f070039;
@@ -1744,11 +2989,11 @@ containing a value of this type.
         public static final int secondary_text_disabled_material_light=0x7f07002b;
         public static final int switch_thumb_disabled_material_dark=0x7f070016;
         public static final int switch_thumb_disabled_material_light=0x7f070017;
-        public static final int switch_thumb_material_dark=0x7f07004c;
-        public static final int switch_thumb_material_light=0x7f07004d;
+        public static final int switch_thumb_material_dark=0x7f07005f;
+        public static final int switch_thumb_material_light=0x7f070060;
         public static final int switch_thumb_normal_material_dark=0x7f070014;
         public static final int switch_thumb_normal_material_light=0x7f070015;
-        public static final int white=0x7f07003b;
+        public static final int white=0x7f07004d;
     }
     public static final class dimen {
         /**  Default content inset of an action bar. 
@@ -1922,8 +3167,67 @@ containing a value of this type.
          would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively).
     
          */
-        public static final int activity_horizontal_margin=0x7f08004b;
-        public static final int activity_vertical_margin=0x7f08004c;
+        public static final int activity_horizontal_margin=0x7f080078;
+        public static final int activity_vertical_margin=0x7f080079;
+        public static final int bootstrap_button_default_corner_radius=0x7f08004e;
+        public static final int bootstrap_button_default_edge_width=0x7f08004f;
+        /**  Default button size 
+         */
+        public static final int bootstrap_button_default_font_size=0x7f08004b;
+        public static final int bootstrap_button_default_hori_padding=0x7f08004d;
+        public static final int bootstrap_button_default_vert_padding=0x7f08004c;
+        /**  Misc 
+         */
+        public static final int bootstrap_default_corner_radius=0x7f080076;
+        public static final int bootstrap_dropdown_default_corner_radius=0x7f08005f;
+        public static final int bootstrap_dropdown_default_edge_width=0x7f080060;
+        public static final int bootstrap_dropdown_default_font_size=0x7f08005c;
+        public static final int bootstrap_dropdown_default_hori_padding=0x7f080062;
+        /**  Default dropdown size 
+         */
+        public static final int bootstrap_dropdown_default_item_font_size=0x7f08005b;
+        public static final int bootstrap_dropdown_default_item_height=0x7f080063;
+        public static final int bootstrap_dropdown_default_item_left_padding=0x7f08005d;
+        public static final int bootstrap_dropdown_default_item_right_padding=0x7f08005e;
+        public static final int bootstrap_dropdown_default_vert_padding=0x7f080061;
+        public static final int bootstrap_edit_text_corner_radius=0x7f080053;
+        /**  Default edit text size 
+         */
+        public static final int bootstrap_edit_text_default_font_size=0x7f080050;
+        public static final int bootstrap_edit_text_edge_width=0x7f080054;
+        public static final int bootstrap_edit_text_hori_padding=0x7f080052;
+        public static final int bootstrap_edit_text_vert_padding=0x7f080051;
+        public static final int bootstrap_h1_hori_padding=0x7f080066;
+        /**  Headings 
+         */
+        public static final int bootstrap_h1_text_size=0x7f080064;
+        public static final int bootstrap_h1_vert_padding=0x7f080065;
+        public static final int bootstrap_h2_hori_padding=0x7f080069;
+        public static final int bootstrap_h2_text_size=0x7f080067;
+        public static final int bootstrap_h2_vert_padding=0x7f080068;
+        public static final int bootstrap_h3_hori_padding=0x7f08006c;
+        public static final int bootstrap_h3_text_size=0x7f08006a;
+        public static final int bootstrap_h3_vert_padding=0x7f08006b;
+        public static final int bootstrap_h4_hori_padding=0x7f08006f;
+        public static final int bootstrap_h4_text_size=0x7f08006d;
+        public static final int bootstrap_h4_vert_padding=0x7f08006e;
+        public static final int bootstrap_h5_hori_padding=0x7f080072;
+        public static final int bootstrap_h5_text_size=0x7f080070;
+        public static final int bootstrap_h5_vert_padding=0x7f080071;
+        public static final int bootstrap_h6_hori_padding=0x7f080075;
+        public static final int bootstrap_h6_text_size=0x7f080073;
+        public static final int bootstrap_h6_vert_padding=0x7f080074;
+        public static final int bootstrap_progress_bar_height=0x7f080077;
+        /** Well
+         */
+        public static final int bootstrap_well_corner_radius=0x7f080058;
+        public static final int bootstrap_well_default_padding=0x7f08005a;
+        public static final int bootstrap_well_stroke_width=0x7f080059;
+        /**  Thumbnails 
+         */
+        public static final int bthumbnail_default_border=0x7f080055;
+        public static final int bthumbnail_outer_stroke=0x7f080057;
+        public static final int bthumbnail_rounded_corner=0x7f080056;
         public static final int disabled_alpha_material_dark=0x7f080001;
         public static final int disabled_alpha_material_light=0x7f080000;
         public static final int highlight_alpha_material_colored=0x7f080004;
@@ -1945,13 +3249,13 @@ containing a value of this type.
         public static final int abc_action_bar_item_background_material=0x7f020001;
         public static final int abc_btn_borderless_material=0x7f020002;
         public static final int abc_btn_check_material=0x7f020003;
-        public static final int abc_btn_check_to_on_mtrl_000=0x7f020004;
-        public static final int abc_btn_check_to_on_mtrl_015=0x7f020005;
+        public static final int abc_btn_checkbox_checked_mtrl=0x7f020004;
+        public static final int abc_btn_checkbox_unchecked_mtrl=0x7f020005;
         public static final int abc_btn_colored_material=0x7f020006;
         public static final int abc_btn_default_mtrl_shape=0x7f020007;
         public static final int abc_btn_radio_material=0x7f020008;
-        public static final int abc_btn_radio_to_on_mtrl_000=0x7f020009;
-        public static final int abc_btn_radio_to_on_mtrl_015=0x7f02000a;
+        public static final int abc_btn_radio_off_mtrl=0x7f020009;
+        public static final int abc_btn_radio_on_mtrl=0x7f02000a;
         public static final int abc_btn_rating_star_off_mtrl_alpha=0x7f02000b;
         public static final int abc_btn_rating_star_on_mtrl_alpha=0x7f02000c;
         public static final int abc_btn_switch_to_on_mtrl_00001=0x7f02000d;
@@ -1963,182 +3267,1240 @@ containing a value of this type.
         public static final int abc_dialog_material_background_dark=0x7f020013;
         public static final int abc_dialog_material_background_light=0x7f020014;
         public static final int abc_edit_text_material=0x7f020015;
-        public static final int abc_ic_ab_back_mtrl_am_alpha=0x7f020016;
-        public static final int abc_ic_clear_mtrl_alpha=0x7f020017;
+        public static final int abc_ic_ab_back_material=0x7f020016;
+        public static final int abc_ic_clear_material=0x7f020017;
         public static final int abc_ic_commit_search_api_mtrl_alpha=0x7f020018;
-        public static final int abc_ic_go_search_api_mtrl_alpha=0x7f020019;
-        public static final int abc_ic_menu_copy_mtrl_am_alpha=0x7f02001a;
-        public static final int abc_ic_menu_cut_mtrl_alpha=0x7f02001b;
-        public static final int abc_ic_menu_moreoverflow_mtrl_alpha=0x7f02001c;
-        public static final int abc_ic_menu_paste_mtrl_am_alpha=0x7f02001d;
-        public static final int abc_ic_menu_selectall_mtrl_alpha=0x7f02001e;
-        public static final int abc_ic_menu_share_mtrl_alpha=0x7f02001f;
+        public static final int abc_ic_go_search_api_material=0x7f020019;
+        public static final int abc_ic_menu_copy_material=0x7f02001a;
+        public static final int abc_ic_menu_cut_material=0x7f02001b;
+        public static final int abc_ic_menu_overflow_material=0x7f02001c;
+        public static final int abc_ic_menu_paste_material=0x7f02001d;
+        public static final int abc_ic_menu_selectall_material=0x7f02001e;
+        public static final int abc_ic_menu_share_material=0x7f02001f;
         public static final int abc_ic_search_api_mtrl_alpha=0x7f020020;
-        public static final int abc_ic_voice_search_api_mtrl_alpha=0x7f020021;
-        public static final int abc_item_background_holo_dark=0x7f020022;
-        public static final int abc_item_background_holo_light=0x7f020023;
-        public static final int abc_list_divider_mtrl_alpha=0x7f020024;
-        public static final int abc_list_focused_holo=0x7f020025;
-        public static final int abc_list_longpressed_holo=0x7f020026;
-        public static final int abc_list_pressed_holo_dark=0x7f020027;
-        public static final int abc_list_pressed_holo_light=0x7f020028;
-        public static final int abc_list_selector_background_transition_holo_dark=0x7f020029;
-        public static final int abc_list_selector_background_transition_holo_light=0x7f02002a;
-        public static final int abc_list_selector_disabled_holo_dark=0x7f02002b;
-        public static final int abc_list_selector_disabled_holo_light=0x7f02002c;
-        public static final int abc_list_selector_holo_dark=0x7f02002d;
-        public static final int abc_list_selector_holo_light=0x7f02002e;
-        public static final int abc_menu_hardkey_panel_mtrl_mult=0x7f02002f;
-        public static final int abc_popup_background_mtrl_mult=0x7f020030;
-        public static final int abc_ratingbar_full_material=0x7f020031;
-        public static final int abc_scrubber_control_off_mtrl_alpha=0x7f020032;
-        public static final int abc_scrubber_control_to_pressed_mtrl_000=0x7f020033;
-        public static final int abc_scrubber_control_to_pressed_mtrl_005=0x7f020034;
-        public static final int abc_scrubber_primary_mtrl_alpha=0x7f020035;
-        public static final int abc_scrubber_track_mtrl_alpha=0x7f020036;
-        public static final int abc_seekbar_thumb_material=0x7f020037;
-        public static final int abc_seekbar_track_material=0x7f020038;
-        public static final int abc_spinner_mtrl_am_alpha=0x7f020039;
-        public static final int abc_spinner_textfield_background_material=0x7f02003a;
-        public static final int abc_switch_thumb_material=0x7f02003b;
-        public static final int abc_switch_track_mtrl_alpha=0x7f02003c;
-        public static final int abc_tab_indicator_material=0x7f02003d;
-        public static final int abc_tab_indicator_mtrl_alpha=0x7f02003e;
-        public static final int abc_text_cursor_material=0x7f02003f;
-        public static final int abc_textfield_activated_mtrl_alpha=0x7f020040;
-        public static final int abc_textfield_default_mtrl_alpha=0x7f020041;
-        public static final int abc_textfield_search_activated_mtrl_alpha=0x7f020042;
-        public static final int abc_textfield_search_default_mtrl_alpha=0x7f020043;
-        public static final int abc_textfield_search_material=0x7f020044;
-        public static final int border=0x7f020045;
-        public static final int border2=0x7f020046;
-        public static final int button_design=0x7f020047;
-        public static final int ic_drawer=0x7f020048;
-        public static final int ic_icon=0x7f020049;
-        public static final int ic_launcher=0x7f02004a;
-        public static final int notification_template_icon_bg=0x7f02004b;
+        public static final int abc_ic_star_black_16dp=0x7f020021;
+        public static final int abc_ic_star_black_36dp=0x7f020022;
+        public static final int abc_ic_star_half_black_16dp=0x7f020023;
+        public static final int abc_ic_star_half_black_36dp=0x7f020024;
+        public static final int abc_ic_voice_search_api_material=0x7f020025;
+        public static final int abc_item_background_holo_dark=0x7f020026;
+        public static final int abc_item_background_holo_light=0x7f020027;
+        public static final int abc_list_divider_mtrl_alpha=0x7f020028;
+        public static final int abc_list_focused_holo=0x7f020029;
+        public static final int abc_list_longpressed_holo=0x7f02002a;
+        public static final int abc_list_pressed_holo_dark=0x7f02002b;
+        public static final int abc_list_pressed_holo_light=0x7f02002c;
+        public static final int abc_list_selector_background_transition_holo_dark=0x7f02002d;
+        public static final int abc_list_selector_background_transition_holo_light=0x7f02002e;
+        public static final int abc_list_selector_disabled_holo_dark=0x7f02002f;
+        public static final int abc_list_selector_disabled_holo_light=0x7f020030;
+        public static final int abc_list_selector_holo_dark=0x7f020031;
+        public static final int abc_list_selector_holo_light=0x7f020032;
+        public static final int abc_menu_hardkey_panel_mtrl_mult=0x7f020033;
+        public static final int abc_popup_background_mtrl_mult=0x7f020034;
+        public static final int abc_ratingbar_full_material=0x7f020035;
+        public static final int abc_ratingbar_indicator_material=0x7f020036;
+        public static final int abc_ratingbar_small_material=0x7f020037;
+        public static final int abc_scrubber_control_off_mtrl_alpha=0x7f020038;
+        public static final int abc_scrubber_control_to_pressed_mtrl_000=0x7f020039;
+        public static final int abc_scrubber_control_to_pressed_mtrl_005=0x7f02003a;
+        public static final int abc_scrubber_primary_mtrl_alpha=0x7f02003b;
+        public static final int abc_scrubber_track_mtrl_alpha=0x7f02003c;
+        public static final int abc_seekbar_thumb_material=0x7f02003d;
+        public static final int abc_seekbar_track_material=0x7f02003e;
+        public static final int abc_spinner_mtrl_am_alpha=0x7f02003f;
+        public static final int abc_spinner_textfield_background_material=0x7f020040;
+        public static final int abc_switch_thumb_material=0x7f020041;
+        public static final int abc_switch_track_mtrl_alpha=0x7f020042;
+        public static final int abc_tab_indicator_material=0x7f020043;
+        public static final int abc_tab_indicator_mtrl_alpha=0x7f020044;
+        public static final int abc_text_cursor_material=0x7f020045;
+        public static final int abc_textfield_activated_mtrl_alpha=0x7f020046;
+        public static final int abc_textfield_default_mtrl_alpha=0x7f020047;
+        public static final int abc_textfield_search_activated_mtrl_alpha=0x7f020048;
+        public static final int abc_textfield_search_default_mtrl_alpha=0x7f020049;
+        public static final int abc_textfield_search_material=0x7f02004a;
+        public static final int border=0x7f02004b;
+        public static final int border2=0x7f02004c;
+        public static final int button_design=0x7f02004d;
+        public static final int ic_drawer=0x7f02004e;
+        public static final int ic_icon=0x7f02004f;
+        public static final int ic_launcher=0x7f020050;
+        public static final int notification_template_icon_bg=0x7f020051;
     }
     public static final class id {
-        public static final int DoTweet=0x7f0a0057;
-        public static final int Screenlock=0x7f0a0073;
-        public static final int StreamEnabled=0x7f0a0072;
-        public static final int TweetArea=0x7f0a0056;
-        public static final int Tweetlayout=0x7f0a0054;
-        public static final int acount_add=0x7f0a0075;
-        public static final int acount_delete=0x7f0a0076;
-        public static final int acount_manage=0x7f0a0074;
-        public static final int action0=0x7f0a0067;
-        public static final int action_bar=0x7f0a0041;
+        public static final int DoTweet=0x7f0a0470;
+        public static final int Screenlock=0x7f0a048f;
+        public static final int StreamEnabled=0x7f0a048e;
+        public static final int TweetArea=0x7f0a046f;
+        public static final int Tweetlayout=0x7f0a046d;
+        public static final int acount_add=0x7f0a0491;
+        public static final int acount_delete=0x7f0a0492;
+        public static final int acount_manage=0x7f0a0490;
+        public static final int action0=0x7f0a0484;
+        public static final int actionLayout=0x7f0a0480;
+        public static final int action_bar=0x7f0a045a;
         public static final int action_bar_activity_content=0x7f0a0003;
-        public static final int action_bar_container=0x7f0a0040;
-        public static final int action_bar_root=0x7f0a003c;
+        public static final int action_bar_container=0x7f0a0459;
+        public static final int action_bar_root=0x7f0a0455;
         public static final int action_bar_spinner=0x7f0a0002;
-        public static final int action_bar_subtitle=0x7f0a0022;
-        public static final int action_bar_title=0x7f0a0021;
-        public static final int action_context_bar=0x7f0a0042;
-        public static final int action_divider=0x7f0a006b;
+        public static final int action_bar_subtitle=0x7f0a043d;
+        public static final int action_bar_title=0x7f0a043c;
+        public static final int action_context_bar=0x7f0a045b;
+        public static final int action_divider=0x7f0a0488;
         public static final int action_menu_divider=0x7f0a0005;
         public static final int action_menu_presenter=0x7f0a0006;
-        public static final int action_mode_bar=0x7f0a003e;
-        public static final int action_mode_bar_stub=0x7f0a003d;
-        public static final int action_mode_close_button=0x7f0a0023;
-        public static final int action_settings=0x7f0a0077;
-        public static final int activity_chooser_view_content=0x7f0a0024;
-        public static final int alertTitle=0x7f0a0030;
+        public static final int action_mode_bar=0x7f0a0457;
+        public static final int action_mode_bar_stub=0x7f0a0456;
+        public static final int action_mode_close_button=0x7f0a043e;
+        public static final int action_settings=0x7f0a0493;
+        public static final int activity_chooser_view_content=0x7f0a043f;
+        public static final int alertTitle=0x7f0a044b;
         public static final int always=0x7f0a0019;
         public static final int beginning=0x7f0a001e;
-        public static final int buttonPanel=0x7f0a002b;
-        public static final int cancel_action=0x7f0a0068;
-        public static final int checkbox=0x7f0a0039;
-        public static final int chronometer=0x7f0a006d;
+        public static final int buttonPanel=0x7f0a0446;
+        public static final int cancel_action=0x7f0a0485;
+        public static final int checkbox=0x7f0a0028;
+        public static final int chronometer=0x7f0a048a;
         public static final int collapseActionView=0x7f0a001a;
-        public static final int contentPanel=0x7f0a0031;
-        public static final int custom=0x7f0a0037;
-        public static final int customPanel=0x7f0a0036;
-        public static final int decor_content_parent=0x7f0a003f;
-        public static final int default_activity_button=0x7f0a0027;
+        public static final int contentPanel=0x7f0a044c;
+        public static final int custom=0x7f0a0452;
+        public static final int customPanel=0x7f0a0451;
+        public static final int danger=0x7f0a0021;
+        public static final int decor_content_parent=0x7f0a0458;
+        public static final int default_activity_button=0x7f0a0442;
         public static final int disableHome=0x7f0a000d;
-        public static final int drawer=0x7f0a0053;
-        public static final int drawer_layout=0x7f0a0051;
-        public static final int drawerlist=0x7f0a0058;
-        public static final int edit_query=0x7f0a0043;
+        public static final int down=0x7f0a0036;
+        public static final int drawer=0x7f0a046c;
+        public static final int drawer_layout=0x7f0a046a;
+        public static final int drawerlist=0x7f0a0471;
+        public static final int edit_query=0x7f0a045c;
         public static final int end=0x7f0a001f;
-        public static final int end_padder=0x7f0a0071;
-        public static final int expand_activities_button=0x7f0a0025;
-        public static final int expanded_menu=0x7f0a0038;
+        public static final int end_padder=0x7f0a048d;
+        public static final int expand_activities_button=0x7f0a0440;
+        public static final int expanded_menu=0x7f0a0453;
+        public static final int fa_adjust=0x7f0a0037;
+        public static final int fa_adn=0x7f0a0038;
+        public static final int fa_align_center=0x7f0a0039;
+        public static final int fa_align_justify=0x7f0a003a;
+        public static final int fa_align_left=0x7f0a003b;
+        public static final int fa_align_right=0x7f0a003c;
+        public static final int fa_amazon=0x7f0a003d;
+        public static final int fa_ambulance=0x7f0a003e;
+        public static final int fa_anchor=0x7f0a003f;
+        public static final int fa_android=0x7f0a0040;
+        public static final int fa_angellist=0x7f0a0041;
+        public static final int fa_angle_double_down=0x7f0a0042;
+        public static final int fa_angle_double_left=0x7f0a0043;
+        public static final int fa_angle_double_right=0x7f0a0044;
+        public static final int fa_angle_double_up=0x7f0a0045;
+        public static final int fa_angle_down=0x7f0a0046;
+        public static final int fa_angle_left=0x7f0a0047;
+        public static final int fa_angle_right=0x7f0a0048;
+        public static final int fa_angle_up=0x7f0a0049;
+        public static final int fa_apple=0x7f0a004a;
+        public static final int fa_archive=0x7f0a004b;
+        public static final int fa_area_chart=0x7f0a004c;
+        public static final int fa_arrow_circle_down=0x7f0a004d;
+        public static final int fa_arrow_circle_left=0x7f0a004e;
+        public static final int fa_arrow_circle_o_down=0x7f0a004f;
+        public static final int fa_arrow_circle_o_left=0x7f0a0050;
+        public static final int fa_arrow_circle_o_right=0x7f0a0051;
+        public static final int fa_arrow_circle_o_up=0x7f0a0052;
+        public static final int fa_arrow_circle_right=0x7f0a0053;
+        public static final int fa_arrow_circle_up=0x7f0a0054;
+        public static final int fa_arrow_down=0x7f0a0055;
+        public static final int fa_arrow_left=0x7f0a0056;
+        public static final int fa_arrow_right=0x7f0a0057;
+        public static final int fa_arrow_up=0x7f0a0058;
+        public static final int fa_arrows=0x7f0a0059;
+        public static final int fa_arrows_alt=0x7f0a005a;
+        public static final int fa_arrows_h=0x7f0a005b;
+        public static final int fa_arrows_v=0x7f0a005c;
+        public static final int fa_asterisk=0x7f0a005d;
+        public static final int fa_at=0x7f0a005e;
+        public static final int fa_automobile=0x7f0a005f;
+        public static final int fa_backward=0x7f0a0060;
+        public static final int fa_balance_scale=0x7f0a0061;
+        public static final int fa_ban=0x7f0a0062;
+        public static final int fa_bank=0x7f0a0063;
+        public static final int fa_bar_chart=0x7f0a0064;
+        public static final int fa_bar_chart_o=0x7f0a0065;
+        public static final int fa_barcode=0x7f0a0066;
+        public static final int fa_bars=0x7f0a0067;
+        public static final int fa_battery_0=0x7f0a0068;
+        public static final int fa_battery_1=0x7f0a0069;
+        public static final int fa_battery_2=0x7f0a006a;
+        public static final int fa_battery_3=0x7f0a006b;
+        public static final int fa_battery_4=0x7f0a006c;
+        public static final int fa_battery_empty=0x7f0a006d;
+        public static final int fa_battery_full=0x7f0a006e;
+        public static final int fa_battery_half=0x7f0a006f;
+        public static final int fa_battery_quarter=0x7f0a0070;
+        public static final int fa_battery_three_quarters=0x7f0a0071;
+        public static final int fa_bed=0x7f0a0072;
+        public static final int fa_beer=0x7f0a0073;
+        public static final int fa_behance=0x7f0a0074;
+        public static final int fa_behance_square=0x7f0a0075;
+        public static final int fa_bell=0x7f0a0076;
+        public static final int fa_bell_o=0x7f0a0077;
+        public static final int fa_bell_slash=0x7f0a0078;
+        public static final int fa_bell_slash_o=0x7f0a0079;
+        public static final int fa_bicycle=0x7f0a007a;
+        public static final int fa_binoculars=0x7f0a007b;
+        public static final int fa_birthday_cake=0x7f0a007c;
+        public static final int fa_bitbucket=0x7f0a007d;
+        public static final int fa_bitbucket_square=0x7f0a007e;
+        public static final int fa_bitcoin=0x7f0a007f;
+        public static final int fa_black_tie=0x7f0a0080;
+        public static final int fa_bluetooth=0x7f0a0081;
+        public static final int fa_bluetooth_b=0x7f0a0082;
+        public static final int fa_bold=0x7f0a0083;
+        public static final int fa_bolt=0x7f0a0084;
+        public static final int fa_bomb=0x7f0a0085;
+        public static final int fa_book=0x7f0a0086;
+        public static final int fa_bookmark=0x7f0a0087;
+        public static final int fa_bookmark_o=0x7f0a0088;
+        public static final int fa_briefcase=0x7f0a0089;
+        public static final int fa_btc=0x7f0a008a;
+        public static final int fa_bug=0x7f0a008b;
+        public static final int fa_building=0x7f0a008c;
+        public static final int fa_building_o=0x7f0a008d;
+        public static final int fa_bullhorn=0x7f0a008e;
+        public static final int fa_bullseye=0x7f0a008f;
+        public static final int fa_bus=0x7f0a0090;
+        public static final int fa_buysellads=0x7f0a0091;
+        public static final int fa_cab=0x7f0a0092;
+        public static final int fa_calculator=0x7f0a0093;
+        public static final int fa_calendar=0x7f0a0094;
+        public static final int fa_calendar_check_o=0x7f0a0095;
+        public static final int fa_calendar_minus_o=0x7f0a0096;
+        public static final int fa_calendar_o=0x7f0a0097;
+        public static final int fa_calendar_plus_o=0x7f0a0098;
+        public static final int fa_calendar_times_o=0x7f0a0099;
+        public static final int fa_camera=0x7f0a009a;
+        public static final int fa_camera_retro=0x7f0a009b;
+        public static final int fa_car=0x7f0a009c;
+        public static final int fa_caret_down=0x7f0a009d;
+        public static final int fa_caret_left=0x7f0a009e;
+        public static final int fa_caret_right=0x7f0a009f;
+        public static final int fa_caret_square_o_down=0x7f0a00a0;
+        public static final int fa_caret_square_o_left=0x7f0a00a1;
+        public static final int fa_caret_square_o_right=0x7f0a00a2;
+        public static final int fa_caret_square_o_up=0x7f0a00a3;
+        public static final int fa_caret_up=0x7f0a00a4;
+        public static final int fa_cart_arrow_down=0x7f0a00a5;
+        public static final int fa_cart_plus=0x7f0a00a6;
+        public static final int fa_cc=0x7f0a00a7;
+        public static final int fa_cc_amex=0x7f0a00a8;
+        public static final int fa_cc_diners_club=0x7f0a00a9;
+        public static final int fa_cc_discover=0x7f0a00aa;
+        public static final int fa_cc_jcb=0x7f0a00ab;
+        public static final int fa_cc_mastercard=0x7f0a00ac;
+        public static final int fa_cc_paypal=0x7f0a00ad;
+        public static final int fa_cc_stripe=0x7f0a00ae;
+        public static final int fa_cc_visa=0x7f0a00af;
+        public static final int fa_certificate=0x7f0a00b0;
+        public static final int fa_chain=0x7f0a00b1;
+        public static final int fa_chain_broken=0x7f0a00b2;
+        public static final int fa_check=0x7f0a00b3;
+        public static final int fa_check_circle=0x7f0a00b4;
+        public static final int fa_check_circle_o=0x7f0a00b5;
+        public static final int fa_check_square=0x7f0a00b6;
+        public static final int fa_check_square_o=0x7f0a00b7;
+        public static final int fa_chevron_circle_down=0x7f0a00b8;
+        public static final int fa_chevron_circle_left=0x7f0a00b9;
+        public static final int fa_chevron_circle_right=0x7f0a00ba;
+        public static final int fa_chevron_circle_up=0x7f0a00bb;
+        public static final int fa_chevron_down=0x7f0a00bc;
+        public static final int fa_chevron_left=0x7f0a00bd;
+        public static final int fa_chevron_right=0x7f0a00be;
+        public static final int fa_chevron_up=0x7f0a00bf;
+        public static final int fa_child=0x7f0a00c0;
+        public static final int fa_chrome=0x7f0a00c1;
+        public static final int fa_circle=0x7f0a00c2;
+        public static final int fa_circle_o=0x7f0a00c3;
+        public static final int fa_circle_o_notch=0x7f0a00c4;
+        public static final int fa_circle_thin=0x7f0a00c5;
+        public static final int fa_clipboard=0x7f0a00c6;
+        public static final int fa_clock_o=0x7f0a00c7;
+        public static final int fa_clone=0x7f0a00c8;
+        public static final int fa_close=0x7f0a00c9;
+        public static final int fa_cloud=0x7f0a00ca;
+        public static final int fa_cloud_download=0x7f0a00cb;
+        public static final int fa_cloud_upload=0x7f0a00cc;
+        public static final int fa_cny=0x7f0a00cd;
+        public static final int fa_code=0x7f0a00ce;
+        public static final int fa_code_fork=0x7f0a00cf;
+        public static final int fa_codepen=0x7f0a00d0;
+        public static final int fa_codiepie=0x7f0a00d1;
+        public static final int fa_coffee=0x7f0a00d2;
+        public static final int fa_cog=0x7f0a00d3;
+        public static final int fa_cogs=0x7f0a00d4;
+        public static final int fa_columns=0x7f0a00d5;
+        public static final int fa_comment=0x7f0a00d6;
+        public static final int fa_comment_o=0x7f0a00d7;
+        public static final int fa_commenting=0x7f0a00d8;
+        public static final int fa_commenting_o=0x7f0a00d9;
+        public static final int fa_comments=0x7f0a00da;
+        public static final int fa_comments_o=0x7f0a00db;
+        public static final int fa_compass=0x7f0a00dc;
+        public static final int fa_compress=0x7f0a00dd;
+        public static final int fa_connectdevelop=0x7f0a00de;
+        public static final int fa_contao=0x7f0a00df;
+        public static final int fa_copy=0x7f0a00e0;
+        public static final int fa_copyright=0x7f0a00e1;
+        public static final int fa_creative_commons=0x7f0a00e2;
+        public static final int fa_credit_card=0x7f0a00e3;
+        public static final int fa_credit_card_alt=0x7f0a00e4;
+        public static final int fa_crop=0x7f0a00e5;
+        public static final int fa_crosshairs=0x7f0a00e6;
+        public static final int fa_css3=0x7f0a00e7;
+        public static final int fa_cube=0x7f0a00e8;
+        public static final int fa_cubes=0x7f0a00e9;
+        public static final int fa_cut=0x7f0a00ea;
+        public static final int fa_cutlery=0x7f0a00eb;
+        public static final int fa_dashboard=0x7f0a00ec;
+        public static final int fa_dashcube=0x7f0a00ed;
+        public static final int fa_database=0x7f0a00ee;
+        public static final int fa_dedent=0x7f0a00ef;
+        public static final int fa_delicious=0x7f0a00f0;
+        public static final int fa_desktop=0x7f0a00f1;
+        public static final int fa_deviantart=0x7f0a00f2;
+        public static final int fa_diamond=0x7f0a00f3;
+        public static final int fa_digg=0x7f0a00f4;
+        public static final int fa_dollar=0x7f0a00f5;
+        public static final int fa_dot_circle_o=0x7f0a00f6;
+        public static final int fa_download=0x7f0a00f7;
+        public static final int fa_dribbble=0x7f0a00f8;
+        public static final int fa_dropbox=0x7f0a00f9;
+        public static final int fa_drupal=0x7f0a00fa;
+        public static final int fa_edge=0x7f0a00fb;
+        public static final int fa_edit=0x7f0a00fc;
+        public static final int fa_eject=0x7f0a00fd;
+        public static final int fa_ellipsis_h=0x7f0a00fe;
+        public static final int fa_ellipsis_v=0x7f0a00ff;
+        public static final int fa_empire=0x7f0a0100;
+        public static final int fa_envelope=0x7f0a0101;
+        public static final int fa_envelope_o=0x7f0a0102;
+        public static final int fa_envelope_square=0x7f0a0103;
+        public static final int fa_eraser=0x7f0a0104;
+        public static final int fa_eur=0x7f0a0105;
+        public static final int fa_euro=0x7f0a0106;
+        public static final int fa_exchange=0x7f0a0107;
+        public static final int fa_exclamation=0x7f0a0108;
+        public static final int fa_exclamation_circle=0x7f0a0109;
+        public static final int fa_exclamation_triangle=0x7f0a010a;
+        public static final int fa_expand=0x7f0a010b;
+        public static final int fa_expeditedssl=0x7f0a010c;
+        public static final int fa_external_link=0x7f0a010d;
+        public static final int fa_external_link_square=0x7f0a010e;
+        public static final int fa_eye=0x7f0a010f;
+        public static final int fa_eye_slash=0x7f0a0110;
+        public static final int fa_eyedropper=0x7f0a0111;
+        public static final int fa_facebook=0x7f0a0112;
+        public static final int fa_facebook_f=0x7f0a0113;
+        public static final int fa_facebook_official=0x7f0a0114;
+        public static final int fa_facebook_square=0x7f0a0115;
+        public static final int fa_fast_backward=0x7f0a0116;
+        public static final int fa_fast_forward=0x7f0a0117;
+        public static final int fa_fax=0x7f0a0118;
+        public static final int fa_feed=0x7f0a0119;
+        public static final int fa_female=0x7f0a011a;
+        public static final int fa_fighter_jet=0x7f0a011b;
+        public static final int fa_file=0x7f0a011c;
+        public static final int fa_file_archive_o=0x7f0a011d;
+        public static final int fa_file_audio_o=0x7f0a011e;
+        public static final int fa_file_code_o=0x7f0a011f;
+        public static final int fa_file_excel_o=0x7f0a0120;
+        public static final int fa_file_image_o=0x7f0a0121;
+        public static final int fa_file_movie_o=0x7f0a0122;
+        public static final int fa_file_o=0x7f0a0123;
+        public static final int fa_file_pdf_o=0x7f0a0124;
+        public static final int fa_file_photo_o=0x7f0a0125;
+        public static final int fa_file_picture_o=0x7f0a0126;
+        public static final int fa_file_powerpoint_o=0x7f0a0127;
+        public static final int fa_file_sound_o=0x7f0a0128;
+        public static final int fa_file_text=0x7f0a0129;
+        public static final int fa_file_text_o=0x7f0a012a;
+        public static final int fa_file_video_o=0x7f0a012b;
+        public static final int fa_file_word_o=0x7f0a012c;
+        public static final int fa_file_zip_o=0x7f0a012d;
+        public static final int fa_files_o=0x7f0a012e;
+        public static final int fa_film=0x7f0a012f;
+        public static final int fa_filter=0x7f0a0130;
+        public static final int fa_fire=0x7f0a0131;
+        public static final int fa_fire_extinguisher=0x7f0a0132;
+        public static final int fa_firefox=0x7f0a0133;
+        public static final int fa_flag=0x7f0a0134;
+        public static final int fa_flag_checkered=0x7f0a0135;
+        public static final int fa_flag_o=0x7f0a0136;
+        public static final int fa_flash=0x7f0a0137;
+        public static final int fa_flask=0x7f0a0138;
+        public static final int fa_flickr=0x7f0a0139;
+        public static final int fa_floppy_o=0x7f0a013a;
+        public static final int fa_folder=0x7f0a013b;
+        public static final int fa_folder_o=0x7f0a013c;
+        public static final int fa_folder_open=0x7f0a013d;
+        public static final int fa_folder_open_o=0x7f0a013e;
+        public static final int fa_font=0x7f0a013f;
+        public static final int fa_fonticons=0x7f0a0140;
+        public static final int fa_fort_awesome=0x7f0a0141;
+        public static final int fa_forumbee=0x7f0a0142;
+        public static final int fa_forward=0x7f0a0143;
+        public static final int fa_foursquare=0x7f0a0144;
+        public static final int fa_frown_o=0x7f0a0145;
+        public static final int fa_futbol_o=0x7f0a0146;
+        public static final int fa_gamepad=0x7f0a0147;
+        public static final int fa_gavel=0x7f0a0148;
+        public static final int fa_gbp=0x7f0a0149;
+        public static final int fa_ge=0x7f0a014a;
+        public static final int fa_gear=0x7f0a014b;
+        public static final int fa_gears=0x7f0a014c;
+        public static final int fa_genderless=0x7f0a014d;
+        public static final int fa_get_pocket=0x7f0a014e;
+        public static final int fa_gg=0x7f0a014f;
+        public static final int fa_gg_circle=0x7f0a0150;
+        public static final int fa_gift=0x7f0a0151;
+        public static final int fa_git=0x7f0a0152;
+        public static final int fa_git_square=0x7f0a0153;
+        public static final int fa_github=0x7f0a0154;
+        public static final int fa_github_alt=0x7f0a0155;
+        public static final int fa_github_square=0x7f0a0156;
+        public static final int fa_gittip=0x7f0a0157;
+        public static final int fa_glass=0x7f0a0158;
+        public static final int fa_globe=0x7f0a0159;
+        public static final int fa_google=0x7f0a015a;
+        public static final int fa_google_plus=0x7f0a015b;
+        public static final int fa_google_plus_square=0x7f0a015c;
+        public static final int fa_google_wallet=0x7f0a015d;
+        public static final int fa_graduation_cap=0x7f0a015e;
+        public static final int fa_gratipay=0x7f0a015f;
+        public static final int fa_group=0x7f0a0160;
+        public static final int fa_h_square=0x7f0a0161;
+        public static final int fa_hacker_news=0x7f0a0162;
+        public static final int fa_hand_grab_o=0x7f0a0163;
+        public static final int fa_hand_lizard_o=0x7f0a0164;
+        public static final int fa_hand_o_down=0x7f0a0165;
+        public static final int fa_hand_o_left=0x7f0a0166;
+        public static final int fa_hand_o_right=0x7f0a0167;
+        public static final int fa_hand_o_up=0x7f0a0168;
+        public static final int fa_hand_paper_o=0x7f0a0169;
+        public static final int fa_hand_peace_o=0x7f0a016a;
+        public static final int fa_hand_pointer_o=0x7f0a016b;
+        public static final int fa_hand_rock_o=0x7f0a016c;
+        public static final int fa_hand_scissors_o=0x7f0a016d;
+        public static final int fa_hand_spock_o=0x7f0a016e;
+        public static final int fa_hand_stop_o=0x7f0a016f;
+        public static final int fa_hashtag=0x7f0a0170;
+        public static final int fa_hdd_o=0x7f0a0171;
+        public static final int fa_header=0x7f0a0172;
+        public static final int fa_headphones=0x7f0a0173;
+        public static final int fa_heart=0x7f0a0174;
+        public static final int fa_heart_o=0x7f0a0175;
+        public static final int fa_heartbeat=0x7f0a0176;
+        public static final int fa_history=0x7f0a0177;
+        public static final int fa_home=0x7f0a0178;
+        public static final int fa_hospital_o=0x7f0a0179;
+        public static final int fa_hotel=0x7f0a017a;
+        public static final int fa_hourglass=0x7f0a017b;
+        public static final int fa_hourglass_1=0x7f0a017c;
+        public static final int fa_hourglass_2=0x7f0a017d;
+        public static final int fa_hourglass_3=0x7f0a017e;
+        public static final int fa_hourglass_end=0x7f0a017f;
+        public static final int fa_hourglass_half=0x7f0a0180;
+        public static final int fa_hourglass_o=0x7f0a0181;
+        public static final int fa_hourglass_start=0x7f0a0182;
+        public static final int fa_houzz=0x7f0a0183;
+        public static final int fa_html5=0x7f0a0184;
+        public static final int fa_i_cursor=0x7f0a0185;
+        public static final int fa_ils=0x7f0a0186;
+        public static final int fa_image=0x7f0a0187;
+        public static final int fa_inbox=0x7f0a0188;
+        public static final int fa_indent=0x7f0a0189;
+        public static final int fa_industry=0x7f0a018a;
+        public static final int fa_info=0x7f0a018b;
+        public static final int fa_info_circle=0x7f0a018c;
+        public static final int fa_inr=0x7f0a018d;
+        public static final int fa_instagram=0x7f0a018e;
+        public static final int fa_institution=0x7f0a018f;
+        public static final int fa_internet_explorer=0x7f0a0190;
+        public static final int fa_intersex=0x7f0a0191;
+        public static final int fa_ioxhost=0x7f0a0192;
+        public static final int fa_italic=0x7f0a0193;
+        public static final int fa_joomla=0x7f0a0194;
+        public static final int fa_jpy=0x7f0a0195;
+        public static final int fa_jsfiddle=0x7f0a0196;
+        public static final int fa_key=0x7f0a0197;
+        public static final int fa_keyboard_o=0x7f0a0198;
+        public static final int fa_krw=0x7f0a0199;
+        public static final int fa_language=0x7f0a019a;
+        public static final int fa_laptop=0x7f0a019b;
+        public static final int fa_lastfm=0x7f0a019c;
+        public static final int fa_lastfm_square=0x7f0a019d;
+        public static final int fa_leaf=0x7f0a019e;
+        public static final int fa_leanpub=0x7f0a019f;
+        public static final int fa_legal=0x7f0a01a0;
+        public static final int fa_lemon_o=0x7f0a01a1;
+        public static final int fa_level_down=0x7f0a01a2;
+        public static final int fa_level_up=0x7f0a01a3;
+        public static final int fa_life_bouy=0x7f0a01a4;
+        public static final int fa_life_buoy=0x7f0a01a5;
+        public static final int fa_life_ring=0x7f0a01a6;
+        public static final int fa_life_saver=0x7f0a01a7;
+        public static final int fa_lightbulb_o=0x7f0a01a8;
+        public static final int fa_line_chart=0x7f0a01a9;
+        public static final int fa_link=0x7f0a01aa;
+        public static final int fa_linkedin=0x7f0a01ab;
+        public static final int fa_linkedin_square=0x7f0a01ac;
+        public static final int fa_linux=0x7f0a01ad;
+        public static final int fa_list=0x7f0a01ae;
+        public static final int fa_list_alt=0x7f0a01af;
+        public static final int fa_list_ol=0x7f0a01b0;
+        public static final int fa_list_ul=0x7f0a01b1;
+        public static final int fa_location_arrow=0x7f0a01b2;
+        public static final int fa_lock=0x7f0a01b3;
+        public static final int fa_long_arrow_down=0x7f0a01b4;
+        public static final int fa_long_arrow_left=0x7f0a01b5;
+        public static final int fa_long_arrow_right=0x7f0a01b6;
+        public static final int fa_long_arrow_up=0x7f0a01b7;
+        public static final int fa_magic=0x7f0a01b8;
+        public static final int fa_magnet=0x7f0a01b9;
+        public static final int fa_mail_forward=0x7f0a01ba;
+        public static final int fa_mail_reply=0x7f0a01bb;
+        public static final int fa_mail_reply_all=0x7f0a01bc;
+        public static final int fa_male=0x7f0a01bd;
+        public static final int fa_map=0x7f0a01be;
+        public static final int fa_map_marker=0x7f0a01bf;
+        public static final int fa_map_o=0x7f0a01c0;
+        public static final int fa_map_pin=0x7f0a01c1;
+        public static final int fa_map_signs=0x7f0a01c2;
+        public static final int fa_mars=0x7f0a01c3;
+        public static final int fa_mars_double=0x7f0a01c4;
+        public static final int fa_mars_stroke=0x7f0a01c5;
+        public static final int fa_mars_stroke_h=0x7f0a01c6;
+        public static final int fa_mars_stroke_v=0x7f0a01c7;
+        public static final int fa_maxcdn=0x7f0a01c8;
+        public static final int fa_meanpath=0x7f0a01c9;
+        public static final int fa_medium=0x7f0a01ca;
+        public static final int fa_medkit=0x7f0a01cb;
+        public static final int fa_meh_o=0x7f0a01cc;
+        public static final int fa_mercury=0x7f0a01cd;
+        public static final int fa_microphone=0x7f0a01ce;
+        public static final int fa_microphone_slash=0x7f0a01cf;
+        public static final int fa_minus=0x7f0a01d0;
+        public static final int fa_minus_circle=0x7f0a01d1;
+        public static final int fa_minus_square=0x7f0a01d2;
+        public static final int fa_minus_square_o=0x7f0a01d3;
+        public static final int fa_mixcloud=0x7f0a01d4;
+        public static final int fa_mobile=0x7f0a01d5;
+        public static final int fa_mobile_phone=0x7f0a01d6;
+        public static final int fa_modx=0x7f0a01d7;
+        public static final int fa_money=0x7f0a01d8;
+        public static final int fa_moon_o=0x7f0a01d9;
+        public static final int fa_mortar_board=0x7f0a01da;
+        public static final int fa_motorcycle=0x7f0a01db;
+        public static final int fa_mouse_pointer=0x7f0a01dc;
+        public static final int fa_music=0x7f0a01dd;
+        public static final int fa_navicon=0x7f0a01de;
+        public static final int fa_neuter=0x7f0a01df;
+        public static final int fa_newspaper_o=0x7f0a01e0;
+        public static final int fa_object_group=0x7f0a01e1;
+        public static final int fa_object_ungroup=0x7f0a01e2;
+        public static final int fa_odnoklassniki=0x7f0a01e3;
+        public static final int fa_odnoklassniki_square=0x7f0a01e4;
+        public static final int fa_opencart=0x7f0a01e5;
+        public static final int fa_openid=0x7f0a01e6;
+        public static final int fa_opera=0x7f0a01e7;
+        public static final int fa_optin_monster=0x7f0a01e8;
+        public static final int fa_outdent=0x7f0a01e9;
+        public static final int fa_pagelines=0x7f0a01ea;
+        public static final int fa_paint_brush=0x7f0a01eb;
+        public static final int fa_paper_plane=0x7f0a01ec;
+        public static final int fa_paper_plane_o=0x7f0a01ed;
+        public static final int fa_paperclip=0x7f0a01ee;
+        public static final int fa_paragraph=0x7f0a01ef;
+        public static final int fa_paste=0x7f0a01f0;
+        public static final int fa_pause=0x7f0a01f1;
+        public static final int fa_pause_circle=0x7f0a01f2;
+        public static final int fa_pause_circle_o=0x7f0a01f3;
+        public static final int fa_paw=0x7f0a01f4;
+        public static final int fa_paypal=0x7f0a01f5;
+        public static final int fa_pencil=0x7f0a01f6;
+        public static final int fa_pencil_square=0x7f0a01f7;
+        public static final int fa_pencil_square_o=0x7f0a01f8;
+        public static final int fa_percent=0x7f0a01f9;
+        public static final int fa_phone=0x7f0a01fa;
+        public static final int fa_phone_square=0x7f0a01fb;
+        public static final int fa_photo=0x7f0a01fc;
+        public static final int fa_picture_o=0x7f0a01fd;
+        public static final int fa_pie_chart=0x7f0a01fe;
+        public static final int fa_pied_piper=0x7f0a01ff;
+        public static final int fa_pied_piper_alt=0x7f0a0200;
+        public static final int fa_pinterest=0x7f0a0201;
+        public static final int fa_pinterest_p=0x7f0a0202;
+        public static final int fa_pinterest_square=0x7f0a0203;
+        public static final int fa_plane=0x7f0a0204;
+        public static final int fa_play=0x7f0a0205;
+        public static final int fa_play_circle=0x7f0a0206;
+        public static final int fa_play_circle_o=0x7f0a0207;
+        public static final int fa_plug=0x7f0a0208;
+        public static final int fa_plus=0x7f0a0209;
+        public static final int fa_plus_circle=0x7f0a020a;
+        public static final int fa_plus_square=0x7f0a020b;
+        public static final int fa_plus_square_o=0x7f0a020c;
+        public static final int fa_power_off=0x7f0a020d;
+        public static final int fa_print=0x7f0a020e;
+        public static final int fa_product_hunt=0x7f0a020f;
+        public static final int fa_puzzle_piece=0x7f0a0210;
+        public static final int fa_qq=0x7f0a0211;
+        public static final int fa_qrcode=0x7f0a0212;
+        public static final int fa_question=0x7f0a0213;
+        public static final int fa_question_circle=0x7f0a0214;
+        public static final int fa_quote_left=0x7f0a0215;
+        public static final int fa_quote_right=0x7f0a0216;
+        public static final int fa_ra=0x7f0a0217;
+        public static final int fa_random=0x7f0a0218;
+        public static final int fa_rebel=0x7f0a0219;
+        public static final int fa_recycle=0x7f0a021a;
+        public static final int fa_reddit=0x7f0a021b;
+        public static final int fa_reddit_alien=0x7f0a021c;
+        public static final int fa_reddit_square=0x7f0a021d;
+        public static final int fa_refresh=0x7f0a021e;
+        public static final int fa_registered=0x7f0a021f;
+        public static final int fa_remove=0x7f0a0220;
+        public static final int fa_renren=0x7f0a0221;
+        public static final int fa_reorder=0x7f0a0222;
+        public static final int fa_repeat=0x7f0a0223;
+        public static final int fa_reply=0x7f0a0224;
+        public static final int fa_reply_all=0x7f0a0225;
+        public static final int fa_retweet=0x7f0a0226;
+        public static final int fa_rmb=0x7f0a0227;
+        public static final int fa_road=0x7f0a0228;
+        public static final int fa_rocket=0x7f0a0229;
+        public static final int fa_rotate_left=0x7f0a022a;
+        public static final int fa_rotate_right=0x7f0a022b;
+        public static final int fa_rouble=0x7f0a022c;
+        public static final int fa_rss=0x7f0a022d;
+        public static final int fa_rss_square=0x7f0a022e;
+        public static final int fa_rub=0x7f0a022f;
+        public static final int fa_ruble=0x7f0a0230;
+        public static final int fa_rupee=0x7f0a0231;
+        public static final int fa_safari=0x7f0a0232;
+        public static final int fa_save=0x7f0a0233;
+        public static final int fa_scissors=0x7f0a0234;
+        public static final int fa_scribd=0x7f0a0235;
+        public static final int fa_search=0x7f0a0236;
+        public static final int fa_search_minus=0x7f0a0237;
+        public static final int fa_search_plus=0x7f0a0238;
+        public static final int fa_sellsy=0x7f0a0239;
+        public static final int fa_send=0x7f0a023a;
+        public static final int fa_send_o=0x7f0a023b;
+        public static final int fa_server=0x7f0a023c;
+        public static final int fa_share=0x7f0a023d;
+        public static final int fa_share_alt=0x7f0a023e;
+        public static final int fa_share_alt_square=0x7f0a023f;
+        public static final int fa_share_square=0x7f0a0240;
+        public static final int fa_share_square_o=0x7f0a0241;
+        public static final int fa_shekel=0x7f0a0242;
+        public static final int fa_sheqel=0x7f0a0243;
+        public static final int fa_shield=0x7f0a0244;
+        public static final int fa_ship=0x7f0a0245;
+        public static final int fa_shirtsinbulk=0x7f0a0246;
+        public static final int fa_shopping_bag=0x7f0a0247;
+        public static final int fa_shopping_basket=0x7f0a0248;
+        public static final int fa_shopping_cart=0x7f0a0249;
+        public static final int fa_sign_in=0x7f0a024a;
+        public static final int fa_sign_out=0x7f0a024b;
+        public static final int fa_signal=0x7f0a024c;
+        public static final int fa_simplybuilt=0x7f0a024d;
+        public static final int fa_sitemap=0x7f0a024e;
+        public static final int fa_skyatlas=0x7f0a024f;
+        public static final int fa_skype=0x7f0a0250;
+        public static final int fa_slack=0x7f0a0251;
+        public static final int fa_sliders=0x7f0a0252;
+        public static final int fa_slideshare=0x7f0a0253;
+        public static final int fa_smile_o=0x7f0a0254;
+        public static final int fa_soccer_ball_o=0x7f0a0255;
+        public static final int fa_sort=0x7f0a0256;
+        public static final int fa_sort_alpha_asc=0x7f0a0257;
+        public static final int fa_sort_alpha_desc=0x7f0a0258;
+        public static final int fa_sort_amount_asc=0x7f0a0259;
+        public static final int fa_sort_amount_desc=0x7f0a025a;
+        public static final int fa_sort_asc=0x7f0a025b;
+        public static final int fa_sort_desc=0x7f0a025c;
+        public static final int fa_sort_down=0x7f0a025d;
+        public static final int fa_sort_numeric_asc=0x7f0a025e;
+        public static final int fa_sort_numeric_desc=0x7f0a025f;
+        public static final int fa_sort_up=0x7f0a0260;
+        public static final int fa_soundcloud=0x7f0a0261;
+        public static final int fa_space_shuttle=0x7f0a0262;
+        public static final int fa_spinner=0x7f0a0263;
+        public static final int fa_spoon=0x7f0a0264;
+        public static final int fa_spotify=0x7f0a0265;
+        public static final int fa_square=0x7f0a0266;
+        public static final int fa_square_o=0x7f0a0267;
+        public static final int fa_stack_exchange=0x7f0a0268;
+        public static final int fa_stack_overflow=0x7f0a0269;
+        public static final int fa_star=0x7f0a026a;
+        public static final int fa_star_half=0x7f0a026b;
+        public static final int fa_star_half_empty=0x7f0a026c;
+        public static final int fa_star_half_full=0x7f0a026d;
+        public static final int fa_star_half_o=0x7f0a026e;
+        public static final int fa_star_o=0x7f0a026f;
+        public static final int fa_steam=0x7f0a0270;
+        public static final int fa_steam_square=0x7f0a0271;
+        public static final int fa_step_backward=0x7f0a0272;
+        public static final int fa_step_forward=0x7f0a0273;
+        public static final int fa_stethoscope=0x7f0a0274;
+        public static final int fa_sticky_note=0x7f0a0275;
+        public static final int fa_sticky_note_o=0x7f0a0276;
+        public static final int fa_stop=0x7f0a0277;
+        public static final int fa_stop_circle=0x7f0a0278;
+        public static final int fa_stop_circle_o=0x7f0a0279;
+        public static final int fa_street_view=0x7f0a027a;
+        public static final int fa_strikethrough=0x7f0a027b;
+        public static final int fa_stumbleupon=0x7f0a027c;
+        public static final int fa_stumbleupon_circle=0x7f0a027d;
+        public static final int fa_subscript=0x7f0a027e;
+        public static final int fa_subway=0x7f0a027f;
+        public static final int fa_suitcase=0x7f0a0280;
+        public static final int fa_sun_o=0x7f0a0281;
+        public static final int fa_superscript=0x7f0a0282;
+        public static final int fa_support=0x7f0a0283;
+        public static final int fa_table=0x7f0a0284;
+        public static final int fa_tablet=0x7f0a0285;
+        public static final int fa_tachometer=0x7f0a0286;
+        public static final int fa_tag=0x7f0a0287;
+        public static final int fa_tags=0x7f0a0288;
+        public static final int fa_tasks=0x7f0a0289;
+        public static final int fa_taxi=0x7f0a028a;
+        public static final int fa_television=0x7f0a028b;
+        public static final int fa_tencent_weibo=0x7f0a028c;
+        public static final int fa_terminal=0x7f0a028d;
+        public static final int fa_text_height=0x7f0a028e;
+        public static final int fa_text_width=0x7f0a028f;
+        public static final int fa_th=0x7f0a0290;
+        public static final int fa_th_large=0x7f0a0291;
+        public static final int fa_th_list=0x7f0a0292;
+        public static final int fa_thumb_tack=0x7f0a0293;
+        public static final int fa_thumbs_down=0x7f0a0294;
+        public static final int fa_thumbs_o_down=0x7f0a0295;
+        public static final int fa_thumbs_o_up=0x7f0a0296;
+        public static final int fa_thumbs_up=0x7f0a0297;
+        public static final int fa_ticket=0x7f0a0298;
+        public static final int fa_times=0x7f0a0299;
+        public static final int fa_times_circle=0x7f0a029a;
+        public static final int fa_times_circle_o=0x7f0a029b;
+        public static final int fa_tint=0x7f0a029c;
+        public static final int fa_toggle_down=0x7f0a029d;
+        public static final int fa_toggle_left=0x7f0a029e;
+        public static final int fa_toggle_off=0x7f0a029f;
+        public static final int fa_toggle_on=0x7f0a02a0;
+        public static final int fa_toggle_right=0x7f0a02a1;
+        public static final int fa_toggle_up=0x7f0a02a2;
+        public static final int fa_trademark=0x7f0a02a3;
+        public static final int fa_train=0x7f0a02a4;
+        public static final int fa_transgender=0x7f0a02a5;
+        public static final int fa_transgender_alt=0x7f0a02a6;
+        public static final int fa_trash=0x7f0a02a7;
+        public static final int fa_trash_o=0x7f0a02a8;
+        public static final int fa_tree=0x7f0a02a9;
+        public static final int fa_trello=0x7f0a02aa;
+        public static final int fa_tripadvisor=0x7f0a02ab;
+        public static final int fa_trophy=0x7f0a02ac;
+        public static final int fa_truck=0x7f0a02ad;
+        public static final int fa_try=0x7f0a02ae;
+        public static final int fa_tty=0x7f0a02af;
+        public static final int fa_tumblr=0x7f0a02b0;
+        public static final int fa_tumblr_square=0x7f0a02b1;
+        public static final int fa_turkish_lira=0x7f0a02b2;
+        public static final int fa_tv=0x7f0a02b3;
+        public static final int fa_twitch=0x7f0a02b4;
+        public static final int fa_twitter=0x7f0a02b5;
+        public static final int fa_twitter_square=0x7f0a02b6;
+        public static final int fa_umbrella=0x7f0a02b7;
+        public static final int fa_underline=0x7f0a02b8;
+        public static final int fa_undo=0x7f0a02b9;
+        public static final int fa_university=0x7f0a02ba;
+        public static final int fa_unlink=0x7f0a02bb;
+        public static final int fa_unlock=0x7f0a02bc;
+        public static final int fa_unlock_alt=0x7f0a02bd;
+        public static final int fa_unsorted=0x7f0a02be;
+        public static final int fa_upload=0x7f0a02bf;
+        public static final int fa_usb=0x7f0a02c0;
+        public static final int fa_usd=0x7f0a02c1;
+        public static final int fa_user=0x7f0a02c2;
+        public static final int fa_user_md=0x7f0a02c3;
+        public static final int fa_user_plus=0x7f0a02c4;
+        public static final int fa_user_secret=0x7f0a02c5;
+        public static final int fa_user_times=0x7f0a02c6;
+        public static final int fa_users=0x7f0a02c7;
+        public static final int fa_venus=0x7f0a02c8;
+        public static final int fa_venus_double=0x7f0a02c9;
+        public static final int fa_venus_mars=0x7f0a02ca;
+        public static final int fa_viacoin=0x7f0a02cb;
+        public static final int fa_video_camera=0x7f0a02cc;
+        public static final int fa_vimeo=0x7f0a02cd;
+        public static final int fa_vimeo_square=0x7f0a02ce;
+        public static final int fa_vine=0x7f0a02cf;
+        public static final int fa_vk=0x7f0a02d0;
+        public static final int fa_volume_down=0x7f0a02d1;
+        public static final int fa_volume_off=0x7f0a02d2;
+        public static final int fa_volume_up=0x7f0a02d3;
+        public static final int fa_warning=0x7f0a02d4;
+        public static final int fa_wechat=0x7f0a02d5;
+        public static final int fa_weibo=0x7f0a02d6;
+        public static final int fa_weixin=0x7f0a02d7;
+        public static final int fa_whatsapp=0x7f0a02d8;
+        public static final int fa_wheelchair=0x7f0a02d9;
+        public static final int fa_wifi=0x7f0a02da;
+        public static final int fa_wikipedia_w=0x7f0a02db;
+        public static final int fa_windows=0x7f0a02dc;
+        public static final int fa_won=0x7f0a02dd;
+        public static final int fa_wordpress=0x7f0a02de;
+        public static final int fa_wrench=0x7f0a02df;
+        public static final int fa_xing=0x7f0a02e0;
+        public static final int fa_xing_square=0x7f0a02e1;
+        public static final int fa_y_combinator=0x7f0a02e2;
+        public static final int fa_y_combinator_square=0x7f0a02e3;
+        public static final int fa_yahoo=0x7f0a02e4;
+        public static final int fa_yc=0x7f0a02e5;
+        public static final int fa_yc_square=0x7f0a02e6;
+        public static final int fa_yelp=0x7f0a02e7;
+        public static final int fa_yen=0x7f0a02e8;
+        public static final int fa_youtube=0x7f0a02e9;
+        public static final int fa_youtube_play=0x7f0a02ea;
+        public static final int fa_youtube_square=0x7f0a02eb;
+        public static final int h1=0x7f0a0030;
+        public static final int h2=0x7f0a0031;
+        public static final int h3=0x7f0a0032;
+        public static final int h4=0x7f0a0033;
+        public static final int h5=0x7f0a0034;
+        public static final int h6=0x7f0a0035;
         public static final int home=0x7f0a0000;
         public static final int homeAsUp=0x7f0a000e;
-        public static final int icon=0x7f0a0029;
+        public static final int icon=0x7f0a0444;
         public static final int ifRoom=0x7f0a001b;
-        public static final int image=0x7f0a0026;
-        public static final int info=0x7f0a0070;
-        public static final int line1=0x7f0a006c;
-        public static final int line3=0x7f0a006f;
+        public static final int image=0x7f0a0441;
+        public static final int info=0x7f0a0022;
+        public static final int lg=0x7f0a002b;
+        public static final int like_action=0x7f0a0483;
+        public static final int line1=0x7f0a0489;
+        public static final int line3=0x7f0a048c;
         public static final int listMode=0x7f0a000a;
-        public static final int list_item=0x7f0a0028;
-        public static final int media_actions=0x7f0a006a;
+        public static final int list_item=0x7f0a0443;
+        public static final int md=0x7f0a002c;
+        public static final int media_actions=0x7f0a0487;
         public static final int middle=0x7f0a0020;
         public static final int multiply=0x7f0a0014;
-        public static final int name=0x7f0a005e;
-        public static final int nameLayout=0x7f0a005c;
+        public static final int name=0x7f0a0477;
+        public static final int nameLayout=0x7f0a0475;
         public static final int never=0x7f0a001c;
-        public static final int newTweet=0x7f0a0055;
+        public static final int newTweet=0x7f0a046e;
         public static final int none=0x7f0a000f;
         public static final int normal=0x7f0a000b;
-        public static final int parentPanel=0x7f0a002d;
+        public static final int parentPanel=0x7f0a0448;
+        public static final int primary=0x7f0a0023;
         public static final int progress_circular=0x7f0a0007;
         public static final int progress_horizontal=0x7f0a0008;
-        public static final int propLayout=0x7f0a0064;
-        public static final int radio=0x7f0a003b;
-        public static final int retweet_1=0x7f0a0061;
-        public static final int retweet_2=0x7f0a0063;
-        public static final int retweetbyicon=0x7f0a0062;
-        public static final int retweetrow=0x7f0a0060;
+        public static final int propLayout=0x7f0a047d;
+        public static final int radio=0x7f0a0029;
+        public static final int regular=0x7f0a0024;
+        public static final int reply_action=0x7f0a0481;
+        public static final int retweet_1=0x7f0a047a;
+        public static final int retweet_2=0x7f0a047c;
+        public static final int retweet_action=0x7f0a0482;
+        public static final int retweetbyicon=0x7f0a047b;
+        public static final int retweetrow=0x7f0a0479;
         public static final int screen=0x7f0a0015;
-        public static final int scrollIndicatorDown=0x7f0a0035;
-        public static final int scrollIndicatorUp=0x7f0a0032;
-        public static final int scrollView=0x7f0a0033;
-        public static final int search_badge=0x7f0a0045;
-        public static final int search_bar=0x7f0a0044;
-        public static final int search_button=0x7f0a0046;
-        public static final int search_close_btn=0x7f0a004b;
-        public static final int search_edit_frame=0x7f0a0047;
-        public static final int search_go_btn=0x7f0a004d;
-        public static final int search_mag_icon=0x7f0a0048;
-        public static final int search_plate=0x7f0a0049;
-        public static final int search_src_text=0x7f0a004a;
-        public static final int search_voice_btn=0x7f0a004e;
-        public static final int select_dialog_listview=0x7f0a004f;
-        public static final int settings_container=0x7f0a0059;
-        public static final int shortcut=0x7f0a003a;
+        public static final int scrollIndicatorDown=0x7f0a0450;
+        public static final int scrollIndicatorUp=0x7f0a044d;
+        public static final int scrollView=0x7f0a044e;
+        public static final int search_badge=0x7f0a045e;
+        public static final int search_bar=0x7f0a045d;
+        public static final int search_button=0x7f0a045f;
+        public static final int search_close_btn=0x7f0a0464;
+        public static final int search_edit_frame=0x7f0a0460;
+        public static final int search_go_btn=0x7f0a0466;
+        public static final int search_mag_icon=0x7f0a0461;
+        public static final int search_plate=0x7f0a0462;
+        public static final int search_src_text=0x7f0a0463;
+        public static final int search_voice_btn=0x7f0a0467;
+        public static final int secondary=0x7f0a0025;
+        public static final int select_dialog_listview=0x7f0a0468;
+        public static final int settings_container=0x7f0a0472;
+        public static final int shortcut=0x7f0a0454;
         public static final int showCustom=0x7f0a0010;
         public static final int showHome=0x7f0a0011;
         public static final int showTitle=0x7f0a0012;
-        public static final int spacer=0x7f0a002c;
+        public static final int sm=0x7f0a002d;
+        public static final int spacer=0x7f0a0447;
         public static final int split_action_bar=0x7f0a0004;
         public static final int src_atop=0x7f0a0016;
         public static final int src_in=0x7f0a0017;
         public static final int src_over=0x7f0a0018;
-        public static final int status_bar_latest_event_content=0x7f0a0069;
-        public static final int submit_area=0x7f0a004c;
+        public static final int status_bar_latest_event_content=0x7f0a0486;
+        public static final int submit_area=0x7f0a0465;
+        public static final int success=0x7f0a0026;
         public static final int tabMode=0x7f0a000c;
-        public static final int text=0x7f0a005f;
-        public static final int text2=0x7f0a006e;
-        public static final int textSpacerNoButtons=0x7f0a0034;
-        public static final int time=0x7f0a0066;
-        public static final int title=0x7f0a002a;
-        public static final int title_template=0x7f0a002f;
-        public static final int tlitem_container=0x7f0a005a;
-        public static final int tool_bar=0x7f0a0050;
-        public static final int topPanel=0x7f0a002e;
-        public static final int tweetLayout=0x7f0a005b;
+        public static final int text=0x7f0a0478;
+        public static final int text2=0x7f0a048b;
+        public static final int textSpacerNoButtons=0x7f0a044f;
+        public static final int time=0x7f0a047f;
+        public static final int title=0x7f0a0445;
+        public static final int title_template=0x7f0a044a;
+        public static final int tlitem_container=0x7f0a0473;
+        public static final int toggle=0x7f0a002a;
+        public static final int tool_bar=0x7f0a0469;
+        public static final int topPanel=0x7f0a0449;
+        public static final int tweetLayout=0x7f0a0474;
+        public static final int ty_adjust_brightness=0x7f0a02ec;
+        public static final int ty_adjust_contrast=0x7f0a02ed;
+        public static final int ty_anchor=0x7f0a02ee;
+        public static final int ty_anchor_outline=0x7f0a02ef;
+        public static final int ty_archive=0x7f0a02f0;
+        public static final int ty_arrow_back=0x7f0a02f1;
+        public static final int ty_arrow_back_outline=0x7f0a02f2;
+        public static final int ty_arrow_down=0x7f0a02f3;
+        public static final int ty_arrow_down_outline=0x7f0a02f4;
+        public static final int ty_arrow_down_thick=0x7f0a02f5;
+        public static final int ty_arrow_forward=0x7f0a02f6;
+        public static final int ty_arrow_forward_outline=0x7f0a02f7;
+        public static final int ty_arrow_left=0x7f0a02f8;
+        public static final int ty_arrow_left_outline=0x7f0a02f9;
+        public static final int ty_arrow_left_thick=0x7f0a02fa;
+        public static final int ty_arrow_loop=0x7f0a02fb;
+        public static final int ty_arrow_loop_outline=0x7f0a02fc;
+        public static final int ty_arrow_maximise=0x7f0a02fd;
+        public static final int ty_arrow_maximise_outline=0x7f0a02fe;
+        public static final int ty_arrow_minimise=0x7f0a02ff;
+        public static final int ty_arrow_minimise_outline=0x7f0a0300;
+        public static final int ty_arrow_move=0x7f0a0301;
+        public static final int ty_arrow_move_outline=0x7f0a0302;
+        public static final int ty_arrow_repeat=0x7f0a0303;
+        public static final int ty_arrow_repeat_outline=0x7f0a0304;
+        public static final int ty_arrow_right=0x7f0a0305;
+        public static final int ty_arrow_right_outline=0x7f0a0306;
+        public static final int ty_arrow_right_thick=0x7f0a0307;
+        public static final int ty_arrow_shuffle=0x7f0a0308;
+        public static final int ty_arrow_sorted_down=0x7f0a0309;
+        public static final int ty_arrow_sorted_up=0x7f0a030a;
+        public static final int ty_arrow_sync=0x7f0a030b;
+        public static final int ty_arrow_sync_outline=0x7f0a030c;
+        public static final int ty_arrow_unsorted=0x7f0a030d;
+        public static final int ty_arrow_up=0x7f0a030e;
+        public static final int ty_arrow_up_outline=0x7f0a030f;
+        public static final int ty_arrow_up_thick=0x7f0a0310;
+        public static final int ty_at=0x7f0a0311;
+        public static final int ty_attachment=0x7f0a0312;
+        public static final int ty_attachment_outline=0x7f0a0313;
+        public static final int ty_backspace=0x7f0a0314;
+        public static final int ty_backspace_outline=0x7f0a0315;
+        public static final int ty_battery_charge=0x7f0a0316;
+        public static final int ty_battery_full=0x7f0a0317;
+        public static final int ty_battery_high=0x7f0a0318;
+        public static final int ty_battery_low=0x7f0a0319;
+        public static final int ty_battery_mid=0x7f0a031a;
+        public static final int ty_beaker=0x7f0a031b;
+        public static final int ty_beer=0x7f0a031c;
+        public static final int ty_bell=0x7f0a031d;
+        public static final int ty_book=0x7f0a031e;
+        public static final int ty_bookmark=0x7f0a031f;
+        public static final int ty_briefcase=0x7f0a0320;
+        public static final int ty_brush=0x7f0a0321;
+        public static final int ty_business_card=0x7f0a0322;
+        public static final int ty_calculator=0x7f0a0323;
+        public static final int ty_calendar=0x7f0a0324;
+        public static final int ty_calendar_outline=0x7f0a0325;
+        public static final int ty_camera=0x7f0a0326;
+        public static final int ty_camera_outline=0x7f0a0327;
+        public static final int ty_cancel=0x7f0a0328;
+        public static final int ty_cancel_outline=0x7f0a0329;
+        public static final int ty_chart_area=0x7f0a032a;
+        public static final int ty_chart_area_outline=0x7f0a032b;
+        public static final int ty_chart_bar=0x7f0a032c;
+        public static final int ty_chart_bar_outline=0x7f0a032d;
+        public static final int ty_chart_line=0x7f0a032e;
+        public static final int ty_chart_line_outline=0x7f0a032f;
+        public static final int ty_chart_pie=0x7f0a0330;
+        public static final int ty_chart_pie_outline=0x7f0a0331;
+        public static final int ty_chevron_left=0x7f0a0332;
+        public static final int ty_chevron_left_outline=0x7f0a0333;
+        public static final int ty_chevron_right=0x7f0a0334;
+        public static final int ty_chevron_right_outline=0x7f0a0335;
+        public static final int ty_clipboard=0x7f0a0336;
+        public static final int ty_cloud_storage=0x7f0a0337;
+        public static final int ty_cloud_storage_outline=0x7f0a0338;
+        public static final int ty_code=0x7f0a0339;
+        public static final int ty_code_outline=0x7f0a033a;
+        public static final int ty_coffee=0x7f0a033b;
+        public static final int ty_cog=0x7f0a033c;
+        public static final int ty_cog_outline=0x7f0a033d;
+        public static final int ty_compass=0x7f0a033e;
+        public static final int ty_contacts=0x7f0a033f;
+        public static final int ty_credit_card=0x7f0a0340;
+        public static final int ty_css3=0x7f0a0341;
+        public static final int ty_database=0x7f0a0342;
+        public static final int ty_delete=0x7f0a0343;
+        public static final int ty_delete_outline=0x7f0a0344;
+        public static final int ty_device_desktop=0x7f0a0345;
+        public static final int ty_device_laptop=0x7f0a0346;
+        public static final int ty_device_phone=0x7f0a0347;
+        public static final int ty_device_tablet=0x7f0a0348;
+        public static final int ty_directions=0x7f0a0349;
+        public static final int ty_divide=0x7f0a034a;
+        public static final int ty_divide_outline=0x7f0a034b;
+        public static final int ty_document=0x7f0a034c;
+        public static final int ty_document_add=0x7f0a034d;
+        public static final int ty_document_delete=0x7f0a034e;
+        public static final int ty_document_text=0x7f0a034f;
+        public static final int ty_download=0x7f0a0350;
+        public static final int ty_download_outline=0x7f0a0351;
+        public static final int ty_dropbox=0x7f0a0352;
+        public static final int ty_edit=0x7f0a0353;
+        public static final int ty_eject=0x7f0a0354;
+        public static final int ty_eject_outline=0x7f0a0355;
+        public static final int ty_equals=0x7f0a0356;
+        public static final int ty_equals_outline=0x7f0a0357;
+        public static final int ty_export=0x7f0a0358;
+        public static final int ty_export_outline=0x7f0a0359;
+        public static final int ty_eye=0x7f0a035a;
+        public static final int ty_eye_outline=0x7f0a035b;
+        public static final int ty_feather=0x7f0a035c;
+        public static final int ty_film=0x7f0a035d;
+        public static final int ty_filter=0x7f0a035e;
+        public static final int ty_flag=0x7f0a035f;
+        public static final int ty_flag_outline=0x7f0a0360;
+        public static final int ty_flash=0x7f0a0361;
+        public static final int ty_flash_outline=0x7f0a0362;
+        public static final int ty_flow_children=0x7f0a0363;
+        public static final int ty_flow_merge=0x7f0a0364;
+        public static final int ty_flow_parallel=0x7f0a0365;
+        public static final int ty_flow_switch=0x7f0a0366;
+        public static final int ty_folder=0x7f0a0367;
+        public static final int ty_folder_add=0x7f0a0368;
+        public static final int ty_folder_delete=0x7f0a0369;
+        public static final int ty_folder_open=0x7f0a036a;
+        public static final int ty_gift=0x7f0a036b;
+        public static final int ty_globe=0x7f0a036c;
+        public static final int ty_globe_outline=0x7f0a036d;
+        public static final int ty_group=0x7f0a036e;
+        public static final int ty_group_outline=0x7f0a036f;
+        public static final int ty_headphones=0x7f0a0370;
+        public static final int ty_heart=0x7f0a0371;
+        public static final int ty_heart_full_outline=0x7f0a0372;
+        public static final int ty_heart_half_outline=0x7f0a0373;
+        public static final int ty_heart_outline=0x7f0a0374;
+        public static final int ty_home=0x7f0a0375;
+        public static final int ty_home_outline=0x7f0a0376;
+        public static final int ty_html5=0x7f0a0377;
+        public static final int ty_image=0x7f0a0378;
+        public static final int ty_image_outline=0x7f0a0379;
+        public static final int ty_infinity=0x7f0a037a;
+        public static final int ty_infinity_outline=0x7f0a037b;
+        public static final int ty_info=0x7f0a037c;
+        public static final int ty_info_large=0x7f0a037d;
+        public static final int ty_info_large_outline=0x7f0a037e;
+        public static final int ty_info_outline=0x7f0a037f;
+        public static final int ty_input_checked=0x7f0a0380;
+        public static final int ty_input_checked_outline=0x7f0a0381;
+        public static final int ty_key=0x7f0a0382;
+        public static final int ty_key_outline=0x7f0a0383;
+        public static final int ty_keyboard=0x7f0a0384;
+        public static final int ty_leaf=0x7f0a0385;
+        public static final int ty_lightbulb=0x7f0a0386;
+        public static final int ty_link=0x7f0a0387;
+        public static final int ty_link_outline=0x7f0a0388;
+        public static final int ty_location=0x7f0a0389;
+        public static final int ty_location_arrow=0x7f0a038a;
+        public static final int ty_location_arrow_outline=0x7f0a038b;
+        public static final int ty_location_outline=0x7f0a038c;
+        public static final int ty_lock_closed=0x7f0a038d;
+        public static final int ty_lock_closed_outline=0x7f0a038e;
+        public static final int ty_lock_open=0x7f0a038f;
+        public static final int ty_lock_open_outline=0x7f0a0390;
+        public static final int ty_mail=0x7f0a0391;
+        public static final int ty_map=0x7f0a0392;
+        public static final int ty_media_eject=0x7f0a0393;
+        public static final int ty_media_eject_outline=0x7f0a0394;
+        public static final int ty_media_fast_forward=0x7f0a0395;
+        public static final int ty_media_fast_forward_outline=0x7f0a0396;
+        public static final int ty_media_pause=0x7f0a0397;
+        public static final int ty_media_pause_outline=0x7f0a0398;
+        public static final int ty_media_play=0x7f0a0399;
+        public static final int ty_media_play_outline=0x7f0a039a;
+        public static final int ty_media_play_reverse=0x7f0a039b;
+        public static final int ty_media_play_reverse_outline=0x7f0a039c;
+        public static final int ty_media_record=0x7f0a039d;
+        public static final int ty_media_record_outline=0x7f0a039e;
+        public static final int ty_media_rewind=0x7f0a039f;
+        public static final int ty_media_rewind_outline=0x7f0a03a0;
+        public static final int ty_media_stop=0x7f0a03a1;
+        public static final int ty_media_stop_outline=0x7f0a03a2;
+        public static final int ty_message=0x7f0a03a3;
+        public static final int ty_message_typing=0x7f0a03a4;
+        public static final int ty_messages=0x7f0a03a5;
+        public static final int ty_microphone=0x7f0a03a6;
+        public static final int ty_microphone_outline=0x7f0a03a7;
+        public static final int ty_minus=0x7f0a03a8;
+        public static final int ty_minus_outline=0x7f0a03a9;
+        public static final int ty_mortar_board=0x7f0a03aa;
+        public static final int ty_news=0x7f0a03ab;
+        public static final int ty_notes=0x7f0a03ac;
+        public static final int ty_notes_outline=0x7f0a03ad;
+        public static final int ty_pen=0x7f0a03ae;
+        public static final int ty_pencil=0x7f0a03af;
+        public static final int ty_phone=0x7f0a03b0;
+        public static final int ty_phone_outline=0x7f0a03b1;
+        public static final int ty_pi=0x7f0a03b2;
+        public static final int ty_pi_outline=0x7f0a03b3;
+        public static final int ty_pin=0x7f0a03b4;
+        public static final int ty_pin_outline=0x7f0a03b5;
+        public static final int ty_pipette=0x7f0a03b6;
+        public static final int ty_plane=0x7f0a03b7;
+        public static final int ty_plane_outline=0x7f0a03b8;
+        public static final int ty_plug=0x7f0a03b9;
+        public static final int ty_plus=0x7f0a03ba;
+        public static final int ty_plus_outline=0x7f0a03bb;
+        public static final int ty_point_of_interest=0x7f0a03bc;
+        public static final int ty_point_of_interest_outline=0x7f0a03bd;
+        public static final int ty_power=0x7f0a03be;
+        public static final int ty_power_outline=0x7f0a03bf;
+        public static final int ty_printer=0x7f0a03c0;
+        public static final int ty_puzzle=0x7f0a03c1;
+        public static final int ty_puzzle_outline=0x7f0a03c2;
+        public static final int ty_radar=0x7f0a03c3;
+        public static final int ty_radar_outline=0x7f0a03c4;
+        public static final int ty_refresh=0x7f0a03c5;
+        public static final int ty_refresh_outline=0x7f0a03c6;
+        public static final int ty_rss=0x7f0a03c7;
+        public static final int ty_rss_outline=0x7f0a03c8;
+        public static final int ty_scissors=0x7f0a03c9;
+        public static final int ty_scissors_outline=0x7f0a03ca;
+        public static final int ty_shopping_bag=0x7f0a03cb;
+        public static final int ty_shopping_cart=0x7f0a03cc;
+        public static final int ty_social_at_circular=0x7f0a03cd;
+        public static final int ty_social_dribbble=0x7f0a03ce;
+        public static final int ty_social_dribbble_circular=0x7f0a03cf;
+        public static final int ty_social_facebook=0x7f0a03d0;
+        public static final int ty_social_facebook_circular=0x7f0a03d1;
+        public static final int ty_social_flickr=0x7f0a03d2;
+        public static final int ty_social_flickr_circular=0x7f0a03d3;
+        public static final int ty_social_github=0x7f0a03d4;
+        public static final int ty_social_github_circular=0x7f0a03d5;
+        public static final int ty_social_google_plus=0x7f0a03d6;
+        public static final int ty_social_google_plus_circular=0x7f0a03d7;
+        public static final int ty_social_instagram=0x7f0a03d8;
+        public static final int ty_social_instagram_circular=0x7f0a03d9;
+        public static final int ty_social_last_fm=0x7f0a03da;
+        public static final int ty_social_last_fm_circular=0x7f0a03db;
+        public static final int ty_social_linkedin=0x7f0a03dc;
+        public static final int ty_social_linkedin_circular=0x7f0a03dd;
+        public static final int ty_social_pinterest=0x7f0a03de;
+        public static final int ty_social_pinterest_circular=0x7f0a03df;
+        public static final int ty_social_skype=0x7f0a03e0;
+        public static final int ty_social_skype_outline=0x7f0a03e1;
+        public static final int ty_social_tumbler=0x7f0a03e2;
+        public static final int ty_social_tumbler_circular=0x7f0a03e3;
+        public static final int ty_social_twitter=0x7f0a03e4;
+        public static final int ty_social_twitter_circular=0x7f0a03e5;
+        public static final int ty_social_vimeo=0x7f0a03e6;
+        public static final int ty_social_vimeo_circular=0x7f0a03e7;
+        public static final int ty_social_youtube=0x7f0a03e8;
+        public static final int ty_social_youtube_circular=0x7f0a03e9;
+        public static final int ty_sort_alphabetically=0x7f0a03ea;
+        public static final int ty_sort_alphabetically_outline=0x7f0a03eb;
+        public static final int ty_sort_numerically=0x7f0a03ec;
+        public static final int ty_sort_numerically_outline=0x7f0a03ed;
+        public static final int ty_spanner=0x7f0a03ee;
+        public static final int ty_spanner_outline=0x7f0a03ef;
+        public static final int ty_spiral=0x7f0a03f0;
+        public static final int ty_star=0x7f0a03f1;
+        public static final int ty_star_full_outline=0x7f0a03f2;
+        public static final int ty_star_half=0x7f0a03f3;
+        public static final int ty_star_half_outline=0x7f0a03f4;
+        public static final int ty_star_outline=0x7f0a03f5;
+        public static final int ty_starburst=0x7f0a03f6;
+        public static final int ty_starburst_outline=0x7f0a03f7;
+        public static final int ty_stopwatch=0x7f0a03f8;
+        public static final int ty_support=0x7f0a03f9;
+        public static final int ty_tabs_outline=0x7f0a03fa;
+        public static final int ty_tag=0x7f0a03fb;
+        public static final int ty_tags=0x7f0a03fc;
+        public static final int ty_th_large=0x7f0a03fd;
+        public static final int ty_th_large_outline=0x7f0a03fe;
+        public static final int ty_th_list=0x7f0a03ff;
+        public static final int ty_th_list_outline=0x7f0a0400;
+        public static final int ty_th_menu=0x7f0a0401;
+        public static final int ty_th_menu_outline=0x7f0a0402;
+        public static final int ty_th_small=0x7f0a0403;
+        public static final int ty_th_small_outline=0x7f0a0404;
+        public static final int ty_thermometer=0x7f0a0405;
+        public static final int ty_thumbs_down=0x7f0a0406;
+        public static final int ty_thumbs_ok=0x7f0a0407;
+        public static final int ty_thumbs_up=0x7f0a0408;
+        public static final int ty_tick=0x7f0a0409;
+        public static final int ty_tick_outline=0x7f0a040a;
+        public static final int ty_ticket=0x7f0a040b;
+        public static final int ty_time=0x7f0a040c;
+        public static final int ty_times=0x7f0a040d;
+        public static final int ty_times_outline=0x7f0a040e;
+        public static final int ty_trash=0x7f0a040f;
+        public static final int ty_tree=0x7f0a0410;
+        public static final int ty_upload=0x7f0a0411;
+        public static final int ty_upload_outline=0x7f0a0412;
+        public static final int ty_user=0x7f0a0413;
+        public static final int ty_user_add=0x7f0a0414;
+        public static final int ty_user_add_outline=0x7f0a0415;
+        public static final int ty_user_delete=0x7f0a0416;
+        public static final int ty_user_delete_outline=0x7f0a0417;
+        public static final int ty_user_outline=0x7f0a0418;
+        public static final int ty_vendor_android=0x7f0a0419;
+        public static final int ty_vendor_apple=0x7f0a041a;
+        public static final int ty_vendor_microsoft=0x7f0a041b;
+        public static final int ty_video=0x7f0a041c;
+        public static final int ty_video_outline=0x7f0a041d;
+        public static final int ty_volume=0x7f0a041e;
+        public static final int ty_volume_down=0x7f0a041f;
+        public static final int ty_volume_mute=0x7f0a0420;
+        public static final int ty_volume_up=0x7f0a0421;
+        public static final int ty_warning=0x7f0a0422;
+        public static final int ty_warning_outline=0x7f0a0423;
+        public static final int ty_watch=0x7f0a0424;
+        public static final int ty_waves=0x7f0a0425;
+        public static final int ty_waves_outline=0x7f0a0426;
+        public static final int ty_weather_cloudy=0x7f0a0427;
+        public static final int ty_weather_downpour=0x7f0a0428;
+        public static final int ty_weather_night=0x7f0a0429;
+        public static final int ty_weather_partly_sunny=0x7f0a042a;
+        public static final int ty_weather_shower=0x7f0a042b;
+        public static final int ty_weather_snow=0x7f0a042c;
+        public static final int ty_weather_stormy=0x7f0a042d;
+        public static final int ty_weather_sunny=0x7f0a042e;
+        public static final int ty_weather_windy=0x7f0a042f;
+        public static final int ty_weather_windy_cloudy=0x7f0a0430;
+        public static final int ty_wi_fi=0x7f0a0431;
+        public static final int ty_wi_fi_outline=0x7f0a0432;
+        public static final int ty_wine=0x7f0a0433;
+        public static final int ty_world=0x7f0a0434;
+        public static final int ty_world_outline=0x7f0a0435;
+        public static final int ty_zoom=0x7f0a0436;
+        public static final int ty_zoom_in=0x7f0a0437;
+        public static final int ty_zoom_in_outline=0x7f0a0438;
+        public static final int ty_zoom_out=0x7f0a0439;
+        public static final int ty_zoom_out_outline=0x7f0a043a;
+        public static final int ty_zoom_outline=0x7f0a043b;
         public static final int up=0x7f0a0001;
         public static final int useLogo=0x7f0a0013;
-        public static final int username=0x7f0a005d;
-        public static final int via=0x7f0a0065;
-        public static final int viewpager=0x7f0a0052;
+        public static final int username=0x7f0a0476;
+        public static final int via=0x7f0a047e;
+        public static final int viewpager=0x7f0a046b;
+        public static final int warning=0x7f0a0027;
         public static final int withText=0x7f0a001d;
         public static final int wrap_content=0x7f0a0009;
+        public static final int xl=0x7f0a002e;
+        public static final int xs=0x7f0a002f;
     }
     public static final class integer {
         public static final int abc_config_activityDefaultDur=0x7f090001;
@@ -2315,10 +4677,10 @@ containing a value of this type.
         public static final int tweet=0x7f0b0020;
     }
     public static final class style {
-        public static final int AlertDialog_AppCompat=0x7f0c0042;
-        public static final int AlertDialog_AppCompat_Light=0x7f0c0043;
-        public static final int Animation_AppCompat_Dialog=0x7f0c0049;
-        public static final int Animation_AppCompat_DropDownUp=0x7f0c004a;
+        public static final int AlertDialog_AppCompat=0x7f0c0044;
+        public static final int AlertDialog_AppCompat_Light=0x7f0c0045;
+        public static final int Animation_AppCompat_Dialog=0x7f0c004b;
+        public static final int Animation_AppCompat_DropDownUp=0x7f0c004c;
         /** 
         Base application theme, dependent on API level. This theme is replaced
         by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
@@ -2340,285 +4702,289 @@ containing a value of this type.
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f0c0133;
+        public static final int AppBaseTheme=0x7f0c013e;
         /**  Application theme. 
  ActionBarは消して"それっぽいモノ"で置き換える  
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f0c0134;
-        public static final int Base_AlertDialog_AppCompat=0x7f0c00cc;
-        public static final int Base_AlertDialog_AppCompat_Light=0x7f0c00cd;
-        public static final int Base_Animation_AppCompat_Dialog=0x7f0c00c8;
-        public static final int Base_Animation_AppCompat_DropDownUp=0x7f0c00cb;
-        public static final int Base_DialogWindowTitle_AppCompat=0x7f0c00c7;
-        public static final int Base_DialogWindowTitleBackground_AppCompat=0x7f0c00c6;
-        public static final int Base_TextAppearance_AppCompat=0x7f0c00d0;
-        public static final int Base_TextAppearance_AppCompat_Body1=0x7f0c00db;
-        public static final int Base_TextAppearance_AppCompat_Body2=0x7f0c00da;
-        public static final int Base_TextAppearance_AppCompat_Button=0x7f0c00de;
-        public static final int Base_TextAppearance_AppCompat_Caption=0x7f0c00dc;
-        public static final int Base_TextAppearance_AppCompat_Display1=0x7f0c00d4;
-        public static final int Base_TextAppearance_AppCompat_Display2=0x7f0c00d3;
-        public static final int Base_TextAppearance_AppCompat_Display3=0x7f0c00d2;
-        public static final int Base_TextAppearance_AppCompat_Display4=0x7f0c00d1;
-        public static final int Base_TextAppearance_AppCompat_Headline=0x7f0c00d5;
+        public static final int AppTheme=0x7f0c013f;
+        public static final int Base_AlertDialog_AppCompat=0x7f0c00d0;
+        public static final int Base_AlertDialog_AppCompat_Light=0x7f0c00d1;
+        public static final int Base_Animation_AppCompat_Dialog=0x7f0c00cc;
+        public static final int Base_Animation_AppCompat_DropDownUp=0x7f0c00cf;
+        public static final int Base_DialogWindowTitle_AppCompat=0x7f0c00cb;
+        public static final int Base_DialogWindowTitleBackground_AppCompat=0x7f0c00ca;
+        public static final int Base_TextAppearance_AppCompat=0x7f0c00d4;
+        public static final int Base_TextAppearance_AppCompat_Body1=0x7f0c00df;
+        public static final int Base_TextAppearance_AppCompat_Body2=0x7f0c00de;
+        public static final int Base_TextAppearance_AppCompat_Button=0x7f0c00e2;
+        public static final int Base_TextAppearance_AppCompat_Caption=0x7f0c00e0;
+        public static final int Base_TextAppearance_AppCompat_Display1=0x7f0c00d8;
+        public static final int Base_TextAppearance_AppCompat_Display2=0x7f0c00d7;
+        public static final int Base_TextAppearance_AppCompat_Display3=0x7f0c00d6;
+        public static final int Base_TextAppearance_AppCompat_Display4=0x7f0c00d5;
+        public static final int Base_TextAppearance_AppCompat_Headline=0x7f0c00d9;
         /**  Deprecated text styles 
  Deprecated text styles 
  Now deprecated styles 
          */
-        public static final int Base_TextAppearance_AppCompat_Inverse=0x7f0c00e1;
-        public static final int Base_TextAppearance_AppCompat_Large=0x7f0c00e2;
-        public static final int Base_TextAppearance_AppCompat_Large_Inverse=0x7f0c00e3;
-        public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0c00a4;
-        public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0c00a5;
-        public static final int Base_TextAppearance_AppCompat_Medium=0x7f0c00e4;
-        public static final int Base_TextAppearance_AppCompat_Medium_Inverse=0x7f0c00e5;
-        public static final int Base_TextAppearance_AppCompat_Menu=0x7f0c00dd;
-        public static final int Base_TextAppearance_AppCompat_SearchResult=0x7f0c00a6;
-        public static final int Base_TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0c00a8;
+        public static final int Base_TextAppearance_AppCompat_Inverse=0x7f0c00e5;
+        public static final int Base_TextAppearance_AppCompat_Large=0x7f0c00e6;
+        public static final int Base_TextAppearance_AppCompat_Large_Inverse=0x7f0c00e7;
+        public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0c00a6;
+        public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0c00a7;
+        public static final int Base_TextAppearance_AppCompat_Medium=0x7f0c00e8;
+        public static final int Base_TextAppearance_AppCompat_Medium_Inverse=0x7f0c00e9;
+        public static final int Base_TextAppearance_AppCompat_Menu=0x7f0c00e1;
+        public static final int Base_TextAppearance_AppCompat_SearchResult=0x7f0c00a8;
+        public static final int Base_TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0c00aa;
         /**  Search View result styles 
          */
-        public static final int Base_TextAppearance_AppCompat_SearchResult_Title=0x7f0c00a7;
-        public static final int Base_TextAppearance_AppCompat_Small=0x7f0c00e6;
-        public static final int Base_TextAppearance_AppCompat_Small_Inverse=0x7f0c00e7;
-        public static final int Base_TextAppearance_AppCompat_Subhead=0x7f0c00d8;
-        public static final int Base_TextAppearance_AppCompat_Subhead_Inverse=0x7f0c00d9;
-        public static final int Base_TextAppearance_AppCompat_Title=0x7f0c00d6;
-        public static final int Base_TextAppearance_AppCompat_Title_Inverse=0x7f0c00d7;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0c008d;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0c008f;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0c0091;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0c008e;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0c0090;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0c008c;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0c008b;
-        public static final int Base_TextAppearance_AppCompat_Widget_Button=0x7f0c00df;
-        public static final int Base_TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0c00e0;
-        public static final int Base_TextAppearance_AppCompat_Widget_DropDownItem=0x7f0c009a;
-        public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0c00a2;
-        public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0c00a3;
-        public static final int Base_TextAppearance_AppCompat_Widget_Switch=0x7f0c00ba;
-        public static final int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0c00c5;
-        public static final int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0c009b;
-        public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0c00b0;
-        public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0c00af;
-        public static final int Base_Theme_AppCompat=0x7f0c010d;
+        public static final int Base_TextAppearance_AppCompat_SearchResult_Title=0x7f0c00a9;
+        public static final int Base_TextAppearance_AppCompat_Small=0x7f0c00ea;
+        public static final int Base_TextAppearance_AppCompat_Small_Inverse=0x7f0c00eb;
+        public static final int Base_TextAppearance_AppCompat_Subhead=0x7f0c00dc;
+        public static final int Base_TextAppearance_AppCompat_Subhead_Inverse=0x7f0c00dd;
+        public static final int Base_TextAppearance_AppCompat_Title=0x7f0c00da;
+        public static final int Base_TextAppearance_AppCompat_Title_Inverse=0x7f0c00db;
+        /**  We can use the fixed TextAppearance.Material.Widget.ActionBar.Menu on 23+ 
+         */
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0c008f;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0c0091;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0c0093;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0c0090;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0c0092;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0c008e;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0c008d;
+        public static final int Base_TextAppearance_AppCompat_Widget_Button=0x7f0c00e3;
+        public static final int Base_TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0c00e4;
+        public static final int Base_TextAppearance_AppCompat_Widget_DropDownItem=0x7f0c009c;
+        public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0c00a4;
+        public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0c00a5;
+        public static final int Base_TextAppearance_AppCompat_Widget_Switch=0x7f0c00bc;
+        public static final int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0c00c9;
+        public static final int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0c009d;
+        public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0c00b2;
+        public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0c00b1;
+        public static final int Base_Theme_AppCompat=0x7f0c0111;
         /**  Menu/item attributes 
          */
-        public static final int Base_Theme_AppCompat_CompactMenu=0x7f0c0110;
-        public static final int Base_Theme_AppCompat_Dialog=0x7f0c0113;
-        public static final int Base_Theme_AppCompat_Dialog_Alert=0x7f0c0115;
-        public static final int Base_Theme_AppCompat_Dialog_FixedSize=0x7f0c0119;
-        public static final int Base_Theme_AppCompat_Dialog_MinWidth=0x7f0c0117;
+        public static final int Base_Theme_AppCompat_CompactMenu=0x7f0c0114;
+        public static final int Base_Theme_AppCompat_Dialog=0x7f0c0117;
+        public static final int Base_Theme_AppCompat_Dialog_Alert=0x7f0c0119;
+        public static final int Base_Theme_AppCompat_Dialog_FixedSize=0x7f0c011d;
+        public static final int Base_Theme_AppCompat_Dialog_MinWidth=0x7f0c011b;
         /**  We're not large, so redirect to Theme.AppCompat 
          */
-        public static final int Base_Theme_AppCompat_DialogWhenLarge=0x7f0c011b;
-        public static final int Base_Theme_AppCompat_Light=0x7f0c010e;
-        public static final int Base_Theme_AppCompat_Light_DarkActionBar=0x7f0c010f;
-        public static final int Base_Theme_AppCompat_Light_Dialog=0x7f0c0114;
-        public static final int Base_Theme_AppCompat_Light_Dialog_Alert=0x7f0c0116;
-        public static final int Base_Theme_AppCompat_Light_Dialog_FixedSize=0x7f0c011a;
-        public static final int Base_Theme_AppCompat_Light_Dialog_MinWidth=0x7f0c0118;
-        public static final int Base_Theme_AppCompat_Light_DialogWhenLarge=0x7f0c011c;
-        public static final int Base_ThemeOverlay_AppCompat=0x7f0c011e;
-        public static final int Base_ThemeOverlay_AppCompat_ActionBar=0x7f0c0123;
-        public static final int Base_ThemeOverlay_AppCompat_Dark=0x7f0c0122;
-        public static final int Base_ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0c0124;
-        public static final int Base_ThemeOverlay_AppCompat_Light=0x7f0c0121;
-        public static final int Base_V11_Theme_AppCompat_Dialog=0x7f0c0127;
-        public static final int Base_V11_Theme_AppCompat_Light_Dialog=0x7f0c0128;
-        public static final int Base_V12_Widget_AppCompat_AutoCompleteTextView=0x7f0c00cf;
-        public static final int Base_V12_Widget_AppCompat_EditText=0x7f0c00ce;
-        public static final int Base_V21_Theme_AppCompat=0x7f0c012b;
-        public static final int Base_V21_Theme_AppCompat_Dialog=0x7f0c012d;
-        public static final int Base_V21_Theme_AppCompat_Light=0x7f0c012c;
-        public static final int Base_V21_Theme_AppCompat_Light_Dialog=0x7f0c012e;
-        public static final int Base_V22_Theme_AppCompat=0x7f0c012f;
-        public static final int Base_V22_Theme_AppCompat_Light=0x7f0c0130;
-        public static final int Base_V23_Theme_AppCompat=0x7f0c0131;
-        public static final int Base_V23_Theme_AppCompat_Light=0x7f0c0132;
+        public static final int Base_Theme_AppCompat_DialogWhenLarge=0x7f0c011f;
+        public static final int Base_Theme_AppCompat_Light=0x7f0c0112;
+        public static final int Base_Theme_AppCompat_Light_DarkActionBar=0x7f0c0113;
+        public static final int Base_Theme_AppCompat_Light_Dialog=0x7f0c0118;
+        public static final int Base_Theme_AppCompat_Light_Dialog_Alert=0x7f0c011a;
+        public static final int Base_Theme_AppCompat_Light_Dialog_FixedSize=0x7f0c011e;
+        public static final int Base_Theme_AppCompat_Light_Dialog_MinWidth=0x7f0c011c;
+        public static final int Base_Theme_AppCompat_Light_DialogWhenLarge=0x7f0c0120;
+        public static final int Base_ThemeOverlay_AppCompat=0x7f0c0122;
+        public static final int Base_ThemeOverlay_AppCompat_ActionBar=0x7f0c0127;
+        public static final int Base_ThemeOverlay_AppCompat_Dark=0x7f0c0126;
+        public static final int Base_ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0c0128;
+        public static final int Base_ThemeOverlay_AppCompat_Light=0x7f0c0125;
+        public static final int Base_V11_Theme_AppCompat_Dialog=0x7f0c012b;
+        public static final int Base_V11_Theme_AppCompat_Light_Dialog=0x7f0c012c;
+        public static final int Base_V12_Widget_AppCompat_AutoCompleteTextView=0x7f0c00d3;
+        public static final int Base_V12_Widget_AppCompat_EditText=0x7f0c00d2;
+        public static final int Base_V21_Theme_AppCompat=0x7f0c012f;
+        public static final int Base_V21_Theme_AppCompat_Dialog=0x7f0c0131;
+        public static final int Base_V21_Theme_AppCompat_Light=0x7f0c0130;
+        public static final int Base_V21_Theme_AppCompat_Light_Dialog=0x7f0c0132;
+        public static final int Base_V22_Theme_AppCompat=0x7f0c0133;
+        public static final int Base_V22_Theme_AppCompat_Light=0x7f0c0134;
+        public static final int Base_V23_Theme_AppCompat=0x7f0c0135;
+        public static final int Base_V23_Theme_AppCompat_Light=0x7f0c0136;
         /**  Base platform-dependent theme providing an action bar in a dark-themed activity. 
          */
-        public static final int Base_V7_Theme_AppCompat=0x7f0c010b;
-        public static final int Base_V7_Theme_AppCompat_Dialog=0x7f0c0111;
+        public static final int Base_V7_Theme_AppCompat=0x7f0c010f;
+        public static final int Base_V7_Theme_AppCompat_Dialog=0x7f0c0115;
         /**  Base platform-dependent theme providing an action bar in a light-themed activity. 
          */
-        public static final int Base_V7_Theme_AppCompat_Light=0x7f0c010c;
-        public static final int Base_V7_Theme_AppCompat_Light_Dialog=0x7f0c0112;
-        public static final int Base_V7_Widget_AppCompat_AutoCompleteTextView=0x7f0c00aa;
-        public static final int Base_V7_Widget_AppCompat_EditText=0x7f0c00b4;
-        public static final int Base_Widget_AppCompat_ActionBar=0x7f0c007c;
-        public static final int Base_Widget_AppCompat_ActionBar_Solid=0x7f0c007e;
-        public static final int Base_Widget_AppCompat_ActionBar_TabBar=0x7f0c0083;
-        public static final int Base_Widget_AppCompat_ActionBar_TabText=0x7f0c0087;
-        public static final int Base_Widget_AppCompat_ActionBar_TabView=0x7f0c0085;
+        public static final int Base_V7_Theme_AppCompat_Light=0x7f0c0110;
+        public static final int Base_V7_Theme_AppCompat_Light_Dialog=0x7f0c0116;
+        public static final int Base_V7_Widget_AppCompat_AutoCompleteTextView=0x7f0c00ac;
+        public static final int Base_V7_Widget_AppCompat_EditText=0x7f0c00b6;
+        public static final int Base_Widget_AppCompat_ActionBar=0x7f0c007e;
+        public static final int Base_Widget_AppCompat_ActionBar_Solid=0x7f0c0080;
+        public static final int Base_Widget_AppCompat_ActionBar_TabBar=0x7f0c0085;
+        public static final int Base_Widget_AppCompat_ActionBar_TabText=0x7f0c0089;
+        public static final int Base_Widget_AppCompat_ActionBar_TabView=0x7f0c0087;
         /**  Action Button Styles 
          */
-        public static final int Base_Widget_AppCompat_ActionButton=0x7f0c0080;
-        public static final int Base_Widget_AppCompat_ActionButton_CloseMode=0x7f0c0081;
-        public static final int Base_Widget_AppCompat_ActionButton_Overflow=0x7f0c0082;
-        public static final int Base_Widget_AppCompat_ActionMode=0x7f0c008a;
-        public static final int Base_Widget_AppCompat_ActivityChooserView=0x7f0c00ab;
-        public static final int Base_Widget_AppCompat_AutoCompleteTextView=0x7f0c00a9;
+        public static final int Base_Widget_AppCompat_ActionButton=0x7f0c0082;
+        public static final int Base_Widget_AppCompat_ActionButton_CloseMode=0x7f0c0083;
+        public static final int Base_Widget_AppCompat_ActionButton_Overflow=0x7f0c0084;
+        public static final int Base_Widget_AppCompat_ActionMode=0x7f0c008c;
+        public static final int Base_Widget_AppCompat_ActivityChooserView=0x7f0c00ad;
+        public static final int Base_Widget_AppCompat_AutoCompleteTextView=0x7f0c00ab;
         /**  Bordered ink button 
          */
-        public static final int Base_Widget_AppCompat_Button=0x7f0c00bd;
+        public static final int Base_Widget_AppCompat_Button=0x7f0c00c1;
         /**  Borderless ink button 
          */
-        public static final int Base_Widget_AppCompat_Button_Borderless=0x7f0c00c0;
+        public static final int Base_Widget_AppCompat_Button_Borderless=0x7f0c00c4;
         /**  Colored borderless ink button 
          */
-        public static final int Base_Widget_AppCompat_Button_Borderless_Colored=0x7f0c00c1;
-        public static final int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0c00c2;
+        public static final int Base_Widget_AppCompat_Button_Borderless_Colored=0x7f0c00c5;
+        public static final int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0c00c6;
         /**  Colored bordered ink button 
          */
-        public static final int Base_Widget_AppCompat_Button_Colored=0x7f0c00bf;
+        public static final int Base_Widget_AppCompat_Button_Colored=0x7f0c00c3;
         /**  Small bordered ink button 
          */
-        public static final int Base_Widget_AppCompat_Button_Small=0x7f0c00be;
-        public static final int Base_Widget_AppCompat_ButtonBar=0x7f0c00c9;
-        public static final int Base_Widget_AppCompat_ButtonBar_AlertDialog=0x7f0c00ca;
-        public static final int Base_Widget_AppCompat_CompoundButton_CheckBox=0x7f0c00b7;
-        public static final int Base_Widget_AppCompat_CompoundButton_RadioButton=0x7f0c00b8;
-        public static final int Base_Widget_AppCompat_CompoundButton_Switch=0x7f0c00b9;
+        public static final int Base_Widget_AppCompat_Button_Small=0x7f0c00c2;
+        public static final int Base_Widget_AppCompat_ButtonBar=0x7f0c00cd;
+        public static final int Base_Widget_AppCompat_ButtonBar_AlertDialog=0x7f0c00ce;
+        public static final int Base_Widget_AppCompat_CompoundButton_CheckBox=0x7f0c00b9;
+        public static final int Base_Widget_AppCompat_CompoundButton_RadioButton=0x7f0c00ba;
+        public static final int Base_Widget_AppCompat_CompoundButton_Switch=0x7f0c00bb;
         /**  contains values used in all dpis except hdpi and xxhdpi 
          */
-        public static final int Base_Widget_AppCompat_DrawerArrowToggle=0x7f0c00b6;
+        public static final int Base_Widget_AppCompat_DrawerArrowToggle=0x7f0c00b8;
         /**  contains values used in all dpis 
          */
-        public static final int Base_Widget_AppCompat_DrawerArrowToggle_Common=0x7f0c00b5;
-        public static final int Base_Widget_AppCompat_DropDownItem_Spinner=0x7f0c0097;
-        public static final int Base_Widget_AppCompat_EditText=0x7f0c00b3;
-        public static final int Base_Widget_AppCompat_ImageButton=0x7f0c00c3;
-        public static final int Base_Widget_AppCompat_Light_ActionBar=0x7f0c007d;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_Solid=0x7f0c007f;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_TabBar=0x7f0c0084;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_TabText=0x7f0c0088;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0c0089;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_TabView=0x7f0c0086;
-        public static final int Base_Widget_AppCompat_Light_PopupMenu=0x7f0c00a1;
-        public static final int Base_Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0c009f;
+        public static final int Base_Widget_AppCompat_DrawerArrowToggle_Common=0x7f0c00b7;
+        public static final int Base_Widget_AppCompat_DropDownItem_Spinner=0x7f0c0099;
+        public static final int Base_Widget_AppCompat_EditText=0x7f0c00b5;
+        public static final int Base_Widget_AppCompat_ImageButton=0x7f0c00c7;
+        public static final int Base_Widget_AppCompat_Light_ActionBar=0x7f0c007f;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_Solid=0x7f0c0081;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_TabBar=0x7f0c0086;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_TabText=0x7f0c008a;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0c008b;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_TabView=0x7f0c0088;
+        public static final int Base_Widget_AppCompat_Light_PopupMenu=0x7f0c00a3;
+        public static final int Base_Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0c00a1;
         /**  Popup Menu 
          */
-        public static final int Base_Widget_AppCompat_ListPopupWindow=0x7f0c009d;
+        public static final int Base_Widget_AppCompat_ListPopupWindow=0x7f0c009f;
         /**  Base.Widget.AppCompat.Spinner.Underlined is overridden in ldltr-v21 and v23 
          */
-        public static final int Base_Widget_AppCompat_ListView=0x7f0c0098;
+        public static final int Base_Widget_AppCompat_ListView=0x7f0c009a;
         /**  Spinner Widgets 
          */
-        public static final int Base_Widget_AppCompat_ListView_DropDown=0x7f0c0099;
-        public static final int Base_Widget_AppCompat_ListView_Menu=0x7f0c009c;
-        public static final int Base_Widget_AppCompat_PopupMenu=0x7f0c00a0;
-        public static final int Base_Widget_AppCompat_PopupMenu_Overflow=0x7f0c009e;
-        public static final int Base_Widget_AppCompat_PopupWindow=0x7f0c00ac;
-        public static final int Base_Widget_AppCompat_ProgressBar=0x7f0c0093;
+        public static final int Base_Widget_AppCompat_ListView_DropDown=0x7f0c009b;
+        public static final int Base_Widget_AppCompat_ListView_Menu=0x7f0c009e;
+        public static final int Base_Widget_AppCompat_PopupMenu=0x7f0c00a2;
+        public static final int Base_Widget_AppCompat_PopupMenu_Overflow=0x7f0c00a0;
+        public static final int Base_Widget_AppCompat_PopupWindow=0x7f0c00ae;
+        public static final int Base_Widget_AppCompat_ProgressBar=0x7f0c0095;
         /**  Progress Bar 
  Progress Bar 
          */
-        public static final int Base_Widget_AppCompat_ProgressBar_Horizontal=0x7f0c0092;
-        public static final int Base_Widget_AppCompat_RatingBar=0x7f0c00bb;
-        public static final int Base_Widget_AppCompat_SearchView=0x7f0c00b1;
-        public static final int Base_Widget_AppCompat_SearchView_ActionBar=0x7f0c00b2;
-        public static final int Base_Widget_AppCompat_SeekBar=0x7f0c00bc;
-        public static final int Base_Widget_AppCompat_Spinner=0x7f0c0095;
+        public static final int Base_Widget_AppCompat_ProgressBar_Horizontal=0x7f0c0094;
+        public static final int Base_Widget_AppCompat_RatingBar=0x7f0c00bd;
+        public static final int Base_Widget_AppCompat_RatingBar_Indicator=0x7f0c00be;
+        public static final int Base_Widget_AppCompat_RatingBar_Small=0x7f0c00bf;
+        public static final int Base_Widget_AppCompat_SearchView=0x7f0c00b3;
+        public static final int Base_Widget_AppCompat_SearchView_ActionBar=0x7f0c00b4;
+        public static final int Base_Widget_AppCompat_SeekBar=0x7f0c00c0;
+        public static final int Base_Widget_AppCompat_Spinner=0x7f0c0097;
         /**  The platform Underlined style only works in LTR in v21-22 
          */
-        public static final int Base_Widget_AppCompat_Spinner_Underlined=0x7f0c0096;
-        public static final int Base_Widget_AppCompat_TextView_SpinnerItem=0x7f0c00c4;
-        public static final int Base_Widget_AppCompat_Toolbar=0x7f0c00ad;
+        public static final int Base_Widget_AppCompat_Spinner_Underlined=0x7f0c0098;
+        public static final int Base_Widget_AppCompat_TextView_SpinnerItem=0x7f0c00c8;
+        public static final int Base_Widget_AppCompat_Toolbar=0x7f0c00af;
         /** 
         Widget.AppCompat.Toolbar style is purposely ommitted. This is because the support
         Toolbar implementation is used on ALL platforms and relies on the unbundled attrs.
         The supporting Toolbar styles below only use basic attrs so work fine.
     
          */
-        public static final int Base_Widget_AppCompat_Toolbar_Button_Navigation=0x7f0c00ae;
-        public static final int Platform_AppCompat=0x7f0c0109;
-        public static final int Platform_AppCompat_Light=0x7f0c010a;
+        public static final int Base_Widget_AppCompat_Toolbar_Button_Navigation=0x7f0c00b0;
+        public static final int Platform_AppCompat=0x7f0c010d;
+        public static final int Platform_AppCompat_Light=0x7f0c010e;
         /**  Overlay themes 
          */
-        public static final int Platform_ThemeOverlay_AppCompat=0x7f0c011d;
-        public static final int Platform_ThemeOverlay_AppCompat_Dark=0x7f0c011f;
-        public static final int Platform_ThemeOverlay_AppCompat_Light=0x7f0c0120;
-        public static final int Platform_V11_AppCompat=0x7f0c0125;
-        public static final int Platform_V11_AppCompat_Light=0x7f0c0126;
-        public static final int Platform_V14_AppCompat=0x7f0c0129;
-        public static final int Platform_V14_AppCompat_Light=0x7f0c012a;
+        public static final int Platform_ThemeOverlay_AppCompat=0x7f0c0121;
+        public static final int Platform_ThemeOverlay_AppCompat_Dark=0x7f0c0123;
+        public static final int Platform_ThemeOverlay_AppCompat_Light=0x7f0c0124;
+        public static final int Platform_V11_AppCompat=0x7f0c0129;
+        public static final int Platform_V11_AppCompat_Light=0x7f0c012a;
+        public static final int Platform_V14_AppCompat=0x7f0c012d;
+        public static final int Platform_V14_AppCompat_Light=0x7f0c012e;
         /**  Spinner Widgets 
          */
-        public static final int Platform_Widget_AppCompat_Spinner=0x7f0c0094;
-        public static final int RtlOverlay_DialogWindowTitle_AppCompat=0x7f0c00f5;
-        public static final int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem=0x7f0c00ee;
-        public static final int RtlOverlay_Widget_AppCompat_DialogTitle_Icon=0x7f0c00f4;
-        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem=0x7f0c00f1;
-        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup=0x7f0c00f2;
-        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text=0x7f0c00f3;
-        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown=0x7f0c00e9;
-        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1=0x7f0c00eb;
-        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2=0x7f0c00ec;
-        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Query=0x7f0c00ea;
-        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Text=0x7f0c00ed;
-        public static final int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f0c00e8;
-        public static final int RtlUnderlay_Widget_AppCompat_ActionButton=0x7f0c00ef;
-        public static final int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow=0x7f0c00f0;
-        public static final int TextAppearance_AppCompat=0x7f0c004b;
-        public static final int TextAppearance_AppCompat_Body1=0x7f0c0056;
-        public static final int TextAppearance_AppCompat_Body2=0x7f0c0055;
-        public static final int TextAppearance_AppCompat_Button=0x7f0c0060;
-        public static final int TextAppearance_AppCompat_Caption=0x7f0c0057;
-        public static final int TextAppearance_AppCompat_Display1=0x7f0c004f;
-        public static final int TextAppearance_AppCompat_Display2=0x7f0c004e;
-        public static final int TextAppearance_AppCompat_Display3=0x7f0c004d;
-        public static final int TextAppearance_AppCompat_Display4=0x7f0c004c;
-        public static final int TextAppearance_AppCompat_Headline=0x7f0c0050;
-        public static final int TextAppearance_AppCompat_Inverse=0x7f0c0059;
-        public static final int TextAppearance_AppCompat_Large=0x7f0c005a;
-        public static final int TextAppearance_AppCompat_Large_Inverse=0x7f0c005b;
-        public static final int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f0c0069;
-        public static final int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f0c0068;
+        public static final int Platform_Widget_AppCompat_Spinner=0x7f0c0096;
+        public static final int RtlOverlay_DialogWindowTitle_AppCompat=0x7f0c00f9;
+        public static final int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem=0x7f0c00f2;
+        public static final int RtlOverlay_Widget_AppCompat_DialogTitle_Icon=0x7f0c00f8;
+        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem=0x7f0c00f5;
+        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup=0x7f0c00f6;
+        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text=0x7f0c00f7;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown=0x7f0c00ed;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1=0x7f0c00ef;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2=0x7f0c00f0;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Query=0x7f0c00ee;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Text=0x7f0c00f1;
+        public static final int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f0c00ec;
+        public static final int RtlUnderlay_Widget_AppCompat_ActionButton=0x7f0c00f3;
+        public static final int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow=0x7f0c00f4;
+        public static final int TextAppearance_AppCompat=0x7f0c004d;
+        public static final int TextAppearance_AppCompat_Body1=0x7f0c0058;
+        public static final int TextAppearance_AppCompat_Body2=0x7f0c0057;
+        public static final int TextAppearance_AppCompat_Button=0x7f0c0062;
+        public static final int TextAppearance_AppCompat_Caption=0x7f0c0059;
+        public static final int TextAppearance_AppCompat_Display1=0x7f0c0051;
+        public static final int TextAppearance_AppCompat_Display2=0x7f0c0050;
+        public static final int TextAppearance_AppCompat_Display3=0x7f0c004f;
+        public static final int TextAppearance_AppCompat_Display4=0x7f0c004e;
+        public static final int TextAppearance_AppCompat_Headline=0x7f0c0052;
+        public static final int TextAppearance_AppCompat_Inverse=0x7f0c005b;
+        public static final int TextAppearance_AppCompat_Large=0x7f0c005c;
+        public static final int TextAppearance_AppCompat_Large_Inverse=0x7f0c005d;
+        public static final int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f0c006b;
+        public static final int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f0c006a;
         public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0c002b;
         public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0c002c;
-        public static final int TextAppearance_AppCompat_Medium=0x7f0c005c;
-        public static final int TextAppearance_AppCompat_Medium_Inverse=0x7f0c005d;
-        public static final int TextAppearance_AppCompat_Menu=0x7f0c0058;
+        public static final int TextAppearance_AppCompat_Medium=0x7f0c005e;
+        public static final int TextAppearance_AppCompat_Medium_Inverse=0x7f0c005f;
+        public static final int TextAppearance_AppCompat_Menu=0x7f0c005a;
         public static final int TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0c002e;
         public static final int TextAppearance_AppCompat_SearchResult_Title=0x7f0c002d;
-        public static final int TextAppearance_AppCompat_Small=0x7f0c005e;
-        public static final int TextAppearance_AppCompat_Small_Inverse=0x7f0c005f;
-        public static final int TextAppearance_AppCompat_Subhead=0x7f0c0053;
-        public static final int TextAppearance_AppCompat_Subhead_Inverse=0x7f0c0054;
-        public static final int TextAppearance_AppCompat_Title=0x7f0c0051;
-        public static final int TextAppearance_AppCompat_Title_Inverse=0x7f0c0052;
+        public static final int TextAppearance_AppCompat_Small=0x7f0c0060;
+        public static final int TextAppearance_AppCompat_Small_Inverse=0x7f0c0061;
+        public static final int TextAppearance_AppCompat_Subhead=0x7f0c0055;
+        public static final int TextAppearance_AppCompat_Subhead_Inverse=0x7f0c0056;
+        public static final int TextAppearance_AppCompat_Title=0x7f0c0053;
+        public static final int TextAppearance_AppCompat_Title_Inverse=0x7f0c0054;
         public static final int TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0c0015;
         public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0c0005;
         public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0c0007;
         public static final int TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0c0004;
         public static final int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0c0006;
         public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0c0018;
-        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f0c006c;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f0c006e;
         public static final int TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0c0017;
-        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f0c006b;
-        public static final int TextAppearance_AppCompat_Widget_Button=0x7f0c0061;
-        public static final int TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0c0062;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f0c006d;
+        public static final int TextAppearance_AppCompat_Widget_Button=0x7f0c0063;
+        public static final int TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0c0064;
         public static final int TextAppearance_AppCompat_Widget_DropDownItem=0x7f0c0019;
         public static final int TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0c0029;
         public static final int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0c002a;
-        public static final int TextAppearance_AppCompat_Widget_Switch=0x7f0c0063;
-        public static final int TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0c0064;
+        public static final int TextAppearance_AppCompat_Widget_Switch=0x7f0c0065;
+        public static final int TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0c0066;
         /**  These styles didn't exist on v7. Since we only use the media template in later versions
          (ICS+), just define it here and use the correct references in values/v14 
  Use platform styles 
          */
-        public static final int TextAppearance_StatusBar_EventContent=0x7f0c0077;
-        public static final int TextAppearance_StatusBar_EventContent_Info=0x7f0c007a;
+        public static final int TextAppearance_StatusBar_EventContent=0x7f0c0079;
+        public static final int TextAppearance_StatusBar_EventContent_Info=0x7f0c007c;
         /**  Use own styles for which platform styles are not public 
          */
-        public static final int TextAppearance_StatusBar_EventContent_Line2=0x7f0c0079;
-        public static final int TextAppearance_StatusBar_EventContent_Time=0x7f0c007b;
-        public static final int TextAppearance_StatusBar_EventContent_Title=0x7f0c0078;
+        public static final int TextAppearance_StatusBar_EventContent_Line2=0x7f0c007b;
+        public static final int TextAppearance_StatusBar_EventContent_Time=0x7f0c007d;
+        public static final int TextAppearance_StatusBar_EventContent_Title=0x7f0c007a;
         public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0c0021;
-        public static final int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0c0048;
-        public static final int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0c0047;
+        public static final int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0c004a;
+        public static final int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0c0049;
         /**  Themes in the "Theme.AppCompat" family will contain an action bar by default.
          If Holo themes are available on the current platform version they will be used.
          A limited Holo-styled action bar will be provided on platform versions older
@@ -2629,52 +4995,100 @@ containing a value of this type.
          "Theme.Base" theme. 
  Platform-independent theme providing an action bar in a dark-themed activity. 
          */
-        public static final int Theme_AppCompat=0x7f0c00f6;
+        public static final int Theme_AppCompat=0x7f0c00fa;
         /**  Menu/item attributes 
          */
-        public static final int Theme_AppCompat_CompactMenu=0x7f0c0103;
-        public static final int Theme_AppCompat_Dialog=0x7f0c00fd;
+        public static final int Theme_AppCompat_CompactMenu=0x7f0c0107;
+        /**  AppCompat theme (day/night vesion) for activities. 
+ AppCompat theme (day/night vesion) for activities. 
+         */
+        public static final int Theme_AppCompat_DayNight=0x7f0c0137;
+        /**  Variant of AppCompat.DayNight that has a solid (opaque) action bar
+         with an inverse color profile. The dark action bar sharply stands out against
+         the light content (when applicable).  
+ Variant of AppCompat.DayNight that has a solid (opaque) action bar
+         with an inverse color profile. The dark action bar sharply stands out against
+         the light content (when applicable).  
+         */
+        public static final int Theme_AppCompat_DayNight_DarkActionBar=0x7f0c0138;
+        /**  AppCompat theme (day/night vesion) for dialog windows and activities,
+         which is used by the {@code android.support.v7.app.Dialog} class. This changes
+         the window to be floating (not fill the entire screen), and puts a
+         frame around its contents. You can set this theme on an activity if
+         you would like to make an activity that looks like a Dialog. 
+ AppCompat theme (day/night vesion) for dialog windows and activities,
+         which is used by the {@code android.support.v7.app.Dialog} class. This changes
+         the window to be floating (not fill the entire screen), and puts a
+         frame around its contents. You can set this theme on an activity if
+         you would like to make an activity that looks like a Dialog. 
+         */
+        public static final int Theme_AppCompat_DayNight_Dialog=0x7f0c013a;
+        /**  AppCompat user theme for alert dialog windows, which is used by the
+         {@code android.support.v7.app.AlertDialog} class. 
+ AppCompat user theme for alert dialog windows, which is used by the
+         {@code android.support.v7.app.AlertDialog} class. 
+         */
+        public static final int Theme_AppCompat_DayNight_Dialog_Alert=0x7f0c013d;
+        /**  Variant of Theme.AppCompat.DayNight.Dialog that has a nice minimum width for
+         a regular dialog. 
+ Variant of Theme.AppCompat.DayNight.Dialog that has a nice minimum width for
+         a regular dialog. 
+         */
+        public static final int Theme_AppCompat_DayNight_Dialog_MinWidth=0x7f0c013b;
+        /**  Theme for a window that will be displayed either full-screen on
+         smaller screens (small, normal) or as a dialog on larger screens
+         (large, xlarge). 
+ Theme for a window that will be displayed either full-screen on
+         smaller screens (small, normal) or as a dialog on larger screens
+         (large, xlarge). 
+         */
+        public static final int Theme_AppCompat_DayNight_DialogWhenLarge=0x7f0c013c;
+        /**  Variant of AppCompat.DayNight with no action bar.  
+ Variant of AppCompat.DayNight with no action bar.  
+         */
+        public static final int Theme_AppCompat_DayNight_NoActionBar=0x7f0c0139;
+        public static final int Theme_AppCompat_Dialog=0x7f0c0101;
         /**  Material theme for alert dialog windows, which is used by the AlertDialog class.
          This is basically a dialog but sets the background to empty so it can do
          two-tone backgrounds. For applications targeting Honeycomb or newer, this is the default
          AlertDialog theme. 
          */
-        public static final int Theme_AppCompat_Dialog_Alert=0x7f0c00ff;
+        public static final int Theme_AppCompat_Dialog_Alert=0x7f0c0103;
         /**  Variant of Theme.AppCompat.Dialog that has a nice minimum width for
          a regular dialog. 
          */
-        public static final int Theme_AppCompat_Dialog_MinWidth=0x7f0c0101;
-        public static final int Theme_AppCompat_DialogWhenLarge=0x7f0c00fb;
+        public static final int Theme_AppCompat_Dialog_MinWidth=0x7f0c0105;
+        public static final int Theme_AppCompat_DialogWhenLarge=0x7f0c00ff;
         /**  Platform-independent theme providing an action bar in a light-themed activity. 
          */
-        public static final int Theme_AppCompat_Light=0x7f0c00f7;
+        public static final int Theme_AppCompat_Light=0x7f0c00fb;
         /**  Platform-independent theme providing an action bar in a dark-themed activity. 
          */
-        public static final int Theme_AppCompat_Light_DarkActionBar=0x7f0c00f8;
-        public static final int Theme_AppCompat_Light_Dialog=0x7f0c00fe;
-        public static final int Theme_AppCompat_Light_Dialog_Alert=0x7f0c0100;
-        public static final int Theme_AppCompat_Light_Dialog_MinWidth=0x7f0c0102;
-        public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f0c00fc;
-        public static final int Theme_AppCompat_Light_NoActionBar=0x7f0c00fa;
-        public static final int Theme_AppCompat_NoActionBar=0x7f0c00f9;
-        public static final int ThemeOverlay_AppCompat=0x7f0c0104;
+        public static final int Theme_AppCompat_Light_DarkActionBar=0x7f0c00fc;
+        public static final int Theme_AppCompat_Light_Dialog=0x7f0c0102;
+        public static final int Theme_AppCompat_Light_Dialog_Alert=0x7f0c0104;
+        public static final int Theme_AppCompat_Light_Dialog_MinWidth=0x7f0c0106;
+        public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f0c0100;
+        public static final int Theme_AppCompat_Light_NoActionBar=0x7f0c00fe;
+        public static final int Theme_AppCompat_NoActionBar=0x7f0c00fd;
+        public static final int ThemeOverlay_AppCompat=0x7f0c0108;
         /**  Theme overlay that replaces the normal control color, which by default is the same as the
          secondary text color, with the primary text color. 
          */
-        public static final int ThemeOverlay_AppCompat_ActionBar=0x7f0c0107;
+        public static final int ThemeOverlay_AppCompat_ActionBar=0x7f0c010b;
         /**  Theme overlay that replaces colors with their dark versions but preserves
          the value of colorAccent, colorPrimary and its variants. 
          */
-        public static final int ThemeOverlay_AppCompat_Dark=0x7f0c0106;
+        public static final int ThemeOverlay_AppCompat_Dark=0x7f0c010a;
         /**  Theme overlay that replaces colors with their dark versions and replaces the normal
          control color, which by default is the same as the secondary text color, with the primary
          text color. 
          */
-        public static final int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0c0108;
+        public static final int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0c010c;
         /**  Theme overlay that replaces colors with their light versions but preserves
          the value of colorAccent, colorPrimary and its variants. 
          */
-        public static final int ThemeOverlay_AppCompat_Light=0x7f0c0105;
+        public static final int ThemeOverlay_AppCompat_Light=0x7f0c0109;
         /**  Styles in here can be extended for customisation in your application. Each utilises
          one of the.styles. If Holo themes are available on the current platform version
          they will be used instead of the compat styles. 
@@ -2690,14 +5104,14 @@ containing a value of this type.
         public static final int Widget_AppCompat_ActionMode=0x7f0c0016;
         public static final int Widget_AppCompat_ActivityChooserView=0x7f0c0030;
         public static final int Widget_AppCompat_AutoCompleteTextView=0x7f0c002f;
-        public static final int Widget_AppCompat_Button=0x7f0c0038;
-        public static final int Widget_AppCompat_Button_Borderless=0x7f0c003a;
-        public static final int Widget_AppCompat_Button_Borderless_Colored=0x7f0c003b;
-        public static final int Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0c003c;
-        public static final int Widget_AppCompat_Button_Colored=0x7f0c003d;
-        public static final int Widget_AppCompat_Button_Small=0x7f0c0039;
-        public static final int Widget_AppCompat_ButtonBar=0x7f0c003e;
-        public static final int Widget_AppCompat_ButtonBar_AlertDialog=0x7f0c003f;
+        public static final int Widget_AppCompat_Button=0x7f0c003a;
+        public static final int Widget_AppCompat_Button_Borderless=0x7f0c003c;
+        public static final int Widget_AppCompat_Button_Borderless_Colored=0x7f0c003d;
+        public static final int Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0c003e;
+        public static final int Widget_AppCompat_Button_Colored=0x7f0c003f;
+        public static final int Widget_AppCompat_Button_Small=0x7f0c003b;
+        public static final int Widget_AppCompat_ButtonBar=0x7f0c0040;
+        public static final int Widget_AppCompat_ButtonBar_AlertDialog=0x7f0c0041;
         public static final int Widget_AppCompat_CompoundButton_CheckBox=0x7f0c0035;
         public static final int Widget_AppCompat_CompoundButton_RadioButton=0x7f0c0036;
         public static final int Widget_AppCompat_CompoundButton_Switch=0x7f0c0034;
@@ -2706,33 +5120,33 @@ containing a value of this type.
          */
         public static final int Widget_AppCompat_DropDownItem_Spinner=0x7f0c001e;
         public static final int Widget_AppCompat_EditText=0x7f0c0033;
-        public static final int Widget_AppCompat_ImageButton=0x7f0c0040;
+        public static final int Widget_AppCompat_ImageButton=0x7f0c0042;
         public static final int Widget_AppCompat_Light_ActionBar=0x7f0c0001;
         public static final int Widget_AppCompat_Light_ActionBar_Solid=0x7f0c0003;
         /** 
          The following themes are deprecated.
     
          */
-        public static final int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f0c0065;
+        public static final int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f0c0067;
         public static final int Widget_AppCompat_Light_ActionBar_TabBar=0x7f0c000e;
-        public static final int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f0c0066;
+        public static final int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f0c0068;
         public static final int Widget_AppCompat_Light_ActionBar_TabText=0x7f0c0013;
         public static final int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0c0014;
         public static final int Widget_AppCompat_Light_ActionBar_TabView=0x7f0c0010;
-        public static final int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f0c0067;
-        public static final int Widget_AppCompat_Light_ActionButton=0x7f0c006f;
-        public static final int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f0c0071;
-        public static final int Widget_AppCompat_Light_ActionButton_Overflow=0x7f0c0070;
-        public static final int Widget_AppCompat_Light_ActionMode_Inverse=0x7f0c006a;
-        public static final int Widget_AppCompat_Light_ActivityChooserView=0x7f0c0076;
-        public static final int Widget_AppCompat_Light_AutoCompleteTextView=0x7f0c0075;
-        public static final int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f0c006d;
-        public static final int Widget_AppCompat_Light_ListPopupWindow=0x7f0c0074;
-        public static final int Widget_AppCompat_Light_ListView_DropDown=0x7f0c0073;
+        public static final int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f0c0069;
+        public static final int Widget_AppCompat_Light_ActionButton=0x7f0c0071;
+        public static final int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f0c0073;
+        public static final int Widget_AppCompat_Light_ActionButton_Overflow=0x7f0c0072;
+        public static final int Widget_AppCompat_Light_ActionMode_Inverse=0x7f0c006c;
+        public static final int Widget_AppCompat_Light_ActivityChooserView=0x7f0c0078;
+        public static final int Widget_AppCompat_Light_AutoCompleteTextView=0x7f0c0077;
+        public static final int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f0c006f;
+        public static final int Widget_AppCompat_Light_ListPopupWindow=0x7f0c0076;
+        public static final int Widget_AppCompat_Light_ListView_DropDown=0x7f0c0075;
         public static final int Widget_AppCompat_Light_PopupMenu=0x7f0c0026;
         public static final int Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0c0024;
-        public static final int Widget_AppCompat_Light_SearchView=0x7f0c006e;
-        public static final int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f0c0072;
+        public static final int Widget_AppCompat_Light_SearchView=0x7f0c0070;
+        public static final int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f0c0074;
         public static final int Widget_AppCompat_ListPopupWindow=0x7f0c0022;
         public static final int Widget_AppCompat_ListView=0x7f0c001f;
         public static final int Widget_AppCompat_ListView_DropDown=0x7f0c0020;
@@ -2743,18 +5157,20 @@ containing a value of this type.
         public static final int Widget_AppCompat_ProgressBar=0x7f0c0009;
         public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f0c0008;
         public static final int Widget_AppCompat_RatingBar=0x7f0c0037;
+        public static final int Widget_AppCompat_RatingBar_Indicator=0x7f0c0038;
+        public static final int Widget_AppCompat_RatingBar_Small=0x7f0c0039;
         public static final int Widget_AppCompat_SearchView=0x7f0c0031;
         public static final int Widget_AppCompat_SearchView_ActionBar=0x7f0c0032;
-        public static final int Widget_AppCompat_SeekBar=0x7f0c0044;
+        public static final int Widget_AppCompat_SeekBar=0x7f0c0046;
         public static final int Widget_AppCompat_Spinner=0x7f0c001a;
         public static final int Widget_AppCompat_Spinner_DropDown=0x7f0c001c;
         public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f0c001d;
         public static final int Widget_AppCompat_Spinner_Underlined=0x7f0c001b;
-        public static final int Widget_AppCompat_TextView_SpinnerItem=0x7f0c0041;
+        public static final int Widget_AppCompat_TextView_SpinnerItem=0x7f0c0043;
         /**  Toolbar 
          */
-        public static final int Widget_AppCompat_Toolbar=0x7f0c0045;
-        public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f0c0046;
+        public static final int Widget_AppCompat_Toolbar=0x7f0c0047;
+        public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f0c0048;
     }
     public static final class xml {
         public static final int settings_screen=0x7f050000;
@@ -2832,13 +5248,13 @@ containing a value of this type.
            @see #ActionBar_titleTextStyle
          */
         public static final int[] ActionBar = {
-            0x7f010000, 0x7f010001, 0x7f010031, 0x7f01006f,
-            0x7f010070, 0x7f010071, 0x7f010072, 0x7f010073,
-            0x7f010074, 0x7f010075, 0x7f010076, 0x7f010077,
-            0x7f010078, 0x7f010079, 0x7f01007a, 0x7f01007b,
-            0x7f01007c, 0x7f01007d, 0x7f01007e, 0x7f01007f,
-            0x7f010080, 0x7f010081, 0x7f010082, 0x7f010083,
-            0x7f010084, 0x7f010085, 0x7f010086
+            0x7f010000, 0x7f010001, 0x7f010031, 0x7f010071,
+            0x7f010072, 0x7f010073, 0x7f010074, 0x7f010075,
+            0x7f010076, 0x7f010077, 0x7f010078, 0x7f010079,
+            0x7f01007a, 0x7f01007b, 0x7f01007c, 0x7f01007d,
+            0x7f01007e, 0x7f01007f, 0x7f010080, 0x7f010081,
+            0x7f010082, 0x7f010083, 0x7f010084, 0x7f010085,
+            0x7f010086, 0x7f010087, 0x7f010088
         };
         /**
           <p>
@@ -3318,8 +5734,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #ActionMode_titleTextStyle
          */
         public static final int[] ActionMode = {
-            0x7f010001, 0x7f010072, 0x7f010073, 0x7f010077,
-            0x7f010079, 0x7f010087
+            0x7f010001, 0x7f010074, 0x7f010075, 0x7f010079,
+            0x7f01007b, 0x7f010089
         };
         /**
           <p>
@@ -3414,7 +5830,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #ActivityChooserView_initialActivityCount
          */
         public static final int[] ActivityChooserView = {
-            0x7f01009f, 0x7f0100a0
+            0x7f0100a1, 0x7f0100a2
         };
         /**
           <p>
@@ -3470,8 +5886,8 @@ containing a value of this type.
            @see #AlertDialog_singleChoiceItemLayout
          */
         public static final int[] AlertDialog = {
-            0x010100f2, 0x7f0100c8, 0x7f0100c9, 0x7f0100ca,
-            0x7f0100cb, 0x7f0100cc
+            0x010100f2, 0x7f0100ca, 0x7f0100cb, 0x7f0100cc,
+            0x7f0100cd, 0x7f0100ce
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#layout}
@@ -3529,6 +5945,39 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           @attr name com.client.kusonemi:singleChoiceItemLayout
         */
         public static final int AlertDialog_singleChoiceItemLayout = 4;
+        /** Attributes that can be used with a AppCompatImageView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #AppCompatImageView_android_src android:src}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatImageView_srcCompat com.client.kusonemi:srcCompat}</code></td><td> TODO </td></tr>
+           </table>
+           @see #AppCompatImageView_android_src
+           @see #AppCompatImageView_srcCompat
+         */
+        public static final int[] AppCompatImageView = {
+            0x01010119, 0x7f0100d0
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#src}
+          attribute's value can be found in the {@link #AppCompatImageView} array.
+          @attr name android:src
+        */
+        public static final int AppCompatImageView_android_src = 0;
+        /**
+          <p>
+          @attr description
+           TODO 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:srcCompat
+        */
+        public static final int AppCompatImageView_srcCompat = 1;
         /** Attributes that can be used with a AppCompatTextView.
            <p>Includes the following attributes:</p>
            <table>
@@ -3542,7 +5991,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #AppCompatTextView_textAllCaps
          */
         public static final int[] AppCompatTextView = {
-            0x01010034, 0x7f0100a1
+            0x01010034, 0x7f0100a3
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#textAppearance}
@@ -3563,6 +6012,3777 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           @attr name com.client.kusonemi:textAllCaps
         */
         public static final int AppCompatTextView_textAllCaps = 1;
+        /**  These are the standard attributes that make up a complete theme. 
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.client.kusonemi:actionBarDivider}</code></td><td> Custom divider drawable to use for elements in the action bar.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.client.kusonemi:actionBarItemBackground}</code></td><td> Custom item state list drawable background for action bar items.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.client.kusonemi:actionBarPopupTheme}</code></td><td> Reference to a theme that should be used to inflate popups
+             shown by widgets in the action bar.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarSize com.client.kusonemi:actionBarSize}</code></td><td> Size of the Action Bar, including the contextual
+             bar used to present Action Modes.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.client.kusonemi:actionBarSplitStyle}</code></td><td> Reference to a style for the split Action Bar.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.client.kusonemi:actionBarStyle}</code></td><td> Reference to a style for the Action Bar </td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.client.kusonemi:actionBarTabBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.client.kusonemi:actionBarTabStyle}</code></td><td> Default style for tabs within an action bar </td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.client.kusonemi:actionBarTabTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.client.kusonemi:actionBarTheme}</code></td><td> Reference to a theme that should be used to inflate the
+             action bar.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.client.kusonemi:actionBarWidgetTheme}</code></td><td> Reference to a theme that should be used to inflate widgets
+             and layouts destined for the action bar.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.client.kusonemi:actionButtonStyle}</code></td><td> Default action button style.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.client.kusonemi:actionDropDownStyle}</code></td><td> Default ActionBar dropdown style.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.client.kusonemi:actionMenuTextAppearance}</code></td><td> TextAppearance style that will be applied to text that
+             appears within action menu items.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.client.kusonemi:actionMenuTextColor}</code></td><td> Color for text that appears within action menu items.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.client.kusonemi:actionModeBackground}</code></td><td> Background drawable to use for action mode UI </td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.client.kusonemi:actionModeCloseButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.client.kusonemi:actionModeCloseDrawable}</code></td><td> Drawable to use for the close action mode button </td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.client.kusonemi:actionModeCopyDrawable}</code></td><td> Drawable to use for the Copy action button in Contextual Action Bar </td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.client.kusonemi:actionModeCutDrawable}</code></td><td> Drawable to use for the Cut action button in Contextual Action Bar </td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.client.kusonemi:actionModeFindDrawable}</code></td><td> Drawable to use for the Find action button in WebView selection action modes </td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.client.kusonemi:actionModePasteDrawable}</code></td><td> Drawable to use for the Paste action button in Contextual Action Bar </td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.client.kusonemi:actionModePopupWindowStyle}</code></td><td> PopupWindow style to use for action modes when showing as a window overlay.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.client.kusonemi:actionModeSelectAllDrawable}</code></td><td> Drawable to use for the Select all action button in Contextual Action Bar </td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.client.kusonemi:actionModeShareDrawable}</code></td><td> Drawable to use for the Share action button in WebView selection action modes </td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.client.kusonemi:actionModeSplitBackground}</code></td><td> Background drawable to use for action mode UI in the lower split bar </td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.client.kusonemi:actionModeStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.client.kusonemi:actionModeWebSearchDrawable}</code></td><td> Drawable to use for the Web Search action button in WebView selection action modes </td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.client.kusonemi:actionOverflowButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.client.kusonemi:actionOverflowMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.client.kusonemi:activityChooserViewStyle}</code></td><td> Default ActivityChooserView style.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.client.kusonemi:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.client.kusonemi:alertDialogCenterButtons}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.client.kusonemi:alertDialogStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.client.kusonemi:alertDialogTheme}</code></td><td> Theme to use for alert dialogs spawned from this theme.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.client.kusonemi:autoCompleteTextViewStyle}</code></td><td> Default AutoCompleteTextView style.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.client.kusonemi:borderlessButtonStyle}</code></td><td> Style for buttons without an explicit border, often used in groups.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.client.kusonemi:buttonBarButtonStyle}</code></td><td> Style for buttons within button bars </td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.client.kusonemi:buttonBarNegativeButtonStyle}</code></td><td> Style for the "negative" buttons within button bars </td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.client.kusonemi:buttonBarNeutralButtonStyle}</code></td><td> Style for the "neutral" buttons within button bars </td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.client.kusonemi:buttonBarPositiveButtonStyle}</code></td><td> Style for the "positive" buttons within button bars </td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.client.kusonemi:buttonBarStyle}</code></td><td> Style for button bars </td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonStyle com.client.kusonemi:buttonStyle}</code></td><td> Normal Button style.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.client.kusonemi:buttonStyleSmall}</code></td><td> Small Button style.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.client.kusonemi:checkboxStyle}</code></td><td> Default Checkbox style.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.client.kusonemi:checkedTextViewStyle}</code></td><td> Default CheckedTextView style.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorAccent com.client.kusonemi:colorAccent}</code></td><td> Bright complement to the primary branding color.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.client.kusonemi:colorButtonNormal}</code></td><td> The color applied to framework buttons in their normal state.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.client.kusonemi:colorControlActivated}</code></td><td> The color applied to framework controls in their activated (ex.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.client.kusonemi:colorControlHighlight}</code></td><td> The color applied to framework control highlights (ex.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.client.kusonemi:colorControlNormal}</code></td><td> The color applied to framework controls in their normal state.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorPrimary com.client.kusonemi:colorPrimary}</code></td><td> The primary branding color for the app.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.client.kusonemi:colorPrimaryDark}</code></td><td> Dark variant of the primary branding color.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.client.kusonemi:colorSwitchThumbNormal}</code></td><td> The color applied to framework switch thumbs in their normal state.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_controlBackground com.client.kusonemi:controlBackground}</code></td><td> The background used by framework controls.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.client.kusonemi:dialogPreferredPadding}</code></td><td> Preferred padding for dialog content.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dialogTheme com.client.kusonemi:dialogTheme}</code></td><td> Theme to use for dialogs spawned from this theme.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.client.kusonemi:dividerHorizontal}</code></td><td> A drawable that may be used as a horizontal divider between visual elements.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dividerVertical com.client.kusonemi:dividerVertical}</code></td><td> A drawable that may be used as a vertical divider between visual elements.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.client.kusonemi:dropDownListViewStyle}</code></td><td> ListPopupWindow compatibility </td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.client.kusonemi:dropdownListPreferredItemHeight}</code></td><td> The preferred item height for dropdown lists.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_editTextBackground com.client.kusonemi:editTextBackground}</code></td><td> EditText background drawable.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_editTextColor com.client.kusonemi:editTextColor}</code></td><td> EditText text foreground color.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_editTextStyle com.client.kusonemi:editTextStyle}</code></td><td> Default EditText style.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.client.kusonemi:homeAsUpIndicator}</code></td><td> Specifies a drawable to use for the 'home as up' indicator.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.client.kusonemi:imageButtonStyle}</code></td><td> ImageButton background drawable.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.client.kusonemi:listChoiceBackgroundIndicator}</code></td><td> Drawable used as a background for selected list items.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.client.kusonemi:listDividerAlertDialog}</code></td><td> The list divider used in alert dialogs.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.client.kusonemi:listPopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.client.kusonemi:listPreferredItemHeight}</code></td><td> The preferred list item height.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.client.kusonemi:listPreferredItemHeightLarge}</code></td><td> A larger, more robust list item height.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.client.kusonemi:listPreferredItemHeightSmall}</code></td><td> A smaller, sleeker list item height.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.client.kusonemi:listPreferredItemPaddingLeft}</code></td><td> The preferred padding along the left edge of list items.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.client.kusonemi:listPreferredItemPaddingRight}</code></td><td> The preferred padding along the right edge of list items.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_panelBackground com.client.kusonemi:panelBackground}</code></td><td> The background of a panel when it is inset from the left and right edges of the screen.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.client.kusonemi:panelMenuListTheme}</code></td><td> Default Panel Menu style.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.client.kusonemi:panelMenuListWidth}</code></td><td> Default Panel Menu width.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.client.kusonemi:popupMenuStyle}</code></td><td> Default PopupMenu style.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.client.kusonemi:popupWindowStyle}</code></td><td> Default PopupWindow style.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.client.kusonemi:radioButtonStyle}</code></td><td> Default RadioButton style.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.client.kusonemi:ratingBarStyle}</code></td><td> Default RatingBar style.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.client.kusonemi:ratingBarStyleIndicator}</code></td><td> Indicator RatingBar style.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.client.kusonemi:ratingBarStyleSmall}</code></td><td> Small indicator RatingBar style.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.client.kusonemi:searchViewStyle}</code></td><td> Style for the search query widget.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.client.kusonemi:seekBarStyle}</code></td><td> Default SeekBar style.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.client.kusonemi:selectableItemBackground}</code></td><td> A style that may be applied to buttons or other selectable items
+             that should react to pressed and focus states, but that do not
+             have a clear visual border along the edges.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.client.kusonemi:selectableItemBackgroundBorderless}</code></td><td> Background drawable for borderless standalone items that need focus/pressed states.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.client.kusonemi:spinnerDropDownItemStyle}</code></td><td> Default Spinner style.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.client.kusonemi:spinnerStyle}</code></td><td> Default Spinner style.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_switchStyle com.client.kusonemi:switchStyle}</code></td><td> Default style for the Switch widget.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.client.kusonemi:textAppearanceLargePopupMenu}</code></td><td> Text color, typeface, size, and style for the text inside of a popup menu.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.client.kusonemi:textAppearanceListItem}</code></td><td> The preferred TextAppearance for the primary text of list items.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.client.kusonemi:textAppearanceListItemSmall}</code></td><td> The preferred TextAppearance for the primary text of small list items.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.client.kusonemi:textAppearanceSearchResultSubtitle}</code></td><td> Text color, typeface, size, and style for system search result subtitle.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.client.kusonemi:textAppearanceSearchResultTitle}</code></td><td> Text color, typeface, size, and style for system search result title.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.client.kusonemi:textAppearanceSmallPopupMenu}</code></td><td> Text color, typeface, size, and style for small text inside of a popup menu.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.client.kusonemi:textColorAlertDialogListItem}</code></td><td> Color of list item text in alert dialogs.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.client.kusonemi:textColorSearchUrl}</code></td><td> Text color for urls in search suggestions, used by things like global search </td></tr>
+           <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.client.kusonemi:toolbarNavigationButtonStyle}</code></td><td> Default Toolar NavigationButtonStyle </td></tr>
+           <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.client.kusonemi:toolbarStyle}</code></td><td> Default Toolbar style.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowActionBar com.client.kusonemi:windowActionBar}</code></td><td> Flag indicating whether this window should have an Action Bar
+             in place of the usual title bar.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.client.kusonemi:windowActionBarOverlay}</code></td><td> Flag indicating whether this window's Action Bar should overlay
+             application content.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.client.kusonemi:windowActionModeOverlay}</code></td><td> Flag indicating whether action modes should overlay window content
+             when there is not reserved space for their UI (such as an Action Bar).</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.client.kusonemi:windowFixedHeightMajor}</code></td><td> A fixed height for the window along the major axis of the screen,
+             that is, when in portrait.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.client.kusonemi:windowFixedHeightMinor}</code></td><td> A fixed height for the window along the minor axis of the screen,
+             that is, when in landscape.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.client.kusonemi:windowFixedWidthMajor}</code></td><td> A fixed width for the window along the major axis of the screen,
+             that is, when in landscape.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.client.kusonemi:windowFixedWidthMinor}</code></td><td> A fixed width for the window along the minor axis of the screen,
+             that is, when in portrait.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.client.kusonemi:windowMinWidthMajor}</code></td><td> The minimum width the window is allowed to be, along the major
+             axis of the screen.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.client.kusonemi:windowMinWidthMinor}</code></td><td> The minimum width the window is allowed to be, along the minor
+             axis of the screen.</td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.client.kusonemi:windowNoTitle}</code></td><td> Flag indicating whether there should be no title on this window.</td></tr>
+           </table>
+           @see #AppCompatTheme_actionBarDivider
+           @see #AppCompatTheme_actionBarItemBackground
+           @see #AppCompatTheme_actionBarPopupTheme
+           @see #AppCompatTheme_actionBarSize
+           @see #AppCompatTheme_actionBarSplitStyle
+           @see #AppCompatTheme_actionBarStyle
+           @see #AppCompatTheme_actionBarTabBarStyle
+           @see #AppCompatTheme_actionBarTabStyle
+           @see #AppCompatTheme_actionBarTabTextStyle
+           @see #AppCompatTheme_actionBarTheme
+           @see #AppCompatTheme_actionBarWidgetTheme
+           @see #AppCompatTheme_actionButtonStyle
+           @see #AppCompatTheme_actionDropDownStyle
+           @see #AppCompatTheme_actionMenuTextAppearance
+           @see #AppCompatTheme_actionMenuTextColor
+           @see #AppCompatTheme_actionModeBackground
+           @see #AppCompatTheme_actionModeCloseButtonStyle
+           @see #AppCompatTheme_actionModeCloseDrawable
+           @see #AppCompatTheme_actionModeCopyDrawable
+           @see #AppCompatTheme_actionModeCutDrawable
+           @see #AppCompatTheme_actionModeFindDrawable
+           @see #AppCompatTheme_actionModePasteDrawable
+           @see #AppCompatTheme_actionModePopupWindowStyle
+           @see #AppCompatTheme_actionModeSelectAllDrawable
+           @see #AppCompatTheme_actionModeShareDrawable
+           @see #AppCompatTheme_actionModeSplitBackground
+           @see #AppCompatTheme_actionModeStyle
+           @see #AppCompatTheme_actionModeWebSearchDrawable
+           @see #AppCompatTheme_actionOverflowButtonStyle
+           @see #AppCompatTheme_actionOverflowMenuStyle
+           @see #AppCompatTheme_activityChooserViewStyle
+           @see #AppCompatTheme_alertDialogButtonGroupStyle
+           @see #AppCompatTheme_alertDialogCenterButtons
+           @see #AppCompatTheme_alertDialogStyle
+           @see #AppCompatTheme_alertDialogTheme
+           @see #AppCompatTheme_android_windowAnimationStyle
+           @see #AppCompatTheme_android_windowIsFloating
+           @see #AppCompatTheme_autoCompleteTextViewStyle
+           @see #AppCompatTheme_borderlessButtonStyle
+           @see #AppCompatTheme_buttonBarButtonStyle
+           @see #AppCompatTheme_buttonBarNegativeButtonStyle
+           @see #AppCompatTheme_buttonBarNeutralButtonStyle
+           @see #AppCompatTheme_buttonBarPositiveButtonStyle
+           @see #AppCompatTheme_buttonBarStyle
+           @see #AppCompatTheme_buttonStyle
+           @see #AppCompatTheme_buttonStyleSmall
+           @see #AppCompatTheme_checkboxStyle
+           @see #AppCompatTheme_checkedTextViewStyle
+           @see #AppCompatTheme_colorAccent
+           @see #AppCompatTheme_colorButtonNormal
+           @see #AppCompatTheme_colorControlActivated
+           @see #AppCompatTheme_colorControlHighlight
+           @see #AppCompatTheme_colorControlNormal
+           @see #AppCompatTheme_colorPrimary
+           @see #AppCompatTheme_colorPrimaryDark
+           @see #AppCompatTheme_colorSwitchThumbNormal
+           @see #AppCompatTheme_controlBackground
+           @see #AppCompatTheme_dialogPreferredPadding
+           @see #AppCompatTheme_dialogTheme
+           @see #AppCompatTheme_dividerHorizontal
+           @see #AppCompatTheme_dividerVertical
+           @see #AppCompatTheme_dropDownListViewStyle
+           @see #AppCompatTheme_dropdownListPreferredItemHeight
+           @see #AppCompatTheme_editTextBackground
+           @see #AppCompatTheme_editTextColor
+           @see #AppCompatTheme_editTextStyle
+           @see #AppCompatTheme_homeAsUpIndicator
+           @see #AppCompatTheme_imageButtonStyle
+           @see #AppCompatTheme_listChoiceBackgroundIndicator
+           @see #AppCompatTheme_listDividerAlertDialog
+           @see #AppCompatTheme_listPopupWindowStyle
+           @see #AppCompatTheme_listPreferredItemHeight
+           @see #AppCompatTheme_listPreferredItemHeightLarge
+           @see #AppCompatTheme_listPreferredItemHeightSmall
+           @see #AppCompatTheme_listPreferredItemPaddingLeft
+           @see #AppCompatTheme_listPreferredItemPaddingRight
+           @see #AppCompatTheme_panelBackground
+           @see #AppCompatTheme_panelMenuListTheme
+           @see #AppCompatTheme_panelMenuListWidth
+           @see #AppCompatTheme_popupMenuStyle
+           @see #AppCompatTheme_popupWindowStyle
+           @see #AppCompatTheme_radioButtonStyle
+           @see #AppCompatTheme_ratingBarStyle
+           @see #AppCompatTheme_ratingBarStyleIndicator
+           @see #AppCompatTheme_ratingBarStyleSmall
+           @see #AppCompatTheme_searchViewStyle
+           @see #AppCompatTheme_seekBarStyle
+           @see #AppCompatTheme_selectableItemBackground
+           @see #AppCompatTheme_selectableItemBackgroundBorderless
+           @see #AppCompatTheme_spinnerDropDownItemStyle
+           @see #AppCompatTheme_spinnerStyle
+           @see #AppCompatTheme_switchStyle
+           @see #AppCompatTheme_textAppearanceLargePopupMenu
+           @see #AppCompatTheme_textAppearanceListItem
+           @see #AppCompatTheme_textAppearanceListItemSmall
+           @see #AppCompatTheme_textAppearanceSearchResultSubtitle
+           @see #AppCompatTheme_textAppearanceSearchResultTitle
+           @see #AppCompatTheme_textAppearanceSmallPopupMenu
+           @see #AppCompatTheme_textColorAlertDialogListItem
+           @see #AppCompatTheme_textColorSearchUrl
+           @see #AppCompatTheme_toolbarNavigationButtonStyle
+           @see #AppCompatTheme_toolbarStyle
+           @see #AppCompatTheme_windowActionBar
+           @see #AppCompatTheme_windowActionBarOverlay
+           @see #AppCompatTheme_windowActionModeOverlay
+           @see #AppCompatTheme_windowFixedHeightMajor
+           @see #AppCompatTheme_windowFixedHeightMinor
+           @see #AppCompatTheme_windowFixedWidthMajor
+           @see #AppCompatTheme_windowFixedWidthMinor
+           @see #AppCompatTheme_windowMinWidthMajor
+           @see #AppCompatTheme_windowMinWidthMinor
+           @see #AppCompatTheme_windowNoTitle
+         */
+        public static final int[] AppCompatTheme = {
+            0x01010057, 0x010100ae, 0x7f010003, 0x7f010004,
+            0x7f010005, 0x7f010006, 0x7f010007, 0x7f010008,
+            0x7f010009, 0x7f01000a, 0x7f01000b, 0x7f01000c,
+            0x7f01000d, 0x7f01000e, 0x7f01000f, 0x7f010010,
+            0x7f010011, 0x7f010012, 0x7f010013, 0x7f010014,
+            0x7f010015, 0x7f010016, 0x7f010017, 0x7f010018,
+            0x7f010019, 0x7f01001a, 0x7f01001b, 0x7f01001c,
+            0x7f01001d, 0x7f01001e, 0x7f01001f, 0x7f010020,
+            0x7f010021, 0x7f010022, 0x7f010023, 0x7f010024,
+            0x7f010025, 0x7f010026, 0x7f010027, 0x7f010028,
+            0x7f010029, 0x7f01002a, 0x7f01002b, 0x7f01002c,
+            0x7f01002d, 0x7f01002e, 0x7f01002f, 0x7f010030,
+            0x7f010031, 0x7f010032, 0x7f010033, 0x7f010034,
+            0x7f010035, 0x7f010036, 0x7f010037, 0x7f010038,
+            0x7f010039, 0x7f01003a, 0x7f01003b, 0x7f01003c,
+            0x7f01003d, 0x7f01003e, 0x7f01003f, 0x7f010040,
+            0x7f010041, 0x7f010042, 0x7f010043, 0x7f010044,
+            0x7f010045, 0x7f010046, 0x7f010047, 0x7f010048,
+            0x7f010049, 0x7f01004a, 0x7f01004b, 0x7f01004c,
+            0x7f01004d, 0x7f01004e, 0x7f01004f, 0x7f010050,
+            0x7f010051, 0x7f010052, 0x7f010053, 0x7f010054,
+            0x7f010055, 0x7f010056, 0x7f010057, 0x7f010058,
+            0x7f010059, 0x7f01005a, 0x7f01005b, 0x7f01005c,
+            0x7f01005d, 0x7f01005e, 0x7f01005f, 0x7f010060,
+            0x7f010061, 0x7f010062, 0x7f010063, 0x7f010064,
+            0x7f010065, 0x7f010066, 0x7f010067, 0x7f010068,
+            0x7f010069, 0x7f01006a, 0x7f01006b, 0x7f01006c,
+            0x7f01006d, 0x7f01006e, 0x7f01006f, 0x7f010070
+        };
+        /**
+          <p>
+          @attr description
+           Custom divider drawable to use for elements in the action bar. 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:actionBarDivider
+        */
+        public static final int AppCompatTheme_actionBarDivider = 23;
+        /**
+          <p>
+          @attr description
+           Custom item state list drawable background for action bar items. 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:actionBarItemBackground
+        */
+        public static final int AppCompatTheme_actionBarItemBackground = 24;
+        /**
+          <p>
+          @attr description
+           Reference to a theme that should be used to inflate popups
+             shown by widgets in the action bar. 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:actionBarPopupTheme
+        */
+        public static final int AppCompatTheme_actionBarPopupTheme = 17;
+        /**
+          <p>
+          @attr description
+           Size of the Action Bar, including the contextual
+             bar used to present Action Modes. 
+
+
+          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>wrap_content</code></td><td>0</td><td></td></tr>
+</table>
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:actionBarSize
+        */
+        public static final int AppCompatTheme_actionBarSize = 22;
+        /**
+          <p>
+          @attr description
+           Reference to a style for the split Action Bar. This style
+             controls the split component that holds the menu/action
+             buttons. actionBarStyle is still used for the primary
+             bar. 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:actionBarSplitStyle
+        */
+        public static final int AppCompatTheme_actionBarSplitStyle = 19;
+        /**
+          <p>
+          @attr description
+           Reference to a style for the Action Bar 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:actionBarStyle
+        */
+        public static final int AppCompatTheme_actionBarStyle = 18;
+        /**
+          <p>This symbol is the offset where the {@link com.client.kusonemi.R.attr#actionBarTabBarStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.client.kusonemi:actionBarTabBarStyle
+        */
+        public static final int AppCompatTheme_actionBarTabBarStyle = 13;
+        /**
+          <p>
+          @attr description
+           Default style for tabs within an action bar 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:actionBarTabStyle
+        */
+        public static final int AppCompatTheme_actionBarTabStyle = 12;
+        /**
+          <p>This symbol is the offset where the {@link com.client.kusonemi.R.attr#actionBarTabTextStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.client.kusonemi:actionBarTabTextStyle
+        */
+        public static final int AppCompatTheme_actionBarTabTextStyle = 14;
+        /**
+          <p>
+          @attr description
+           Reference to a theme that should be used to inflate the
+             action bar. This will be inherited by any widget inflated
+             into the action bar. 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:actionBarTheme
+        */
+        public static final int AppCompatTheme_actionBarTheme = 20;
+        /**
+          <p>
+          @attr description
+           Reference to a theme that should be used to inflate widgets
+             and layouts destined for the action bar. Most of the time
+             this will be a reference to the current theme, but when
+             the action bar has a significantly different contrast
+             profile than the rest of the activity the difference
+             can become important. If this is set to @null the current
+             theme will be used.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:actionBarWidgetTheme
+        */
+        public static final int AppCompatTheme_actionBarWidgetTheme = 21;
+        /**
+          <p>
+          @attr description
+           Default action button style. 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:actionButtonStyle
+        */
+        public static final int AppCompatTheme_actionButtonStyle = 49;
+        /**
+          <p>
+          @attr description
+           Default ActionBar dropdown style. 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:actionDropDownStyle
+        */
+        public static final int AppCompatTheme_actionDropDownStyle = 45;
+        /**
+          <p>
+          @attr description
+           TextAppearance style that will be applied to text that
+             appears within action menu items. 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:actionMenuTextAppearance
+        */
+        public static final int AppCompatTheme_actionMenuTextAppearance = 25;
+        /**
+          <p>
+          @attr description
+           Color for text that appears within action menu items. 
+ Color for text that appears within action menu items. 
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:actionMenuTextColor
+        */
+        public static final int AppCompatTheme_actionMenuTextColor = 26;
+        /**
+          <p>
+          @attr description
+           Background drawable to use for action mode UI 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:actionModeBackground
+        */
+        public static final int AppCompatTheme_actionModeBackground = 29;
+        /**
+          <p>This symbol is the offset where the {@link com.client.kusonemi.R.attr#actionModeCloseButtonStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.client.kusonemi:actionModeCloseButtonStyle
+        */
+        public static final int AppCompatTheme_actionModeCloseButtonStyle = 28;
+        /**
+          <p>
+          @attr description
+           Drawable to use for the close action mode button 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:actionModeCloseDrawable
+        */
+        public static final int AppCompatTheme_actionModeCloseDrawable = 31;
+        /**
+          <p>
+          @attr description
+           Drawable to use for the Copy action button in Contextual Action Bar 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:actionModeCopyDrawable
+        */
+        public static final int AppCompatTheme_actionModeCopyDrawable = 33;
+        /**
+          <p>
+          @attr description
+           Drawable to use for the Cut action button in Contextual Action Bar 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:actionModeCutDrawable
+        */
+        public static final int AppCompatTheme_actionModeCutDrawable = 32;
+        /**
+          <p>
+          @attr description
+           Drawable to use for the Find action button in WebView selection action modes 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:actionModeFindDrawable
+        */
+        public static final int AppCompatTheme_actionModeFindDrawable = 37;
+        /**
+          <p>
+          @attr description
+           Drawable to use for the Paste action button in Contextual Action Bar 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:actionModePasteDrawable
+        */
+        public static final int AppCompatTheme_actionModePasteDrawable = 34;
+        /**
+          <p>
+          @attr description
+           PopupWindow style to use for action modes when showing as a window overlay. 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:actionModePopupWindowStyle
+        */
+        public static final int AppCompatTheme_actionModePopupWindowStyle = 39;
+        /**
+          <p>
+          @attr description
+           Drawable to use for the Select all action button in Contextual Action Bar 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:actionModeSelectAllDrawable
+        */
+        public static final int AppCompatTheme_actionModeSelectAllDrawable = 35;
+        /**
+          <p>
+          @attr description
+           Drawable to use for the Share action button in WebView selection action modes 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:actionModeShareDrawable
+        */
+        public static final int AppCompatTheme_actionModeShareDrawable = 36;
+        /**
+          <p>
+          @attr description
+           Background drawable to use for action mode UI in the lower split bar 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:actionModeSplitBackground
+        */
+        public static final int AppCompatTheme_actionModeSplitBackground = 30;
+        /**
+          <p>This symbol is the offset where the {@link com.client.kusonemi.R.attr#actionModeStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.client.kusonemi:actionModeStyle
+        */
+        public static final int AppCompatTheme_actionModeStyle = 27;
+        /**
+          <p>
+          @attr description
+           Drawable to use for the Web Search action button in WebView selection action modes 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:actionModeWebSearchDrawable
+        */
+        public static final int AppCompatTheme_actionModeWebSearchDrawable = 38;
+        /**
+          <p>This symbol is the offset where the {@link com.client.kusonemi.R.attr#actionOverflowButtonStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.client.kusonemi:actionOverflowButtonStyle
+        */
+        public static final int AppCompatTheme_actionOverflowButtonStyle = 15;
+        /**
+          <p>This symbol is the offset where the {@link com.client.kusonemi.R.attr#actionOverflowMenuStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.client.kusonemi:actionOverflowMenuStyle
+        */
+        public static final int AppCompatTheme_actionOverflowMenuStyle = 16;
+        /**
+          <p>
+          @attr description
+           Default ActivityChooserView style. 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:activityChooserViewStyle
+        */
+        public static final int AppCompatTheme_activityChooserViewStyle = 57;
+        /**
+          <p>This symbol is the offset where the {@link com.client.kusonemi.R.attr#alertDialogButtonGroupStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.client.kusonemi:alertDialogButtonGroupStyle
+        */
+        public static final int AppCompatTheme_alertDialogButtonGroupStyle = 92;
+        /**
+          <p>This symbol is the offset where the {@link com.client.kusonemi.R.attr#alertDialogCenterButtons}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.client.kusonemi:alertDialogCenterButtons
+        */
+        public static final int AppCompatTheme_alertDialogCenterButtons = 93;
+        /**
+          <p>This symbol is the offset where the {@link com.client.kusonemi.R.attr#alertDialogStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.client.kusonemi:alertDialogStyle
+        */
+        public static final int AppCompatTheme_alertDialogStyle = 91;
+        /**
+          <p>
+          @attr description
+           Theme to use for alert dialogs spawned from this theme. 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:alertDialogTheme
+        */
+        public static final int AppCompatTheme_alertDialogTheme = 94;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#windowAnimationStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+          @attr name android:windowAnimationStyle
+        */
+        public static final int AppCompatTheme_android_windowAnimationStyle = 1;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#windowIsFloating}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+          @attr name android:windowIsFloating
+        */
+        public static final int AppCompatTheme_android_windowIsFloating = 0;
+        /**
+          <p>
+          @attr description
+           Default AutoCompleteTextView style. 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:autoCompleteTextViewStyle
+        */
+        public static final int AppCompatTheme_autoCompleteTextViewStyle = 99;
+        /**
+          <p>
+          @attr description
+           Style for buttons without an explicit border, often used in groups. 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:borderlessButtonStyle
+        */
+        public static final int AppCompatTheme_borderlessButtonStyle = 54;
+        /**
+          <p>
+          @attr description
+           Style for buttons within button bars 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:buttonBarButtonStyle
+        */
+        public static final int AppCompatTheme_buttonBarButtonStyle = 51;
+        /**
+          <p>
+          @attr description
+           Style for the "negative" buttons within button bars 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:buttonBarNegativeButtonStyle
+        */
+        public static final int AppCompatTheme_buttonBarNegativeButtonStyle = 97;
+        /**
+          <p>
+          @attr description
+           Style for the "neutral" buttons within button bars 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:buttonBarNeutralButtonStyle
+        */
+        public static final int AppCompatTheme_buttonBarNeutralButtonStyle = 98;
+        /**
+          <p>
+          @attr description
+           Style for the "positive" buttons within button bars 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:buttonBarPositiveButtonStyle
+        */
+        public static final int AppCompatTheme_buttonBarPositiveButtonStyle = 96;
+        /**
+          <p>
+          @attr description
+           Style for button bars 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:buttonBarStyle
+        */
+        public static final int AppCompatTheme_buttonBarStyle = 50;
+        /**
+          <p>
+          @attr description
+           Normal Button style. 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:buttonStyle
+        */
+        public static final int AppCompatTheme_buttonStyle = 100;
+        /**
+          <p>
+          @attr description
+           Small Button style. 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:buttonStyleSmall
+        */
+        public static final int AppCompatTheme_buttonStyleSmall = 101;
+        /**
+          <p>
+          @attr description
+           Default Checkbox style. 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:checkboxStyle
+        */
+        public static final int AppCompatTheme_checkboxStyle = 102;
+        /**
+          <p>
+          @attr description
+           Default CheckedTextView style. 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:checkedTextViewStyle
+        */
+        public static final int AppCompatTheme_checkedTextViewStyle = 103;
+        /**
+          <p>
+          @attr description
+           Bright complement to the primary branding color. By default, this is the color applied
+             to framework controls (via colorControlActivated). 
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:colorAccent
+        */
+        public static final int AppCompatTheme_colorAccent = 84;
+        /**
+          <p>
+          @attr description
+           The color applied to framework buttons in their normal state. 
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:colorButtonNormal
+        */
+        public static final int AppCompatTheme_colorButtonNormal = 88;
+        /**
+          <p>
+          @attr description
+           The color applied to framework controls in their activated (ex. checked) state. 
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:colorControlActivated
+        */
+        public static final int AppCompatTheme_colorControlActivated = 86;
+        /**
+          <p>
+          @attr description
+           The color applied to framework control highlights (ex. ripples, list selectors). 
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:colorControlHighlight
+        */
+        public static final int AppCompatTheme_colorControlHighlight = 87;
+        /**
+          <p>
+          @attr description
+           The color applied to framework controls in their normal state. 
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:colorControlNormal
+        */
+        public static final int AppCompatTheme_colorControlNormal = 85;
+        /**
+          <p>
+          @attr description
+           The primary branding color for the app. By default, this is the color applied to the
+             action bar background. 
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:colorPrimary
+        */
+        public static final int AppCompatTheme_colorPrimary = 82;
+        /**
+          <p>
+          @attr description
+           Dark variant of the primary branding color. By default, this is the color applied to
+             the status bar (via statusBarColor) and navigation bar (via navigationBarColor). 
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:colorPrimaryDark
+        */
+        public static final int AppCompatTheme_colorPrimaryDark = 83;
+        /**
+          <p>
+          @attr description
+           The color applied to framework switch thumbs in their normal state. 
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:colorSwitchThumbNormal
+        */
+        public static final int AppCompatTheme_colorSwitchThumbNormal = 89;
+        /**
+          <p>
+          @attr description
+           The background used by framework controls. 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:controlBackground
+        */
+        public static final int AppCompatTheme_controlBackground = 90;
+        /**
+          <p>
+          @attr description
+           Preferred padding for dialog content. 
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:dialogPreferredPadding
+        */
+        public static final int AppCompatTheme_dialogPreferredPadding = 43;
+        /**
+          <p>
+          @attr description
+           Theme to use for dialogs spawned from this theme. 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:dialogTheme
+        */
+        public static final int AppCompatTheme_dialogTheme = 42;
+        /**
+          <p>
+          @attr description
+           A drawable that may be used as a horizontal divider between visual elements. 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:dividerHorizontal
+        */
+        public static final int AppCompatTheme_dividerHorizontal = 56;
+        /**
+          <p>
+          @attr description
+           A drawable that may be used as a vertical divider between visual elements. 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:dividerVertical
+        */
+        public static final int AppCompatTheme_dividerVertical = 55;
+        /**
+          <p>
+          @attr description
+           ListPopupWindow compatibility 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:dropDownListViewStyle
+        */
+        public static final int AppCompatTheme_dropDownListViewStyle = 74;
+        /**
+          <p>
+          @attr description
+           The preferred item height for dropdown lists. 
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:dropdownListPreferredItemHeight
+        */
+        public static final int AppCompatTheme_dropdownListPreferredItemHeight = 46;
+        /**
+          <p>
+          @attr description
+           EditText background drawable. 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:editTextBackground
+        */
+        public static final int AppCompatTheme_editTextBackground = 63;
+        /**
+          <p>
+          @attr description
+           EditText text foreground color. 
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:editTextColor
+        */
+        public static final int AppCompatTheme_editTextColor = 62;
+        /**
+          <p>
+          @attr description
+           Default EditText style. 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:editTextStyle
+        */
+        public static final int AppCompatTheme_editTextStyle = 104;
+        /**
+          <p>
+          @attr description
+           Specifies a drawable to use for the 'home as up' indicator. 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:homeAsUpIndicator
+        */
+        public static final int AppCompatTheme_homeAsUpIndicator = 48;
+        /**
+          <p>
+          @attr description
+           ImageButton background drawable. 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:imageButtonStyle
+        */
+        public static final int AppCompatTheme_imageButtonStyle = 64;
+        /**
+          <p>
+          @attr description
+           Drawable used as a background for selected list items. 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:listChoiceBackgroundIndicator
+        */
+        public static final int AppCompatTheme_listChoiceBackgroundIndicator = 81;
+        /**
+          <p>
+          @attr description
+           The list divider used in alert dialogs. 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:listDividerAlertDialog
+        */
+        public static final int AppCompatTheme_listDividerAlertDialog = 44;
+        /**
+          <p>This symbol is the offset where the {@link com.client.kusonemi.R.attr#listPopupWindowStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.client.kusonemi:listPopupWindowStyle
+        */
+        public static final int AppCompatTheme_listPopupWindowStyle = 75;
+        /**
+          <p>
+          @attr description
+           The preferred list item height. 
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:listPreferredItemHeight
+        */
+        public static final int AppCompatTheme_listPreferredItemHeight = 69;
+        /**
+          <p>
+          @attr description
+           A larger, more robust list item height. 
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:listPreferredItemHeightLarge
+        */
+        public static final int AppCompatTheme_listPreferredItemHeightLarge = 71;
+        /**
+          <p>
+          @attr description
+           A smaller, sleeker list item height. 
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:listPreferredItemHeightSmall
+        */
+        public static final int AppCompatTheme_listPreferredItemHeightSmall = 70;
+        /**
+          <p>
+          @attr description
+           The preferred padding along the left edge of list items. 
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:listPreferredItemPaddingLeft
+        */
+        public static final int AppCompatTheme_listPreferredItemPaddingLeft = 72;
+        /**
+          <p>
+          @attr description
+           The preferred padding along the right edge of list items. 
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:listPreferredItemPaddingRight
+        */
+        public static final int AppCompatTheme_listPreferredItemPaddingRight = 73;
+        /**
+          <p>
+          @attr description
+           The background of a panel when it is inset from the left and right edges of the screen. 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:panelBackground
+        */
+        public static final int AppCompatTheme_panelBackground = 78;
+        /**
+          <p>
+          @attr description
+           Default Panel Menu style. 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:panelMenuListTheme
+        */
+        public static final int AppCompatTheme_panelMenuListTheme = 80;
+        /**
+          <p>
+          @attr description
+           Default Panel Menu width. 
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:panelMenuListWidth
+        */
+        public static final int AppCompatTheme_panelMenuListWidth = 79;
+        /**
+          <p>
+          @attr description
+           Default PopupMenu style. 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:popupMenuStyle
+        */
+        public static final int AppCompatTheme_popupMenuStyle = 60;
+        /**
+          <p>
+          @attr description
+           Default PopupWindow style. 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:popupWindowStyle
+        */
+        public static final int AppCompatTheme_popupWindowStyle = 61;
+        /**
+          <p>
+          @attr description
+           Default RadioButton style. 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:radioButtonStyle
+        */
+        public static final int AppCompatTheme_radioButtonStyle = 105;
+        /**
+          <p>
+          @attr description
+           Default RatingBar style. 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:ratingBarStyle
+        */
+        public static final int AppCompatTheme_ratingBarStyle = 106;
+        /**
+          <p>
+          @attr description
+           Indicator RatingBar style. 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:ratingBarStyleIndicator
+        */
+        public static final int AppCompatTheme_ratingBarStyleIndicator = 107;
+        /**
+          <p>
+          @attr description
+           Small indicator RatingBar style. 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:ratingBarStyleSmall
+        */
+        public static final int AppCompatTheme_ratingBarStyleSmall = 108;
+        /**
+          <p>
+          @attr description
+           Style for the search query widget. 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:searchViewStyle
+        */
+        public static final int AppCompatTheme_searchViewStyle = 68;
+        /**
+          <p>
+          @attr description
+           Default SeekBar style. 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:seekBarStyle
+        */
+        public static final int AppCompatTheme_seekBarStyle = 109;
+        /**
+          <p>
+          @attr description
+           A style that may be applied to buttons or other selectable items
+             that should react to pressed and focus states, but that do not
+             have a clear visual border along the edges. 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:selectableItemBackground
+        */
+        public static final int AppCompatTheme_selectableItemBackground = 52;
+        /**
+          <p>
+          @attr description
+           Background drawable for borderless standalone items that need focus/pressed states. 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:selectableItemBackgroundBorderless
+        */
+        public static final int AppCompatTheme_selectableItemBackgroundBorderless = 53;
+        /**
+          <p>
+          @attr description
+           Default Spinner style. 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:spinnerDropDownItemStyle
+        */
+        public static final int AppCompatTheme_spinnerDropDownItemStyle = 47;
+        /**
+          <p>
+          @attr description
+           Default Spinner style. 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:spinnerStyle
+        */
+        public static final int AppCompatTheme_spinnerStyle = 110;
+        /**
+          <p>
+          @attr description
+           Default style for the Switch widget. 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:switchStyle
+        */
+        public static final int AppCompatTheme_switchStyle = 111;
+        /**
+          <p>
+          @attr description
+           Text color, typeface, size, and style for the text inside of a popup menu. 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:textAppearanceLargePopupMenu
+        */
+        public static final int AppCompatTheme_textAppearanceLargePopupMenu = 40;
+        /**
+          <p>
+          @attr description
+           The preferred TextAppearance for the primary text of list items. 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:textAppearanceListItem
+        */
+        public static final int AppCompatTheme_textAppearanceListItem = 76;
+        /**
+          <p>
+          @attr description
+           The preferred TextAppearance for the primary text of small list items. 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:textAppearanceListItemSmall
+        */
+        public static final int AppCompatTheme_textAppearanceListItemSmall = 77;
+        /**
+          <p>
+          @attr description
+           Text color, typeface, size, and style for system search result subtitle. Defaults to primary inverse text color. 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:textAppearanceSearchResultSubtitle
+        */
+        public static final int AppCompatTheme_textAppearanceSearchResultSubtitle = 66;
+        /**
+          <p>
+          @attr description
+           Text color, typeface, size, and style for system search result title. Defaults to primary inverse text color. 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:textAppearanceSearchResultTitle
+        */
+        public static final int AppCompatTheme_textAppearanceSearchResultTitle = 65;
+        /**
+          <p>
+          @attr description
+           Text color, typeface, size, and style for small text inside of a popup menu. 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:textAppearanceSmallPopupMenu
+        */
+        public static final int AppCompatTheme_textAppearanceSmallPopupMenu = 41;
+        /**
+          <p>
+          @attr description
+           Color of list item text in alert dialogs. 
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:textColorAlertDialogListItem
+        */
+        public static final int AppCompatTheme_textColorAlertDialogListItem = 95;
+        /**
+          <p>
+          @attr description
+           Text color for urls in search suggestions, used by things like global search 
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:textColorSearchUrl
+        */
+        public static final int AppCompatTheme_textColorSearchUrl = 67;
+        /**
+          <p>
+          @attr description
+           Default Toolar NavigationButtonStyle 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:toolbarNavigationButtonStyle
+        */
+        public static final int AppCompatTheme_toolbarNavigationButtonStyle = 59;
+        /**
+          <p>
+          @attr description
+           Default Toolbar style. 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:toolbarStyle
+        */
+        public static final int AppCompatTheme_toolbarStyle = 58;
+        /**
+          <p>
+          @attr description
+           Flag indicating whether this window should have an Action Bar
+             in place of the usual title bar. 
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:windowActionBar
+        */
+        public static final int AppCompatTheme_windowActionBar = 2;
+        /**
+          <p>
+          @attr description
+           Flag indicating whether this window's Action Bar should overlay
+             application content. Does nothing if the window would not
+             have an Action Bar. 
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:windowActionBarOverlay
+        */
+        public static final int AppCompatTheme_windowActionBarOverlay = 4;
+        /**
+          <p>
+          @attr description
+           Flag indicating whether action modes should overlay window content
+             when there is not reserved space for their UI (such as an Action Bar). 
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:windowActionModeOverlay
+        */
+        public static final int AppCompatTheme_windowActionModeOverlay = 5;
+        /**
+          <p>
+          @attr description
+           A fixed height for the window along the major axis of the screen,
+             that is, when in portrait. Can be either an absolute dimension
+             or a fraction of the screen size in that dimension. 
+
+
+          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:windowFixedHeightMajor
+        */
+        public static final int AppCompatTheme_windowFixedHeightMajor = 9;
+        /**
+          <p>
+          @attr description
+           A fixed height for the window along the minor axis of the screen,
+             that is, when in landscape. Can be either an absolute dimension
+             or a fraction of the screen size in that dimension. 
+
+
+          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:windowFixedHeightMinor
+        */
+        public static final int AppCompatTheme_windowFixedHeightMinor = 7;
+        /**
+          <p>
+          @attr description
+           A fixed width for the window along the major axis of the screen,
+             that is, when in landscape. Can be either an absolute dimension
+             or a fraction of the screen size in that dimension. 
+
+
+          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:windowFixedWidthMajor
+        */
+        public static final int AppCompatTheme_windowFixedWidthMajor = 6;
+        /**
+          <p>
+          @attr description
+           A fixed width for the window along the minor axis of the screen,
+             that is, when in portrait. Can be either an absolute dimension
+             or a fraction of the screen size in that dimension. 
+
+
+          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:windowFixedWidthMinor
+        */
+        public static final int AppCompatTheme_windowFixedWidthMinor = 8;
+        /**
+          <p>
+          @attr description
+           The minimum width the window is allowed to be, along the major
+             axis of the screen.  That is, when in landscape.  Can be either
+             an absolute dimension or a fraction of the screen size in that
+             dimension. 
+
+
+          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:windowMinWidthMajor
+        */
+        public static final int AppCompatTheme_windowMinWidthMajor = 10;
+        /**
+          <p>
+          @attr description
+           The minimum width the window is allowed to be, along the minor
+             axis of the screen.  That is, when in portrait.  Can be either
+             an absolute dimension or a fraction of the screen size in that
+             dimension. 
+
+
+          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:windowMinWidthMinor
+        */
+        public static final int AppCompatTheme_windowMinWidthMinor = 11;
+        /**
+          <p>
+          @attr description
+           Flag indicating whether there should be no title on this window. 
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:windowNoTitle
+        */
+        public static final int AppCompatTheme_windowNoTitle = 3;
+        /**  View attributes 
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #AwesomeTextView_bootstrapBrand com.client.kusonemi:bootstrapBrand}</code></td><td> Common attributes </td></tr>
+           <tr><td><code>{@link #AwesomeTextView_bootstrapText com.client.kusonemi:bootstrapText}</code></td><td></td></tr>
+           <tr><td><code>{@link #AwesomeTextView_fontAwesomeIcon com.client.kusonemi:fontAwesomeIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #AwesomeTextView_typicon com.client.kusonemi:typicon}</code></td><td></td></tr>
+           </table>
+           @see #AwesomeTextView_bootstrapBrand
+           @see #AwesomeTextView_bootstrapText
+           @see #AwesomeTextView_fontAwesomeIcon
+           @see #AwesomeTextView_typicon
+         */
+        public static final int[] AwesomeTextView = {
+            0x7f0100d1, 0x7f0100dd, 0x7f0100e1, 0x7f0100e2
+        };
+        /**
+          <p>
+          @attr description
+           Common attributes 
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>primary</code></td><td>0</td><td></td></tr>
+<tr><td><code>success</code></td><td>1</td><td></td></tr>
+<tr><td><code>info</code></td><td>2</td><td></td></tr>
+<tr><td><code>warning</code></td><td>3</td><td></td></tr>
+<tr><td><code>danger</code></td><td>4</td><td></td></tr>
+<tr><td><code>regular</code></td><td>5</td><td></td></tr>
+<tr><td><code>secondary</code></td><td>6</td><td></td></tr>
+</table>
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:bootstrapBrand
+        */
+        public static final int AwesomeTextView_bootstrapBrand = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.client.kusonemi.R.attr#bootstrapText}
+          attribute's value can be found in the {@link #AwesomeTextView} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.client.kusonemi:bootstrapText
+        */
+        public static final int AwesomeTextView_bootstrapText = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.client.kusonemi.R.attr#fontAwesomeIcon}
+          attribute's value can be found in the {@link #AwesomeTextView} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>fa_adjust</code></td><td>0</td><td></td></tr>
+<tr><td><code>fa_adn</code></td><td>1</td><td></td></tr>
+<tr><td><code>fa_align_center</code></td><td>2</td><td></td></tr>
+<tr><td><code>fa_align_justify</code></td><td>3</td><td></td></tr>
+<tr><td><code>fa_align_left</code></td><td>4</td><td></td></tr>
+<tr><td><code>fa_align_right</code></td><td>5</td><td></td></tr>
+<tr><td><code>fa_amazon</code></td><td>6</td><td></td></tr>
+<tr><td><code>fa_ambulance</code></td><td>7</td><td></td></tr>
+<tr><td><code>fa_anchor</code></td><td>8</td><td></td></tr>
+<tr><td><code>fa_android</code></td><td>9</td><td></td></tr>
+<tr><td><code>fa_angellist</code></td><td>10</td><td></td></tr>
+<tr><td><code>fa_angle_double_down</code></td><td>11</td><td></td></tr>
+<tr><td><code>fa_angle_double_left</code></td><td>12</td><td></td></tr>
+<tr><td><code>fa_angle_double_right</code></td><td>13</td><td></td></tr>
+<tr><td><code>fa_angle_double_up</code></td><td>14</td><td></td></tr>
+<tr><td><code>fa_angle_down</code></td><td>15</td><td></td></tr>
+<tr><td><code>fa_angle_left</code></td><td>16</td><td></td></tr>
+<tr><td><code>fa_angle_right</code></td><td>17</td><td></td></tr>
+<tr><td><code>fa_angle_up</code></td><td>18</td><td></td></tr>
+<tr><td><code>fa_apple</code></td><td>19</td><td></td></tr>
+<tr><td><code>fa_archive</code></td><td>20</td><td></td></tr>
+<tr><td><code>fa_area_chart</code></td><td>21</td><td></td></tr>
+<tr><td><code>fa_arrow_circle_down</code></td><td>22</td><td></td></tr>
+<tr><td><code>fa_arrow_circle_left</code></td><td>23</td><td></td></tr>
+<tr><td><code>fa_arrow_circle_o_down</code></td><td>24</td><td></td></tr>
+<tr><td><code>fa_arrow_circle_o_left</code></td><td>25</td><td></td></tr>
+<tr><td><code>fa_arrow_circle_o_right</code></td><td>26</td><td></td></tr>
+<tr><td><code>fa_arrow_circle_o_up</code></td><td>27</td><td></td></tr>
+<tr><td><code>fa_arrow_circle_right</code></td><td>28</td><td></td></tr>
+<tr><td><code>fa_arrow_circle_up</code></td><td>29</td><td></td></tr>
+<tr><td><code>fa_arrow_down</code></td><td>30</td><td></td></tr>
+<tr><td><code>fa_arrow_left</code></td><td>31</td><td></td></tr>
+<tr><td><code>fa_arrow_right</code></td><td>32</td><td></td></tr>
+<tr><td><code>fa_arrow_up</code></td><td>33</td><td></td></tr>
+<tr><td><code>fa_arrows</code></td><td>34</td><td></td></tr>
+<tr><td><code>fa_arrows_alt</code></td><td>35</td><td></td></tr>
+<tr><td><code>fa_arrows_h</code></td><td>36</td><td></td></tr>
+<tr><td><code>fa_arrows_v</code></td><td>37</td><td></td></tr>
+<tr><td><code>fa_asterisk</code></td><td>38</td><td></td></tr>
+<tr><td><code>fa_at</code></td><td>39</td><td></td></tr>
+<tr><td><code>fa_automobile</code></td><td>40</td><td></td></tr>
+<tr><td><code>fa_backward</code></td><td>41</td><td></td></tr>
+<tr><td><code>fa_balance_scale</code></td><td>42</td><td></td></tr>
+<tr><td><code>fa_ban</code></td><td>43</td><td></td></tr>
+<tr><td><code>fa_bank</code></td><td>44</td><td></td></tr>
+<tr><td><code>fa_bar_chart</code></td><td>45</td><td></td></tr>
+<tr><td><code>fa_bar_chart_o</code></td><td>46</td><td></td></tr>
+<tr><td><code>fa_barcode</code></td><td>47</td><td></td></tr>
+<tr><td><code>fa_bars</code></td><td>48</td><td></td></tr>
+<tr><td><code>fa_battery_0</code></td><td>49</td><td></td></tr>
+<tr><td><code>fa_battery_1</code></td><td>50</td><td></td></tr>
+<tr><td><code>fa_battery_2</code></td><td>51</td><td></td></tr>
+<tr><td><code>fa_battery_3</code></td><td>52</td><td></td></tr>
+<tr><td><code>fa_battery_4</code></td><td>53</td><td></td></tr>
+<tr><td><code>fa_battery_empty</code></td><td>54</td><td></td></tr>
+<tr><td><code>fa_battery_full</code></td><td>55</td><td></td></tr>
+<tr><td><code>fa_battery_half</code></td><td>56</td><td></td></tr>
+<tr><td><code>fa_battery_quarter</code></td><td>57</td><td></td></tr>
+<tr><td><code>fa_battery_three_quarters</code></td><td>58</td><td></td></tr>
+<tr><td><code>fa_bed</code></td><td>59</td><td></td></tr>
+<tr><td><code>fa_beer</code></td><td>60</td><td></td></tr>
+<tr><td><code>fa_behance</code></td><td>61</td><td></td></tr>
+<tr><td><code>fa_behance_square</code></td><td>62</td><td></td></tr>
+<tr><td><code>fa_bell</code></td><td>63</td><td></td></tr>
+<tr><td><code>fa_bell_o</code></td><td>64</td><td></td></tr>
+<tr><td><code>fa_bell_slash</code></td><td>65</td><td></td></tr>
+<tr><td><code>fa_bell_slash_o</code></td><td>66</td><td></td></tr>
+<tr><td><code>fa_bicycle</code></td><td>67</td><td></td></tr>
+<tr><td><code>fa_binoculars</code></td><td>68</td><td></td></tr>
+<tr><td><code>fa_birthday_cake</code></td><td>69</td><td></td></tr>
+<tr><td><code>fa_bitbucket</code></td><td>70</td><td></td></tr>
+<tr><td><code>fa_bitbucket_square</code></td><td>71</td><td></td></tr>
+<tr><td><code>fa_bitcoin</code></td><td>72</td><td></td></tr>
+<tr><td><code>fa_black_tie</code></td><td>73</td><td></td></tr>
+<tr><td><code>fa_bluetooth</code></td><td>74</td><td></td></tr>
+<tr><td><code>fa_bluetooth_b</code></td><td>75</td><td></td></tr>
+<tr><td><code>fa_bold</code></td><td>76</td><td></td></tr>
+<tr><td><code>fa_bolt</code></td><td>77</td><td></td></tr>
+<tr><td><code>fa_bomb</code></td><td>78</td><td></td></tr>
+<tr><td><code>fa_book</code></td><td>79</td><td></td></tr>
+<tr><td><code>fa_bookmark</code></td><td>80</td><td></td></tr>
+<tr><td><code>fa_bookmark_o</code></td><td>81</td><td></td></tr>
+<tr><td><code>fa_briefcase</code></td><td>82</td><td></td></tr>
+<tr><td><code>fa_btc</code></td><td>83</td><td></td></tr>
+<tr><td><code>fa_bug</code></td><td>84</td><td></td></tr>
+<tr><td><code>fa_building</code></td><td>85</td><td></td></tr>
+<tr><td><code>fa_building_o</code></td><td>86</td><td></td></tr>
+<tr><td><code>fa_bullhorn</code></td><td>87</td><td></td></tr>
+<tr><td><code>fa_bullseye</code></td><td>88</td><td></td></tr>
+<tr><td><code>fa_bus</code></td><td>89</td><td></td></tr>
+<tr><td><code>fa_buysellads</code></td><td>90</td><td></td></tr>
+<tr><td><code>fa_cab</code></td><td>91</td><td></td></tr>
+<tr><td><code>fa_calculator</code></td><td>92</td><td></td></tr>
+<tr><td><code>fa_calendar</code></td><td>93</td><td></td></tr>
+<tr><td><code>fa_calendar_check_o</code></td><td>94</td><td></td></tr>
+<tr><td><code>fa_calendar_minus_o</code></td><td>95</td><td></td></tr>
+<tr><td><code>fa_calendar_o</code></td><td>96</td><td></td></tr>
+<tr><td><code>fa_calendar_plus_o</code></td><td>97</td><td></td></tr>
+<tr><td><code>fa_calendar_times_o</code></td><td>98</td><td></td></tr>
+<tr><td><code>fa_camera</code></td><td>99</td><td></td></tr>
+<tr><td><code>fa_camera_retro</code></td><td>100</td><td></td></tr>
+<tr><td><code>fa_car</code></td><td>101</td><td></td></tr>
+<tr><td><code>fa_caret_down</code></td><td>102</td><td></td></tr>
+<tr><td><code>fa_caret_left</code></td><td>103</td><td></td></tr>
+<tr><td><code>fa_caret_right</code></td><td>104</td><td></td></tr>
+<tr><td><code>fa_caret_square_o_down</code></td><td>105</td><td></td></tr>
+<tr><td><code>fa_caret_square_o_left</code></td><td>106</td><td></td></tr>
+<tr><td><code>fa_caret_square_o_right</code></td><td>107</td><td></td></tr>
+<tr><td><code>fa_caret_square_o_up</code></td><td>108</td><td></td></tr>
+<tr><td><code>fa_caret_up</code></td><td>109</td><td></td></tr>
+<tr><td><code>fa_cart_arrow_down</code></td><td>110</td><td></td></tr>
+<tr><td><code>fa_cart_plus</code></td><td>111</td><td></td></tr>
+<tr><td><code>fa_cc</code></td><td>112</td><td></td></tr>
+<tr><td><code>fa_cc_amex</code></td><td>113</td><td></td></tr>
+<tr><td><code>fa_cc_diners_club</code></td><td>114</td><td></td></tr>
+<tr><td><code>fa_cc_discover</code></td><td>115</td><td></td></tr>
+<tr><td><code>fa_cc_jcb</code></td><td>116</td><td></td></tr>
+<tr><td><code>fa_cc_mastercard</code></td><td>117</td><td></td></tr>
+<tr><td><code>fa_cc_paypal</code></td><td>118</td><td></td></tr>
+<tr><td><code>fa_cc_stripe</code></td><td>119</td><td></td></tr>
+<tr><td><code>fa_cc_visa</code></td><td>120</td><td></td></tr>
+<tr><td><code>fa_certificate</code></td><td>121</td><td></td></tr>
+<tr><td><code>fa_chain</code></td><td>122</td><td></td></tr>
+<tr><td><code>fa_chain_broken</code></td><td>123</td><td></td></tr>
+<tr><td><code>fa_check</code></td><td>124</td><td></td></tr>
+<tr><td><code>fa_check_circle</code></td><td>125</td><td></td></tr>
+<tr><td><code>fa_check_circle_o</code></td><td>126</td><td></td></tr>
+<tr><td><code>fa_check_square</code></td><td>127</td><td></td></tr>
+<tr><td><code>fa_check_square_o</code></td><td>128</td><td></td></tr>
+<tr><td><code>fa_chevron_circle_down</code></td><td>129</td><td></td></tr>
+<tr><td><code>fa_chevron_circle_left</code></td><td>130</td><td></td></tr>
+<tr><td><code>fa_chevron_circle_right</code></td><td>131</td><td></td></tr>
+<tr><td><code>fa_chevron_circle_up</code></td><td>132</td><td></td></tr>
+<tr><td><code>fa_chevron_down</code></td><td>133</td><td></td></tr>
+<tr><td><code>fa_chevron_left</code></td><td>134</td><td></td></tr>
+<tr><td><code>fa_chevron_right</code></td><td>135</td><td></td></tr>
+<tr><td><code>fa_chevron_up</code></td><td>136</td><td></td></tr>
+<tr><td><code>fa_child</code></td><td>137</td><td></td></tr>
+<tr><td><code>fa_chrome</code></td><td>138</td><td></td></tr>
+<tr><td><code>fa_circle</code></td><td>139</td><td></td></tr>
+<tr><td><code>fa_circle_o</code></td><td>140</td><td></td></tr>
+<tr><td><code>fa_circle_o_notch</code></td><td>141</td><td></td></tr>
+<tr><td><code>fa_circle_thin</code></td><td>142</td><td></td></tr>
+<tr><td><code>fa_clipboard</code></td><td>143</td><td></td></tr>
+<tr><td><code>fa_clock_o</code></td><td>144</td><td></td></tr>
+<tr><td><code>fa_clone</code></td><td>145</td><td></td></tr>
+<tr><td><code>fa_close</code></td><td>146</td><td></td></tr>
+<tr><td><code>fa_cloud</code></td><td>147</td><td></td></tr>
+<tr><td><code>fa_cloud_download</code></td><td>148</td><td></td></tr>
+<tr><td><code>fa_cloud_upload</code></td><td>149</td><td></td></tr>
+<tr><td><code>fa_cny</code></td><td>150</td><td></td></tr>
+<tr><td><code>fa_code</code></td><td>151</td><td></td></tr>
+<tr><td><code>fa_code_fork</code></td><td>152</td><td></td></tr>
+<tr><td><code>fa_codepen</code></td><td>153</td><td></td></tr>
+<tr><td><code>fa_codiepie</code></td><td>154</td><td></td></tr>
+<tr><td><code>fa_coffee</code></td><td>155</td><td></td></tr>
+<tr><td><code>fa_cog</code></td><td>156</td><td></td></tr>
+<tr><td><code>fa_cogs</code></td><td>157</td><td></td></tr>
+<tr><td><code>fa_columns</code></td><td>158</td><td></td></tr>
+<tr><td><code>fa_comment</code></td><td>159</td><td></td></tr>
+<tr><td><code>fa_comment_o</code></td><td>160</td><td></td></tr>
+<tr><td><code>fa_commenting</code></td><td>161</td><td></td></tr>
+<tr><td><code>fa_commenting_o</code></td><td>162</td><td></td></tr>
+<tr><td><code>fa_comments</code></td><td>163</td><td></td></tr>
+<tr><td><code>fa_comments_o</code></td><td>164</td><td></td></tr>
+<tr><td><code>fa_compass</code></td><td>165</td><td></td></tr>
+<tr><td><code>fa_compress</code></td><td>166</td><td></td></tr>
+<tr><td><code>fa_connectdevelop</code></td><td>167</td><td></td></tr>
+<tr><td><code>fa_contao</code></td><td>168</td><td></td></tr>
+<tr><td><code>fa_copy</code></td><td>169</td><td></td></tr>
+<tr><td><code>fa_copyright</code></td><td>170</td><td></td></tr>
+<tr><td><code>fa_creative_commons</code></td><td>171</td><td></td></tr>
+<tr><td><code>fa_credit_card</code></td><td>172</td><td></td></tr>
+<tr><td><code>fa_credit_card_alt</code></td><td>173</td><td></td></tr>
+<tr><td><code>fa_crop</code></td><td>174</td><td></td></tr>
+<tr><td><code>fa_crosshairs</code></td><td>175</td><td></td></tr>
+<tr><td><code>fa_css3</code></td><td>176</td><td></td></tr>
+<tr><td><code>fa_cube</code></td><td>177</td><td></td></tr>
+<tr><td><code>fa_cubes</code></td><td>178</td><td></td></tr>
+<tr><td><code>fa_cut</code></td><td>179</td><td></td></tr>
+<tr><td><code>fa_cutlery</code></td><td>180</td><td></td></tr>
+<tr><td><code>fa_dashboard</code></td><td>181</td><td></td></tr>
+<tr><td><code>fa_dashcube</code></td><td>182</td><td></td></tr>
+<tr><td><code>fa_database</code></td><td>183</td><td></td></tr>
+<tr><td><code>fa_dedent</code></td><td>184</td><td></td></tr>
+<tr><td><code>fa_delicious</code></td><td>185</td><td></td></tr>
+<tr><td><code>fa_desktop</code></td><td>186</td><td></td></tr>
+<tr><td><code>fa_deviantart</code></td><td>187</td><td></td></tr>
+<tr><td><code>fa_diamond</code></td><td>188</td><td></td></tr>
+<tr><td><code>fa_digg</code></td><td>189</td><td></td></tr>
+<tr><td><code>fa_dollar</code></td><td>190</td><td></td></tr>
+<tr><td><code>fa_dot_circle_o</code></td><td>191</td><td></td></tr>
+<tr><td><code>fa_download</code></td><td>192</td><td></td></tr>
+<tr><td><code>fa_dribbble</code></td><td>193</td><td></td></tr>
+<tr><td><code>fa_dropbox</code></td><td>194</td><td></td></tr>
+<tr><td><code>fa_drupal</code></td><td>195</td><td></td></tr>
+<tr><td><code>fa_edge</code></td><td>196</td><td></td></tr>
+<tr><td><code>fa_edit</code></td><td>197</td><td></td></tr>
+<tr><td><code>fa_eject</code></td><td>198</td><td></td></tr>
+<tr><td><code>fa_ellipsis_h</code></td><td>199</td><td></td></tr>
+<tr><td><code>fa_ellipsis_v</code></td><td>200</td><td></td></tr>
+<tr><td><code>fa_empire</code></td><td>201</td><td></td></tr>
+<tr><td><code>fa_envelope</code></td><td>202</td><td></td></tr>
+<tr><td><code>fa_envelope_o</code></td><td>203</td><td></td></tr>
+<tr><td><code>fa_envelope_square</code></td><td>204</td><td></td></tr>
+<tr><td><code>fa_eraser</code></td><td>205</td><td></td></tr>
+<tr><td><code>fa_eur</code></td><td>206</td><td></td></tr>
+<tr><td><code>fa_euro</code></td><td>207</td><td></td></tr>
+<tr><td><code>fa_exchange</code></td><td>208</td><td></td></tr>
+<tr><td><code>fa_exclamation</code></td><td>209</td><td></td></tr>
+<tr><td><code>fa_exclamation_circle</code></td><td>210</td><td></td></tr>
+<tr><td><code>fa_exclamation_triangle</code></td><td>211</td><td></td></tr>
+<tr><td><code>fa_expand</code></td><td>212</td><td></td></tr>
+<tr><td><code>fa_expeditedssl</code></td><td>213</td><td></td></tr>
+<tr><td><code>fa_external_link</code></td><td>214</td><td></td></tr>
+<tr><td><code>fa_external_link_square</code></td><td>215</td><td></td></tr>
+<tr><td><code>fa_eye</code></td><td>216</td><td></td></tr>
+<tr><td><code>fa_eye_slash</code></td><td>217</td><td></td></tr>
+<tr><td><code>fa_eyedropper</code></td><td>218</td><td></td></tr>
+<tr><td><code>fa_facebook</code></td><td>219</td><td></td></tr>
+<tr><td><code>fa_facebook_f</code></td><td>220</td><td></td></tr>
+<tr><td><code>fa_facebook_official</code></td><td>221</td><td></td></tr>
+<tr><td><code>fa_facebook_square</code></td><td>222</td><td></td></tr>
+<tr><td><code>fa_fast_backward</code></td><td>223</td><td></td></tr>
+<tr><td><code>fa_fast_forward</code></td><td>224</td><td></td></tr>
+<tr><td><code>fa_fax</code></td><td>225</td><td></td></tr>
+<tr><td><code>fa_feed</code></td><td>226</td><td></td></tr>
+<tr><td><code>fa_female</code></td><td>227</td><td></td></tr>
+<tr><td><code>fa_fighter_jet</code></td><td>228</td><td></td></tr>
+<tr><td><code>fa_file</code></td><td>229</td><td></td></tr>
+<tr><td><code>fa_file_archive_o</code></td><td>230</td><td></td></tr>
+<tr><td><code>fa_file_audio_o</code></td><td>231</td><td></td></tr>
+<tr><td><code>fa_file_code_o</code></td><td>232</td><td></td></tr>
+<tr><td><code>fa_file_excel_o</code></td><td>233</td><td></td></tr>
+<tr><td><code>fa_file_image_o</code></td><td>234</td><td></td></tr>
+<tr><td><code>fa_file_movie_o</code></td><td>235</td><td></td></tr>
+<tr><td><code>fa_file_o</code></td><td>236</td><td></td></tr>
+<tr><td><code>fa_file_pdf_o</code></td><td>237</td><td></td></tr>
+<tr><td><code>fa_file_photo_o</code></td><td>238</td><td></td></tr>
+<tr><td><code>fa_file_picture_o</code></td><td>239</td><td></td></tr>
+<tr><td><code>fa_file_powerpoint_o</code></td><td>240</td><td></td></tr>
+<tr><td><code>fa_file_sound_o</code></td><td>241</td><td></td></tr>
+<tr><td><code>fa_file_text</code></td><td>242</td><td></td></tr>
+<tr><td><code>fa_file_text_o</code></td><td>243</td><td></td></tr>
+<tr><td><code>fa_file_video_o</code></td><td>244</td><td></td></tr>
+<tr><td><code>fa_file_word_o</code></td><td>245</td><td></td></tr>
+<tr><td><code>fa_file_zip_o</code></td><td>246</td><td></td></tr>
+<tr><td><code>fa_files_o</code></td><td>247</td><td></td></tr>
+<tr><td><code>fa_film</code></td><td>248</td><td></td></tr>
+<tr><td><code>fa_filter</code></td><td>249</td><td></td></tr>
+<tr><td><code>fa_fire</code></td><td>250</td><td></td></tr>
+<tr><td><code>fa_fire_extinguisher</code></td><td>251</td><td></td></tr>
+<tr><td><code>fa_firefox</code></td><td>252</td><td></td></tr>
+<tr><td><code>fa_flag</code></td><td>253</td><td></td></tr>
+<tr><td><code>fa_flag_checkered</code></td><td>254</td><td></td></tr>
+<tr><td><code>fa_flag_o</code></td><td>255</td><td></td></tr>
+<tr><td><code>fa_flash</code></td><td>256</td><td></td></tr>
+<tr><td><code>fa_flask</code></td><td>257</td><td></td></tr>
+<tr><td><code>fa_flickr</code></td><td>258</td><td></td></tr>
+<tr><td><code>fa_floppy_o</code></td><td>259</td><td></td></tr>
+<tr><td><code>fa_folder</code></td><td>260</td><td></td></tr>
+<tr><td><code>fa_folder_o</code></td><td>261</td><td></td></tr>
+<tr><td><code>fa_folder_open</code></td><td>262</td><td></td></tr>
+<tr><td><code>fa_folder_open_o</code></td><td>263</td><td></td></tr>
+<tr><td><code>fa_font</code></td><td>264</td><td></td></tr>
+<tr><td><code>fa_fonticons</code></td><td>265</td><td></td></tr>
+<tr><td><code>fa_fort_awesome</code></td><td>266</td><td></td></tr>
+<tr><td><code>fa_forumbee</code></td><td>267</td><td></td></tr>
+<tr><td><code>fa_forward</code></td><td>268</td><td></td></tr>
+<tr><td><code>fa_foursquare</code></td><td>269</td><td></td></tr>
+<tr><td><code>fa_frown_o</code></td><td>270</td><td></td></tr>
+<tr><td><code>fa_futbol_o</code></td><td>271</td><td></td></tr>
+<tr><td><code>fa_gamepad</code></td><td>272</td><td></td></tr>
+<tr><td><code>fa_gavel</code></td><td>273</td><td></td></tr>
+<tr><td><code>fa_gbp</code></td><td>274</td><td></td></tr>
+<tr><td><code>fa_ge</code></td><td>275</td><td></td></tr>
+<tr><td><code>fa_gear</code></td><td>276</td><td></td></tr>
+<tr><td><code>fa_gears</code></td><td>277</td><td></td></tr>
+<tr><td><code>fa_genderless</code></td><td>278</td><td></td></tr>
+<tr><td><code>fa_get_pocket</code></td><td>279</td><td></td></tr>
+<tr><td><code>fa_gg</code></td><td>280</td><td></td></tr>
+<tr><td><code>fa_gg_circle</code></td><td>281</td><td></td></tr>
+<tr><td><code>fa_gift</code></td><td>282</td><td></td></tr>
+<tr><td><code>fa_git</code></td><td>283</td><td></td></tr>
+<tr><td><code>fa_git_square</code></td><td>284</td><td></td></tr>
+<tr><td><code>fa_github</code></td><td>285</td><td></td></tr>
+<tr><td><code>fa_github_alt</code></td><td>286</td><td></td></tr>
+<tr><td><code>fa_github_square</code></td><td>287</td><td></td></tr>
+<tr><td><code>fa_gittip</code></td><td>288</td><td></td></tr>
+<tr><td><code>fa_glass</code></td><td>289</td><td></td></tr>
+<tr><td><code>fa_globe</code></td><td>290</td><td></td></tr>
+<tr><td><code>fa_google</code></td><td>291</td><td></td></tr>
+<tr><td><code>fa_google_plus</code></td><td>292</td><td></td></tr>
+<tr><td><code>fa_google_plus_square</code></td><td>293</td><td></td></tr>
+<tr><td><code>fa_google_wallet</code></td><td>294</td><td></td></tr>
+<tr><td><code>fa_graduation_cap</code></td><td>295</td><td></td></tr>
+<tr><td><code>fa_gratipay</code></td><td>296</td><td></td></tr>
+<tr><td><code>fa_group</code></td><td>297</td><td></td></tr>
+<tr><td><code>fa_h_square</code></td><td>298</td><td></td></tr>
+<tr><td><code>fa_hacker_news</code></td><td>299</td><td></td></tr>
+<tr><td><code>fa_hand_grab_o</code></td><td>300</td><td></td></tr>
+<tr><td><code>fa_hand_lizard_o</code></td><td>301</td><td></td></tr>
+<tr><td><code>fa_hand_o_down</code></td><td>302</td><td></td></tr>
+<tr><td><code>fa_hand_o_left</code></td><td>303</td><td></td></tr>
+<tr><td><code>fa_hand_o_right</code></td><td>304</td><td></td></tr>
+<tr><td><code>fa_hand_o_up</code></td><td>305</td><td></td></tr>
+<tr><td><code>fa_hand_paper_o</code></td><td>306</td><td></td></tr>
+<tr><td><code>fa_hand_peace_o</code></td><td>307</td><td></td></tr>
+<tr><td><code>fa_hand_pointer_o</code></td><td>308</td><td></td></tr>
+<tr><td><code>fa_hand_rock_o</code></td><td>309</td><td></td></tr>
+<tr><td><code>fa_hand_scissors_o</code></td><td>310</td><td></td></tr>
+<tr><td><code>fa_hand_spock_o</code></td><td>311</td><td></td></tr>
+<tr><td><code>fa_hand_stop_o</code></td><td>312</td><td></td></tr>
+<tr><td><code>fa_hashtag</code></td><td>313</td><td></td></tr>
+<tr><td><code>fa_hdd_o</code></td><td>314</td><td></td></tr>
+<tr><td><code>fa_header</code></td><td>315</td><td></td></tr>
+<tr><td><code>fa_headphones</code></td><td>316</td><td></td></tr>
+<tr><td><code>fa_heart</code></td><td>317</td><td></td></tr>
+<tr><td><code>fa_heart_o</code></td><td>318</td><td></td></tr>
+<tr><td><code>fa_heartbeat</code></td><td>319</td><td></td></tr>
+<tr><td><code>fa_history</code></td><td>320</td><td></td></tr>
+<tr><td><code>fa_home</code></td><td>321</td><td></td></tr>
+<tr><td><code>fa_hospital_o</code></td><td>322</td><td></td></tr>
+<tr><td><code>fa_hotel</code></td><td>323</td><td></td></tr>
+<tr><td><code>fa_hourglass</code></td><td>324</td><td></td></tr>
+<tr><td><code>fa_hourglass_1</code></td><td>325</td><td></td></tr>
+<tr><td><code>fa_hourglass_2</code></td><td>326</td><td></td></tr>
+<tr><td><code>fa_hourglass_3</code></td><td>327</td><td></td></tr>
+<tr><td><code>fa_hourglass_end</code></td><td>328</td><td></td></tr>
+<tr><td><code>fa_hourglass_half</code></td><td>329</td><td></td></tr>
+<tr><td><code>fa_hourglass_o</code></td><td>330</td><td></td></tr>
+<tr><td><code>fa_hourglass_start</code></td><td>331</td><td></td></tr>
+<tr><td><code>fa_houzz</code></td><td>332</td><td></td></tr>
+<tr><td><code>fa_html5</code></td><td>333</td><td></td></tr>
+<tr><td><code>fa_i_cursor</code></td><td>334</td><td></td></tr>
+<tr><td><code>fa_ils</code></td><td>335</td><td></td></tr>
+<tr><td><code>fa_image</code></td><td>336</td><td></td></tr>
+<tr><td><code>fa_inbox</code></td><td>337</td><td></td></tr>
+<tr><td><code>fa_indent</code></td><td>338</td><td></td></tr>
+<tr><td><code>fa_industry</code></td><td>339</td><td></td></tr>
+<tr><td><code>fa_info</code></td><td>340</td><td></td></tr>
+<tr><td><code>fa_info_circle</code></td><td>341</td><td></td></tr>
+<tr><td><code>fa_inr</code></td><td>342</td><td></td></tr>
+<tr><td><code>fa_instagram</code></td><td>343</td><td></td></tr>
+<tr><td><code>fa_institution</code></td><td>344</td><td></td></tr>
+<tr><td><code>fa_internet_explorer</code></td><td>345</td><td></td></tr>
+<tr><td><code>fa_intersex</code></td><td>346</td><td></td></tr>
+<tr><td><code>fa_ioxhost</code></td><td>347</td><td></td></tr>
+<tr><td><code>fa_italic</code></td><td>348</td><td></td></tr>
+<tr><td><code>fa_joomla</code></td><td>349</td><td></td></tr>
+<tr><td><code>fa_jpy</code></td><td>350</td><td></td></tr>
+<tr><td><code>fa_jsfiddle</code></td><td>351</td><td></td></tr>
+<tr><td><code>fa_key</code></td><td>352</td><td></td></tr>
+<tr><td><code>fa_keyboard_o</code></td><td>353</td><td></td></tr>
+<tr><td><code>fa_krw</code></td><td>354</td><td></td></tr>
+<tr><td><code>fa_language</code></td><td>355</td><td></td></tr>
+<tr><td><code>fa_laptop</code></td><td>356</td><td></td></tr>
+<tr><td><code>fa_lastfm</code></td><td>357</td><td></td></tr>
+<tr><td><code>fa_lastfm_square</code></td><td>358</td><td></td></tr>
+<tr><td><code>fa_leaf</code></td><td>359</td><td></td></tr>
+<tr><td><code>fa_leanpub</code></td><td>360</td><td></td></tr>
+<tr><td><code>fa_legal</code></td><td>361</td><td></td></tr>
+<tr><td><code>fa_lemon_o</code></td><td>362</td><td></td></tr>
+<tr><td><code>fa_level_down</code></td><td>363</td><td></td></tr>
+<tr><td><code>fa_level_up</code></td><td>364</td><td></td></tr>
+<tr><td><code>fa_life_bouy</code></td><td>365</td><td></td></tr>
+<tr><td><code>fa_life_buoy</code></td><td>366</td><td></td></tr>
+<tr><td><code>fa_life_ring</code></td><td>367</td><td></td></tr>
+<tr><td><code>fa_life_saver</code></td><td>368</td><td></td></tr>
+<tr><td><code>fa_lightbulb_o</code></td><td>369</td><td></td></tr>
+<tr><td><code>fa_line_chart</code></td><td>370</td><td></td></tr>
+<tr><td><code>fa_link</code></td><td>371</td><td></td></tr>
+<tr><td><code>fa_linkedin</code></td><td>372</td><td></td></tr>
+<tr><td><code>fa_linkedin_square</code></td><td>373</td><td></td></tr>
+<tr><td><code>fa_linux</code></td><td>374</td><td></td></tr>
+<tr><td><code>fa_list</code></td><td>375</td><td></td></tr>
+<tr><td><code>fa_list_alt</code></td><td>376</td><td></td></tr>
+<tr><td><code>fa_list_ol</code></td><td>377</td><td></td></tr>
+<tr><td><code>fa_list_ul</code></td><td>378</td><td></td></tr>
+<tr><td><code>fa_location_arrow</code></td><td>379</td><td></td></tr>
+<tr><td><code>fa_lock</code></td><td>380</td><td></td></tr>
+<tr><td><code>fa_long_arrow_down</code></td><td>381</td><td></td></tr>
+<tr><td><code>fa_long_arrow_left</code></td><td>382</td><td></td></tr>
+<tr><td><code>fa_long_arrow_right</code></td><td>383</td><td></td></tr>
+<tr><td><code>fa_long_arrow_up</code></td><td>384</td><td></td></tr>
+<tr><td><code>fa_magic</code></td><td>385</td><td></td></tr>
+<tr><td><code>fa_magnet</code></td><td>386</td><td></td></tr>
+<tr><td><code>fa_mail_forward</code></td><td>387</td><td></td></tr>
+<tr><td><code>fa_mail_reply</code></td><td>388</td><td></td></tr>
+<tr><td><code>fa_mail_reply_all</code></td><td>389</td><td></td></tr>
+<tr><td><code>fa_male</code></td><td>390</td><td></td></tr>
+<tr><td><code>fa_map</code></td><td>391</td><td></td></tr>
+<tr><td><code>fa_map_marker</code></td><td>392</td><td></td></tr>
+<tr><td><code>fa_map_o</code></td><td>393</td><td></td></tr>
+<tr><td><code>fa_map_pin</code></td><td>394</td><td></td></tr>
+<tr><td><code>fa_map_signs</code></td><td>395</td><td></td></tr>
+<tr><td><code>fa_mars</code></td><td>396</td><td></td></tr>
+<tr><td><code>fa_mars_double</code></td><td>397</td><td></td></tr>
+<tr><td><code>fa_mars_stroke</code></td><td>398</td><td></td></tr>
+<tr><td><code>fa_mars_stroke_h</code></td><td>399</td><td></td></tr>
+<tr><td><code>fa_mars_stroke_v</code></td><td>400</td><td></td></tr>
+<tr><td><code>fa_maxcdn</code></td><td>401</td><td></td></tr>
+<tr><td><code>fa_meanpath</code></td><td>402</td><td></td></tr>
+<tr><td><code>fa_medium</code></td><td>403</td><td></td></tr>
+<tr><td><code>fa_medkit</code></td><td>404</td><td></td></tr>
+<tr><td><code>fa_meh_o</code></td><td>405</td><td></td></tr>
+<tr><td><code>fa_mercury</code></td><td>406</td><td></td></tr>
+<tr><td><code>fa_microphone</code></td><td>407</td><td></td></tr>
+<tr><td><code>fa_microphone_slash</code></td><td>408</td><td></td></tr>
+<tr><td><code>fa_minus</code></td><td>409</td><td></td></tr>
+<tr><td><code>fa_minus_circle</code></td><td>410</td><td></td></tr>
+<tr><td><code>fa_minus_square</code></td><td>411</td><td></td></tr>
+<tr><td><code>fa_minus_square_o</code></td><td>412</td><td></td></tr>
+<tr><td><code>fa_mixcloud</code></td><td>413</td><td></td></tr>
+<tr><td><code>fa_mobile</code></td><td>414</td><td></td></tr>
+<tr><td><code>fa_mobile_phone</code></td><td>415</td><td></td></tr>
+<tr><td><code>fa_modx</code></td><td>416</td><td></td></tr>
+<tr><td><code>fa_money</code></td><td>417</td><td></td></tr>
+<tr><td><code>fa_moon_o</code></td><td>418</td><td></td></tr>
+<tr><td><code>fa_mortar_board</code></td><td>419</td><td></td></tr>
+<tr><td><code>fa_motorcycle</code></td><td>420</td><td></td></tr>
+<tr><td><code>fa_mouse_pointer</code></td><td>421</td><td></td></tr>
+<tr><td><code>fa_music</code></td><td>422</td><td></td></tr>
+<tr><td><code>fa_navicon</code></td><td>423</td><td></td></tr>
+<tr><td><code>fa_neuter</code></td><td>424</td><td></td></tr>
+<tr><td><code>fa_newspaper_o</code></td><td>425</td><td></td></tr>
+<tr><td><code>fa_object_group</code></td><td>426</td><td></td></tr>
+<tr><td><code>fa_object_ungroup</code></td><td>427</td><td></td></tr>
+<tr><td><code>fa_odnoklassniki</code></td><td>428</td><td></td></tr>
+<tr><td><code>fa_odnoklassniki_square</code></td><td>429</td><td></td></tr>
+<tr><td><code>fa_opencart</code></td><td>430</td><td></td></tr>
+<tr><td><code>fa_openid</code></td><td>431</td><td></td></tr>
+<tr><td><code>fa_opera</code></td><td>432</td><td></td></tr>
+<tr><td><code>fa_optin_monster</code></td><td>433</td><td></td></tr>
+<tr><td><code>fa_outdent</code></td><td>434</td><td></td></tr>
+<tr><td><code>fa_pagelines</code></td><td>435</td><td></td></tr>
+<tr><td><code>fa_paint_brush</code></td><td>436</td><td></td></tr>
+<tr><td><code>fa_paper_plane</code></td><td>437</td><td></td></tr>
+<tr><td><code>fa_paper_plane_o</code></td><td>438</td><td></td></tr>
+<tr><td><code>fa_paperclip</code></td><td>439</td><td></td></tr>
+<tr><td><code>fa_paragraph</code></td><td>440</td><td></td></tr>
+<tr><td><code>fa_paste</code></td><td>441</td><td></td></tr>
+<tr><td><code>fa_pause</code></td><td>442</td><td></td></tr>
+<tr><td><code>fa_pause_circle</code></td><td>443</td><td></td></tr>
+<tr><td><code>fa_pause_circle_o</code></td><td>444</td><td></td></tr>
+<tr><td><code>fa_paw</code></td><td>445</td><td></td></tr>
+<tr><td><code>fa_paypal</code></td><td>446</td><td></td></tr>
+<tr><td><code>fa_pencil</code></td><td>447</td><td></td></tr>
+<tr><td><code>fa_pencil_square</code></td><td>448</td><td></td></tr>
+<tr><td><code>fa_pencil_square_o</code></td><td>449</td><td></td></tr>
+<tr><td><code>fa_percent</code></td><td>450</td><td></td></tr>
+<tr><td><code>fa_phone</code></td><td>451</td><td></td></tr>
+<tr><td><code>fa_phone_square</code></td><td>452</td><td></td></tr>
+<tr><td><code>fa_photo</code></td><td>453</td><td></td></tr>
+<tr><td><code>fa_picture_o</code></td><td>454</td><td></td></tr>
+<tr><td><code>fa_pie_chart</code></td><td>455</td><td></td></tr>
+<tr><td><code>fa_pied_piper</code></td><td>456</td><td></td></tr>
+<tr><td><code>fa_pied_piper_alt</code></td><td>457</td><td></td></tr>
+<tr><td><code>fa_pinterest</code></td><td>458</td><td></td></tr>
+<tr><td><code>fa_pinterest_p</code></td><td>459</td><td></td></tr>
+<tr><td><code>fa_pinterest_square</code></td><td>460</td><td></td></tr>
+<tr><td><code>fa_plane</code></td><td>461</td><td></td></tr>
+<tr><td><code>fa_play</code></td><td>462</td><td></td></tr>
+<tr><td><code>fa_play_circle</code></td><td>463</td><td></td></tr>
+<tr><td><code>fa_play_circle_o</code></td><td>464</td><td></td></tr>
+<tr><td><code>fa_plug</code></td><td>465</td><td></td></tr>
+<tr><td><code>fa_plus</code></td><td>466</td><td></td></tr>
+<tr><td><code>fa_plus_circle</code></td><td>467</td><td></td></tr>
+<tr><td><code>fa_plus_square</code></td><td>468</td><td></td></tr>
+<tr><td><code>fa_plus_square_o</code></td><td>469</td><td></td></tr>
+<tr><td><code>fa_power_off</code></td><td>470</td><td></td></tr>
+<tr><td><code>fa_print</code></td><td>471</td><td></td></tr>
+<tr><td><code>fa_product_hunt</code></td><td>472</td><td></td></tr>
+<tr><td><code>fa_puzzle_piece</code></td><td>473</td><td></td></tr>
+<tr><td><code>fa_qq</code></td><td>474</td><td></td></tr>
+<tr><td><code>fa_qrcode</code></td><td>475</td><td></td></tr>
+<tr><td><code>fa_question</code></td><td>476</td><td></td></tr>
+<tr><td><code>fa_question_circle</code></td><td>477</td><td></td></tr>
+<tr><td><code>fa_quote_left</code></td><td>478</td><td></td></tr>
+<tr><td><code>fa_quote_right</code></td><td>479</td><td></td></tr>
+<tr><td><code>fa_ra</code></td><td>480</td><td></td></tr>
+<tr><td><code>fa_random</code></td><td>481</td><td></td></tr>
+<tr><td><code>fa_rebel</code></td><td>482</td><td></td></tr>
+<tr><td><code>fa_recycle</code></td><td>483</td><td></td></tr>
+<tr><td><code>fa_reddit</code></td><td>484</td><td></td></tr>
+<tr><td><code>fa_reddit_alien</code></td><td>485</td><td></td></tr>
+<tr><td><code>fa_reddit_square</code></td><td>486</td><td></td></tr>
+<tr><td><code>fa_refresh</code></td><td>487</td><td></td></tr>
+<tr><td><code>fa_registered</code></td><td>488</td><td></td></tr>
+<tr><td><code>fa_remove</code></td><td>489</td><td></td></tr>
+<tr><td><code>fa_renren</code></td><td>490</td><td></td></tr>
+<tr><td><code>fa_reorder</code></td><td>491</td><td></td></tr>
+<tr><td><code>fa_repeat</code></td><td>492</td><td></td></tr>
+<tr><td><code>fa_reply</code></td><td>493</td><td></td></tr>
+<tr><td><code>fa_reply_all</code></td><td>494</td><td></td></tr>
+<tr><td><code>fa_retweet</code></td><td>495</td><td></td></tr>
+<tr><td><code>fa_rmb</code></td><td>496</td><td></td></tr>
+<tr><td><code>fa_road</code></td><td>497</td><td></td></tr>
+<tr><td><code>fa_rocket</code></td><td>498</td><td></td></tr>
+<tr><td><code>fa_rotate_left</code></td><td>499</td><td></td></tr>
+<tr><td><code>fa_rotate_right</code></td><td>500</td><td></td></tr>
+<tr><td><code>fa_rouble</code></td><td>501</td><td></td></tr>
+<tr><td><code>fa_rss</code></td><td>502</td><td></td></tr>
+<tr><td><code>fa_rss_square</code></td><td>503</td><td></td></tr>
+<tr><td><code>fa_rub</code></td><td>504</td><td></td></tr>
+<tr><td><code>fa_ruble</code></td><td>505</td><td></td></tr>
+<tr><td><code>fa_rupee</code></td><td>506</td><td></td></tr>
+<tr><td><code>fa_safari</code></td><td>507</td><td></td></tr>
+<tr><td><code>fa_save</code></td><td>508</td><td></td></tr>
+<tr><td><code>fa_scissors</code></td><td>509</td><td></td></tr>
+<tr><td><code>fa_scribd</code></td><td>510</td><td></td></tr>
+<tr><td><code>fa_search</code></td><td>511</td><td></td></tr>
+<tr><td><code>fa_search_minus</code></td><td>512</td><td></td></tr>
+<tr><td><code>fa_search_plus</code></td><td>513</td><td></td></tr>
+<tr><td><code>fa_sellsy</code></td><td>514</td><td></td></tr>
+<tr><td><code>fa_send</code></td><td>515</td><td></td></tr>
+<tr><td><code>fa_send_o</code></td><td>516</td><td></td></tr>
+<tr><td><code>fa_server</code></td><td>517</td><td></td></tr>
+<tr><td><code>fa_share</code></td><td>518</td><td></td></tr>
+<tr><td><code>fa_share_alt</code></td><td>519</td><td></td></tr>
+<tr><td><code>fa_share_alt_square</code></td><td>520</td><td></td></tr>
+<tr><td><code>fa_share_square</code></td><td>521</td><td></td></tr>
+<tr><td><code>fa_share_square_o</code></td><td>522</td><td></td></tr>
+<tr><td><code>fa_shekel</code></td><td>523</td><td></td></tr>
+<tr><td><code>fa_sheqel</code></td><td>524</td><td></td></tr>
+<tr><td><code>fa_shield</code></td><td>525</td><td></td></tr>
+<tr><td><code>fa_ship</code></td><td>526</td><td></td></tr>
+<tr><td><code>fa_shirtsinbulk</code></td><td>527</td><td></td></tr>
+<tr><td><code>fa_shopping_bag</code></td><td>528</td><td></td></tr>
+<tr><td><code>fa_shopping_basket</code></td><td>529</td><td></td></tr>
+<tr><td><code>fa_shopping_cart</code></td><td>530</td><td></td></tr>
+<tr><td><code>fa_sign_in</code></td><td>531</td><td></td></tr>
+<tr><td><code>fa_sign_out</code></td><td>532</td><td></td></tr>
+<tr><td><code>fa_signal</code></td><td>533</td><td></td></tr>
+<tr><td><code>fa_simplybuilt</code></td><td>534</td><td></td></tr>
+<tr><td><code>fa_sitemap</code></td><td>535</td><td></td></tr>
+<tr><td><code>fa_skyatlas</code></td><td>536</td><td></td></tr>
+<tr><td><code>fa_skype</code></td><td>537</td><td></td></tr>
+<tr><td><code>fa_slack</code></td><td>538</td><td></td></tr>
+<tr><td><code>fa_sliders</code></td><td>539</td><td></td></tr>
+<tr><td><code>fa_slideshare</code></td><td>540</td><td></td></tr>
+<tr><td><code>fa_smile_o</code></td><td>541</td><td></td></tr>
+<tr><td><code>fa_soccer_ball_o</code></td><td>542</td><td></td></tr>
+<tr><td><code>fa_sort</code></td><td>543</td><td></td></tr>
+<tr><td><code>fa_sort_alpha_asc</code></td><td>544</td><td></td></tr>
+<tr><td><code>fa_sort_alpha_desc</code></td><td>545</td><td></td></tr>
+<tr><td><code>fa_sort_amount_asc</code></td><td>546</td><td></td></tr>
+<tr><td><code>fa_sort_amount_desc</code></td><td>547</td><td></td></tr>
+<tr><td><code>fa_sort_asc</code></td><td>548</td><td></td></tr>
+<tr><td><code>fa_sort_desc</code></td><td>549</td><td></td></tr>
+<tr><td><code>fa_sort_down</code></td><td>550</td><td></td></tr>
+<tr><td><code>fa_sort_numeric_asc</code></td><td>551</td><td></td></tr>
+<tr><td><code>fa_sort_numeric_desc</code></td><td>552</td><td></td></tr>
+<tr><td><code>fa_sort_up</code></td><td>553</td><td></td></tr>
+<tr><td><code>fa_soundcloud</code></td><td>554</td><td></td></tr>
+<tr><td><code>fa_space_shuttle</code></td><td>555</td><td></td></tr>
+<tr><td><code>fa_spinner</code></td><td>556</td><td></td></tr>
+<tr><td><code>fa_spoon</code></td><td>557</td><td></td></tr>
+<tr><td><code>fa_spotify</code></td><td>558</td><td></td></tr>
+<tr><td><code>fa_square</code></td><td>559</td><td></td></tr>
+<tr><td><code>fa_square_o</code></td><td>560</td><td></td></tr>
+<tr><td><code>fa_stack_exchange</code></td><td>561</td><td></td></tr>
+<tr><td><code>fa_stack_overflow</code></td><td>562</td><td></td></tr>
+<tr><td><code>fa_star</code></td><td>563</td><td></td></tr>
+<tr><td><code>fa_star_half</code></td><td>564</td><td></td></tr>
+<tr><td><code>fa_star_half_empty</code></td><td>565</td><td></td></tr>
+<tr><td><code>fa_star_half_full</code></td><td>566</td><td></td></tr>
+<tr><td><code>fa_star_half_o</code></td><td>567</td><td></td></tr>
+<tr><td><code>fa_star_o</code></td><td>568</td><td></td></tr>
+<tr><td><code>fa_steam</code></td><td>569</td><td></td></tr>
+<tr><td><code>fa_steam_square</code></td><td>570</td><td></td></tr>
+<tr><td><code>fa_step_backward</code></td><td>571</td><td></td></tr>
+<tr><td><code>fa_step_forward</code></td><td>572</td><td></td></tr>
+<tr><td><code>fa_stethoscope</code></td><td>573</td><td></td></tr>
+<tr><td><code>fa_sticky_note</code></td><td>574</td><td></td></tr>
+<tr><td><code>fa_sticky_note_o</code></td><td>575</td><td></td></tr>
+<tr><td><code>fa_stop</code></td><td>576</td><td></td></tr>
+<tr><td><code>fa_stop_circle</code></td><td>577</td><td></td></tr>
+<tr><td><code>fa_stop_circle_o</code></td><td>578</td><td></td></tr>
+<tr><td><code>fa_street_view</code></td><td>579</td><td></td></tr>
+<tr><td><code>fa_strikethrough</code></td><td>580</td><td></td></tr>
+<tr><td><code>fa_stumbleupon</code></td><td>581</td><td></td></tr>
+<tr><td><code>fa_stumbleupon_circle</code></td><td>582</td><td></td></tr>
+<tr><td><code>fa_subscript</code></td><td>583</td><td></td></tr>
+<tr><td><code>fa_subway</code></td><td>584</td><td></td></tr>
+<tr><td><code>fa_suitcase</code></td><td>585</td><td></td></tr>
+<tr><td><code>fa_sun_o</code></td><td>586</td><td></td></tr>
+<tr><td><code>fa_superscript</code></td><td>587</td><td></td></tr>
+<tr><td><code>fa_support</code></td><td>588</td><td></td></tr>
+<tr><td><code>fa_table</code></td><td>589</td><td></td></tr>
+<tr><td><code>fa_tablet</code></td><td>590</td><td></td></tr>
+<tr><td><code>fa_tachometer</code></td><td>591</td><td></td></tr>
+<tr><td><code>fa_tag</code></td><td>592</td><td></td></tr>
+<tr><td><code>fa_tags</code></td><td>593</td><td></td></tr>
+<tr><td><code>fa_tasks</code></td><td>594</td><td></td></tr>
+<tr><td><code>fa_taxi</code></td><td>595</td><td></td></tr>
+<tr><td><code>fa_television</code></td><td>596</td><td></td></tr>
+<tr><td><code>fa_tencent_weibo</code></td><td>597</td><td></td></tr>
+<tr><td><code>fa_terminal</code></td><td>598</td><td></td></tr>
+<tr><td><code>fa_text_height</code></td><td>599</td><td></td></tr>
+<tr><td><code>fa_text_width</code></td><td>600</td><td></td></tr>
+<tr><td><code>fa_th</code></td><td>601</td><td></td></tr>
+<tr><td><code>fa_th_large</code></td><td>602</td><td></td></tr>
+<tr><td><code>fa_th_list</code></td><td>603</td><td></td></tr>
+<tr><td><code>fa_thumb_tack</code></td><td>604</td><td></td></tr>
+<tr><td><code>fa_thumbs_down</code></td><td>605</td><td></td></tr>
+<tr><td><code>fa_thumbs_o_down</code></td><td>606</td><td></td></tr>
+<tr><td><code>fa_thumbs_o_up</code></td><td>607</td><td></td></tr>
+<tr><td><code>fa_thumbs_up</code></td><td>608</td><td></td></tr>
+<tr><td><code>fa_ticket</code></td><td>609</td><td></td></tr>
+<tr><td><code>fa_times</code></td><td>610</td><td></td></tr>
+<tr><td><code>fa_times_circle</code></td><td>611</td><td></td></tr>
+<tr><td><code>fa_times_circle_o</code></td><td>612</td><td></td></tr>
+<tr><td><code>fa_tint</code></td><td>613</td><td></td></tr>
+<tr><td><code>fa_toggle_down</code></td><td>614</td><td></td></tr>
+<tr><td><code>fa_toggle_left</code></td><td>615</td><td></td></tr>
+<tr><td><code>fa_toggle_off</code></td><td>616</td><td></td></tr>
+<tr><td><code>fa_toggle_on</code></td><td>617</td><td></td></tr>
+<tr><td><code>fa_toggle_right</code></td><td>618</td><td></td></tr>
+<tr><td><code>fa_toggle_up</code></td><td>619</td><td></td></tr>
+<tr><td><code>fa_trademark</code></td><td>620</td><td></td></tr>
+<tr><td><code>fa_train</code></td><td>621</td><td></td></tr>
+<tr><td><code>fa_transgender</code></td><td>622</td><td></td></tr>
+<tr><td><code>fa_transgender_alt</code></td><td>623</td><td></td></tr>
+<tr><td><code>fa_trash</code></td><td>624</td><td></td></tr>
+<tr><td><code>fa_trash_o</code></td><td>625</td><td></td></tr>
+<tr><td><code>fa_tree</code></td><td>626</td><td></td></tr>
+<tr><td><code>fa_trello</code></td><td>627</td><td></td></tr>
+<tr><td><code>fa_tripadvisor</code></td><td>628</td><td></td></tr>
+<tr><td><code>fa_trophy</code></td><td>629</td><td></td></tr>
+<tr><td><code>fa_truck</code></td><td>630</td><td></td></tr>
+<tr><td><code>fa_try</code></td><td>631</td><td></td></tr>
+<tr><td><code>fa_tty</code></td><td>632</td><td></td></tr>
+<tr><td><code>fa_tumblr</code></td><td>633</td><td></td></tr>
+<tr><td><code>fa_tumblr_square</code></td><td>634</td><td></td></tr>
+<tr><td><code>fa_turkish_lira</code></td><td>635</td><td></td></tr>
+<tr><td><code>fa_tv</code></td><td>636</td><td></td></tr>
+<tr><td><code>fa_twitch</code></td><td>637</td><td></td></tr>
+<tr><td><code>fa_twitter</code></td><td>638</td><td></td></tr>
+<tr><td><code>fa_twitter_square</code></td><td>639</td><td></td></tr>
+<tr><td><code>fa_umbrella</code></td><td>640</td><td></td></tr>
+<tr><td><code>fa_underline</code></td><td>641</td><td></td></tr>
+<tr><td><code>fa_undo</code></td><td>642</td><td></td></tr>
+<tr><td><code>fa_university</code></td><td>643</td><td></td></tr>
+<tr><td><code>fa_unlink</code></td><td>644</td><td></td></tr>
+<tr><td><code>fa_unlock</code></td><td>645</td><td></td></tr>
+<tr><td><code>fa_unlock_alt</code></td><td>646</td><td></td></tr>
+<tr><td><code>fa_unsorted</code></td><td>647</td><td></td></tr>
+<tr><td><code>fa_upload</code></td><td>648</td><td></td></tr>
+<tr><td><code>fa_usb</code></td><td>649</td><td></td></tr>
+<tr><td><code>fa_usd</code></td><td>650</td><td></td></tr>
+<tr><td><code>fa_user</code></td><td>651</td><td></td></tr>
+<tr><td><code>fa_user_md</code></td><td>652</td><td></td></tr>
+<tr><td><code>fa_user_plus</code></td><td>653</td><td></td></tr>
+<tr><td><code>fa_user_secret</code></td><td>654</td><td></td></tr>
+<tr><td><code>fa_user_times</code></td><td>655</td><td></td></tr>
+<tr><td><code>fa_users</code></td><td>656</td><td></td></tr>
+<tr><td><code>fa_venus</code></td><td>657</td><td></td></tr>
+<tr><td><code>fa_venus_double</code></td><td>658</td><td></td></tr>
+<tr><td><code>fa_venus_mars</code></td><td>659</td><td></td></tr>
+<tr><td><code>fa_viacoin</code></td><td>660</td><td></td></tr>
+<tr><td><code>fa_video_camera</code></td><td>661</td><td></td></tr>
+<tr><td><code>fa_vimeo</code></td><td>662</td><td></td></tr>
+<tr><td><code>fa_vimeo_square</code></td><td>663</td><td></td></tr>
+<tr><td><code>fa_vine</code></td><td>664</td><td></td></tr>
+<tr><td><code>fa_vk</code></td><td>665</td><td></td></tr>
+<tr><td><code>fa_volume_down</code></td><td>666</td><td></td></tr>
+<tr><td><code>fa_volume_off</code></td><td>667</td><td></td></tr>
+<tr><td><code>fa_volume_up</code></td><td>668</td><td></td></tr>
+<tr><td><code>fa_warning</code></td><td>669</td><td></td></tr>
+<tr><td><code>fa_wechat</code></td><td>670</td><td></td></tr>
+<tr><td><code>fa_weibo</code></td><td>671</td><td></td></tr>
+<tr><td><code>fa_weixin</code></td><td>672</td><td></td></tr>
+<tr><td><code>fa_whatsapp</code></td><td>673</td><td></td></tr>
+<tr><td><code>fa_wheelchair</code></td><td>674</td><td></td></tr>
+<tr><td><code>fa_wifi</code></td><td>675</td><td></td></tr>
+<tr><td><code>fa_wikipedia_w</code></td><td>676</td><td></td></tr>
+<tr><td><code>fa_windows</code></td><td>677</td><td></td></tr>
+<tr><td><code>fa_won</code></td><td>678</td><td></td></tr>
+<tr><td><code>fa_wordpress</code></td><td>679</td><td></td></tr>
+<tr><td><code>fa_wrench</code></td><td>680</td><td></td></tr>
+<tr><td><code>fa_xing</code></td><td>681</td><td></td></tr>
+<tr><td><code>fa_xing_square</code></td><td>682</td><td></td></tr>
+<tr><td><code>fa_y_combinator</code></td><td>683</td><td></td></tr>
+<tr><td><code>fa_y_combinator_square</code></td><td>684</td><td></td></tr>
+<tr><td><code>fa_yahoo</code></td><td>685</td><td></td></tr>
+<tr><td><code>fa_yc</code></td><td>686</td><td></td></tr>
+<tr><td><code>fa_yc_square</code></td><td>687</td><td></td></tr>
+<tr><td><code>fa_yelp</code></td><td>688</td><td></td></tr>
+<tr><td><code>fa_yen</code></td><td>689</td><td></td></tr>
+<tr><td><code>fa_youtube</code></td><td>690</td><td></td></tr>
+<tr><td><code>fa_youtube_play</code></td><td>691</td><td></td></tr>
+<tr><td><code>fa_youtube_square</code></td><td>692</td><td></td></tr>
+</table>
+          @attr name com.client.kusonemi:fontAwesomeIcon
+        */
+        public static final int AwesomeTextView_fontAwesomeIcon = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.client.kusonemi.R.attr#typicon}
+          attribute's value can be found in the {@link #AwesomeTextView} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>ty_adjust_brightness</code></td><td>0</td><td></td></tr>
+<tr><td><code>ty_adjust_contrast</code></td><td>1</td><td></td></tr>
+<tr><td><code>ty_anchor</code></td><td>2</td><td></td></tr>
+<tr><td><code>ty_anchor_outline</code></td><td>3</td><td></td></tr>
+<tr><td><code>ty_archive</code></td><td>4</td><td></td></tr>
+<tr><td><code>ty_arrow_back</code></td><td>5</td><td></td></tr>
+<tr><td><code>ty_arrow_back_outline</code></td><td>6</td><td></td></tr>
+<tr><td><code>ty_arrow_down</code></td><td>7</td><td></td></tr>
+<tr><td><code>ty_arrow_down_outline</code></td><td>8</td><td></td></tr>
+<tr><td><code>ty_arrow_down_thick</code></td><td>9</td><td></td></tr>
+<tr><td><code>ty_arrow_forward</code></td><td>10</td><td></td></tr>
+<tr><td><code>ty_arrow_forward_outline</code></td><td>11</td><td></td></tr>
+<tr><td><code>ty_arrow_left</code></td><td>12</td><td></td></tr>
+<tr><td><code>ty_arrow_left_outline</code></td><td>13</td><td></td></tr>
+<tr><td><code>ty_arrow_left_thick</code></td><td>14</td><td></td></tr>
+<tr><td><code>ty_arrow_loop</code></td><td>15</td><td></td></tr>
+<tr><td><code>ty_arrow_loop_outline</code></td><td>16</td><td></td></tr>
+<tr><td><code>ty_arrow_maximise</code></td><td>17</td><td></td></tr>
+<tr><td><code>ty_arrow_maximise_outline</code></td><td>18</td><td></td></tr>
+<tr><td><code>ty_arrow_minimise</code></td><td>19</td><td></td></tr>
+<tr><td><code>ty_arrow_minimise_outline</code></td><td>20</td><td></td></tr>
+<tr><td><code>ty_arrow_move</code></td><td>21</td><td></td></tr>
+<tr><td><code>ty_arrow_move_outline</code></td><td>22</td><td></td></tr>
+<tr><td><code>ty_arrow_repeat</code></td><td>23</td><td></td></tr>
+<tr><td><code>ty_arrow_repeat_outline</code></td><td>24</td><td></td></tr>
+<tr><td><code>ty_arrow_right</code></td><td>25</td><td></td></tr>
+<tr><td><code>ty_arrow_right_outline</code></td><td>26</td><td></td></tr>
+<tr><td><code>ty_arrow_right_thick</code></td><td>27</td><td></td></tr>
+<tr><td><code>ty_arrow_shuffle</code></td><td>28</td><td></td></tr>
+<tr><td><code>ty_arrow_sorted_down</code></td><td>29</td><td></td></tr>
+<tr><td><code>ty_arrow_sorted_up</code></td><td>30</td><td></td></tr>
+<tr><td><code>ty_arrow_sync</code></td><td>31</td><td></td></tr>
+<tr><td><code>ty_arrow_sync_outline</code></td><td>32</td><td></td></tr>
+<tr><td><code>ty_arrow_unsorted</code></td><td>33</td><td></td></tr>
+<tr><td><code>ty_arrow_up</code></td><td>34</td><td></td></tr>
+<tr><td><code>ty_arrow_up_outline</code></td><td>35</td><td></td></tr>
+<tr><td><code>ty_arrow_up_thick</code></td><td>36</td><td></td></tr>
+<tr><td><code>ty_at</code></td><td>37</td><td></td></tr>
+<tr><td><code>ty_attachment</code></td><td>38</td><td></td></tr>
+<tr><td><code>ty_attachment_outline</code></td><td>39</td><td></td></tr>
+<tr><td><code>ty_backspace</code></td><td>40</td><td></td></tr>
+<tr><td><code>ty_backspace_outline</code></td><td>41</td><td></td></tr>
+<tr><td><code>ty_battery_charge</code></td><td>42</td><td></td></tr>
+<tr><td><code>ty_battery_full</code></td><td>43</td><td></td></tr>
+<tr><td><code>ty_battery_high</code></td><td>44</td><td></td></tr>
+<tr><td><code>ty_battery_low</code></td><td>45</td><td></td></tr>
+<tr><td><code>ty_battery_mid</code></td><td>46</td><td></td></tr>
+<tr><td><code>ty_beaker</code></td><td>47</td><td></td></tr>
+<tr><td><code>ty_beer</code></td><td>48</td><td></td></tr>
+<tr><td><code>ty_bell</code></td><td>49</td><td></td></tr>
+<tr><td><code>ty_book</code></td><td>50</td><td></td></tr>
+<tr><td><code>ty_bookmark</code></td><td>51</td><td></td></tr>
+<tr><td><code>ty_briefcase</code></td><td>52</td><td></td></tr>
+<tr><td><code>ty_brush</code></td><td>53</td><td></td></tr>
+<tr><td><code>ty_business_card</code></td><td>54</td><td></td></tr>
+<tr><td><code>ty_calculator</code></td><td>55</td><td></td></tr>
+<tr><td><code>ty_calendar</code></td><td>56</td><td></td></tr>
+<tr><td><code>ty_calendar_outline</code></td><td>57</td><td></td></tr>
+<tr><td><code>ty_camera</code></td><td>58</td><td></td></tr>
+<tr><td><code>ty_camera_outline</code></td><td>59</td><td></td></tr>
+<tr><td><code>ty_cancel</code></td><td>60</td><td></td></tr>
+<tr><td><code>ty_cancel_outline</code></td><td>61</td><td></td></tr>
+<tr><td><code>ty_chart_area</code></td><td>62</td><td></td></tr>
+<tr><td><code>ty_chart_area_outline</code></td><td>63</td><td></td></tr>
+<tr><td><code>ty_chart_bar</code></td><td>64</td><td></td></tr>
+<tr><td><code>ty_chart_bar_outline</code></td><td>65</td><td></td></tr>
+<tr><td><code>ty_chart_line</code></td><td>66</td><td></td></tr>
+<tr><td><code>ty_chart_line_outline</code></td><td>67</td><td></td></tr>
+<tr><td><code>ty_chart_pie</code></td><td>68</td><td></td></tr>
+<tr><td><code>ty_chart_pie_outline</code></td><td>69</td><td></td></tr>
+<tr><td><code>ty_chevron_left</code></td><td>70</td><td></td></tr>
+<tr><td><code>ty_chevron_left_outline</code></td><td>71</td><td></td></tr>
+<tr><td><code>ty_chevron_right</code></td><td>72</td><td></td></tr>
+<tr><td><code>ty_chevron_right_outline</code></td><td>73</td><td></td></tr>
+<tr><td><code>ty_clipboard</code></td><td>74</td><td></td></tr>
+<tr><td><code>ty_cloud_storage</code></td><td>75</td><td></td></tr>
+<tr><td><code>ty_cloud_storage_outline</code></td><td>76</td><td></td></tr>
+<tr><td><code>ty_code</code></td><td>77</td><td></td></tr>
+<tr><td><code>ty_code_outline</code></td><td>78</td><td></td></tr>
+<tr><td><code>ty_coffee</code></td><td>79</td><td></td></tr>
+<tr><td><code>ty_cog</code></td><td>80</td><td></td></tr>
+<tr><td><code>ty_cog_outline</code></td><td>81</td><td></td></tr>
+<tr><td><code>ty_compass</code></td><td>82</td><td></td></tr>
+<tr><td><code>ty_contacts</code></td><td>83</td><td></td></tr>
+<tr><td><code>ty_credit_card</code></td><td>84</td><td></td></tr>
+<tr><td><code>ty_css3</code></td><td>85</td><td></td></tr>
+<tr><td><code>ty_database</code></td><td>86</td><td></td></tr>
+<tr><td><code>ty_delete</code></td><td>87</td><td></td></tr>
+<tr><td><code>ty_delete_outline</code></td><td>88</td><td></td></tr>
+<tr><td><code>ty_device_desktop</code></td><td>89</td><td></td></tr>
+<tr><td><code>ty_device_laptop</code></td><td>90</td><td></td></tr>
+<tr><td><code>ty_device_phone</code></td><td>91</td><td></td></tr>
+<tr><td><code>ty_device_tablet</code></td><td>92</td><td></td></tr>
+<tr><td><code>ty_directions</code></td><td>93</td><td></td></tr>
+<tr><td><code>ty_divide</code></td><td>94</td><td></td></tr>
+<tr><td><code>ty_divide_outline</code></td><td>95</td><td></td></tr>
+<tr><td><code>ty_document</code></td><td>96</td><td></td></tr>
+<tr><td><code>ty_document_add</code></td><td>97</td><td></td></tr>
+<tr><td><code>ty_document_delete</code></td><td>98</td><td></td></tr>
+<tr><td><code>ty_document_text</code></td><td>99</td><td></td></tr>
+<tr><td><code>ty_download</code></td><td>100</td><td></td></tr>
+<tr><td><code>ty_download_outline</code></td><td>101</td><td></td></tr>
+<tr><td><code>ty_dropbox</code></td><td>102</td><td></td></tr>
+<tr><td><code>ty_edit</code></td><td>103</td><td></td></tr>
+<tr><td><code>ty_eject</code></td><td>104</td><td></td></tr>
+<tr><td><code>ty_eject_outline</code></td><td>105</td><td></td></tr>
+<tr><td><code>ty_equals</code></td><td>106</td><td></td></tr>
+<tr><td><code>ty_equals_outline</code></td><td>107</td><td></td></tr>
+<tr><td><code>ty_export</code></td><td>108</td><td></td></tr>
+<tr><td><code>ty_export_outline</code></td><td>109</td><td></td></tr>
+<tr><td><code>ty_eye</code></td><td>110</td><td></td></tr>
+<tr><td><code>ty_eye_outline</code></td><td>111</td><td></td></tr>
+<tr><td><code>ty_feather</code></td><td>112</td><td></td></tr>
+<tr><td><code>ty_film</code></td><td>113</td><td></td></tr>
+<tr><td><code>ty_filter</code></td><td>114</td><td></td></tr>
+<tr><td><code>ty_flag</code></td><td>115</td><td></td></tr>
+<tr><td><code>ty_flag_outline</code></td><td>116</td><td></td></tr>
+<tr><td><code>ty_flash</code></td><td>117</td><td></td></tr>
+<tr><td><code>ty_flash_outline</code></td><td>118</td><td></td></tr>
+<tr><td><code>ty_flow_children</code></td><td>119</td><td></td></tr>
+<tr><td><code>ty_flow_merge</code></td><td>120</td><td></td></tr>
+<tr><td><code>ty_flow_parallel</code></td><td>121</td><td></td></tr>
+<tr><td><code>ty_flow_switch</code></td><td>122</td><td></td></tr>
+<tr><td><code>ty_folder</code></td><td>123</td><td></td></tr>
+<tr><td><code>ty_folder_add</code></td><td>124</td><td></td></tr>
+<tr><td><code>ty_folder_delete</code></td><td>125</td><td></td></tr>
+<tr><td><code>ty_folder_open</code></td><td>126</td><td></td></tr>
+<tr><td><code>ty_gift</code></td><td>127</td><td></td></tr>
+<tr><td><code>ty_globe</code></td><td>128</td><td></td></tr>
+<tr><td><code>ty_globe_outline</code></td><td>129</td><td></td></tr>
+<tr><td><code>ty_group</code></td><td>130</td><td></td></tr>
+<tr><td><code>ty_group_outline</code></td><td>131</td><td></td></tr>
+<tr><td><code>ty_headphones</code></td><td>132</td><td></td></tr>
+<tr><td><code>ty_heart</code></td><td>133</td><td></td></tr>
+<tr><td><code>ty_heart_full_outline</code></td><td>134</td><td></td></tr>
+<tr><td><code>ty_heart_half_outline</code></td><td>135</td><td></td></tr>
+<tr><td><code>ty_heart_outline</code></td><td>136</td><td></td></tr>
+<tr><td><code>ty_home</code></td><td>137</td><td></td></tr>
+<tr><td><code>ty_home_outline</code></td><td>138</td><td></td></tr>
+<tr><td><code>ty_html5</code></td><td>139</td><td></td></tr>
+<tr><td><code>ty_image</code></td><td>140</td><td></td></tr>
+<tr><td><code>ty_image_outline</code></td><td>141</td><td></td></tr>
+<tr><td><code>ty_infinity</code></td><td>142</td><td></td></tr>
+<tr><td><code>ty_infinity_outline</code></td><td>143</td><td></td></tr>
+<tr><td><code>ty_info</code></td><td>144</td><td></td></tr>
+<tr><td><code>ty_info_large</code></td><td>145</td><td></td></tr>
+<tr><td><code>ty_info_large_outline</code></td><td>146</td><td></td></tr>
+<tr><td><code>ty_info_outline</code></td><td>147</td><td></td></tr>
+<tr><td><code>ty_input_checked</code></td><td>148</td><td></td></tr>
+<tr><td><code>ty_input_checked_outline</code></td><td>149</td><td></td></tr>
+<tr><td><code>ty_key</code></td><td>150</td><td></td></tr>
+<tr><td><code>ty_key_outline</code></td><td>151</td><td></td></tr>
+<tr><td><code>ty_keyboard</code></td><td>152</td><td></td></tr>
+<tr><td><code>ty_leaf</code></td><td>153</td><td></td></tr>
+<tr><td><code>ty_lightbulb</code></td><td>154</td><td></td></tr>
+<tr><td><code>ty_link</code></td><td>155</td><td></td></tr>
+<tr><td><code>ty_link_outline</code></td><td>156</td><td></td></tr>
+<tr><td><code>ty_location</code></td><td>157</td><td></td></tr>
+<tr><td><code>ty_location_arrow</code></td><td>158</td><td></td></tr>
+<tr><td><code>ty_location_arrow_outline</code></td><td>159</td><td></td></tr>
+<tr><td><code>ty_location_outline</code></td><td>160</td><td></td></tr>
+<tr><td><code>ty_lock_closed</code></td><td>161</td><td></td></tr>
+<tr><td><code>ty_lock_closed_outline</code></td><td>162</td><td></td></tr>
+<tr><td><code>ty_lock_open</code></td><td>163</td><td></td></tr>
+<tr><td><code>ty_lock_open_outline</code></td><td>164</td><td></td></tr>
+<tr><td><code>ty_mail</code></td><td>165</td><td></td></tr>
+<tr><td><code>ty_map</code></td><td>166</td><td></td></tr>
+<tr><td><code>ty_media_eject</code></td><td>167</td><td></td></tr>
+<tr><td><code>ty_media_eject_outline</code></td><td>168</td><td></td></tr>
+<tr><td><code>ty_media_fast_forward</code></td><td>169</td><td></td></tr>
+<tr><td><code>ty_media_fast_forward_outline</code></td><td>170</td><td></td></tr>
+<tr><td><code>ty_media_pause</code></td><td>171</td><td></td></tr>
+<tr><td><code>ty_media_pause_outline</code></td><td>172</td><td></td></tr>
+<tr><td><code>ty_media_play</code></td><td>173</td><td></td></tr>
+<tr><td><code>ty_media_play_outline</code></td><td>174</td><td></td></tr>
+<tr><td><code>ty_media_play_reverse</code></td><td>175</td><td></td></tr>
+<tr><td><code>ty_media_play_reverse_outline</code></td><td>176</td><td></td></tr>
+<tr><td><code>ty_media_record</code></td><td>177</td><td></td></tr>
+<tr><td><code>ty_media_record_outline</code></td><td>178</td><td></td></tr>
+<tr><td><code>ty_media_rewind</code></td><td>179</td><td></td></tr>
+<tr><td><code>ty_media_rewind_outline</code></td><td>180</td><td></td></tr>
+<tr><td><code>ty_media_stop</code></td><td>181</td><td></td></tr>
+<tr><td><code>ty_media_stop_outline</code></td><td>182</td><td></td></tr>
+<tr><td><code>ty_message</code></td><td>183</td><td></td></tr>
+<tr><td><code>ty_message_typing</code></td><td>184</td><td></td></tr>
+<tr><td><code>ty_messages</code></td><td>185</td><td></td></tr>
+<tr><td><code>ty_microphone</code></td><td>186</td><td></td></tr>
+<tr><td><code>ty_microphone_outline</code></td><td>187</td><td></td></tr>
+<tr><td><code>ty_minus</code></td><td>188</td><td></td></tr>
+<tr><td><code>ty_minus_outline</code></td><td>189</td><td></td></tr>
+<tr><td><code>ty_mortar_board</code></td><td>190</td><td></td></tr>
+<tr><td><code>ty_news</code></td><td>191</td><td></td></tr>
+<tr><td><code>ty_notes</code></td><td>192</td><td></td></tr>
+<tr><td><code>ty_notes_outline</code></td><td>193</td><td></td></tr>
+<tr><td><code>ty_pen</code></td><td>194</td><td></td></tr>
+<tr><td><code>ty_pencil</code></td><td>195</td><td></td></tr>
+<tr><td><code>ty_phone</code></td><td>196</td><td></td></tr>
+<tr><td><code>ty_phone_outline</code></td><td>197</td><td></td></tr>
+<tr><td><code>ty_pi</code></td><td>198</td><td></td></tr>
+<tr><td><code>ty_pi_outline</code></td><td>199</td><td></td></tr>
+<tr><td><code>ty_pin</code></td><td>200</td><td></td></tr>
+<tr><td><code>ty_pin_outline</code></td><td>201</td><td></td></tr>
+<tr><td><code>ty_pipette</code></td><td>202</td><td></td></tr>
+<tr><td><code>ty_plane</code></td><td>203</td><td></td></tr>
+<tr><td><code>ty_plane_outline</code></td><td>204</td><td></td></tr>
+<tr><td><code>ty_plug</code></td><td>205</td><td></td></tr>
+<tr><td><code>ty_plus</code></td><td>206</td><td></td></tr>
+<tr><td><code>ty_plus_outline</code></td><td>207</td><td></td></tr>
+<tr><td><code>ty_point_of_interest</code></td><td>208</td><td></td></tr>
+<tr><td><code>ty_point_of_interest_outline</code></td><td>209</td><td></td></tr>
+<tr><td><code>ty_power</code></td><td>210</td><td></td></tr>
+<tr><td><code>ty_power_outline</code></td><td>211</td><td></td></tr>
+<tr><td><code>ty_printer</code></td><td>212</td><td></td></tr>
+<tr><td><code>ty_puzzle</code></td><td>213</td><td></td></tr>
+<tr><td><code>ty_puzzle_outline</code></td><td>214</td><td></td></tr>
+<tr><td><code>ty_radar</code></td><td>215</td><td></td></tr>
+<tr><td><code>ty_radar_outline</code></td><td>216</td><td></td></tr>
+<tr><td><code>ty_refresh</code></td><td>217</td><td></td></tr>
+<tr><td><code>ty_refresh_outline</code></td><td>218</td><td></td></tr>
+<tr><td><code>ty_rss</code></td><td>219</td><td></td></tr>
+<tr><td><code>ty_rss_outline</code></td><td>220</td><td></td></tr>
+<tr><td><code>ty_scissors</code></td><td>221</td><td></td></tr>
+<tr><td><code>ty_scissors_outline</code></td><td>222</td><td></td></tr>
+<tr><td><code>ty_shopping_bag</code></td><td>223</td><td></td></tr>
+<tr><td><code>ty_shopping_cart</code></td><td>224</td><td></td></tr>
+<tr><td><code>ty_social_at_circular</code></td><td>225</td><td></td></tr>
+<tr><td><code>ty_social_dribbble</code></td><td>226</td><td></td></tr>
+<tr><td><code>ty_social_dribbble_circular</code></td><td>227</td><td></td></tr>
+<tr><td><code>ty_social_facebook</code></td><td>228</td><td></td></tr>
+<tr><td><code>ty_social_facebook_circular</code></td><td>229</td><td></td></tr>
+<tr><td><code>ty_social_flickr</code></td><td>230</td><td></td></tr>
+<tr><td><code>ty_social_flickr_circular</code></td><td>231</td><td></td></tr>
+<tr><td><code>ty_social_github</code></td><td>232</td><td></td></tr>
+<tr><td><code>ty_social_github_circular</code></td><td>233</td><td></td></tr>
+<tr><td><code>ty_social_google_plus</code></td><td>234</td><td></td></tr>
+<tr><td><code>ty_social_google_plus_circular</code></td><td>235</td><td></td></tr>
+<tr><td><code>ty_social_instagram</code></td><td>236</td><td></td></tr>
+<tr><td><code>ty_social_instagram_circular</code></td><td>237</td><td></td></tr>
+<tr><td><code>ty_social_last_fm</code></td><td>238</td><td></td></tr>
+<tr><td><code>ty_social_last_fm_circular</code></td><td>239</td><td></td></tr>
+<tr><td><code>ty_social_linkedin</code></td><td>240</td><td></td></tr>
+<tr><td><code>ty_social_linkedin_circular</code></td><td>241</td><td></td></tr>
+<tr><td><code>ty_social_pinterest</code></td><td>242</td><td></td></tr>
+<tr><td><code>ty_social_pinterest_circular</code></td><td>243</td><td></td></tr>
+<tr><td><code>ty_social_skype</code></td><td>244</td><td></td></tr>
+<tr><td><code>ty_social_skype_outline</code></td><td>245</td><td></td></tr>
+<tr><td><code>ty_social_tumbler</code></td><td>246</td><td></td></tr>
+<tr><td><code>ty_social_tumbler_circular</code></td><td>247</td><td></td></tr>
+<tr><td><code>ty_social_twitter</code></td><td>248</td><td></td></tr>
+<tr><td><code>ty_social_twitter_circular</code></td><td>249</td><td></td></tr>
+<tr><td><code>ty_social_vimeo</code></td><td>250</td><td></td></tr>
+<tr><td><code>ty_social_vimeo_circular</code></td><td>251</td><td></td></tr>
+<tr><td><code>ty_social_youtube</code></td><td>252</td><td></td></tr>
+<tr><td><code>ty_social_youtube_circular</code></td><td>253</td><td></td></tr>
+<tr><td><code>ty_sort_alphabetically</code></td><td>254</td><td></td></tr>
+<tr><td><code>ty_sort_alphabetically_outline</code></td><td>255</td><td></td></tr>
+<tr><td><code>ty_sort_numerically</code></td><td>256</td><td></td></tr>
+<tr><td><code>ty_sort_numerically_outline</code></td><td>257</td><td></td></tr>
+<tr><td><code>ty_spanner</code></td><td>258</td><td></td></tr>
+<tr><td><code>ty_spanner_outline</code></td><td>259</td><td></td></tr>
+<tr><td><code>ty_spiral</code></td><td>260</td><td></td></tr>
+<tr><td><code>ty_star</code></td><td>261</td><td></td></tr>
+<tr><td><code>ty_star_full_outline</code></td><td>262</td><td></td></tr>
+<tr><td><code>ty_star_half</code></td><td>263</td><td></td></tr>
+<tr><td><code>ty_star_half_outline</code></td><td>264</td><td></td></tr>
+<tr><td><code>ty_star_outline</code></td><td>265</td><td></td></tr>
+<tr><td><code>ty_starburst</code></td><td>266</td><td></td></tr>
+<tr><td><code>ty_starburst_outline</code></td><td>267</td><td></td></tr>
+<tr><td><code>ty_stopwatch</code></td><td>268</td><td></td></tr>
+<tr><td><code>ty_support</code></td><td>269</td><td></td></tr>
+<tr><td><code>ty_tabs_outline</code></td><td>270</td><td></td></tr>
+<tr><td><code>ty_tag</code></td><td>271</td><td></td></tr>
+<tr><td><code>ty_tags</code></td><td>272</td><td></td></tr>
+<tr><td><code>ty_th_large</code></td><td>273</td><td></td></tr>
+<tr><td><code>ty_th_large_outline</code></td><td>274</td><td></td></tr>
+<tr><td><code>ty_th_list</code></td><td>275</td><td></td></tr>
+<tr><td><code>ty_th_list_outline</code></td><td>276</td><td></td></tr>
+<tr><td><code>ty_th_menu</code></td><td>277</td><td></td></tr>
+<tr><td><code>ty_th_menu_outline</code></td><td>278</td><td></td></tr>
+<tr><td><code>ty_th_small</code></td><td>279</td><td></td></tr>
+<tr><td><code>ty_th_small_outline</code></td><td>280</td><td></td></tr>
+<tr><td><code>ty_thermometer</code></td><td>281</td><td></td></tr>
+<tr><td><code>ty_thumbs_down</code></td><td>282</td><td></td></tr>
+<tr><td><code>ty_thumbs_ok</code></td><td>283</td><td></td></tr>
+<tr><td><code>ty_thumbs_up</code></td><td>284</td><td></td></tr>
+<tr><td><code>ty_tick</code></td><td>285</td><td></td></tr>
+<tr><td><code>ty_tick_outline</code></td><td>286</td><td></td></tr>
+<tr><td><code>ty_ticket</code></td><td>287</td><td></td></tr>
+<tr><td><code>ty_time</code></td><td>288</td><td></td></tr>
+<tr><td><code>ty_times</code></td><td>289</td><td></td></tr>
+<tr><td><code>ty_times_outline</code></td><td>290</td><td></td></tr>
+<tr><td><code>ty_trash</code></td><td>291</td><td></td></tr>
+<tr><td><code>ty_tree</code></td><td>292</td><td></td></tr>
+<tr><td><code>ty_upload</code></td><td>293</td><td></td></tr>
+<tr><td><code>ty_upload_outline</code></td><td>294</td><td></td></tr>
+<tr><td><code>ty_user</code></td><td>295</td><td></td></tr>
+<tr><td><code>ty_user_add</code></td><td>296</td><td></td></tr>
+<tr><td><code>ty_user_add_outline</code></td><td>297</td><td></td></tr>
+<tr><td><code>ty_user_delete</code></td><td>298</td><td></td></tr>
+<tr><td><code>ty_user_delete_outline</code></td><td>299</td><td></td></tr>
+<tr><td><code>ty_user_outline</code></td><td>300</td><td></td></tr>
+<tr><td><code>ty_vendor_android</code></td><td>301</td><td></td></tr>
+<tr><td><code>ty_vendor_apple</code></td><td>302</td><td></td></tr>
+<tr><td><code>ty_vendor_microsoft</code></td><td>303</td><td></td></tr>
+<tr><td><code>ty_video</code></td><td>304</td><td></td></tr>
+<tr><td><code>ty_video_outline</code></td><td>305</td><td></td></tr>
+<tr><td><code>ty_volume</code></td><td>306</td><td></td></tr>
+<tr><td><code>ty_volume_down</code></td><td>307</td><td></td></tr>
+<tr><td><code>ty_volume_mute</code></td><td>308</td><td></td></tr>
+<tr><td><code>ty_volume_up</code></td><td>309</td><td></td></tr>
+<tr><td><code>ty_warning</code></td><td>310</td><td></td></tr>
+<tr><td><code>ty_warning_outline</code></td><td>311</td><td></td></tr>
+<tr><td><code>ty_watch</code></td><td>312</td><td></td></tr>
+<tr><td><code>ty_waves</code></td><td>313</td><td></td></tr>
+<tr><td><code>ty_waves_outline</code></td><td>314</td><td></td></tr>
+<tr><td><code>ty_weather_cloudy</code></td><td>315</td><td></td></tr>
+<tr><td><code>ty_weather_downpour</code></td><td>316</td><td></td></tr>
+<tr><td><code>ty_weather_night</code></td><td>317</td><td></td></tr>
+<tr><td><code>ty_weather_partly_sunny</code></td><td>318</td><td></td></tr>
+<tr><td><code>ty_weather_shower</code></td><td>319</td><td></td></tr>
+<tr><td><code>ty_weather_snow</code></td><td>320</td><td></td></tr>
+<tr><td><code>ty_weather_stormy</code></td><td>321</td><td></td></tr>
+<tr><td><code>ty_weather_sunny</code></td><td>322</td><td></td></tr>
+<tr><td><code>ty_weather_windy</code></td><td>323</td><td></td></tr>
+<tr><td><code>ty_weather_windy_cloudy</code></td><td>324</td><td></td></tr>
+<tr><td><code>ty_wi_fi</code></td><td>325</td><td></td></tr>
+<tr><td><code>ty_wi_fi_outline</code></td><td>326</td><td></td></tr>
+<tr><td><code>ty_wine</code></td><td>327</td><td></td></tr>
+<tr><td><code>ty_world</code></td><td>328</td><td></td></tr>
+<tr><td><code>ty_world_outline</code></td><td>329</td><td></td></tr>
+<tr><td><code>ty_zoom</code></td><td>330</td><td></td></tr>
+<tr><td><code>ty_zoom_in</code></td><td>331</td><td></td></tr>
+<tr><td><code>ty_zoom_in_outline</code></td><td>332</td><td></td></tr>
+<tr><td><code>ty_zoom_out</code></td><td>333</td><td></td></tr>
+<tr><td><code>ty_zoom_out_outline</code></td><td>334</td><td></td></tr>
+<tr><td><code>ty_zoom_outline</code></td><td>335</td><td></td></tr>
+</table>
+          @attr name com.client.kusonemi:typicon
+        */
+        public static final int AwesomeTextView_typicon = 3;
+        /** Attributes that can be used with a BootstrapButton.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #BootstrapButton_bootstrapBrand com.client.kusonemi:bootstrapBrand}</code></td><td> Common attributes </td></tr>
+           <tr><td><code>{@link #BootstrapButton_bootstrapSize com.client.kusonemi:bootstrapSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #BootstrapButton_buttonMode com.client.kusonemi:buttonMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #BootstrapButton_checked com.client.kusonemi:checked}</code></td><td></td></tr>
+           <tr><td><code>{@link #BootstrapButton_roundedCorners com.client.kusonemi:roundedCorners}</code></td><td></td></tr>
+           <tr><td><code>{@link #BootstrapButton_showOutline com.client.kusonemi:showOutline}</code></td><td></td></tr>
+           </table>
+           @see #BootstrapButton_bootstrapBrand
+           @see #BootstrapButton_bootstrapSize
+           @see #BootstrapButton_buttonMode
+           @see #BootstrapButton_checked
+           @see #BootstrapButton_roundedCorners
+           @see #BootstrapButton_showOutline
+         */
+        public static final int[] BootstrapButton = {
+            0x7f0100d1, 0x7f0100d2, 0x7f0100d3, 0x7f0100d6,
+            0x7f0100d7, 0x7f0100da
+        };
+        /**
+          <p>
+          @attr description
+           Common attributes 
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>primary</code></td><td>0</td><td></td></tr>
+<tr><td><code>success</code></td><td>1</td><td></td></tr>
+<tr><td><code>info</code></td><td>2</td><td></td></tr>
+<tr><td><code>warning</code></td><td>3</td><td></td></tr>
+<tr><td><code>danger</code></td><td>4</td><td></td></tr>
+<tr><td><code>regular</code></td><td>5</td><td></td></tr>
+<tr><td><code>secondary</code></td><td>6</td><td></td></tr>
+</table>
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:bootstrapBrand
+        */
+        public static final int BootstrapButton_bootstrapBrand = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.client.kusonemi.R.attr#bootstrapSize}
+          attribute's value can be found in the {@link #BootstrapButton} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>xs</code></td><td>0</td><td></td></tr>
+<tr><td><code>sm</code></td><td>1</td><td></td></tr>
+<tr><td><code>md</code></td><td>2</td><td></td></tr>
+<tr><td><code>lg</code></td><td>3</td><td></td></tr>
+<tr><td><code>xl</code></td><td>4</td><td></td></tr>
+</table>
+          @attr name com.client.kusonemi:bootstrapSize
+        */
+        public static final int BootstrapButton_bootstrapSize = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.client.kusonemi.R.attr#buttonMode}
+          attribute's value can be found in the {@link #BootstrapButton} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>regular</code></td><td>0</td><td></td></tr>
+<tr><td><code>toggle</code></td><td>1</td><td></td></tr>
+<tr><td><code>checkbox</code></td><td>2</td><td></td></tr>
+<tr><td><code>radio</code></td><td>3</td><td></td></tr>
+</table>
+          @attr name com.client.kusonemi:buttonMode
+        */
+        public static final int BootstrapButton_buttonMode = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.client.kusonemi.R.attr#checked}
+          attribute's value can be found in the {@link #BootstrapButton} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.client.kusonemi:checked
+        */
+        public static final int BootstrapButton_checked = 5;
+        /**
+          <p>This symbol is the offset where the {@link com.client.kusonemi.R.attr#roundedCorners}
+          attribute's value can be found in the {@link #BootstrapButton} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.client.kusonemi:roundedCorners
+        */
+        public static final int BootstrapButton_roundedCorners = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.client.kusonemi.R.attr#showOutline}
+          attribute's value can be found in the {@link #BootstrapButton} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.client.kusonemi:showOutline
+        */
+        public static final int BootstrapButton_showOutline = 3;
+        /** Attributes that can be used with a BootstrapButtonGroup.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #BootstrapButtonGroup_bootstrapBrand com.client.kusonemi:bootstrapBrand}</code></td><td> Common attributes </td></tr>
+           <tr><td><code>{@link #BootstrapButtonGroup_bootstrapSize com.client.kusonemi:bootstrapSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #BootstrapButtonGroup_buttonMode com.client.kusonemi:buttonMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #BootstrapButtonGroup_checkedButton com.client.kusonemi:checkedButton}</code></td><td></td></tr>
+           <tr><td><code>{@link #BootstrapButtonGroup_roundedCorners com.client.kusonemi:roundedCorners}</code></td><td></td></tr>
+           <tr><td><code>{@link #BootstrapButtonGroup_showOutline com.client.kusonemi:showOutline}</code></td><td></td></tr>
+           </table>
+           @see #BootstrapButtonGroup_bootstrapBrand
+           @see #BootstrapButtonGroup_bootstrapSize
+           @see #BootstrapButtonGroup_buttonMode
+           @see #BootstrapButtonGroup_checkedButton
+           @see #BootstrapButtonGroup_roundedCorners
+           @see #BootstrapButtonGroup_showOutline
+         */
+        public static final int[] BootstrapButtonGroup = {
+            0x7f0100d1, 0x7f0100d2, 0x7f0100d3, 0x7f0100d6,
+            0x7f0100d7, 0x7f0100d9
+        };
+        /**
+          <p>
+          @attr description
+           Common attributes 
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>primary</code></td><td>0</td><td></td></tr>
+<tr><td><code>success</code></td><td>1</td><td></td></tr>
+<tr><td><code>info</code></td><td>2</td><td></td></tr>
+<tr><td><code>warning</code></td><td>3</td><td></td></tr>
+<tr><td><code>danger</code></td><td>4</td><td></td></tr>
+<tr><td><code>regular</code></td><td>5</td><td></td></tr>
+<tr><td><code>secondary</code></td><td>6</td><td></td></tr>
+</table>
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:bootstrapBrand
+        */
+        public static final int BootstrapButtonGroup_bootstrapBrand = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.client.kusonemi.R.attr#bootstrapSize}
+          attribute's value can be found in the {@link #BootstrapButtonGroup} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>xs</code></td><td>0</td><td></td></tr>
+<tr><td><code>sm</code></td><td>1</td><td></td></tr>
+<tr><td><code>md</code></td><td>2</td><td></td></tr>
+<tr><td><code>lg</code></td><td>3</td><td></td></tr>
+<tr><td><code>xl</code></td><td>4</td><td></td></tr>
+</table>
+          @attr name com.client.kusonemi:bootstrapSize
+        */
+        public static final int BootstrapButtonGroup_bootstrapSize = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.client.kusonemi.R.attr#buttonMode}
+          attribute's value can be found in the {@link #BootstrapButtonGroup} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>regular</code></td><td>0</td><td></td></tr>
+<tr><td><code>toggle</code></td><td>1</td><td></td></tr>
+<tr><td><code>checkbox</code></td><td>2</td><td></td></tr>
+<tr><td><code>radio</code></td><td>3</td><td></td></tr>
+</table>
+          @attr name com.client.kusonemi:buttonMode
+        */
+        public static final int BootstrapButtonGroup_buttonMode = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.client.kusonemi.R.attr#checkedButton}
+          attribute's value can be found in the {@link #BootstrapButtonGroup} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.client.kusonemi:checkedButton
+        */
+        public static final int BootstrapButtonGroup_checkedButton = 5;
+        /**
+          <p>This symbol is the offset where the {@link com.client.kusonemi.R.attr#roundedCorners}
+          attribute's value can be found in the {@link #BootstrapButtonGroup} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.client.kusonemi:roundedCorners
+        */
+        public static final int BootstrapButtonGroup_roundedCorners = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.client.kusonemi.R.attr#showOutline}
+          attribute's value can be found in the {@link #BootstrapButtonGroup} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.client.kusonemi:showOutline
+        */
+        public static final int BootstrapButtonGroup_showOutline = 3;
+        /** Attributes that can be used with a BootstrapCircleThumbnail.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #BootstrapCircleThumbnail_bootstrapBrand com.client.kusonemi:bootstrapBrand}</code></td><td> Common attributes </td></tr>
+           <tr><td><code>{@link #BootstrapCircleThumbnail_bootstrapSize com.client.kusonemi:bootstrapSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #BootstrapCircleThumbnail_hasBorder com.client.kusonemi:hasBorder}</code></td><td></td></tr>
+           </table>
+           @see #BootstrapCircleThumbnail_bootstrapBrand
+           @see #BootstrapCircleThumbnail_bootstrapSize
+           @see #BootstrapCircleThumbnail_hasBorder
+         */
+        public static final int[] BootstrapCircleThumbnail = {
+            0x7f0100d1, 0x7f0100d3, 0x7f0100d8
+        };
+        /**
+          <p>
+          @attr description
+           Common attributes 
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>primary</code></td><td>0</td><td></td></tr>
+<tr><td><code>success</code></td><td>1</td><td></td></tr>
+<tr><td><code>info</code></td><td>2</td><td></td></tr>
+<tr><td><code>warning</code></td><td>3</td><td></td></tr>
+<tr><td><code>danger</code></td><td>4</td><td></td></tr>
+<tr><td><code>regular</code></td><td>5</td><td></td></tr>
+<tr><td><code>secondary</code></td><td>6</td><td></td></tr>
+</table>
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:bootstrapBrand
+        */
+        public static final int BootstrapCircleThumbnail_bootstrapBrand = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.client.kusonemi.R.attr#bootstrapSize}
+          attribute's value can be found in the {@link #BootstrapCircleThumbnail} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>xs</code></td><td>0</td><td></td></tr>
+<tr><td><code>sm</code></td><td>1</td><td></td></tr>
+<tr><td><code>md</code></td><td>2</td><td></td></tr>
+<tr><td><code>lg</code></td><td>3</td><td></td></tr>
+<tr><td><code>xl</code></td><td>4</td><td></td></tr>
+</table>
+          @attr name com.client.kusonemi:bootstrapSize
+        */
+        public static final int BootstrapCircleThumbnail_bootstrapSize = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.client.kusonemi.R.attr#hasBorder}
+          attribute's value can be found in the {@link #BootstrapCircleThumbnail} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.client.kusonemi:hasBorder
+        */
+        public static final int BootstrapCircleThumbnail_hasBorder = 2;
+        /** Attributes that can be used with a BootstrapDropDown.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #BootstrapDropDown_bootstrapBrand com.client.kusonemi:bootstrapBrand}</code></td><td> Common attributes </td></tr>
+           <tr><td><code>{@link #BootstrapDropDown_bootstrapExpandDirection com.client.kusonemi:bootstrapExpandDirection}</code></td><td></td></tr>
+           <tr><td><code>{@link #BootstrapDropDown_bootstrapSize com.client.kusonemi:bootstrapSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #BootstrapDropDown_dropdownResource com.client.kusonemi:dropdownResource}</code></td><td></td></tr>
+           <tr><td><code>{@link #BootstrapDropDown_itemHeight com.client.kusonemi:itemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #BootstrapDropDown_roundedCorners com.client.kusonemi:roundedCorners}</code></td><td></td></tr>
+           <tr><td><code>{@link #BootstrapDropDown_showOutline com.client.kusonemi:showOutline}</code></td><td></td></tr>
+           </table>
+           @see #BootstrapDropDown_bootstrapBrand
+           @see #BootstrapDropDown_bootstrapExpandDirection
+           @see #BootstrapDropDown_bootstrapSize
+           @see #BootstrapDropDown_dropdownResource
+           @see #BootstrapDropDown_itemHeight
+           @see #BootstrapDropDown_roundedCorners
+           @see #BootstrapDropDown_showOutline
+         */
+        public static final int[] BootstrapDropDown = {
+            0x7f0100d1, 0x7f0100d3, 0x7f0100d5, 0x7f0100d6,
+            0x7f0100d7, 0x7f0100db, 0x7f0100dc
+        };
+        /**
+          <p>
+          @attr description
+           Common attributes 
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>primary</code></td><td>0</td><td></td></tr>
+<tr><td><code>success</code></td><td>1</td><td></td></tr>
+<tr><td><code>info</code></td><td>2</td><td></td></tr>
+<tr><td><code>warning</code></td><td>3</td><td></td></tr>
+<tr><td><code>danger</code></td><td>4</td><td></td></tr>
+<tr><td><code>regular</code></td><td>5</td><td></td></tr>
+<tr><td><code>secondary</code></td><td>6</td><td></td></tr>
+</table>
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:bootstrapBrand
+        */
+        public static final int BootstrapDropDown_bootstrapBrand = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.client.kusonemi.R.attr#bootstrapExpandDirection}
+          attribute's value can be found in the {@link #BootstrapDropDown} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>up</code></td><td>0</td><td></td></tr>
+<tr><td><code>down</code></td><td>1</td><td></td></tr>
+</table>
+          @attr name com.client.kusonemi:bootstrapExpandDirection
+        */
+        public static final int BootstrapDropDown_bootstrapExpandDirection = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.client.kusonemi.R.attr#bootstrapSize}
+          attribute's value can be found in the {@link #BootstrapDropDown} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>xs</code></td><td>0</td><td></td></tr>
+<tr><td><code>sm</code></td><td>1</td><td></td></tr>
+<tr><td><code>md</code></td><td>2</td><td></td></tr>
+<tr><td><code>lg</code></td><td>3</td><td></td></tr>
+<tr><td><code>xl</code></td><td>4</td><td></td></tr>
+</table>
+          @attr name com.client.kusonemi:bootstrapSize
+        */
+        public static final int BootstrapDropDown_bootstrapSize = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.client.kusonemi.R.attr#dropdownResource}
+          attribute's value can be found in the {@link #BootstrapDropDown} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.client.kusonemi:dropdownResource
+        */
+        public static final int BootstrapDropDown_dropdownResource = 5;
+        /**
+          <p>This symbol is the offset where the {@link com.client.kusonemi.R.attr#itemHeight}
+          attribute's value can be found in the {@link #BootstrapDropDown} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.client.kusonemi:itemHeight
+        */
+        public static final int BootstrapDropDown_itemHeight = 6;
+        /**
+          <p>This symbol is the offset where the {@link com.client.kusonemi.R.attr#roundedCorners}
+          attribute's value can be found in the {@link #BootstrapDropDown} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.client.kusonemi:roundedCorners
+        */
+        public static final int BootstrapDropDown_roundedCorners = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.client.kusonemi.R.attr#showOutline}
+          attribute's value can be found in the {@link #BootstrapDropDown} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.client.kusonemi:showOutline
+        */
+        public static final int BootstrapDropDown_showOutline = 3;
+        /** Attributes that can be used with a BootstrapEditText.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #BootstrapEditText_bootstrapBrand com.client.kusonemi:bootstrapBrand}</code></td><td> Common attributes </td></tr>
+           <tr><td><code>{@link #BootstrapEditText_bootstrapSize com.client.kusonemi:bootstrapSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #BootstrapEditText_roundedCorners com.client.kusonemi:roundedCorners}</code></td><td></td></tr>
+           </table>
+           @see #BootstrapEditText_bootstrapBrand
+           @see #BootstrapEditText_bootstrapSize
+           @see #BootstrapEditText_roundedCorners
+         */
+        public static final int[] BootstrapEditText = {
+            0x7f0100d1, 0x7f0100d3, 0x7f0100d7
+        };
+        /**
+          <p>
+          @attr description
+           Common attributes 
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>primary</code></td><td>0</td><td></td></tr>
+<tr><td><code>success</code></td><td>1</td><td></td></tr>
+<tr><td><code>info</code></td><td>2</td><td></td></tr>
+<tr><td><code>warning</code></td><td>3</td><td></td></tr>
+<tr><td><code>danger</code></td><td>4</td><td></td></tr>
+<tr><td><code>regular</code></td><td>5</td><td></td></tr>
+<tr><td><code>secondary</code></td><td>6</td><td></td></tr>
+</table>
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:bootstrapBrand
+        */
+        public static final int BootstrapEditText_bootstrapBrand = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.client.kusonemi.R.attr#bootstrapSize}
+          attribute's value can be found in the {@link #BootstrapEditText} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>xs</code></td><td>0</td><td></td></tr>
+<tr><td><code>sm</code></td><td>1</td><td></td></tr>
+<tr><td><code>md</code></td><td>2</td><td></td></tr>
+<tr><td><code>lg</code></td><td>3</td><td></td></tr>
+<tr><td><code>xl</code></td><td>4</td><td></td></tr>
+</table>
+          @attr name com.client.kusonemi:bootstrapSize
+        */
+        public static final int BootstrapEditText_bootstrapSize = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.client.kusonemi.R.attr#roundedCorners}
+          attribute's value can be found in the {@link #BootstrapEditText} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.client.kusonemi:roundedCorners
+        */
+        public static final int BootstrapEditText_roundedCorners = 2;
+        /** Attributes that can be used with a BootstrapLabel.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #BootstrapLabel_bootstrapHeading com.client.kusonemi:bootstrapHeading}</code></td><td></td></tr>
+           <tr><td><code>{@link #BootstrapLabel_roundedCorners com.client.kusonemi:roundedCorners}</code></td><td></td></tr>
+           </table>
+           @see #BootstrapLabel_bootstrapHeading
+           @see #BootstrapLabel_roundedCorners
+         */
+        public static final int[] BootstrapLabel = {
+            0x7f0100d4, 0x7f0100d7
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.client.kusonemi.R.attr#bootstrapHeading}
+          attribute's value can be found in the {@link #BootstrapLabel} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>h1</code></td><td>0</td><td></td></tr>
+<tr><td><code>h2</code></td><td>1</td><td></td></tr>
+<tr><td><code>h3</code></td><td>2</td><td></td></tr>
+<tr><td><code>h4</code></td><td>3</td><td></td></tr>
+<tr><td><code>h5</code></td><td>4</td><td></td></tr>
+<tr><td><code>h6</code></td><td>5</td><td></td></tr>
+</table>
+          @attr name com.client.kusonemi:bootstrapHeading
+        */
+        public static final int BootstrapLabel_bootstrapHeading = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.client.kusonemi.R.attr#roundedCorners}
+          attribute's value can be found in the {@link #BootstrapLabel} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.client.kusonemi:roundedCorners
+        */
+        public static final int BootstrapLabel_roundedCorners = 1;
+        /** Attributes that can be used with a BootstrapProgressBar.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #BootstrapProgressBar_animated com.client.kusonemi:animated}</code></td><td></td></tr>
+           <tr><td><code>{@link #BootstrapProgressBar_bootstrapBrand com.client.kusonemi:bootstrapBrand}</code></td><td> Common attributes </td></tr>
+           <tr><td><code>{@link #BootstrapProgressBar_bootstrapSize com.client.kusonemi:bootstrapSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #BootstrapProgressBar_progress com.client.kusonemi:progress}</code></td><td></td></tr>
+           <tr><td><code>{@link #BootstrapProgressBar_roundedCorners com.client.kusonemi:roundedCorners}</code></td><td></td></tr>
+           <tr><td><code>{@link #BootstrapProgressBar_striped com.client.kusonemi:striped}</code></td><td></td></tr>
+           </table>
+           @see #BootstrapProgressBar_animated
+           @see #BootstrapProgressBar_bootstrapBrand
+           @see #BootstrapProgressBar_bootstrapSize
+           @see #BootstrapProgressBar_progress
+           @see #BootstrapProgressBar_roundedCorners
+           @see #BootstrapProgressBar_striped
+         */
+        public static final int[] BootstrapProgressBar = {
+            0x7f0100d1, 0x7f0100d3, 0x7f0100d7, 0x7f0100de,
+            0x7f0100df, 0x7f0100e0
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.client.kusonemi.R.attr#animated}
+          attribute's value can be found in the {@link #BootstrapProgressBar} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.client.kusonemi:animated
+        */
+        public static final int BootstrapProgressBar_animated = 4;
+        /**
+          <p>
+          @attr description
+           Common attributes 
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>primary</code></td><td>0</td><td></td></tr>
+<tr><td><code>success</code></td><td>1</td><td></td></tr>
+<tr><td><code>info</code></td><td>2</td><td></td></tr>
+<tr><td><code>warning</code></td><td>3</td><td></td></tr>
+<tr><td><code>danger</code></td><td>4</td><td></td></tr>
+<tr><td><code>regular</code></td><td>5</td><td></td></tr>
+<tr><td><code>secondary</code></td><td>6</td><td></td></tr>
+</table>
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:bootstrapBrand
+        */
+        public static final int BootstrapProgressBar_bootstrapBrand = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.client.kusonemi.R.attr#bootstrapSize}
+          attribute's value can be found in the {@link #BootstrapProgressBar} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>xs</code></td><td>0</td><td></td></tr>
+<tr><td><code>sm</code></td><td>1</td><td></td></tr>
+<tr><td><code>md</code></td><td>2</td><td></td></tr>
+<tr><td><code>lg</code></td><td>3</td><td></td></tr>
+<tr><td><code>xl</code></td><td>4</td><td></td></tr>
+</table>
+          @attr name com.client.kusonemi:bootstrapSize
+        */
+        public static final int BootstrapProgressBar_bootstrapSize = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.client.kusonemi.R.attr#progress}
+          attribute's value can be found in the {@link #BootstrapProgressBar} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.client.kusonemi:progress
+        */
+        public static final int BootstrapProgressBar_progress = 5;
+        /**
+          <p>This symbol is the offset where the {@link com.client.kusonemi.R.attr#roundedCorners}
+          attribute's value can be found in the {@link #BootstrapProgressBar} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.client.kusonemi:roundedCorners
+        */
+        public static final int BootstrapProgressBar_roundedCorners = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.client.kusonemi.R.attr#striped}
+          attribute's value can be found in the {@link #BootstrapProgressBar} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.client.kusonemi:striped
+        */
+        public static final int BootstrapProgressBar_striped = 3;
+        /** Attributes that can be used with a BootstrapThumbnail.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #BootstrapThumbnail_bootstrapBrand com.client.kusonemi:bootstrapBrand}</code></td><td> Common attributes </td></tr>
+           <tr><td><code>{@link #BootstrapThumbnail_bootstrapSize com.client.kusonemi:bootstrapSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #BootstrapThumbnail_hasBorder com.client.kusonemi:hasBorder}</code></td><td></td></tr>
+           <tr><td><code>{@link #BootstrapThumbnail_roundedCorners com.client.kusonemi:roundedCorners}</code></td><td></td></tr>
+           </table>
+           @see #BootstrapThumbnail_bootstrapBrand
+           @see #BootstrapThumbnail_bootstrapSize
+           @see #BootstrapThumbnail_hasBorder
+           @see #BootstrapThumbnail_roundedCorners
+         */
+        public static final int[] BootstrapThumbnail = {
+            0x7f0100d1, 0x7f0100d3, 0x7f0100d7, 0x7f0100d8
+        };
+        /**
+          <p>
+          @attr description
+           Common attributes 
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>primary</code></td><td>0</td><td></td></tr>
+<tr><td><code>success</code></td><td>1</td><td></td></tr>
+<tr><td><code>info</code></td><td>2</td><td></td></tr>
+<tr><td><code>warning</code></td><td>3</td><td></td></tr>
+<tr><td><code>danger</code></td><td>4</td><td></td></tr>
+<tr><td><code>regular</code></td><td>5</td><td></td></tr>
+<tr><td><code>secondary</code></td><td>6</td><td></td></tr>
+</table>
+          <p>This is a private symbol.
+          @attr name com.client.kusonemi:bootstrapBrand
+        */
+        public static final int BootstrapThumbnail_bootstrapBrand = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.client.kusonemi.R.attr#bootstrapSize}
+          attribute's value can be found in the {@link #BootstrapThumbnail} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>xs</code></td><td>0</td><td></td></tr>
+<tr><td><code>sm</code></td><td>1</td><td></td></tr>
+<tr><td><code>md</code></td><td>2</td><td></td></tr>
+<tr><td><code>lg</code></td><td>3</td><td></td></tr>
+<tr><td><code>xl</code></td><td>4</td><td></td></tr>
+</table>
+          @attr name com.client.kusonemi:bootstrapSize
+        */
+        public static final int BootstrapThumbnail_bootstrapSize = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.client.kusonemi.R.attr#hasBorder}
+          attribute's value can be found in the {@link #BootstrapThumbnail} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.client.kusonemi:hasBorder
+        */
+        public static final int BootstrapThumbnail_hasBorder = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.client.kusonemi.R.attr#roundedCorners}
+          attribute's value can be found in the {@link #BootstrapThumbnail} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.client.kusonemi:roundedCorners
+        */
+        public static final int BootstrapThumbnail_roundedCorners = 2;
+        /** Attributes that can be used with a BootstrapWell.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #BootstrapWell_bootstrapSize com.client.kusonemi:bootstrapSize}</code></td><td></td></tr>
+           </table>
+           @see #BootstrapWell_bootstrapSize
+         */
+        public static final int[] BootstrapWell = {
+            0x7f0100d3
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.client.kusonemi.R.attr#bootstrapSize}
+          attribute's value can be found in the {@link #BootstrapWell} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>xs</code></td><td>0</td><td></td></tr>
+<tr><td><code>sm</code></td><td>1</td><td></td></tr>
+<tr><td><code>md</code></td><td>2</td><td></td></tr>
+<tr><td><code>lg</code></td><td>3</td><td></td></tr>
+<tr><td><code>xl</code></td><td>4</td><td></td></tr>
+</table>
+          @attr name com.client.kusonemi:bootstrapSize
+        */
+        public static final int BootstrapWell_bootstrapSize = 0;
         /**  @hide 
            <p>Includes the following attributes:</p>
            <table>
@@ -3575,7 +9795,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #ButtonBarLayout_allowStacking
          */
         public static final int[] ButtonBarLayout = {
-            0x7f0100cd
+            0x7f0100cf
         };
         /**
           <p>
@@ -3609,7 +9829,7 @@ containing a value of this type.
            @see #CompoundButton_buttonTintMode
          */
         public static final int[] CompoundButton = {
-            0x01010107, 0x7f0100bf, 0x7f0100c0
+            0x01010107, 0x7f0100c1, 0x7f0100c2
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#button}
@@ -3685,8 +9905,8 @@ containing a value of this type.
            @see #DrawerArrowToggle_thickness
          */
         public static final int[] DrawerArrowToggle = {
-            0x7f0100b6, 0x7f0100b7, 0x7f0100b8, 0x7f0100b9,
-            0x7f0100ba, 0x7f0100bb, 0x7f0100bc, 0x7f0100bd
+            0x7f0100b8, 0x7f0100b9, 0x7f0100ba, 0x7f0100bb,
+            0x7f0100bc, 0x7f0100bd, 0x7f0100be, 0x7f0100bf
         };
         /**
           <p>
@@ -3862,8 +10082,8 @@ containing a value of this type.
          */
         public static final int[] LinearLayoutCompat = {
             0x010100af, 0x010100c4, 0x01010126, 0x01010127,
-            0x01010128, 0x7f010076, 0x7f0100a2, 0x7f0100a3,
-            0x7f0100a4
+            0x01010128, 0x7f010078, 0x7f0100a4, 0x7f0100a5,
+            0x7f0100a6
         };
         /**
           <p>
@@ -4191,8 +10411,8 @@ containing a value of this type.
             0x01010002, 0x0101000e, 0x010100d0, 0x01010106,
             0x01010194, 0x010101de, 0x010101df, 0x010101e1,
             0x010101e2, 0x010101e3, 0x010101e4, 0x010101e5,
-            0x0101026f, 0x7f01008e, 0x7f01008f, 0x7f010090,
-            0x7f010091
+            0x0101026f, 0x7f010090, 0x7f010091, 0x7f010092,
+            0x7f010093
         };
         /**
           <p>
@@ -4427,7 +10647,7 @@ containing a value of this type.
          */
         public static final int[] MenuView = {
             0x010100ae, 0x0101012c, 0x0101012d, 0x0101012e,
-            0x0101012f, 0x01010130, 0x01010131, 0x7f01008d
+            0x0101012f, 0x01010130, 0x01010131, 0x7f01008f
         };
         /**
           <p>
@@ -4521,7 +10741,7 @@ containing a value of this type.
            @see #PopupWindow_overlapAnchor
          */
         public static final int[] PopupWindow = {
-            0x01010176, 0x7f0100b5
+            0x01010176, 0x7f0100b7
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#popupBackground}
@@ -4556,7 +10776,7 @@ containing a value of this type.
            @see #PopupWindowBackgroundState_state_above_anchor
          */
         public static final int[] PopupWindowBackgroundState = {
-            0x7f0100b4
+            0x7f0100b6
         };
         /**
           <p>
@@ -4619,10 +10839,10 @@ containing a value of this type.
          */
         public static final int[] SearchView = {
             0x010100da, 0x0101011f, 0x01010220, 0x01010264,
-            0x7f010092, 0x7f010093, 0x7f010094, 0x7f010095,
-            0x7f010096, 0x7f010097, 0x7f010098, 0x7f010099,
-            0x7f01009a, 0x7f01009b, 0x7f01009c, 0x7f01009d,
-            0x7f01009e
+            0x7f010094, 0x7f010095, 0x7f010096, 0x7f010097,
+            0x7f010098, 0x7f010099, 0x7f01009a, 0x7f01009b,
+            0x7f01009c, 0x7f01009d, 0x7f01009e, 0x7f01009f,
+            0x7f0100a0
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#focusable}
@@ -4834,17 +11054,20 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #Spinner_android_dropDownWidth android:dropDownWidth}</code></td><td> Width of the dropdown in spinnerMode="dropdown".</td></tr>
+           <tr><td><code>{@link #Spinner_android_entries android:entries}</code></td><td> Reference to an array resource that will populate the Spinner.</td></tr>
            <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td> Background drawable to use for the dropdown in spinnerMode="dropdown".</td></tr>
            <tr><td><code>{@link #Spinner_android_prompt android:prompt}</code></td><td> The prompt to display when the spinner's dialog is shown.</td></tr>
            <tr><td><code>{@link #Spinner_popupTheme com.client.kusonemi:popupTheme}</code></td><td> Theme to use for the drop-down or dialog popup window.</td></tr>
            </table>
            @see #Spinner_android_dropDownWidth
+           @see #Spinner_android_entries
            @see #Spinner_android_popupBackground
            @see #Spinner_android_prompt
            @see #Spinner_popupTheme
          */
         public static final int[] Spinner = {
-            0x01010176, 0x0101017b, 0x01010262, 0x7f010086
+            0x010100b2, 0x01010176, 0x0101017b, 0x01010262,
+            0x7f010088
         };
         /**
           <p>
@@ -4854,7 +11077,16 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           resource symbol {@link android.R.attr#dropDownWidth}.
           @attr name android:dropDownWidth
         */
-        public static final int Spinner_android_dropDownWidth = 2;
+        public static final int Spinner_android_dropDownWidth = 3;
+        /**
+          <p>
+          @attr description
+           Reference to an array resource that will populate the Spinner. 
+          <p>This corresponds to the global attribute
+          resource symbol {@link android.R.attr#entries}.
+          @attr name android:entries
+        */
+        public static final int Spinner_android_entries = 0;
         /**
           <p>
           @attr description
@@ -4863,7 +11095,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           resource symbol {@link android.R.attr#popupBackground}.
           @attr name android:popupBackground
         */
-        public static final int Spinner_android_popupBackground = 0;
+        public static final int Spinner_android_popupBackground = 1;
         /**
           <p>
           @attr description
@@ -4872,7 +11104,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           resource symbol {@link android.R.attr#prompt}.
           @attr name android:prompt
         */
-        public static final int Spinner_android_prompt = 1;
+        public static final int Spinner_android_prompt = 2;
         /**
           <p>
           @attr description
@@ -4884,7 +11116,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>This is a private symbol.
           @attr name com.client.kusonemi:popupTheme
         */
-        public static final int Spinner_popupTheme = 3;
+        public static final int Spinner_popupTheme = 4;
         /** Attributes that can be used with a SwitchCompat.
            <p>Includes the following attributes:</p>
            <table>
@@ -4914,9 +11146,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #SwitchCompat_track
          */
         public static final int[] SwitchCompat = {
-            0x01010124, 0x01010125, 0x01010142, 0x7f0100c1,
-            0x7f0100c2, 0x7f0100c3, 0x7f0100c4, 0x7f0100c5,
-            0x7f0100c6, 0x7f0100c7
+            0x01010124, 0x01010125, 0x01010142, 0x7f0100c3,
+            0x7f0100c4, 0x7f0100c5, 0x7f0100c6, 0x7f0100c7,
+            0x7f0100c8, 0x7f0100c9
         };
         /**
           <p>
@@ -5084,7 +11316,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int[] TextAppearance = {
             0x01010095, 0x01010096, 0x01010097, 0x01010098,
             0x01010161, 0x01010162, 0x01010163, 0x01010164,
-            0x7f0100a1
+            0x7f0100a3
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#shadowColor}
@@ -5147,1790 +11379,6 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           @attr name com.client.kusonemi:textAllCaps
         */
         public static final int TextAppearance_textAllCaps = 8;
-        /**  These are the standard attributes that make up a complete theme. 
-           <p>Includes the following attributes:</p>
-           <table>
-           <colgroup align="left" />
-           <colgroup align="left" />
-           <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #Theme_actionBarDivider com.client.kusonemi:actionBarDivider}</code></td><td> Custom divider drawable to use for elements in the action bar.</td></tr>
-           <tr><td><code>{@link #Theme_actionBarItemBackground com.client.kusonemi:actionBarItemBackground}</code></td><td> Custom item state list drawable background for action bar items.</td></tr>
-           <tr><td><code>{@link #Theme_actionBarPopupTheme com.client.kusonemi:actionBarPopupTheme}</code></td><td> Reference to a theme that should be used to inflate popups
-             shown by widgets in the action bar.</td></tr>
-           <tr><td><code>{@link #Theme_actionBarSize com.client.kusonemi:actionBarSize}</code></td><td> Size of the Action Bar, including the contextual
-             bar used to present Action Modes.</td></tr>
-           <tr><td><code>{@link #Theme_actionBarSplitStyle com.client.kusonemi:actionBarSplitStyle}</code></td><td> Reference to a style for the split Action Bar.</td></tr>
-           <tr><td><code>{@link #Theme_actionBarStyle com.client.kusonemi:actionBarStyle}</code></td><td> Reference to a style for the Action Bar </td></tr>
-           <tr><td><code>{@link #Theme_actionBarTabBarStyle com.client.kusonemi:actionBarTabBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTabStyle com.client.kusonemi:actionBarTabStyle}</code></td><td> Default style for tabs within an action bar </td></tr>
-           <tr><td><code>{@link #Theme_actionBarTabTextStyle com.client.kusonemi:actionBarTabTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTheme com.client.kusonemi:actionBarTheme}</code></td><td> Reference to a theme that should be used to inflate the
-             action bar.</td></tr>
-           <tr><td><code>{@link #Theme_actionBarWidgetTheme com.client.kusonemi:actionBarWidgetTheme}</code></td><td> Reference to a theme that should be used to inflate widgets
-             and layouts destined for the action bar.</td></tr>
-           <tr><td><code>{@link #Theme_actionButtonStyle com.client.kusonemi:actionButtonStyle}</code></td><td> Default action button style.</td></tr>
-           <tr><td><code>{@link #Theme_actionDropDownStyle com.client.kusonemi:actionDropDownStyle}</code></td><td> Default ActionBar dropdown style.</td></tr>
-           <tr><td><code>{@link #Theme_actionMenuTextAppearance com.client.kusonemi:actionMenuTextAppearance}</code></td><td> TextAppearance style that will be applied to text that
-             appears within action menu items.</td></tr>
-           <tr><td><code>{@link #Theme_actionMenuTextColor com.client.kusonemi:actionMenuTextColor}</code></td><td> Color for text that appears within action menu items.</td></tr>
-           <tr><td><code>{@link #Theme_actionModeBackground com.client.kusonemi:actionModeBackground}</code></td><td> Background drawable to use for action mode UI </td></tr>
-           <tr><td><code>{@link #Theme_actionModeCloseButtonStyle com.client.kusonemi:actionModeCloseButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCloseDrawable com.client.kusonemi:actionModeCloseDrawable}</code></td><td> Drawable to use for the close action mode button </td></tr>
-           <tr><td><code>{@link #Theme_actionModeCopyDrawable com.client.kusonemi:actionModeCopyDrawable}</code></td><td> Drawable to use for the Copy action button in Contextual Action Bar </td></tr>
-           <tr><td><code>{@link #Theme_actionModeCutDrawable com.client.kusonemi:actionModeCutDrawable}</code></td><td> Drawable to use for the Cut action button in Contextual Action Bar </td></tr>
-           <tr><td><code>{@link #Theme_actionModeFindDrawable com.client.kusonemi:actionModeFindDrawable}</code></td><td> Drawable to use for the Find action button in WebView selection action modes </td></tr>
-           <tr><td><code>{@link #Theme_actionModePasteDrawable com.client.kusonemi:actionModePasteDrawable}</code></td><td> Drawable to use for the Paste action button in Contextual Action Bar </td></tr>
-           <tr><td><code>{@link #Theme_actionModePopupWindowStyle com.client.kusonemi:actionModePopupWindowStyle}</code></td><td> PopupWindow style to use for action modes when showing as a window overlay.</td></tr>
-           <tr><td><code>{@link #Theme_actionModeSelectAllDrawable com.client.kusonemi:actionModeSelectAllDrawable}</code></td><td> Drawable to use for the Select all action button in Contextual Action Bar </td></tr>
-           <tr><td><code>{@link #Theme_actionModeShareDrawable com.client.kusonemi:actionModeShareDrawable}</code></td><td> Drawable to use for the Share action button in WebView selection action modes </td></tr>
-           <tr><td><code>{@link #Theme_actionModeSplitBackground com.client.kusonemi:actionModeSplitBackground}</code></td><td> Background drawable to use for action mode UI in the lower split bar </td></tr>
-           <tr><td><code>{@link #Theme_actionModeStyle com.client.kusonemi:actionModeStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeWebSearchDrawable com.client.kusonemi:actionModeWebSearchDrawable}</code></td><td> Drawable to use for the Web Search action button in WebView selection action modes </td></tr>
-           <tr><td><code>{@link #Theme_actionOverflowButtonStyle com.client.kusonemi:actionOverflowButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionOverflowMenuStyle com.client.kusonemi:actionOverflowMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_activityChooserViewStyle com.client.kusonemi:activityChooserViewStyle}</code></td><td> Default ActivityChooserView style.</td></tr>
-           <tr><td><code>{@link #Theme_alertDialogButtonGroupStyle com.client.kusonemi:alertDialogButtonGroupStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_alertDialogCenterButtons com.client.kusonemi:alertDialogCenterButtons}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_alertDialogStyle com.client.kusonemi:alertDialogStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_alertDialogTheme com.client.kusonemi:alertDialogTheme}</code></td><td> Theme to use for alert dialogs spawned from this theme.</td></tr>
-           <tr><td><code>{@link #Theme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_autoCompleteTextViewStyle com.client.kusonemi:autoCompleteTextViewStyle}</code></td><td> Default AutoCompleteTextView style.</td></tr>
-           <tr><td><code>{@link #Theme_borderlessButtonStyle com.client.kusonemi:borderlessButtonStyle}</code></td><td> Style for buttons without an explicit border, often used in groups.</td></tr>
-           <tr><td><code>{@link #Theme_buttonBarButtonStyle com.client.kusonemi:buttonBarButtonStyle}</code></td><td> Style for buttons within button bars </td></tr>
-           <tr><td><code>{@link #Theme_buttonBarNegativeButtonStyle com.client.kusonemi:buttonBarNegativeButtonStyle}</code></td><td> Style for the "negative" buttons within button bars </td></tr>
-           <tr><td><code>{@link #Theme_buttonBarNeutralButtonStyle com.client.kusonemi:buttonBarNeutralButtonStyle}</code></td><td> Style for the "neutral" buttons within button bars </td></tr>
-           <tr><td><code>{@link #Theme_buttonBarPositiveButtonStyle com.client.kusonemi:buttonBarPositiveButtonStyle}</code></td><td> Style for the "positive" buttons within button bars </td></tr>
-           <tr><td><code>{@link #Theme_buttonBarStyle com.client.kusonemi:buttonBarStyle}</code></td><td> Style for button bars </td></tr>
-           <tr><td><code>{@link #Theme_buttonStyle com.client.kusonemi:buttonStyle}</code></td><td> Normal Button style.</td></tr>
-           <tr><td><code>{@link #Theme_buttonStyleSmall com.client.kusonemi:buttonStyleSmall}</code></td><td> Small Button style.</td></tr>
-           <tr><td><code>{@link #Theme_checkboxStyle com.client.kusonemi:checkboxStyle}</code></td><td> Default Checkbox style.</td></tr>
-           <tr><td><code>{@link #Theme_checkedTextViewStyle com.client.kusonemi:checkedTextViewStyle}</code></td><td> Default CheckedTextView style.</td></tr>
-           <tr><td><code>{@link #Theme_colorAccent com.client.kusonemi:colorAccent}</code></td><td> Bright complement to the primary branding color.</td></tr>
-           <tr><td><code>{@link #Theme_colorButtonNormal com.client.kusonemi:colorButtonNormal}</code></td><td> The color applied to framework buttons in their normal state.</td></tr>
-           <tr><td><code>{@link #Theme_colorControlActivated com.client.kusonemi:colorControlActivated}</code></td><td> The color applied to framework controls in their activated (ex.</td></tr>
-           <tr><td><code>{@link #Theme_colorControlHighlight com.client.kusonemi:colorControlHighlight}</code></td><td> The color applied to framework control highlights (ex.</td></tr>
-           <tr><td><code>{@link #Theme_colorControlNormal com.client.kusonemi:colorControlNormal}</code></td><td> The color applied to framework controls in their normal state.</td></tr>
-           <tr><td><code>{@link #Theme_colorPrimary com.client.kusonemi:colorPrimary}</code></td><td> The primary branding color for the app.</td></tr>
-           <tr><td><code>{@link #Theme_colorPrimaryDark com.client.kusonemi:colorPrimaryDark}</code></td><td> Dark variant of the primary branding color.</td></tr>
-           <tr><td><code>{@link #Theme_colorSwitchThumbNormal com.client.kusonemi:colorSwitchThumbNormal}</code></td><td> The color applied to framework switch thumbs in their normal state.</td></tr>
-           <tr><td><code>{@link #Theme_controlBackground com.client.kusonemi:controlBackground}</code></td><td> The background used by framework controls.</td></tr>
-           <tr><td><code>{@link #Theme_dialogPreferredPadding com.client.kusonemi:dialogPreferredPadding}</code></td><td> Preferred padding for dialog content.</td></tr>
-           <tr><td><code>{@link #Theme_dialogTheme com.client.kusonemi:dialogTheme}</code></td><td> Theme to use for dialogs spawned from this theme.</td></tr>
-           <tr><td><code>{@link #Theme_dividerHorizontal com.client.kusonemi:dividerHorizontal}</code></td><td> A drawable that may be used as a horizontal divider between visual elements.</td></tr>
-           <tr><td><code>{@link #Theme_dividerVertical com.client.kusonemi:dividerVertical}</code></td><td> A drawable that may be used as a vertical divider between visual elements.</td></tr>
-           <tr><td><code>{@link #Theme_dropDownListViewStyle com.client.kusonemi:dropDownListViewStyle}</code></td><td> ListPopupWindow compatibility </td></tr>
-           <tr><td><code>{@link #Theme_dropdownListPreferredItemHeight com.client.kusonemi:dropdownListPreferredItemHeight}</code></td><td> The preferred item height for dropdown lists.</td></tr>
-           <tr><td><code>{@link #Theme_editTextBackground com.client.kusonemi:editTextBackground}</code></td><td> EditText background drawable.</td></tr>
-           <tr><td><code>{@link #Theme_editTextColor com.client.kusonemi:editTextColor}</code></td><td> EditText text foreground color.</td></tr>
-           <tr><td><code>{@link #Theme_editTextStyle com.client.kusonemi:editTextStyle}</code></td><td> Default EditText style.</td></tr>
-           <tr><td><code>{@link #Theme_homeAsUpIndicator com.client.kusonemi:homeAsUpIndicator}</code></td><td> Specifies a drawable to use for the 'home as up' indicator.</td></tr>
-           <tr><td><code>{@link #Theme_imageButtonStyle com.client.kusonemi:imageButtonStyle}</code></td><td> ImageButton background drawable.</td></tr>
-           <tr><td><code>{@link #Theme_listChoiceBackgroundIndicator com.client.kusonemi:listChoiceBackgroundIndicator}</code></td><td> Drawable used as a background for selected list items.</td></tr>
-           <tr><td><code>{@link #Theme_listDividerAlertDialog com.client.kusonemi:listDividerAlertDialog}</code></td><td> The list divider used in alert dialogs.</td></tr>
-           <tr><td><code>{@link #Theme_listPopupWindowStyle com.client.kusonemi:listPopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemHeight com.client.kusonemi:listPreferredItemHeight}</code></td><td> The preferred list item height.</td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemHeightLarge com.client.kusonemi:listPreferredItemHeightLarge}</code></td><td> A larger, more robust list item height.</td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemHeightSmall com.client.kusonemi:listPreferredItemHeightSmall}</code></td><td> A smaller, sleeker list item height.</td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemPaddingLeft com.client.kusonemi:listPreferredItemPaddingLeft}</code></td><td> The preferred padding along the left edge of list items.</td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemPaddingRight com.client.kusonemi:listPreferredItemPaddingRight}</code></td><td> The preferred padding along the right edge of list items.</td></tr>
-           <tr><td><code>{@link #Theme_panelBackground com.client.kusonemi:panelBackground}</code></td><td> The background of a panel when it is inset from the left and right edges of the screen.</td></tr>
-           <tr><td><code>{@link #Theme_panelMenuListTheme com.client.kusonemi:panelMenuListTheme}</code></td><td> Default Panel Menu style.</td></tr>
-           <tr><td><code>{@link #Theme_panelMenuListWidth com.client.kusonemi:panelMenuListWidth}</code></td><td> Default Panel Menu width.</td></tr>
-           <tr><td><code>{@link #Theme_popupMenuStyle com.client.kusonemi:popupMenuStyle}</code></td><td> Default PopupMenu style.</td></tr>
-           <tr><td><code>{@link #Theme_popupWindowStyle com.client.kusonemi:popupWindowStyle}</code></td><td> Default PopupWindow style.</td></tr>
-           <tr><td><code>{@link #Theme_radioButtonStyle com.client.kusonemi:radioButtonStyle}</code></td><td> Default RadioButton style.</td></tr>
-           <tr><td><code>{@link #Theme_ratingBarStyle com.client.kusonemi:ratingBarStyle}</code></td><td> Default RatingBar style.</td></tr>
-           <tr><td><code>{@link #Theme_searchViewStyle com.client.kusonemi:searchViewStyle}</code></td><td> Style for the search query widget.</td></tr>
-           <tr><td><code>{@link #Theme_seekBarStyle com.client.kusonemi:seekBarStyle}</code></td><td> Default SeekBar style.</td></tr>
-           <tr><td><code>{@link #Theme_selectableItemBackground com.client.kusonemi:selectableItemBackground}</code></td><td> A style that may be applied to buttons or other selectable items
-             that should react to pressed and focus states, but that do not
-             have a clear visual border along the edges.</td></tr>
-           <tr><td><code>{@link #Theme_selectableItemBackgroundBorderless com.client.kusonemi:selectableItemBackgroundBorderless}</code></td><td> Background drawable for borderless standalone items that need focus/pressed states.</td></tr>
-           <tr><td><code>{@link #Theme_spinnerDropDownItemStyle com.client.kusonemi:spinnerDropDownItemStyle}</code></td><td> Default Spinner style.</td></tr>
-           <tr><td><code>{@link #Theme_spinnerStyle com.client.kusonemi:spinnerStyle}</code></td><td> Default Spinner style.</td></tr>
-           <tr><td><code>{@link #Theme_switchStyle com.client.kusonemi:switchStyle}</code></td><td> Default style for the Switch widget.</td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceLargePopupMenu com.client.kusonemi:textAppearanceLargePopupMenu}</code></td><td> Text color, typeface, size, and style for the text inside of a popup menu.</td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceListItem com.client.kusonemi:textAppearanceListItem}</code></td><td> The preferred TextAppearance for the primary text of list items.</td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceListItemSmall com.client.kusonemi:textAppearanceListItemSmall}</code></td><td> The preferred TextAppearance for the primary text of small list items.</td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceSearchResultSubtitle com.client.kusonemi:textAppearanceSearchResultSubtitle}</code></td><td> Text color, typeface, size, and style for system search result subtitle.</td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceSearchResultTitle com.client.kusonemi:textAppearanceSearchResultTitle}</code></td><td> Text color, typeface, size, and style for system search result title.</td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceSmallPopupMenu com.client.kusonemi:textAppearanceSmallPopupMenu}</code></td><td> Text color, typeface, size, and style for small text inside of a popup menu.</td></tr>
-           <tr><td><code>{@link #Theme_textColorAlertDialogListItem com.client.kusonemi:textColorAlertDialogListItem}</code></td><td> Color of list item text in alert dialogs.</td></tr>
-           <tr><td><code>{@link #Theme_textColorSearchUrl com.client.kusonemi:textColorSearchUrl}</code></td><td> Text color for urls in search suggestions, used by things like global search </td></tr>
-           <tr><td><code>{@link #Theme_toolbarNavigationButtonStyle com.client.kusonemi:toolbarNavigationButtonStyle}</code></td><td> Default Toolar NavigationButtonStyle </td></tr>
-           <tr><td><code>{@link #Theme_toolbarStyle com.client.kusonemi:toolbarStyle}</code></td><td> Default Toolbar style.</td></tr>
-           <tr><td><code>{@link #Theme_windowActionBar com.client.kusonemi:windowActionBar}</code></td><td> Flag indicating whether this window should have an Action Bar
-             in place of the usual title bar.</td></tr>
-           <tr><td><code>{@link #Theme_windowActionBarOverlay com.client.kusonemi:windowActionBarOverlay}</code></td><td> Flag indicating whether this window's Action Bar should overlay
-             application content.</td></tr>
-           <tr><td><code>{@link #Theme_windowActionModeOverlay com.client.kusonemi:windowActionModeOverlay}</code></td><td> Flag indicating whether action modes should overlay window content
-             when there is not reserved space for their UI (such as an Action Bar).</td></tr>
-           <tr><td><code>{@link #Theme_windowFixedHeightMajor com.client.kusonemi:windowFixedHeightMajor}</code></td><td> A fixed height for the window along the major axis of the screen,
-             that is, when in portrait.</td></tr>
-           <tr><td><code>{@link #Theme_windowFixedHeightMinor com.client.kusonemi:windowFixedHeightMinor}</code></td><td> A fixed height for the window along the minor axis of the screen,
-             that is, when in landscape.</td></tr>
-           <tr><td><code>{@link #Theme_windowFixedWidthMajor com.client.kusonemi:windowFixedWidthMajor}</code></td><td> A fixed width for the window along the major axis of the screen,
-             that is, when in landscape.</td></tr>
-           <tr><td><code>{@link #Theme_windowFixedWidthMinor com.client.kusonemi:windowFixedWidthMinor}</code></td><td> A fixed width for the window along the minor axis of the screen,
-             that is, when in portrait.</td></tr>
-           <tr><td><code>{@link #Theme_windowMinWidthMajor com.client.kusonemi:windowMinWidthMajor}</code></td><td> The minimum width the window is allowed to be, along the major
-             axis of the screen.</td></tr>
-           <tr><td><code>{@link #Theme_windowMinWidthMinor com.client.kusonemi:windowMinWidthMinor}</code></td><td> The minimum width the window is allowed to be, along the minor
-             axis of the screen.</td></tr>
-           <tr><td><code>{@link #Theme_windowNoTitle com.client.kusonemi:windowNoTitle}</code></td><td> Flag indicating whether there should be no title on this window.</td></tr>
-           </table>
-           @see #Theme_actionBarDivider
-           @see #Theme_actionBarItemBackground
-           @see #Theme_actionBarPopupTheme
-           @see #Theme_actionBarSize
-           @see #Theme_actionBarSplitStyle
-           @see #Theme_actionBarStyle
-           @see #Theme_actionBarTabBarStyle
-           @see #Theme_actionBarTabStyle
-           @see #Theme_actionBarTabTextStyle
-           @see #Theme_actionBarTheme
-           @see #Theme_actionBarWidgetTheme
-           @see #Theme_actionButtonStyle
-           @see #Theme_actionDropDownStyle
-           @see #Theme_actionMenuTextAppearance
-           @see #Theme_actionMenuTextColor
-           @see #Theme_actionModeBackground
-           @see #Theme_actionModeCloseButtonStyle
-           @see #Theme_actionModeCloseDrawable
-           @see #Theme_actionModeCopyDrawable
-           @see #Theme_actionModeCutDrawable
-           @see #Theme_actionModeFindDrawable
-           @see #Theme_actionModePasteDrawable
-           @see #Theme_actionModePopupWindowStyle
-           @see #Theme_actionModeSelectAllDrawable
-           @see #Theme_actionModeShareDrawable
-           @see #Theme_actionModeSplitBackground
-           @see #Theme_actionModeStyle
-           @see #Theme_actionModeWebSearchDrawable
-           @see #Theme_actionOverflowButtonStyle
-           @see #Theme_actionOverflowMenuStyle
-           @see #Theme_activityChooserViewStyle
-           @see #Theme_alertDialogButtonGroupStyle
-           @see #Theme_alertDialogCenterButtons
-           @see #Theme_alertDialogStyle
-           @see #Theme_alertDialogTheme
-           @see #Theme_android_windowAnimationStyle
-           @see #Theme_android_windowIsFloating
-           @see #Theme_autoCompleteTextViewStyle
-           @see #Theme_borderlessButtonStyle
-           @see #Theme_buttonBarButtonStyle
-           @see #Theme_buttonBarNegativeButtonStyle
-           @see #Theme_buttonBarNeutralButtonStyle
-           @see #Theme_buttonBarPositiveButtonStyle
-           @see #Theme_buttonBarStyle
-           @see #Theme_buttonStyle
-           @see #Theme_buttonStyleSmall
-           @see #Theme_checkboxStyle
-           @see #Theme_checkedTextViewStyle
-           @see #Theme_colorAccent
-           @see #Theme_colorButtonNormal
-           @see #Theme_colorControlActivated
-           @see #Theme_colorControlHighlight
-           @see #Theme_colorControlNormal
-           @see #Theme_colorPrimary
-           @see #Theme_colorPrimaryDark
-           @see #Theme_colorSwitchThumbNormal
-           @see #Theme_controlBackground
-           @see #Theme_dialogPreferredPadding
-           @see #Theme_dialogTheme
-           @see #Theme_dividerHorizontal
-           @see #Theme_dividerVertical
-           @see #Theme_dropDownListViewStyle
-           @see #Theme_dropdownListPreferredItemHeight
-           @see #Theme_editTextBackground
-           @see #Theme_editTextColor
-           @see #Theme_editTextStyle
-           @see #Theme_homeAsUpIndicator
-           @see #Theme_imageButtonStyle
-           @see #Theme_listChoiceBackgroundIndicator
-           @see #Theme_listDividerAlertDialog
-           @see #Theme_listPopupWindowStyle
-           @see #Theme_listPreferredItemHeight
-           @see #Theme_listPreferredItemHeightLarge
-           @see #Theme_listPreferredItemHeightSmall
-           @see #Theme_listPreferredItemPaddingLeft
-           @see #Theme_listPreferredItemPaddingRight
-           @see #Theme_panelBackground
-           @see #Theme_panelMenuListTheme
-           @see #Theme_panelMenuListWidth
-           @see #Theme_popupMenuStyle
-           @see #Theme_popupWindowStyle
-           @see #Theme_radioButtonStyle
-           @see #Theme_ratingBarStyle
-           @see #Theme_searchViewStyle
-           @see #Theme_seekBarStyle
-           @see #Theme_selectableItemBackground
-           @see #Theme_selectableItemBackgroundBorderless
-           @see #Theme_spinnerDropDownItemStyle
-           @see #Theme_spinnerStyle
-           @see #Theme_switchStyle
-           @see #Theme_textAppearanceLargePopupMenu
-           @see #Theme_textAppearanceListItem
-           @see #Theme_textAppearanceListItemSmall
-           @see #Theme_textAppearanceSearchResultSubtitle
-           @see #Theme_textAppearanceSearchResultTitle
-           @see #Theme_textAppearanceSmallPopupMenu
-           @see #Theme_textColorAlertDialogListItem
-           @see #Theme_textColorSearchUrl
-           @see #Theme_toolbarNavigationButtonStyle
-           @see #Theme_toolbarStyle
-           @see #Theme_windowActionBar
-           @see #Theme_windowActionBarOverlay
-           @see #Theme_windowActionModeOverlay
-           @see #Theme_windowFixedHeightMajor
-           @see #Theme_windowFixedHeightMinor
-           @see #Theme_windowFixedWidthMajor
-           @see #Theme_windowFixedWidthMinor
-           @see #Theme_windowMinWidthMajor
-           @see #Theme_windowMinWidthMinor
-           @see #Theme_windowNoTitle
-         */
-        public static final int[] Theme = {
-            0x01010057, 0x010100ae, 0x7f010003, 0x7f010004,
-            0x7f010005, 0x7f010006, 0x7f010007, 0x7f010008,
-            0x7f010009, 0x7f01000a, 0x7f01000b, 0x7f01000c,
-            0x7f01000d, 0x7f01000e, 0x7f01000f, 0x7f010010,
-            0x7f010011, 0x7f010012, 0x7f010013, 0x7f010014,
-            0x7f010015, 0x7f010016, 0x7f010017, 0x7f010018,
-            0x7f010019, 0x7f01001a, 0x7f01001b, 0x7f01001c,
-            0x7f01001d, 0x7f01001e, 0x7f01001f, 0x7f010020,
-            0x7f010021, 0x7f010022, 0x7f010023, 0x7f010024,
-            0x7f010025, 0x7f010026, 0x7f010027, 0x7f010028,
-            0x7f010029, 0x7f01002a, 0x7f01002b, 0x7f01002c,
-            0x7f01002d, 0x7f01002e, 0x7f01002f, 0x7f010030,
-            0x7f010031, 0x7f010032, 0x7f010033, 0x7f010034,
-            0x7f010035, 0x7f010036, 0x7f010037, 0x7f010038,
-            0x7f010039, 0x7f01003a, 0x7f01003b, 0x7f01003c,
-            0x7f01003d, 0x7f01003e, 0x7f01003f, 0x7f010040,
-            0x7f010041, 0x7f010042, 0x7f010043, 0x7f010044,
-            0x7f010045, 0x7f010046, 0x7f010047, 0x7f010048,
-            0x7f010049, 0x7f01004a, 0x7f01004b, 0x7f01004c,
-            0x7f01004d, 0x7f01004e, 0x7f01004f, 0x7f010050,
-            0x7f010051, 0x7f010052, 0x7f010053, 0x7f010054,
-            0x7f010055, 0x7f010056, 0x7f010057, 0x7f010058,
-            0x7f010059, 0x7f01005a, 0x7f01005b, 0x7f01005c,
-            0x7f01005d, 0x7f01005e, 0x7f01005f, 0x7f010060,
-            0x7f010061, 0x7f010062, 0x7f010063, 0x7f010064,
-            0x7f010065, 0x7f010066, 0x7f010067, 0x7f010068,
-            0x7f010069, 0x7f01006a, 0x7f01006b, 0x7f01006c,
-            0x7f01006d, 0x7f01006e
-        };
-        /**
-          <p>
-          @attr description
-           Custom divider drawable to use for elements in the action bar. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:actionBarDivider
-        */
-        public static final int Theme_actionBarDivider = 23;
-        /**
-          <p>
-          @attr description
-           Custom item state list drawable background for action bar items. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:actionBarItemBackground
-        */
-        public static final int Theme_actionBarItemBackground = 24;
-        /**
-          <p>
-          @attr description
-           Reference to a theme that should be used to inflate popups
-             shown by widgets in the action bar. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:actionBarPopupTheme
-        */
-        public static final int Theme_actionBarPopupTheme = 17;
-        /**
-          <p>
-          @attr description
-           Size of the Action Bar, including the contextual
-             bar used to present Action Modes. 
-
-
-          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-<p>May be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>wrap_content</code></td><td>0</td><td></td></tr>
-</table>
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:actionBarSize
-        */
-        public static final int Theme_actionBarSize = 22;
-        /**
-          <p>
-          @attr description
-           Reference to a style for the split Action Bar. This style
-             controls the split component that holds the menu/action
-             buttons. actionBarStyle is still used for the primary
-             bar. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:actionBarSplitStyle
-        */
-        public static final int Theme_actionBarSplitStyle = 19;
-        /**
-          <p>
-          @attr description
-           Reference to a style for the Action Bar 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:actionBarStyle
-        */
-        public static final int Theme_actionBarStyle = 18;
-        /**
-          <p>This symbol is the offset where the {@link com.client.kusonemi.R.attr#actionBarTabBarStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.client.kusonemi:actionBarTabBarStyle
-        */
-        public static final int Theme_actionBarTabBarStyle = 13;
-        /**
-          <p>
-          @attr description
-           Default style for tabs within an action bar 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:actionBarTabStyle
-        */
-        public static final int Theme_actionBarTabStyle = 12;
-        /**
-          <p>This symbol is the offset where the {@link com.client.kusonemi.R.attr#actionBarTabTextStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.client.kusonemi:actionBarTabTextStyle
-        */
-        public static final int Theme_actionBarTabTextStyle = 14;
-        /**
-          <p>
-          @attr description
-           Reference to a theme that should be used to inflate the
-             action bar. This will be inherited by any widget inflated
-             into the action bar. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:actionBarTheme
-        */
-        public static final int Theme_actionBarTheme = 20;
-        /**
-          <p>
-          @attr description
-           Reference to a theme that should be used to inflate widgets
-             and layouts destined for the action bar. Most of the time
-             this will be a reference to the current theme, but when
-             the action bar has a significantly different contrast
-             profile than the rest of the activity the difference
-             can become important. If this is set to @null the current
-             theme will be used.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:actionBarWidgetTheme
-        */
-        public static final int Theme_actionBarWidgetTheme = 21;
-        /**
-          <p>
-          @attr description
-           Default action button style. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:actionButtonStyle
-        */
-        public static final int Theme_actionButtonStyle = 49;
-        /**
-          <p>
-          @attr description
-           Default ActionBar dropdown style. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:actionDropDownStyle
-        */
-        public static final int Theme_actionDropDownStyle = 45;
-        /**
-          <p>
-          @attr description
-           TextAppearance style that will be applied to text that
-             appears within action menu items. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:actionMenuTextAppearance
-        */
-        public static final int Theme_actionMenuTextAppearance = 25;
-        /**
-          <p>
-          @attr description
-           Color for text that appears within action menu items. 
- Color for text that appears within action menu items. 
-
-
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:actionMenuTextColor
-        */
-        public static final int Theme_actionMenuTextColor = 26;
-        /**
-          <p>
-          @attr description
-           Background drawable to use for action mode UI 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:actionModeBackground
-        */
-        public static final int Theme_actionModeBackground = 29;
-        /**
-          <p>This symbol is the offset where the {@link com.client.kusonemi.R.attr#actionModeCloseButtonStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.client.kusonemi:actionModeCloseButtonStyle
-        */
-        public static final int Theme_actionModeCloseButtonStyle = 28;
-        /**
-          <p>
-          @attr description
-           Drawable to use for the close action mode button 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:actionModeCloseDrawable
-        */
-        public static final int Theme_actionModeCloseDrawable = 31;
-        /**
-          <p>
-          @attr description
-           Drawable to use for the Copy action button in Contextual Action Bar 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:actionModeCopyDrawable
-        */
-        public static final int Theme_actionModeCopyDrawable = 33;
-        /**
-          <p>
-          @attr description
-           Drawable to use for the Cut action button in Contextual Action Bar 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:actionModeCutDrawable
-        */
-        public static final int Theme_actionModeCutDrawable = 32;
-        /**
-          <p>
-          @attr description
-           Drawable to use for the Find action button in WebView selection action modes 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:actionModeFindDrawable
-        */
-        public static final int Theme_actionModeFindDrawable = 37;
-        /**
-          <p>
-          @attr description
-           Drawable to use for the Paste action button in Contextual Action Bar 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:actionModePasteDrawable
-        */
-        public static final int Theme_actionModePasteDrawable = 34;
-        /**
-          <p>
-          @attr description
-           PopupWindow style to use for action modes when showing as a window overlay. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:actionModePopupWindowStyle
-        */
-        public static final int Theme_actionModePopupWindowStyle = 39;
-        /**
-          <p>
-          @attr description
-           Drawable to use for the Select all action button in Contextual Action Bar 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:actionModeSelectAllDrawable
-        */
-        public static final int Theme_actionModeSelectAllDrawable = 35;
-        /**
-          <p>
-          @attr description
-           Drawable to use for the Share action button in WebView selection action modes 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:actionModeShareDrawable
-        */
-        public static final int Theme_actionModeShareDrawable = 36;
-        /**
-          <p>
-          @attr description
-           Background drawable to use for action mode UI in the lower split bar 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:actionModeSplitBackground
-        */
-        public static final int Theme_actionModeSplitBackground = 30;
-        /**
-          <p>This symbol is the offset where the {@link com.client.kusonemi.R.attr#actionModeStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.client.kusonemi:actionModeStyle
-        */
-        public static final int Theme_actionModeStyle = 27;
-        /**
-          <p>
-          @attr description
-           Drawable to use for the Web Search action button in WebView selection action modes 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:actionModeWebSearchDrawable
-        */
-        public static final int Theme_actionModeWebSearchDrawable = 38;
-        /**
-          <p>This symbol is the offset where the {@link com.client.kusonemi.R.attr#actionOverflowButtonStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.client.kusonemi:actionOverflowButtonStyle
-        */
-        public static final int Theme_actionOverflowButtonStyle = 15;
-        /**
-          <p>This symbol is the offset where the {@link com.client.kusonemi.R.attr#actionOverflowMenuStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.client.kusonemi:actionOverflowMenuStyle
-        */
-        public static final int Theme_actionOverflowMenuStyle = 16;
-        /**
-          <p>
-          @attr description
-           Default ActivityChooserView style. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:activityChooserViewStyle
-        */
-        public static final int Theme_activityChooserViewStyle = 57;
-        /**
-          <p>This symbol is the offset where the {@link com.client.kusonemi.R.attr#alertDialogButtonGroupStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.client.kusonemi:alertDialogButtonGroupStyle
-        */
-        public static final int Theme_alertDialogButtonGroupStyle = 92;
-        /**
-          <p>This symbol is the offset where the {@link com.client.kusonemi.R.attr#alertDialogCenterButtons}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.client.kusonemi:alertDialogCenterButtons
-        */
-        public static final int Theme_alertDialogCenterButtons = 93;
-        /**
-          <p>This symbol is the offset where the {@link com.client.kusonemi.R.attr#alertDialogStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.client.kusonemi:alertDialogStyle
-        */
-        public static final int Theme_alertDialogStyle = 91;
-        /**
-          <p>
-          @attr description
-           Theme to use for alert dialogs spawned from this theme. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:alertDialogTheme
-        */
-        public static final int Theme_alertDialogTheme = 94;
-        /**
-          <p>This symbol is the offset where the {@link android.R.attr#windowAnimationStyle}
-          attribute's value can be found in the {@link #Theme} array.
-          @attr name android:windowAnimationStyle
-        */
-        public static final int Theme_android_windowAnimationStyle = 1;
-        /**
-          <p>This symbol is the offset where the {@link android.R.attr#windowIsFloating}
-          attribute's value can be found in the {@link #Theme} array.
-          @attr name android:windowIsFloating
-        */
-        public static final int Theme_android_windowIsFloating = 0;
-        /**
-          <p>
-          @attr description
-           Default AutoCompleteTextView style. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:autoCompleteTextViewStyle
-        */
-        public static final int Theme_autoCompleteTextViewStyle = 99;
-        /**
-          <p>
-          @attr description
-           Style for buttons without an explicit border, often used in groups. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:borderlessButtonStyle
-        */
-        public static final int Theme_borderlessButtonStyle = 54;
-        /**
-          <p>
-          @attr description
-           Style for buttons within button bars 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:buttonBarButtonStyle
-        */
-        public static final int Theme_buttonBarButtonStyle = 51;
-        /**
-          <p>
-          @attr description
-           Style for the "negative" buttons within button bars 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:buttonBarNegativeButtonStyle
-        */
-        public static final int Theme_buttonBarNegativeButtonStyle = 97;
-        /**
-          <p>
-          @attr description
-           Style for the "neutral" buttons within button bars 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:buttonBarNeutralButtonStyle
-        */
-        public static final int Theme_buttonBarNeutralButtonStyle = 98;
-        /**
-          <p>
-          @attr description
-           Style for the "positive" buttons within button bars 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:buttonBarPositiveButtonStyle
-        */
-        public static final int Theme_buttonBarPositiveButtonStyle = 96;
-        /**
-          <p>
-          @attr description
-           Style for button bars 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:buttonBarStyle
-        */
-        public static final int Theme_buttonBarStyle = 50;
-        /**
-          <p>
-          @attr description
-           Normal Button style. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:buttonStyle
-        */
-        public static final int Theme_buttonStyle = 100;
-        /**
-          <p>
-          @attr description
-           Small Button style. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:buttonStyleSmall
-        */
-        public static final int Theme_buttonStyleSmall = 101;
-        /**
-          <p>
-          @attr description
-           Default Checkbox style. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:checkboxStyle
-        */
-        public static final int Theme_checkboxStyle = 102;
-        /**
-          <p>
-          @attr description
-           Default CheckedTextView style. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:checkedTextViewStyle
-        */
-        public static final int Theme_checkedTextViewStyle = 103;
-        /**
-          <p>
-          @attr description
-           Bright complement to the primary branding color. By default, this is the color applied
-             to framework controls (via colorControlActivated). 
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:colorAccent
-        */
-        public static final int Theme_colorAccent = 84;
-        /**
-          <p>
-          @attr description
-           The color applied to framework buttons in their normal state. 
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:colorButtonNormal
-        */
-        public static final int Theme_colorButtonNormal = 88;
-        /**
-          <p>
-          @attr description
-           The color applied to framework controls in their activated (ex. checked) state. 
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:colorControlActivated
-        */
-        public static final int Theme_colorControlActivated = 86;
-        /**
-          <p>
-          @attr description
-           The color applied to framework control highlights (ex. ripples, list selectors). 
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:colorControlHighlight
-        */
-        public static final int Theme_colorControlHighlight = 87;
-        /**
-          <p>
-          @attr description
-           The color applied to framework controls in their normal state. 
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:colorControlNormal
-        */
-        public static final int Theme_colorControlNormal = 85;
-        /**
-          <p>
-          @attr description
-           The primary branding color for the app. By default, this is the color applied to the
-             action bar background. 
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:colorPrimary
-        */
-        public static final int Theme_colorPrimary = 82;
-        /**
-          <p>
-          @attr description
-           Dark variant of the primary branding color. By default, this is the color applied to
-             the status bar (via statusBarColor) and navigation bar (via navigationBarColor). 
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:colorPrimaryDark
-        */
-        public static final int Theme_colorPrimaryDark = 83;
-        /**
-          <p>
-          @attr description
-           The color applied to framework switch thumbs in their normal state. 
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:colorSwitchThumbNormal
-        */
-        public static final int Theme_colorSwitchThumbNormal = 89;
-        /**
-          <p>
-          @attr description
-           The background used by framework controls. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:controlBackground
-        */
-        public static final int Theme_controlBackground = 90;
-        /**
-          <p>
-          @attr description
-           Preferred padding for dialog content. 
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:dialogPreferredPadding
-        */
-        public static final int Theme_dialogPreferredPadding = 43;
-        /**
-          <p>
-          @attr description
-           Theme to use for dialogs spawned from this theme. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:dialogTheme
-        */
-        public static final int Theme_dialogTheme = 42;
-        /**
-          <p>
-          @attr description
-           A drawable that may be used as a horizontal divider between visual elements. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:dividerHorizontal
-        */
-        public static final int Theme_dividerHorizontal = 56;
-        /**
-          <p>
-          @attr description
-           A drawable that may be used as a vertical divider between visual elements. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:dividerVertical
-        */
-        public static final int Theme_dividerVertical = 55;
-        /**
-          <p>
-          @attr description
-           ListPopupWindow compatibility 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:dropDownListViewStyle
-        */
-        public static final int Theme_dropDownListViewStyle = 74;
-        /**
-          <p>
-          @attr description
-           The preferred item height for dropdown lists. 
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:dropdownListPreferredItemHeight
-        */
-        public static final int Theme_dropdownListPreferredItemHeight = 46;
-        /**
-          <p>
-          @attr description
-           EditText background drawable. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:editTextBackground
-        */
-        public static final int Theme_editTextBackground = 63;
-        /**
-          <p>
-          @attr description
-           EditText text foreground color. 
-
-
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:editTextColor
-        */
-        public static final int Theme_editTextColor = 62;
-        /**
-          <p>
-          @attr description
-           Default EditText style. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:editTextStyle
-        */
-        public static final int Theme_editTextStyle = 104;
-        /**
-          <p>
-          @attr description
-           Specifies a drawable to use for the 'home as up' indicator. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:homeAsUpIndicator
-        */
-        public static final int Theme_homeAsUpIndicator = 48;
-        /**
-          <p>
-          @attr description
-           ImageButton background drawable. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:imageButtonStyle
-        */
-        public static final int Theme_imageButtonStyle = 64;
-        /**
-          <p>
-          @attr description
-           Drawable used as a background for selected list items. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:listChoiceBackgroundIndicator
-        */
-        public static final int Theme_listChoiceBackgroundIndicator = 81;
-        /**
-          <p>
-          @attr description
-           The list divider used in alert dialogs. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:listDividerAlertDialog
-        */
-        public static final int Theme_listDividerAlertDialog = 44;
-        /**
-          <p>This symbol is the offset where the {@link com.client.kusonemi.R.attr#listPopupWindowStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.client.kusonemi:listPopupWindowStyle
-        */
-        public static final int Theme_listPopupWindowStyle = 75;
-        /**
-          <p>
-          @attr description
-           The preferred list item height. 
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:listPreferredItemHeight
-        */
-        public static final int Theme_listPreferredItemHeight = 69;
-        /**
-          <p>
-          @attr description
-           A larger, more robust list item height. 
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:listPreferredItemHeightLarge
-        */
-        public static final int Theme_listPreferredItemHeightLarge = 71;
-        /**
-          <p>
-          @attr description
-           A smaller, sleeker list item height. 
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:listPreferredItemHeightSmall
-        */
-        public static final int Theme_listPreferredItemHeightSmall = 70;
-        /**
-          <p>
-          @attr description
-           The preferred padding along the left edge of list items. 
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:listPreferredItemPaddingLeft
-        */
-        public static final int Theme_listPreferredItemPaddingLeft = 72;
-        /**
-          <p>
-          @attr description
-           The preferred padding along the right edge of list items. 
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:listPreferredItemPaddingRight
-        */
-        public static final int Theme_listPreferredItemPaddingRight = 73;
-        /**
-          <p>
-          @attr description
-           The background of a panel when it is inset from the left and right edges of the screen. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:panelBackground
-        */
-        public static final int Theme_panelBackground = 78;
-        /**
-          <p>
-          @attr description
-           Default Panel Menu style. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:panelMenuListTheme
-        */
-        public static final int Theme_panelMenuListTheme = 80;
-        /**
-          <p>
-          @attr description
-           Default Panel Menu width. 
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:panelMenuListWidth
-        */
-        public static final int Theme_panelMenuListWidth = 79;
-        /**
-          <p>
-          @attr description
-           Default PopupMenu style. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:popupMenuStyle
-        */
-        public static final int Theme_popupMenuStyle = 60;
-        /**
-          <p>
-          @attr description
-           Default PopupWindow style. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:popupWindowStyle
-        */
-        public static final int Theme_popupWindowStyle = 61;
-        /**
-          <p>
-          @attr description
-           Default RadioButton style. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:radioButtonStyle
-        */
-        public static final int Theme_radioButtonStyle = 105;
-        /**
-          <p>
-          @attr description
-           Default RatingBar style. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:ratingBarStyle
-        */
-        public static final int Theme_ratingBarStyle = 106;
-        /**
-          <p>
-          @attr description
-           Style for the search query widget. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:searchViewStyle
-        */
-        public static final int Theme_searchViewStyle = 68;
-        /**
-          <p>
-          @attr description
-           Default SeekBar style. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:seekBarStyle
-        */
-        public static final int Theme_seekBarStyle = 107;
-        /**
-          <p>
-          @attr description
-           A style that may be applied to buttons or other selectable items
-             that should react to pressed and focus states, but that do not
-             have a clear visual border along the edges. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:selectableItemBackground
-        */
-        public static final int Theme_selectableItemBackground = 52;
-        /**
-          <p>
-          @attr description
-           Background drawable for borderless standalone items that need focus/pressed states. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:selectableItemBackgroundBorderless
-        */
-        public static final int Theme_selectableItemBackgroundBorderless = 53;
-        /**
-          <p>
-          @attr description
-           Default Spinner style. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:spinnerDropDownItemStyle
-        */
-        public static final int Theme_spinnerDropDownItemStyle = 47;
-        /**
-          <p>
-          @attr description
-           Default Spinner style. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:spinnerStyle
-        */
-        public static final int Theme_spinnerStyle = 108;
-        /**
-          <p>
-          @attr description
-           Default style for the Switch widget. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:switchStyle
-        */
-        public static final int Theme_switchStyle = 109;
-        /**
-          <p>
-          @attr description
-           Text color, typeface, size, and style for the text inside of a popup menu. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:textAppearanceLargePopupMenu
-        */
-        public static final int Theme_textAppearanceLargePopupMenu = 40;
-        /**
-          <p>
-          @attr description
-           The preferred TextAppearance for the primary text of list items. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:textAppearanceListItem
-        */
-        public static final int Theme_textAppearanceListItem = 76;
-        /**
-          <p>
-          @attr description
-           The preferred TextAppearance for the primary text of small list items. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:textAppearanceListItemSmall
-        */
-        public static final int Theme_textAppearanceListItemSmall = 77;
-        /**
-          <p>
-          @attr description
-           Text color, typeface, size, and style for system search result subtitle. Defaults to primary inverse text color. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:textAppearanceSearchResultSubtitle
-        */
-        public static final int Theme_textAppearanceSearchResultSubtitle = 66;
-        /**
-          <p>
-          @attr description
-           Text color, typeface, size, and style for system search result title. Defaults to primary inverse text color. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:textAppearanceSearchResultTitle
-        */
-        public static final int Theme_textAppearanceSearchResultTitle = 65;
-        /**
-          <p>
-          @attr description
-           Text color, typeface, size, and style for small text inside of a popup menu. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:textAppearanceSmallPopupMenu
-        */
-        public static final int Theme_textAppearanceSmallPopupMenu = 41;
-        /**
-          <p>
-          @attr description
-           Color of list item text in alert dialogs. 
-
-
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:textColorAlertDialogListItem
-        */
-        public static final int Theme_textColorAlertDialogListItem = 95;
-        /**
-          <p>
-          @attr description
-           Text color for urls in search suggestions, used by things like global search 
-
-
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:textColorSearchUrl
-        */
-        public static final int Theme_textColorSearchUrl = 67;
-        /**
-          <p>
-          @attr description
-           Default Toolar NavigationButtonStyle 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:toolbarNavigationButtonStyle
-        */
-        public static final int Theme_toolbarNavigationButtonStyle = 59;
-        /**
-          <p>
-          @attr description
-           Default Toolbar style. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:toolbarStyle
-        */
-        public static final int Theme_toolbarStyle = 58;
-        /**
-          <p>
-          @attr description
-           Flag indicating whether this window should have an Action Bar
-             in place of the usual title bar. 
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:windowActionBar
-        */
-        public static final int Theme_windowActionBar = 2;
-        /**
-          <p>
-          @attr description
-           Flag indicating whether this window's Action Bar should overlay
-             application content. Does nothing if the window would not
-             have an Action Bar. 
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:windowActionBarOverlay
-        */
-        public static final int Theme_windowActionBarOverlay = 4;
-        /**
-          <p>
-          @attr description
-           Flag indicating whether action modes should overlay window content
-             when there is not reserved space for their UI (such as an Action Bar). 
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:windowActionModeOverlay
-        */
-        public static final int Theme_windowActionModeOverlay = 5;
-        /**
-          <p>
-          @attr description
-           A fixed height for the window along the major axis of the screen,
-             that is, when in portrait. Can be either an absolute dimension
-             or a fraction of the screen size in that dimension. 
-
-
-          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
-The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
-some parent container.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:windowFixedHeightMajor
-        */
-        public static final int Theme_windowFixedHeightMajor = 9;
-        /**
-          <p>
-          @attr description
-           A fixed height for the window along the minor axis of the screen,
-             that is, when in landscape. Can be either an absolute dimension
-             or a fraction of the screen size in that dimension. 
-
-
-          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
-The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
-some parent container.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:windowFixedHeightMinor
-        */
-        public static final int Theme_windowFixedHeightMinor = 7;
-        /**
-          <p>
-          @attr description
-           A fixed width for the window along the major axis of the screen,
-             that is, when in landscape. Can be either an absolute dimension
-             or a fraction of the screen size in that dimension. 
-
-
-          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
-The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
-some parent container.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:windowFixedWidthMajor
-        */
-        public static final int Theme_windowFixedWidthMajor = 6;
-        /**
-          <p>
-          @attr description
-           A fixed width for the window along the minor axis of the screen,
-             that is, when in portrait. Can be either an absolute dimension
-             or a fraction of the screen size in that dimension. 
-
-
-          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
-The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
-some parent container.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:windowFixedWidthMinor
-        */
-        public static final int Theme_windowFixedWidthMinor = 8;
-        /**
-          <p>
-          @attr description
-           The minimum width the window is allowed to be, along the major
-             axis of the screen.  That is, when in landscape.  Can be either
-             an absolute dimension or a fraction of the screen size in that
-             dimension. 
-
-
-          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
-The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
-some parent container.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:windowMinWidthMajor
-        */
-        public static final int Theme_windowMinWidthMajor = 10;
-        /**
-          <p>
-          @attr description
-           The minimum width the window is allowed to be, along the minor
-             axis of the screen.  That is, when in portrait.  Can be either
-             an absolute dimension or a fraction of the screen size in that
-             dimension. 
-
-
-          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
-The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
-some parent container.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:windowMinWidthMinor
-        */
-        public static final int Theme_windowMinWidthMinor = 11;
-        /**
-          <p>
-          @attr description
-           Flag indicating whether there should be no title on this window. 
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.client.kusonemi:windowNoTitle
-        */
-        public static final int Theme_windowNoTitle = 3;
         /** Attributes that can be used with a Toolbar.
            <p>Includes the following attributes:</p>
            <table>
@@ -6995,13 +11443,13 @@ containing a value of this type.
            @see #Toolbar_titleTextColor
          */
         public static final int[] Toolbar = {
-            0x010100af, 0x01010140, 0x7f010000, 0x7f010071,
-            0x7f010075, 0x7f010081, 0x7f010082, 0x7f010083,
-            0x7f010084, 0x7f010086, 0x7f0100a5, 0x7f0100a6,
-            0x7f0100a7, 0x7f0100a8, 0x7f0100a9, 0x7f0100aa,
-            0x7f0100ab, 0x7f0100ac, 0x7f0100ad, 0x7f0100ae,
-            0x7f0100af, 0x7f0100b0, 0x7f0100b1, 0x7f0100b2,
-            0x7f0100b3
+            0x010100af, 0x01010140, 0x7f010000, 0x7f010073,
+            0x7f010077, 0x7f010083, 0x7f010084, 0x7f010085,
+            0x7f010086, 0x7f010088, 0x7f0100a7, 0x7f0100a8,
+            0x7f0100a9, 0x7f0100aa, 0x7f0100ab, 0x7f0100ac,
+            0x7f0100ad, 0x7f0100ae, 0x7f0100af, 0x7f0100b0,
+            0x7f0100b1, 0x7f0100b2, 0x7f0100b3, 0x7f0100b4,
+            0x7f0100b5
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#gravity}
@@ -7392,8 +11840,8 @@ containing a value of this type.
            @see #View_theme
          */
         public static final int[] View = {
-            0x01010000, 0x010100da, 0x7f010088, 0x7f010089,
-            0x7f01008a
+            0x01010000, 0x010100da, 0x7f01008a, 0x7f01008b,
+            0x7f01008c
         };
         /**
           <p>
@@ -7483,7 +11931,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #ViewBackgroundHelper_backgroundTintMode
          */
         public static final int[] ViewBackgroundHelper = {
-            0x010100d4, 0x7f01008b, 0x7f01008c
+            0x010100d4, 0x7f01008d, 0x7f01008e
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#background}
