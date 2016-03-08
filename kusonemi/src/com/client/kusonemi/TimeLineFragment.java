@@ -38,11 +38,12 @@ public class TimeLineFragment extends ListFragment {
 	private TweetAdapter tladapter;
 
 	//PulldownでrefreshするView
-	private static ListFragmentSwipeRefreshLayout Swiperefresh;
+	protected static ListFragmentSwipeRefreshLayout Swiperefresh;
 
 	//Twitterのインスタンス
-	private Twitter twitter;
-	private static TwitterStream stream;
+	protected Twitter twitter;
+	protected static TwitterStream stream;
+	protected long userID;
 
 	@Override
 	public void onCreate(Bundle savedInstanceState){
@@ -85,7 +86,7 @@ public class TimeLineFragment extends ListFragment {
 		stream.cleanUp();
 	}
 
-	private View setSwiper(LayoutInflater inflater, ViewGroup container
+	protected View setSwiper(LayoutInflater inflater, ViewGroup container
 			,Bundle savedInstanceState){
 		// Create the list fragment's content view by calling the super method
         final View listFragmentView = super.onCreateView(inflater, container, savedInstanceState);
@@ -163,7 +164,21 @@ public class TimeLineFragment extends ListFragment {
 		this.startStream(null, true);
 	}
 
-	private void onStreamStateChange(boolean sw, MainActivity ac){
+	private void setUserID(){
+		new AsyncTask<Void,Void,Void>(){
+			@Override
+			protected Void doInBackground(Void... params){
+				try{
+					userID = twitter.getId();
+				}catch(TwitterException e){
+					e.printStackTrace();
+				}
+				return null;
+			}
+		}.execute();
+	}
+
+	protected void onStreamStateChange(boolean sw, MainActivity ac){
 		if (ac == null) {
 			try {
 				MainActivity activity = (MainActivity) getActivity();
@@ -318,8 +333,8 @@ public class TimeLineFragment extends ListFragment {
 
 	public class ReloadTask extends AsyncTask<Void, Void, List<Status>>{
 		int ErrorCode = 0;
-		private final int CausedByNetworkIssue = -1;
-		private final int ErrorMessageNotAvailable = -2;
+		protected final int CausedByNetworkIssue = -1;
+		protected final int ErrorMessageNotAvailable = -2;
 		@Override
 		protected List<twitter4j.Status> doInBackground(Void... params){
 			try{
@@ -386,7 +401,7 @@ public class TimeLineFragment extends ListFragment {
 		}
 	}
 
-	private void removeOverStatus(){
+	protected void removeOverStatus(){
 		//最大表示件数オーバーで消去作業
 		//件数はPreferenceに設定から定義
 		int max = Integer.parseInt(PreferenceManager.
@@ -404,7 +419,7 @@ public class TimeLineFragment extends ListFragment {
 	}
 
 	//公式サンプルのコピペ()
-	private class ListFragmentSwipeRefreshLayout extends SwipeRefreshLayout {
+	protected class ListFragmentSwipeRefreshLayout extends SwipeRefreshLayout {
 
         public ListFragmentSwipeRefreshLayout(Context context) {
             super(context);

@@ -135,6 +135,13 @@ public class MainActivity extends AppCompatActivity{
 					}else{
 						tlfrg.stopStream(this);
 					}
+				}else if(classname.equals(MentionsTimeLineFragment.class.getName())){
+					MentionsTimeLineFragment mtfrg = (MentionsTimeLineFragment)this.pageradapter.instantiateFragment(i);
+					if(StreamEnabled){
+						mtfrg.startStream(this, false);
+					}else{
+						mtfrg.stopStream(this);
+					}
 				}else{
 					continue;
 				}
@@ -265,7 +272,8 @@ public class MainActivity extends AppCompatActivity{
 			ScreenName = rawToken[3];
 
 			settwitter();
-			addTL();
+			addTL("Home ", TimeLineFragment.class);
+			addTL("Mentions ", MentionsTimeLineFragment.class);
 			setTweet();
 		}else{
 			showdialog(0, R.string.login_dialog, R.string.ok,0,0, 1,1,false);
@@ -310,15 +318,15 @@ public class MainActivity extends AppCompatActivity{
 		t.execute(twitter);
 	}
 
-	private void addTL(){
+	private void addTL(String subtitle, Class<?> className){
 		if (twitter != null && token != null && tokenSecret != null) {
-			String Title = "Home " + ScreenName;
+			String Title = subtitle + ScreenName;
 			Bundle bundle = new Bundle();
 			drawerlist.add(Title);
 			bundle.putString("token", token);
 			bundle.putString("tokensecret", tokenSecret);
 			pageradapter.addSection(Title,
-					TimeLineFragment.class, bundle);
+					className, bundle);
 			pageradapter.instantiateItem((ViewGroup) getWindow().getDecorView()
 					.findViewById(R.id.viewpager), pageradapter
 					.getCount() - 1);
@@ -487,7 +495,8 @@ public class MainActivity extends AppCompatActivity{
 		protected void onPostExecute(String result){
 			if(result == SUCCESS){
 				showtoast("認証成功！");
-				addTL();
+				addTL("Home ", TimeLineFragment.class);
+				addTL("Mentions ", MentionsTimeLineFragment.class);
 			}else{
 				showtoast("認証失敗(" + result + ")" );
 			}
