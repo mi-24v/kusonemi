@@ -114,6 +114,12 @@ public class TimeLineFragment extends ListFragment {
         	public void onRefresh(){ReloadTimeLine();}
         });
 
+        if(MainActivity.StreamEnabled || PreferenceManager
+				.getDefaultSharedPreferences(getActivity())
+				.getBoolean("AutoCreateUserStream", false)){
+        	Swiperefresh.setEnabled(false);
+        }
+
         // Now return the SwipeRefreshLayout as this fragment's content view
         return Swiperefresh;
 	}
@@ -279,14 +285,13 @@ public class TimeLineFragment extends ListFragment {
 			});
 	}
 
-		if (isFirst) {
+		if (isFirst && Swiperefresh != null) {
 			Swiperefresh.setRefreshing(true);
 			 ReloadTimeLine();
+			 Swiperefresh.setEnabled(false);
 		}
 		onStreamStateChange(true, ac);
 
-
-		 Swiperefresh.setEnabled(false);
 		 stream.user();
 	}
 

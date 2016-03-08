@@ -28,9 +28,11 @@ import com.beardedhen.androidbootstrap.AwesomeTextView;
 public class TweetAdapter extends ArrayAdapter<Status> {
 	public static final String LIKE_COLOR = "#E2264D";
 	public static final String RT_COLOR = "#19CF86";
+	public static final String USER_TWEET_COLOR = "#3F7B46";
 
 	private LayoutInflater mli;
 	private Twitter twitter;
+	private long userID;
 
 	@Deprecated
 	TweetAdapter(Context ct){
@@ -42,6 +44,19 @@ public class TweetAdapter extends ArrayAdapter<Status> {
 		super(ct, android.R.layout.simple_list_item_1);
 		mli = (LayoutInflater)ct.getSystemService(Activity.LAYOUT_INFLATER_SERVICE);
 		twitter = t;
+
+		//userIDを取得(NetworkonMainThreadExceptionになるからこうなる...)
+		new AsyncTask<Void,Void,Void>(){
+				@Override
+				protected Void doInBackground(Void... params){
+					try{
+						userID = twitter.getId();
+					}catch(TwitterException e){
+						e.printStackTrace();
+					}
+					return null;
+				}
+			}.execute();
 	}
 
 	@SuppressLint({ "InflateParams", "ViewHolder" })
@@ -82,11 +97,18 @@ public class TweetAdapter extends ArrayAdapter<Status> {
 			if(item.isRetweetedByMe()){
 				holder.retweetAction.setTextColor(Color.parseColor(RT_COLOR));
 			}
-		}else if(item.isFavorited()){
-			holder.likeAction.setTextColor(Color.parseColor(LIKE_COLOR));
-			contentview.setBackgroundColor(Color.GREEN);
 		}else{
 			holder.itemContainer.setBackgroundColor(Color.WHITE);
+		}
+		if(item.isFavorited()){
+			holder.likeAction.setTextColor(Color.parseColor(LIKE_COLOR));
+			contentview.setBackgroundColor(Color.GREEN);
+		}
+		if(item.getInReplyToUserId() == userID){
+			holder.itemContainer.setBackgroundColor(Color.RED);
+		}
+		if(item.getUser().getId() == userID){
+			holder.itemContainer.setBackgroundColor(Color.parseColor(USER_TWEET_COLOR));
 		}
 
 		//likeする
