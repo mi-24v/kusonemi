@@ -12,7 +12,7 @@ gradle非対応
 * android-bootstrap(当リポジトリとは別で取得。[リンク](https://github.com/Bearded-Hen/Android-Bootstrap))
 * butterknife(libsに搭載 プロジェクト設定に注意)
 
-## < a name="3"> Features
+## <a name="3"> Features
 
 * Streaming対応
 * Tweetのカラーフィルタ
